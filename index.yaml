@@ -1,0 +1,9 @@
+# For documentation and available settings, see
+# https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
+
+page:
+  siteTitle: NaiNai
+
+template:
+  theme: red
+
