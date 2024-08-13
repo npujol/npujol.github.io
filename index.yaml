@@ -6,4 +6,5 @@ page:
 
 template:
   theme: red
-
+  uptree: 
+    enable: true
