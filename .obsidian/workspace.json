@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0587cd37a0888ea9",
+        "id": "276d06e8333d78b7",
         "type": "tabs",
         "children": [
           {
-            "id": "f47eff087b93b4bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "add0b26c5a434666",
+            "id": "30d962daad5ed30b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,31 +20,15 @@
             }
           },
           {
-            "id": "7c5d09ca67813364",
+            "id": "1b90f50546f25122",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/C1.1/C1_1.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7184babfb210d975",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/Deutsch.md.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deutsch/Deutsch.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +110,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deutsch/Deutsch.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +131,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Deutsch/Deutsch.md.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -183,13 +151,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7184babfb210d975",
+  "active": "1b90f50546f25122",
   "lastOpenFiles": [
-    "Deutsch/C1.1/C1_1.md.md",
+    "Deutsch/B2.2/redemittel/redemittel.md",
     "Deutsch/B2.2/B2_2.md.md",
+    "Deutsch/Deutsch.md.md",
+    "Deutsch/B2.2/redemittel/content/ein-beschwerdebrief-schreiben.md",
+    "Deutsch/B2.2/redemittel/content/ein-leserbrief-schreiben.md",
+    "Deutsch/B2.2/redemittel/content/ein-referat-oder-vortrag-halten.md",
+    "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
+    "Deutsch/B2.2/redemittel/content/meinungen-ausdruck.md",
+    "Deutsch/B2.2/redemittel/content/grafik-beschreiben.md",
+    "Deutsch/B2.2/redemittel/content/einen-text-zusammenfassen.md",
+    "Deutsch/B2.2/redemittel/content/situationen-einschätzen.md",
+    "Deutsch/B2.2/redemittel/content/vorschläge-machen.md",
+    "Deutsch/B2.2/redemittel/content/widerspruch-ablehnung-ausdruck.md",
+    "Deutsch/B2.2/redemittel/content/außerungen-bewerten.md",
+    "Deutsch/B2.2/redemittel/content/argumente-gegenargumente-nennen.md",
+    "Deutsch/B2.2/redemittel/content/argumente-austauschen.md",
+    "Untitled.canvas",
+    "Deutsch/C1.1/C1_1.md.md",
+    "Deutsch/B2.2/redemittel/content/ein-telefongespräch.md",
     "README.md",
     "Deutsch/B2.2/Inhalte.md",
-    "Deutsch/Deutsch.md.md",
     "Deutsch/C1.1",
     "Deutsch/B2.2",
     "Untitled",
