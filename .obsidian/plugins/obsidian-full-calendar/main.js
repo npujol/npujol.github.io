@@ -58338,7 +58338,6 @@ function renderCalendar(containerEl, eventSources, settings) {
       main_default7,
       main_default3
     ],
-    googleCalendarApiKey: "REDACTED_API_KEY",
     initialView: ((_a = settings == null ? void 0 : settings.initialView) == null ? void 0 : _a[isNarrow ? "mobile" : "desktop"]) || (isNarrow ? "timeGrid3Days" : "timeGridWeek"),
     nowIndicator: true,
     scrollTimeReset: false,
