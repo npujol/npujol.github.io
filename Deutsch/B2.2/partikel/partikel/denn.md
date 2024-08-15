@@ -3,13 +3,13 @@ tags:
   - partikel
   - grammatik
   - deutsch
-  - b2.2
-  - progress
+  - b2_2
   - denn
   - fragen
   - freundlichkeit
   - interesse
   - überraschung
+  - ready
 ---
 
 # Denn

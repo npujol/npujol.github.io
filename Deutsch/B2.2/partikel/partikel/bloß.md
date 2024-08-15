@@ -1,10 +1,10 @@
 ---
 tags:
-- partikel
-- grammatik
-- deutsch
-- b2.2
-- progress
+  - partikel
+  - grammatik
+  - deutsch
+  - b2_2
+  - ready
 ---
 
 # bloß

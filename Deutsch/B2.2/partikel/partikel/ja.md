@@ -3,14 +3,14 @@ tags:
   - partikel
   - grammatik
   - deutsch
-  - b2.2
-  - progress
+  - b2_2
   - ja
   - empörung
   - überraschung
   - freundlichkeit
   - aussagen
   - ausrufe
+  - ready
 ---
 
 # Ja

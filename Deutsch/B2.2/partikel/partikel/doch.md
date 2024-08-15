@@ -3,8 +3,7 @@ tags:
   - partikel
   - grammatik
   - deutsch
-  - b2.2
-  - progress
+  - b2_2
   - doch
   - freundlichkeit
   - empörung
@@ -12,6 +11,7 @@ tags:
   - ermunterung
   - aussagen
   - ausrufe
+  - ready
 ---
 
 # Doch
