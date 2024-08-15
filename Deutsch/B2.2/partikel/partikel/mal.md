@@ -3,14 +3,14 @@ tags:
   - partikel
   - grammatik
   - deutsch
-  - b2.2
-  - progress
+  - b2_2
   - mal
   - aufforderung
   - befehl
   - ermunterung
   - aussagen
   - fragen
+  - ready
 ---
 
 # Mal

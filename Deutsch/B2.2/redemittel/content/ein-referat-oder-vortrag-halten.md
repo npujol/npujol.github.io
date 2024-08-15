@@ -3,7 +3,7 @@ tags:
   - language
   - deutsch
   - redemittel
-  - B2.2
+  - b2_2
   - ready
 ---
 

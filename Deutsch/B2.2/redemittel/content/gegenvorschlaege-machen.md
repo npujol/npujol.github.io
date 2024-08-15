@@ -4,7 +4,7 @@ tags:
   - deutsch
   - ready
   - redemittel
-  - B2.2
+  - b2_2
 ---
 
 # Gegenvorschläge machen

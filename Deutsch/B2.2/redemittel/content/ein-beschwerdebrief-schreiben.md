@@ -4,7 +4,7 @@ tags:
   - ready
   - progress
   - redemittel
-  - B2.2
+  - b2_2
 ---
 
 # Einen Beschwerdebrief schreiben
