@@ -13,46 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Deutsch/Deutsch.md.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "add0b26c5a434666",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/B2.2/B2_2.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7c5d09ca67813364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/C1.1/C1_1.md.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7184babfb210d975",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deutsch/Deutsch.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deutsch/Deutsch.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deutsch/Deutsch.md.md"
+              }
             }
           }
         ]
@@ -175,43 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7184babfb210d975",
+  "active": "f47eff087b93b4bd",
   "lastOpenFiles": [
+    "Informatic/linux/linux-content.md",
     "Deutsch/B2.2/B2_2.md.md",
-    "Deutsch/B2.2/eine-präsentation.md",
-    "Deutsch/B2.2/gefühlen-zu-sprechen.md",
-    "Deutsch/B2.2/konjunktiv-1.md",
-    "Deutsch/B2.2/partizipien-als-adjektiv.md",
-    "Deutsch/B2.2/passiv.md",
-    "Deutsch/B2.2/verben-mit-präpositionen.md",
-    "Deutsch/B2.2/satzarte/satzart/ausrufe.md",
-    "Deutsch/B2.2/satzarte/satzart/aussagen.md",
-    "Deutsch/B2.2/satzarte/satzart/aufforderung.md",
-    "Deutsch/B2.2/satzarte/satzart/fragen.md",
-    "Deutsch/B2.2/satzarte/satzarte-inhalte.md",
-    "Deutsch/B2.2/satzarte/satzart",
-    "Deutsch/B2.2/satzarte",
-    "Deutsch/B2.2/redemittel/content/zustimmung-ausdruck.md",
-    "Deutsch/B2.2/redemittel/content/widerspruch-ablehnung-ausdruck.md",
-    "Deutsch/B2.2/redemittel/content/vorschläge-machen.md",
-    "Deutsch/B2.2/redemittel/content/verständnis-zeigen.md",
-    "Deutsch/B2.2/redemittel/content/spannung-aufbauen.md",
-    "Deutsch/B2.2/redemittel/content/situationen-einschätzen.md",
-    "Deutsch/B2.2/redemittel/content/sich-einigen.md",
-    "Deutsch/B2.2/redemittel/content/ratschlaege-tipps-geben.md",
-    "Deutsch/B2.2/redemittel/content/meinungen-ausdruck.md",
-    "Deutsch/B2.2/redemittel/content/historisches-präsentieren.md",
-    "Deutsch/B2.2/redemittel/content/grafik-beschreiben.md",
-    "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
-    "Deutsch/B2.2/redemittel/content/einen-text-zusammenfassen.md",
-    "Deutsch/B2.2/redemittel/content/ein-thema-präsentieren.md",
-    "Deutsch/B2.2/redemittel/content",
-    "Deutsch/B2.2/redemittel",
-    "Deutsch/B2.2/partikel/partikel",
-    "Deutsch/B2.2/partikel",
-    "Deutsch/C1.1",
-    "Deutsch/B2.2",
-    "Untitled",
-    "Deutsch"
+    "README.md",
+    "Deutsch/C1.1/C1_1.md.md",
+    "Deutsch/Deutsch.md.md",
+    "Informatic/linux/processing/tail/tail.md",
+    "Informatic/linux/processing/paste/paste.md",
+    "Informatic/linux/processing/nl/nl.md",
+    "Informatic/linux/processing/uniq/uniq.md",
+    "Informatic/linux/processing/awk/awk.md",
+    "Informatic/linux/processing/pipe/pipe.md",
+    "Informatic/linux/processing/tr/tr.md",
+    "Informatic/linux/processing/tee/tee.md",
+    "Informatic/linux/processing/cut/cut.md",
+    "Informatic/linux/processing/head/head.md",
+    "Informatic/linux/processing/join/join.md",
+    "Informatic/linux/processing/sort/sort.md",
+    "Informatic/linux/processing/grep/grep.md",
+    "Informatic/linux/processing/stdout-in-err/stdout-in-err.md",
+    "Informatic/linux/processing/expand/expand.md",
+    "Informatic/linux/processing/unexpand/unexpand.md",
+    "Informatic/linux/basics/command-path/command-path.md",
+    "Informatic/linux/processing/split/split.md",
+    "Informatic/linux/processing/wc/wc.md",
+    "Informatic/linux/basics/moving-files/moving-files.md",
+    "Informatic/linux/basics/basic-commands/basic-commands.md",
+    "Informatic/linux/networking/tcp-ip",
+    "Informatic/linux/networking/netfilter",
+    "Informatic/linux/networking/ip-routing",
+    "Informatic/linux/networking/file-transfer",
+    "Informatic/linux/networking/subnetting",
+    "Informatic/linux/networking/ethernet-arp-rarp",
+    "Informatic/linux/networking/dns-resolution",
+    "Informatic/linux/networking/dhcp",
+    "Informatic/linux/networking/ssh",
+    "Informatic/linux/files/vim"
   ]
 }

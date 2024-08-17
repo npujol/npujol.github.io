@@ -1,5 +1,5 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -8,24 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ready  ",
+      "query": "tag:#deutsch  ",
       "color": {
         "a": 1,
-        "rgb": 6084202
+        "rgb": 14048466
       }
     },
     {
-      "query": "tag:#progress  ",
+      "query": "tag:#linux  ",
       "color": {
         "a": 1,
         "rgb": 14069084
-      }
-    },
-    {
-      "query": "tag:#missing",
-      "color": {
-        "a": 1,
-        "rgb": 14048378
       }
     }
   ],
@@ -39,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1,
-  "close": true
+  "scale": 0.44594553697999467,
+  "close": false
 }
