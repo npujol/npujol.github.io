@@ -11,7 +11,7 @@
       "query": "tag:#ready  ",
       "color": {
         "a": 1,
-        "rgb": 8454030
+        "rgb": 6084202
       }
     },
     {
@@ -19,6 +19,13 @@
       "color": {
         "a": 1,
         "rgb": 14069084
+      }
+    },
+    {
+      "query": "tag:#missing",
+      "color": {
+        "a": 1,
+        "rgb": 14048378
       }
     }
   ],
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6666666666666666,
-  "close": false
+  "scale": 1,
+  "close": true
 }

@@ -4,18 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "9a4e407485571dd2",
+        "id": "0587cd37a0888ea9",
         "type": "tabs",
         "children": [
           {
-            "id": "869d1c004ca71a56",
+            "id": "f47eff087b93b4bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "add0b26c5a434666",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/B2.2/B2_2.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c5d09ca67813364",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/C1.1/C1_1.md.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7184babfb210d975",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:progress",
+                "query": "tag:#b2_2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,37 +175,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "869d1c004ca71a56",
+  "active": "7184babfb210d975",
   "lastOpenFiles": [
-    "Deutsch/B2.2/partikel/partikel_inhalte.md",
-    "Deutsch/B2.2/partikel/partikel/wohl.md",
-    "Deutsch/B2.2/partikel/partikel/vielleicht.md",
-    "Deutsch/B2.2/partikel/partikel/schon.md",
-    "Deutsch/B2.2/partikel/partikel/ruhig.md",
-    "Deutsch/B2.2/partikel/partikel/nur.md",
-    "Deutsch/B2.2/partikel/partikel/mal.md",
-    "Deutsch/B2.2/partikel/partikel/ja.md",
-    "Deutsch/B2.2/partikel/partikel/halt.md",
-    "Deutsch/B2.2/partikel/partikel/eigentlich.md",
-    "Deutsch/B2.2/partikel/partikel/eben.md",
-    "Deutsch/B2.2/partikel/partikel/doch.md",
-    "Deutsch/B2.2/partikel/partikel/denn.md",
-    "Deutsch/B2.2/partikel/partikel/bloß.md",
-    "Deutsch/B2.2/partikel/partikel/auch.md",
-    "Deutsch/B2.2/partikel/partikel/aber.md",
     "Deutsch/B2.2/B2_2.md.md",
-    "Deutsch/B2.2/redemittel/content/ein-beschwerdebrief-schreiben.md",
-    "Deutsch/B2.2/redemittel/redemittel-inhalte.md",
+    "Deutsch/B2.2/eine-präsentation.md",
+    "Deutsch/B2.2/gefühlen-zu-sprechen.md",
+    "Deutsch/B2.2/konjunktiv-1.md",
+    "Deutsch/B2.2/partizipien-als-adjektiv.md",
+    "Deutsch/B2.2/passiv.md",
+    "Deutsch/B2.2/verben-mit-präpositionen.md",
+    "Deutsch/B2.2/satzarte/satzart/ausrufe.md",
+    "Deutsch/B2.2/satzarte/satzart/aussagen.md",
+    "Deutsch/B2.2/satzarte/satzart/aufforderung.md",
+    "Deutsch/B2.2/satzarte/satzart/fragen.md",
+    "Deutsch/B2.2/satzarte/satzarte-inhalte.md",
+    "Deutsch/B2.2/satzarte/satzart",
+    "Deutsch/B2.2/satzarte",
+    "Deutsch/B2.2/redemittel/content/zustimmung-ausdruck.md",
+    "Deutsch/B2.2/redemittel/content/widerspruch-ablehnung-ausdruck.md",
+    "Deutsch/B2.2/redemittel/content/vorschläge-machen.md",
+    "Deutsch/B2.2/redemittel/content/verständnis-zeigen.md",
+    "Deutsch/B2.2/redemittel/content/spannung-aufbauen.md",
+    "Deutsch/B2.2/redemittel/content/situationen-einschätzen.md",
+    "Deutsch/B2.2/redemittel/content/sich-einigen.md",
+    "Deutsch/B2.2/redemittel/content/ratschlaege-tipps-geben.md",
+    "Deutsch/B2.2/redemittel/content/meinungen-ausdruck.md",
+    "Deutsch/B2.2/redemittel/content/historisches-präsentieren.md",
+    "Deutsch/B2.2/redemittel/content/grafik-beschreiben.md",
+    "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
+    "Deutsch/B2.2/redemittel/content/einen-text-zusammenfassen.md",
+    "Deutsch/B2.2/redemittel/content/ein-thema-präsentieren.md",
+    "Deutsch/B2.2/redemittel/content",
+    "Deutsch/B2.2/redemittel",
     "Deutsch/B2.2/partikel/partikel",
     "Deutsch/B2.2/partikel",
-    "Deutsch/Deutsch.md.md",
-    "Deutsch/C1.1/C1_1.md.md",
-    "README.md",
-    "Deutsch/B2.2/redemittel/content/ein-leserbrief-schreiben.md",
-    "Deutsch/B2.2/redemittel/content/ein-referat-oder-vortrag-halten.md",
-    "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
-    "Deutsch/B2.2/redemittel/content/meinungen-ausdruck.md",
-    "Untitled.canvas",
     "Deutsch/C1.1",
     "Deutsch/B2.2",
     "Untitled",
