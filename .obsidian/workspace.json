@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0587cd37a0888ea9",
+        "id": "8ce5899076a150a9",
         "type": "tabs",
         "children": [
           {
-            "id": "f47eff087b93b4bd",
+            "id": "30f561ab371ae6fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deutsch/Deutsch.md.md",
+                "file": "Informatic/linux/files-content/permissions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deutsch/Deutsch.md.md",
+                "file": "Informatic/linux/files-content/permissions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deutsch/Deutsch.md.md",
+                "file": "Informatic/linux/files-content/permissions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deutsch/Deutsch.md.md"
+                "file": "Informatic/linux/files-content/permissions.md"
               }
             }
           }
@@ -146,43 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f47eff087b93b4bd",
+  "active": "30f561ab371ae6fd",
   "lastOpenFiles": [
-    "Informatic/linux/linux-content.md",
-    "Deutsch/B2.2/B2_2.md.md",
-    "README.md",
-    "Deutsch/C1.1/C1_1.md.md",
-    "Deutsch/Deutsch.md.md",
-    "Informatic/linux/processing/tail/tail.md",
-    "Informatic/linux/processing/paste/paste.md",
-    "Informatic/linux/processing/nl/nl.md",
-    "Informatic/linux/processing/uniq/uniq.md",
-    "Informatic/linux/processing/awk/awk.md",
-    "Informatic/linux/processing/pipe/pipe.md",
-    "Informatic/linux/processing/tr/tr.md",
-    "Informatic/linux/processing/tee/tee.md",
-    "Informatic/linux/processing/cut/cut.md",
-    "Informatic/linux/processing/head/head.md",
-    "Informatic/linux/processing/join/join.md",
-    "Informatic/linux/processing/sort/sort.md",
-    "Informatic/linux/processing/grep/grep.md",
-    "Informatic/linux/processing/stdout-in-err/stdout-in-err.md",
-    "Informatic/linux/processing/expand/expand.md",
-    "Informatic/linux/processing/unexpand/unexpand.md",
-    "Informatic/linux/basics/command-path/command-path.md",
-    "Informatic/linux/processing/split/split.md",
-    "Informatic/linux/processing/wc/wc.md",
-    "Informatic/linux/basics/moving-files/moving-files.md",
-    "Informatic/linux/basics/basic-commands/basic-commands.md",
-    "Informatic/linux/networking/tcp-ip",
-    "Informatic/linux/networking/netfilter",
-    "Informatic/linux/networking/ip-routing",
-    "Informatic/linux/networking/file-transfer",
-    "Informatic/linux/networking/subnetting",
-    "Informatic/linux/networking/ethernet-arp-rarp",
-    "Informatic/linux/networking/dns-resolution",
-    "Informatic/linux/networking/dhcp",
-    "Informatic/linux/networking/ssh",
-    "Informatic/linux/files/vim"
+    "Informatic/linux/linux-content/linux.md",
+    "Informatic/linux/linux-content/linux-kernel.md",
+    "Informatic/linux/files-content/permissions.md",
+    "Informatic/linux/basics-content/super-user.md",
+    "Informatic/linux/basics-content/redirects.md",
+    "Informatic/linux/basics-content/moving-files.md",
+    "Informatic/linux/basics-content/environment-variables.md",
+    "Informatic/linux/basics-content/directory-hierarchy.md",
+    "Informatic/linux/basics-content/creating-files.md",
+    "Informatic/linux/basics-content/command-path.md",
+    "Informatic/linux/basics-content/command-help.md",
+    "Informatic/linux/basics-content/basics.md",
+    "Informatic/linux/basics-content/basic-commands.md",
+    "Informatic/linux/basics-content",
+    "Informatic/linux/basics/super-user.md",
+    "Informatic/linux/basics/redirects.md",
+    "Informatic/linux/basics/moving-files.md",
+    "Informatic/linux/basics/environment-variables.md",
+    "Informatic/linux/basics/directory-hierarchy.md",
+    "Informatic/linux/basics/creating-files.md",
+    "Informatic/linux/basics/command-path.md",
+    "Informatic/linux/basics/command-help.md",
+    "Informatic/linux/basics/basics.md",
+    "Informatic/linux/basics/basic-commands.md",
+    "Informatic/linux/basics",
+    "Informatic/linux/management-content/install-remove-upgrade-packages.md",
+    "Informatic/linux/management-content/management-permissions.md",
+    "Informatic/linux/files-content/files.md",
+    "Informatic/linux/troubleshooting-content",
+    "Informatic/linux/tools-content",
+    "Informatic/linux/review-content",
+    "Informatic/linux/processing-content",
+    "Informatic/linux/programming-content/variables",
+    "Informatic/linux/programming-content/loops",
+    "Informatic/linux/programming-content/literals",
+    "Informatic/linux/programming-content/debugging"
   ]
 }
