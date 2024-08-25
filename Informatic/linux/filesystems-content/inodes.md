@@ -1,11 +1,12 @@
 ---
 tags:
-  - reviewed
-  - linux
-  - operative-system
-  - containerization
-  - ready
-  - online
+- reviewed
+- linux
+- operative-system
+- containerization
+- ready
+- online
+- online
 ---
 
 # inodes

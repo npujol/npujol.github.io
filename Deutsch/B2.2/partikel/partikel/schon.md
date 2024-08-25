@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # schon
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Den Kopierer wieder reparieren? Das wird **schon** gehen."  
+- "Den Kopierer wieder reparieren? Das wird __schon__ gehen."  

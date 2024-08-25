@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # Partikel

@@ -1,11 +1,12 @@
 ---
 tags:
-  - ready
-  - online
-  - reviewed
-  - linux
-  - operative-system
-  - containerization
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
+- containerization
 ---
 
 # ulimits

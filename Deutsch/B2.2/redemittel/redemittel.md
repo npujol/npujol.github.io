@@ -1,11 +1,11 @@
 ---
 tags:
-  - language
-  - deutsch
-  - redemittel
-  - b2_2
-  - ready
-  - online
+- language
+- deutsch
+- redemittel
+- b2_2
+- ready
+- online
 ---
 
 # Redemittel

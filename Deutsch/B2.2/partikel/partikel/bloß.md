@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # bloß
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Lassen Sie Magda**bloß**in Ruhe!"
+- "Lassen Sie Magda__bloß__in Ruhe!"

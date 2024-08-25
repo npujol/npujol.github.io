@@ -1,68 +1,68 @@
 ---
 tags:
-  - language
-  - grammatik
-  - deutsch
-  - verben
-  - b2_2
-  - ready
-  - online
+- language
+- grammatik
+- deutsch
+- verben
+- b2_2
+- ready
+- online
 ---
 
 # Gefühlen zu sprechen
 
 ## Mit Adjektiven
 
-- **sein + Adjektiv**  
-  Beispiel: „Der Himmel **ist** blau.“  
-  **Erklärung:** Diese Struktur beschreibt einen Zustand oder eine Eigenschaft.
+- __sein + Adjektiv__  
+  Beispiel: „Der Himmel __ist__ blau.“  
+  __Erklärung:__ Diese Struktur beschreibt einen Zustand oder eine Eigenschaft.
 
-- **sich fühlen + Adjektiv**  
-  Beispiel: „Ich **fühle mich** müde.“  
-  **Erklärung:** Diese Struktur beschreibt, wie sich jemand in einem bestimmten Moment emotional oder physisch empfindet.
+- __sich fühlen + Adjektiv__  
+  Beispiel: „Ich __fühle mich__ müde.“  
+  __Erklärung:__ Diese Struktur beschreibt, wie sich jemand in einem bestimmten Moment emotional oder physisch empfindet.
 
-- **es macht mich + Adjektiv**  
-  Beispiel: „Es **macht mich** glücklich.“  
-  **Erklärung:** Diese Struktur beschreibt, wie eine bestimmte Situation oder Handlung das Gefühl oder den Zustand einer Person beeinflusst.
+- __es macht mich + Adjektiv__  
+  Beispiel: „Es __macht mich__ glücklich.“  
+  __Erklärung:__ Diese Struktur beschreibt, wie eine bestimmte Situation oder Handlung das Gefühl oder den Zustand einer Person beeinflusst.
 
 ### Beispiele mit Adjektiven
 
-- **sein + Adjektiv**  
-  „Die Musik **ist** laut.“  
-  „Das Wetter **ist** kalt.“
+- __sein + Adjektiv__  
+  „Die Musik __ist__ laut.“  
+  „Das Wetter __ist__ kalt.“
 
-- **sich fühlen + Adjektiv**  
-  „Sie **fühlt sich** traurig.“  
-  „Er **fühlt sich** nervös.“
+- __sich fühlen + Adjektiv__  
+  „Sie __fühlt sich__ traurig.“  
+  „Er __fühlt sich__ nervös.“
 
-- **es macht mich + Adjektiv**  
-  „Es **macht mich** wütend.“  
-  „Es **macht mich** zufrieden.“
+- __es macht mich + Adjektiv__  
+  „Es __macht mich__ wütend.“  
+  „Es __macht mich__ zufrieden.“
 
 ## Mit Nomen
 
-- **fühlen + Nomen**  
-  Beispiel: „Ich **fühle** eine Erleichterung.“  
-  **Erklärung:** Diese Struktur beschreibt das Empfinden eines konkreten Gefühls oder Zustands.
+- __fühlen + Nomen__  
+  Beispiel: „Ich __fühle__ eine Erleichterung.“  
+  __Erklärung:__ Diese Struktur beschreibt das Empfinden eines konkreten Gefühls oder Zustands.
 
-- **haben + Nomen**  
-  Beispiel: „Ich **habe** Hunger.“  
-  **Erklärung:** Diese Struktur beschreibt, dass jemand einen bestimmten Zustand oder ein Gefühl besitzt.
+- __haben + Nomen__  
+  Beispiel: „Ich __habe__ Hunger.“  
+  __Erklärung:__ Diese Struktur beschreibt, dass jemand einen bestimmten Zustand oder ein Gefühl besitzt.
 
-- **spüren + Nomen**  
-  Beispiel: „Ich **spüre** eine Veränderung.“  
-  **Erklärung:** Diese Struktur beschreibt, dass jemand ein konkretes Gefühl oder eine Empfindung wahrnimmt.
+- __spüren + Nomen__  
+  Beispiel: „Ich __spüre__ eine Veränderung.“  
+  __Erklärung:__ Diese Struktur beschreibt, dass jemand ein konkretes Gefühl oder eine Empfindung wahrnimmt.
 
 ### Beispiele mit Nomen
 
-- **fühlen + Nomen**  
-  „Ich **fühle** eine Müdigkeit.“  
-  „Er **fühlt** eine Anspannung.“
+- __fühlen + Nomen__  
+  „Ich __fühle__ eine Müdigkeit.“  
+  „Er __fühlt__ eine Anspannung.“
 
-- **haben + Nomen**  
-  „Sie **hat** Angst.“  
-  „Wir **haben** Freude.“
+- __haben + Nomen__  
+  „Sie __hat__ Angst.“  
+  „Wir __haben__ Freude.“
 
-- **spüren + Nomen**  
-  „Ich **spüre** den Stress.“  
-  „Er **spürt** eine Wärme.“
+- __spüren + Nomen__  
+  „Ich __spüre__ den Stress.“  
+  „Er __spürt__ eine Wärme.“

@@ -1,10 +1,11 @@
 ---
 tags:
-  - ready
-  - online
-  - reviewed
-  - linux
-  - operative-system
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
 ---
 
 # creating-files

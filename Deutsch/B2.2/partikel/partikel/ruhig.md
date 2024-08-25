@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # ruhig
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Sie können **ruhig** Feierabend machen. Ich übernehme den Dienst."
+- "Sie können __ruhig__ Feierabend machen. Ich übernehme den Dienst."

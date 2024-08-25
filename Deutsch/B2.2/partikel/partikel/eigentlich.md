@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # eigentlich
@@ -16,11 +16,11 @@ tags:
 
 Beispiele:  
 
-- "Würden Sie **eigentlich** gerne in einer anderen Abteilung arbeiten?"  
-- "Was machen Sie **eigentlich** hier?"  
+- "Würden Sie __eigentlich__ gerne in einer anderen Abteilung arbeiten?"  
+- "Was machen Sie __eigentlich__ hier?"  
 
 ### Kritik oder Erstaunen  
 
 Beispiele:  
 
-- "Er ist **eigentlich** immer zuverlässig, deshalb verstehe ich nicht, was heute los ist."  
+- "Er ist __eigentlich__ immer zuverlässig, deshalb verstehe ich nicht, was heute los ist."  

@@ -1,11 +1,12 @@
 ---
 tags:
-  - ready
-  - online
-  - reviewed
-  - linux
-  - operative-system
-  - security
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
+- security
 ---
 
 # super-user

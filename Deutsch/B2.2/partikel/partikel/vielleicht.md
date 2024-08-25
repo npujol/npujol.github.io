@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # vielleicht
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Diese Aufgabe ist **vielleicht** schwer."  
+- "Diese Aufgabe ist __vielleicht__ schwer."  
