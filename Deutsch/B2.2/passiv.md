@@ -9,10 +9,6 @@ tags:
   - online
 ---
 
-
-Hier ist das vervollständigte Template für das Thema „Passiv auf Deutsch“:
-
-```markdown
 # Passiv auf Deutsch
 
 ## Erklärung
