@@ -1,10 +1,11 @@
 ---
 tags:
-- language
-- ready
-- online
-- redemittel
-- b2_2
+  - language
+  - ready
+  - online
+  - redemittel
+  - b2_2
+  - deutsch
 ---
 
 # Einen Beschwerdebrief schreiben

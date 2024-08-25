@@ -1,6 +1,6 @@
 {
-  "collapse-filter": true,
-  "search": "",
+  "collapse-filter": false,
+  "search": "tag:#ready  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#deutsch  ",
+      "query": "tag:#deutsch",
       "color": {
         "a": 1,
         "rgb": 14048466
       }
     },
     {
-      "query": "tag:#linux  ",
+      "query": "tag:#linux ",
       "color": {
         "a": 1,
         "rgb": 14069084
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.44594553697999467,
-  "close": false
+  "scale": 0.36011785256156364,
+  "close": true
 }
