@@ -1,6 +1,7 @@
 ---
 tags:
   - ready
+  - online
   - reviewed
   - linux
   - operative-system

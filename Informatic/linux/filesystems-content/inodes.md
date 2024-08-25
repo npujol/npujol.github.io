@@ -5,6 +5,7 @@ tags:
   - operative-system
   - containerization
   - ready
+  - online
 ---
 
 # inodes

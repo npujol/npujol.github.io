@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8ce5899076a150a9",
+        "id": "1d032885b28c01f0",
         "type": "tabs",
         "children": [
           {
-            "id": "30f561ab371ae6fd",
+            "id": "e37d2d1afaef82f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Informatic/linux/files-content/permissions.md",
+                "file": "Informatic/linux/containerization-content/containerization.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Informatic/linux/files-content/permissions.md",
+                "file": "Informatic/linux/containerization-content/containerization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Informatic/linux/files-content/permissions.md",
+                "file": "Informatic/linux/containerization-content/containerization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Informatic/linux/files-content/permissions.md"
+                "file": "Informatic/linux/containerization-content/containerization.md"
               }
             }
           }
@@ -146,11 +146,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "30f561ab371ae6fd",
+  "active": "e37d2d1afaef82f0",
   "lastOpenFiles": [
+    "Informatic/linux/files-content/files.md",
+    "Informatic/linux/containerization-content/adding-disks.md",
+    "Informatic/linux/linux-content.md",
+    "Deutsch/B2.2/redemittel/content/ein-beschwerdebrief-schreiben.md",
+    "README.md",
+    "Informatic/linux/files-content/permissions.md",
     "Informatic/linux/linux-content/linux.md",
     "Informatic/linux/linux-content/linux-kernel.md",
-    "Informatic/linux/files-content/permissions.md",
     "Informatic/linux/basics-content/super-user.md",
     "Informatic/linux/basics-content/redirects.md",
     "Informatic/linux/basics-content/moving-files.md",
@@ -170,12 +175,7 @@
     "Informatic/linux/basics/creating-files.md",
     "Informatic/linux/basics/command-path.md",
     "Informatic/linux/basics/command-help.md",
-    "Informatic/linux/basics/basics.md",
-    "Informatic/linux/basics/basic-commands.md",
     "Informatic/linux/basics",
-    "Informatic/linux/management-content/install-remove-upgrade-packages.md",
-    "Informatic/linux/management-content/management-permissions.md",
-    "Informatic/linux/files-content/files.md",
     "Informatic/linux/troubleshooting-content",
     "Informatic/linux/tools-content",
     "Informatic/linux/review-content",
