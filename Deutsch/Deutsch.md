@@ -8,5 +8,5 @@ tags:
 
 ## Niveaustufen
 
-- [[B2_2.md]]
+- [[B2_2]]
 - [[C1_1.md]]

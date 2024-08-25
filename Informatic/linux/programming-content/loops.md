@@ -2,7 +2,7 @@
 tags:
 
  - ready
-- online
+ - online
  - online
  - reviewed
  - linux

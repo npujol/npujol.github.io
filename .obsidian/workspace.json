@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deutsch/B2.2/redemittel/redemittel.md",
+                "file": "Deutsch/Deutsch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deutsch/B2.2/redemittel/redemittel.md",
+                "file": "Deutsch/Deutsch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deutsch/B2.2/redemittel/redemittel.md",
+                "file": "Deutsch/Deutsch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Deutsch/B2.2/redemittel/redemittel.md"
+                "file": "Deutsch/Deutsch.md"
               }
             }
           }
@@ -150,6 +150,7 @@
   "lastOpenFiles": [
     "Informatic/linux/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
+    "Deutsch/B2.2/redemittel/redemittel.md",
     "Deutsch/Deutsch.md",
     "Deutsch/Deutsch.md.",
     "Deutsch/B2.2/B2_2.md",
@@ -178,11 +179,9 @@
     "Deutsch/B2.2/redemittel/content/grafik-beschreiben.md",
     "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
     "Deutsch/B2.2/redemittel/content/einen-text-zusammenfassen.md",
-    "Deutsch/B2.2/redemittel/content/ein-thema-präsentieren.md",
     "Deutsch/B2.2/redemittel/content",
     "Deutsch/B2.2/redemittel",
     "Deutsch/B2.2/partikel/partikel",
-    "Deutsch/B2.2/partikel",
-    "Deutsch/B2.2"
+    "Deutsch/B2.2/partikel"
   ]
 }
