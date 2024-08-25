@@ -1,11 +1,12 @@
 ---
 tags:
-  - ready
-  - online
-  - reviewed
-  - linux
-  - operative-system
-  - commands
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
+- commands
 ---
 
 # basic-commands

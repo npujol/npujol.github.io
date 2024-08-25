@@ -1,17 +1,17 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - mal
-  - aufforderung
-  - befehl
-  - ermunterung
-  - aussagen
-  - fragen
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- mal
+- aufforderung
+- befehl
+- ermunterung
+- aussagen
+- fragen
+- ready
+- online
 ---
 
 # Mal
@@ -22,4 +22,4 @@ tags:
 
 Beispiel:  
 
-- "Könnten Sie bitte **mal** das Fenster schließen."  
+- "Könnten Sie bitte __mal__ das Fenster schließen."  

@@ -1,11 +1,12 @@
 ---
 tags:
-  - ready
-  - online
-  - reviewed
-  - linux
-  - operative-system
-  - environment-variables
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
+- environment-variables
 ---
 
 # environment-variables

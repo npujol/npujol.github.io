@@ -1,35 +1,35 @@
 ---
 tags:
-  - language
-  - grammatik
-  - deutsch
-  - reviewed
-  - konjunktiv
-  - ready
-  - online
-  - indirekten-rede
+- language
+- grammatik
+- deutsch
+- reviewed
+- konjunktiv
+- ready
+- online
+- indirekten-rede
 ---
 
 # Konjunktiv I
 
-Der **Konjunktiv I** wird hauptsächlich in der **indirekten Rede** verwendet.
+Der __Konjunktiv I__ wird hauptsächlich in der __indirekten Rede__ verwendet.
 
-Für den **Konjunktiv I** stehen daher nur drei Zeitformen zur Verfügung, die im Folgenden an Beispielen erklärt werden.
+Für den __Konjunktiv I__ stehen daher nur drei Zeitformen zur Verfügung, die im Folgenden an Beispielen erklärt werden.
 
 - Gleichzeitigkeit von Geschehen und Wiedergabe durch den Dritten
 
-Tom sagt: „Ich **gehe** heute ins Kino. (direkte Rede)
-Tom sagt, er **gehe** heute ins Kino. (indirekte Rede)
+Tom sagt: „Ich __gehe__ heute ins Kino. (direkte Rede)
+Tom sagt, er __gehe__ heute ins Kino. (indirekte Rede)
 
 - Vorzeitigkeit des Geschehens in Bezug auf die Wiedergabe durch den Dritten
 
-Tom erzählt: wir **waren** gestern im Schwimmbad. (direkte Rede)
-Tom erzählt, dass sie gestern im Schwimmbad **gewesen seien**. (indirekte Rede)
+Tom erzählt: wir __waren__ gestern im Schwimmbad. (direkte Rede)
+Tom erzählt, dass sie gestern im Schwimmbad __gewesen seien__. (indirekte Rede)
 
 - Nachzeitigkeit des Geschehens in Bezug auf die Wiedergabe durch den Dritten
 
-Tom berichtete: „Daniel **wird** gleich in die Schule **gehen**. (direkte Rede)
-Tom berichtete, dass Daniel gleich in die Schule **gehen werde**. (indirekte Rede)
+Tom berichtete: „Daniel __wird__ gleich in die Schule __gehen__. (direkte Rede)
+Tom berichtete, dass Daniel gleich in die Schule __gehen werde__. (indirekte Rede)
 
 ## Verben/Ausdrücke zur Einleitung von indirekten Rede
 
@@ -37,12 +37,12 @@ Tom berichtete, dass Daniel gleich in die Schule **gehen werde**. (indirekte Red
 
 ## Beispiele vom Unterricht
 
-- Der Nachrichtensprecher sagt, der Regen **lasse** **nach** und die Situation im Hochwasser Gebiet **könne** sich bald entspannen.
+- Der Nachrichtensprecher sagt, der Regen __lasse__ __nach__ und die Situation im Hochwasser Gebiet __könne__ sich bald entspannen.
 
 Donald Trump sagt:
 
-- Mein Ohr **tut** mir sehr weh.(direkte Rede)
-- Sein Ohr **tue** ihm sehr weh.(indirekte Rede)
+- Mein Ohr __tut__ mir sehr weh.(direkte Rede)
+- Sein Ohr __tue__ ihm sehr weh.(indirekte Rede)
 
-- Meine Ohren **haben** mir sehr wehgetan(direkte Rede)
-- Seine Ohren **habe** ihm sehr wehgetan.(indirekte Rede)
+- Meine Ohren __haben__ mir sehr wehgetan(direkte Rede)
+- Seine Ohren __habe__ ihm sehr wehgetan.(indirekte Rede)

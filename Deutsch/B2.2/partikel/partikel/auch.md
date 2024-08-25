@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # auch
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Du arbeitest **auch** hier in der Firma."  
+- "Du arbeitest __auch__ hier in der Firma."  

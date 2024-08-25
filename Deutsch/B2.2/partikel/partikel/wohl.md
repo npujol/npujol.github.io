@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # wohl
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Rafael hat **wohl** Urlaub. Ich habe ihn heute noch nicht gesehen."  
+- "Rafael hat __wohl__ Urlaub. Ich habe ihn heute noch nicht gesehen."  

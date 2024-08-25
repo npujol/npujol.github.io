@@ -1,10 +1,12 @@
 ---
 tags:
 
-- ready
-- reviewed
-- linux
-- operative-system
+ - ready
+- online
+ - online
+ - reviewed
+ - linux
+ - operative-system
 
 ---
 

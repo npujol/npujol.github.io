@@ -1,11 +1,11 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- ready
+- online
 ---
 
 # nur
@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Machen Sie **nur** nicht so viele Überstunden."
+- "Machen Sie __nur__ nicht so viele Überstunden."

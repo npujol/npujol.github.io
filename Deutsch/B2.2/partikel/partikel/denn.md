@@ -1,16 +1,16 @@
 ---
 tags:
-  - partikel
-  - grammatik
-  - deutsch
-  - b2_2
-  - denn
-  - fragen
-  - freundlichkeit
-  - interesse
-  - überraschung
-  - ready
-  - online
+- partikel
+- grammatik
+- deutsch
+- b2_2
+- denn
+- fragen
+- freundlichkeit
+- interesse
+- überraschung
+- ready
+- online
 ---
 
 # Denn
@@ -21,5 +21,5 @@ tags:
 
 Beispiele:  
 
-- "Würden Sie **denn** gerne in einer anderen Abteilung arbeiten?"  
-- "Was machen Sie **denn** hier?"  
+- "Würden Sie __denn__ gerne in einer anderen Abteilung arbeiten?"  
+- "Was machen Sie __denn__ hier?"  
