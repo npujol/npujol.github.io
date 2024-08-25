@@ -11,8 +11,12 @@
             "id": "e37d2d1afaef82f0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/B2.2/redemittel/redemittel.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deutsch/B2.2/redemittel/redemittel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deutsch/B2.2/redemittel/redemittel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deutsch/B2.2/redemittel/redemittel.md"
+              }
             }
           }
         ]
@@ -140,6 +148,10 @@
   },
   "active": "e37d2d1afaef82f0",
   "lastOpenFiles": [
+    "Informatic/linux/sync.ffs_lock",
+    "Deutsch/B2.2/sync.ffs_lock",
+    "Deutsch/Deutsch.md",
+    "Deutsch/Deutsch.md.",
     "Deutsch/B2.2/B2_2.md",
     "Deutsch/B2.2/B2_2.md.md",
     "Deutsch/B2.2/wortarten-präpositionen.md",
@@ -167,14 +179,10 @@
     "Deutsch/B2.2/redemittel/content/gegenvorschlaege-machen.md",
     "Deutsch/B2.2/redemittel/content/einen-text-zusammenfassen.md",
     "Deutsch/B2.2/redemittel/content/ein-thema-präsentieren.md",
-    "Deutsch/B2.2/redemittel/content/ein-telefongespräch.md",
-    "Deutsch/B2.2/redemittel/content/ein-referat-oder-vortrag-halten.md",
     "Deutsch/B2.2/redemittel/content",
     "Deutsch/B2.2/redemittel",
     "Deutsch/B2.2/partikel/partikel",
     "Deutsch/B2.2/partikel",
-    "Deutsch/B2.2",
-    "Informatic/linux/troubleshooting-content",
-    "Informatic/linux/tools-content"
+    "Deutsch/B2.2"
   ]
 }

@@ -17,7 +17,6 @@ tags:
 - [[cgroups]]
 - [[container-runtime]]
 - [[docker]]
-- [[Informatic/linux/filesystems-content/adding-disks|adding-disks]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/containerization)__
 
