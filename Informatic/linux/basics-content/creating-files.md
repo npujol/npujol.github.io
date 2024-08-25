@@ -19,7 +19,7 @@ Linux provides a versatile and powerful command-line interface (CLI) that helps 
 
 Another useful command for creating files is `cat >filename`. This command creates a new file with the specified name and waits for user input. Hence, the process ends when you press `Ctrl+D` to send `EOF` (End-Of-File) to the `cat` command.
 
-Here`s an example of file creation with the `touch` command:
+Here's an example of file creation with the `touch` command:
 
 ```bash
 touch newfile.txt

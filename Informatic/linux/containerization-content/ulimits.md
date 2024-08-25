@@ -22,7 +22,6 @@ Used effectively, ulimits can prevent a rogue or errant process in a particular 
 
 In a containerized environment, it is crucial to skillfully manage these resource limits to ensure optimal performance and security of all containers.
 
-
 ```bash
 # To see current ulimits:
 ulimit -a
