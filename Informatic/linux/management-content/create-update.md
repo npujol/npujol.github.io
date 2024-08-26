@@ -23,14 +23,12 @@ When creating a new user, we add a new record in the system files for that user 
 
 ```bash
 sudo useradd newuser
-
 ```
 
 On the other hand, updating a user means modifying user details. It may include changing display or user name, home directory or login shell. The `usermod` command is used for updating a user in Linux. For instance, to change the home directory for a user, you might use a command like:
 
 ```bash
 sudo usermod -d /new/home/directory username
-
 ```
 
-Managing users effectively is crucial in Linux for both system security and resource management. You can fully harness the power of Linux`s multi-user characteristics through skillful user management.
+Managing users effectively is crucial in Linux for both system security and resource management. You can fully harness the power of Linux's multi-user characteristics through skillful user management.

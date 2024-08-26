@@ -19,7 +19,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/linux/disks-filesystems
 
 In Linux, hard disks and portable drives are managed and controlled through a series of directories and files, commonly referred to as the Linux Filesystem. When you add new disks in Linux, you need to prepare them before they can be used.
 
-The process involves creating partitions on the disk, creating filesystem on the partitions, and then mounting the filesystems to directories in your system`s directory tree. This becomes important especially when working with multiple disk drives or large data storage units in order to create a seamless user experience.
+The process involves creating partitions on the disk, creating filesystem on the partitions, and then mounting the filesystems to directories in your system's directory tree. This becomes important especially when working with multiple disk drives or large data storage units in order to create a seamless user experience.
 
 The following are common commands to manage disks:
 
@@ -37,4 +37,4 @@ sudo mount /dev/sdb1 /mnt # mount new filesystem to /mnt directory
 
 ```
 
-Remember to replace `/dev/sdb` and `/dev/sdb1` with your actual disk and partition identifiers. The mount point `/mnt` may also be replaced with any other directory as per your system`s structure and preference.
+Remember to replace `/dev/sdb` and `/dev/sdb1` with your actual disk and partition identifiers. The mount point `/mnt` may also be replaced with any other directory as per your system's structure and preference.

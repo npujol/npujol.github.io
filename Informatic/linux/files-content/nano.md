@@ -25,7 +25,6 @@ To use Nano to edit or create files in Linux, the following command can be used:
 
 ```bash
 nano filename
-
 ```
 
 This command opens the named file or creates a new one if it doesn`t exist yet. All the editing is done within the terminal itself. While using Nano, the command options are always visible at the bottom of the screen, making it an excellent choice for Linux beginners or those preferring straightforward text editing tools.

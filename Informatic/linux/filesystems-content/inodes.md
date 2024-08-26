@@ -17,7 +17,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/linux/disks-filesystems
 
 ## Inodes
 
-In a Linux filesystem, an inode (index node) is a core concept that represents a filesystem object such as a file or a directory. More specifically, an inode is a data structure that stores critical information about a file except its name and actual data. This information includes the file`s size, owner, access permissions, access times, and more.
+In a Linux filesystem, an inode (index node) is a core concept that represents a filesystem object such as a file or a directory. More specifically, an inode is a data structure that stores critical information about a file except its name and actual data. This information includes the file's size, owner, access permissions, access times, and more.
 
 Every file or directory in a Linux filesystem has a unique inode, and each inode is identified by an inode number within its own filesystem. This inode number provides a way of tracking each file, acting as a unique identifier for the Linux operating system.
 
@@ -28,5 +28,4 @@ Although you would not interact with inodes directly in everyday usage, understa
 ```bash
 # Retrieve the inode of a file
 ls -i filename
-
 ```

@@ -26,7 +26,3 @@ Visit the following resources to learn more:
 - [@article@Basic data types](https://www.w3schools.com/go/go_data_types.php)
 - [@official@Tour of Go: types](https://go.dev/tour/basics/11)
 - [@article@Go types with examples](https://golangbyexample.com/all-data-types-in-golang-with-examples/)
-
-## Note
-
-- [Types in golang](../../go/roadmap/notes/basics.md#types)

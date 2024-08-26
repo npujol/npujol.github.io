@@ -17,7 +17,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/linux/service-managemen
 
 ## Start Stop Service
 
-In Linux, Service Management refers to controlling and managing system services, such as firewall, network, database, and other essential services. This play a critical role in the system`s functionality and stability.
+In Linux, Service Management refers to controlling and managing system services, such as firewall, network, database, and other essential services. This play a critical role in the system's functionality and stability.
 
 One of the fundamental parts of service management in Linux is starting and stopping service. System administrators often need to start, stop, or restart services after an update or configuration changes. In Linux, this can be done using the `systemctl` command.
 

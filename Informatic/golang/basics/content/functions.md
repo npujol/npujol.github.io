@@ -31,6 +31,3 @@ Visit the following resources to learn more:
 - [@article@Functions in go](https://www.golangprograms.com/go-language/functions.html)
 - [@official@Effective Go: Functions](https://go.dev/doc/effective_go#functions)
 
-## Notes
-
-- [Functions](../../go/roadmap/notes/basics.md##functions)

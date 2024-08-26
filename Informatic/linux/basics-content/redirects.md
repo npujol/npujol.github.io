@@ -28,7 +28,6 @@ For example, if you want to store the output of a command into a file instead of
 
 ```bash
 ls -al > file_list.txt
-
 ```
 
 This command will write the output of `ls -al` into `file\_list.txt`, whether or not the file initially existed. It will be created if necessary, and if it already exists – it will be overwritten.

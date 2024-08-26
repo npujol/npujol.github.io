@@ -24,14 +24,12 @@ Here's an example of file creation with the `touch` command:
 
 ```bash
 touch newfile.txt
-
 ```
 
 and with `cat` command:
 
 ```bash
 cat > newfile.txt
-
 ```
 
 Both these commands create a new “newfile.txt” if it does not already exist.
