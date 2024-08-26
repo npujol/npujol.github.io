@@ -1,11 +1,8 @@
 ---
 tags:
-
 - ready
 - online
 - reviewed
-cssclasses:
-aliases:
 - go
 - summary
 - informatic

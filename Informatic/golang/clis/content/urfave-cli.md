@@ -6,6 +6,7 @@ tags:
 - summary
 - informatic
 - cli
+- go
 ---
 
 # urfave-cli

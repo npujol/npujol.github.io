@@ -3,7 +3,6 @@ tags:
 - ready
 - online
 - reviewed
-
 - go
 - summary
 - informatic
@@ -27,6 +26,16 @@ Visit the following resources to learn more:
 - [@article@Go by Example: Variables](https://gobyexample.com/variables)
 - [@article@w3schools Go variables](https://www.w3schools.com/go/go_variables.php)
 
-## Notes
+## Go Variable Naming Rules
 
-- [Go Variable Naming Rules](../../go/roadmap/notes/basics.md##go-variable-naming-rules)
+A variable can have a short name (like x and y) or a more descriptive name (age, price, carname, etc.).
+
+Go variable naming rules:
+
+- A variable name must start with a letter or an underscore character (_)
+- A variable name cannot start with a digit
+- A variable name can only contain alpha-numeric characters and underscores (a-z, A-Z, 0-9, and _ )
+- Variable names are case-sensitive (age, Age and AGE are three different variables)
+- There is no limit on the length of the variable name
+- A variable name cannot contain spaces
+- The variable name cannot be any Go keywords

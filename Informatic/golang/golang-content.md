@@ -17,6 +17,6 @@ tags:
 - [[orms-content]]
 - [[logging-content]]
 - [[communication-content]]
-- [[clients-content]]]
+- [[clients-content]]
 - [[apps-content]]
 - [[microservices-content]]

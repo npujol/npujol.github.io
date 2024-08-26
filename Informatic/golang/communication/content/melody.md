@@ -8,6 +8,7 @@ tags:
 - informatic
 - data-transference
 - communication
+- go
 ---
 
 # melody

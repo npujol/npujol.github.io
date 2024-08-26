@@ -10,6 +10,7 @@ tags:
 - rest
 - graphql
 - clients
+- go
 ---
 
 # clients

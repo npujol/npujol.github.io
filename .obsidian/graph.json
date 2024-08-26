@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 14069084
       }
+    },
+    {
+      "query": "tag:#go  ",
+      "color": {
+        "a": 1,
+        "rgb": 15041949
+      }
     }
   ],
   "collapse-display": true,
@@ -33,5 +40,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.36011785256156364,
-  "close": true
+  "close": false
 }

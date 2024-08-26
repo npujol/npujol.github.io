@@ -140,9 +140,12 @@
   },
   "active": "59d3d37c34ecc3aa",
   "lastOpenFiles": [
+    "Informatic/golang/orms/orms-content.md",
+    "Informatic/golang/orms/orms-content-6d60.ffs_tmp",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
+    "Informatic/golang/clients/clients-content-4e64.ffs_tmp",
     "Deutsch/B2.2/redemittel/redemittel.md",
     "Deutsch/B2.2/B2_2.md",
     "Deutsch/B2.2/B2_2-2cda.ffs_tmp",
@@ -152,7 +155,6 @@
     "Informatic/golang/golang-content-4ba0.ffs_tmp",
     "Deutsch/B2.2/satzarte/satzarte-inhalte.md",
     "Deutsch/B2.2/redemittel/content/ein-beschwerdebrief-schreiben.md",
-    "Informatic/golang/orms/orms-content.md",
     "Informatic/golang/orms/gorm/gorm-content.md",
     "Informatic/golang/microservices/microservices-content.md",
     "Informatic/golang/microservices/content/watermill.md",
@@ -173,8 +175,6 @@
     "Informatic/golang/go/go-content.md",
     "Informatic/golang/frameworks/frameworks-content.md",
     "Informatic/golang/frameworks/content/revel.md",
-    "Informatic/golang/frameworks/content/gorilla.md",
-    "Informatic/golang/frameworks/content",
-    "Informatic/golang/communication/content"
+    "Informatic/golang/frameworks/content/gorilla.md"
   ]
 }

@@ -7,6 +7,7 @@ tags:
 - informatic
 - data-transference
 - communication
+- go
 ---
 
 # centrifugo
