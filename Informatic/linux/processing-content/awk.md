@@ -23,11 +23,10 @@ The language comprises a set of commands within a script that define pattern-act
 
 Though a complete language with variables, expressions, and control structures, awk is most commonly used as a single-line command within bash shell scripts, leveraging its versatile text manipulation capabilities.
 
-Here`s an example of how to print first two fields of each line of a file using awk:
+Here's an example of how to print first two fields of each line of a file using awk:
 
 ```bash
 awk '{print $1,$2}' filename
-
 ```
 
 This would display the first and second field (typically separated by spaces) of every line in `filename`.

@@ -21,7 +21,7 @@ The Dynamic Host Configuration Protocol (DHCP) is a critical component of any ne
 
 The DHCP server effectively manages the IP addresses and information related to them, making sure that each client machine gets a unique IP and all the correct network information.
 
-In Linux, DHCP can be configured and managed using terminal commands. This involves the installation of the DHCP server software, editing the configuration files, and managing the server`s services.
+In Linux, DHCP can be configured and managed using terminal commands. This involves the installation of the DHCP server software, editing the configuration files, and managing the server's services.
 
 A traditional DHCP server should have a static IP address to manage the IP distribution effectively. The DHCP in Linux also handles DNS and other related data that your network might require.
 

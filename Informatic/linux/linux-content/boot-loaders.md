@@ -24,7 +24,6 @@ Typically, the two most commonly used boot loaders in Linux are LILO (Linux Load
 ```bash
 # This command updates the GRUB bootloader 
 sudo update-grub
-
 ```
 
 Irrespective of the type of Boot Loader used, understanding and configuring them properly is essential for maintaining an efficient, stable and secure operating system. Boot loaders also allow users to switch between different operating systems on the same machine, if required.

@@ -40,6 +40,6 @@ WantedBy=multi-user.target
 
 ```
 
-This service file can be placed under `/etc/systemd/system/` to make systemd recognize it. You would then control the service using `systemctl`, systemd`s command tool.
+This service file can be placed under `/etc/systemd/system/` to make systemd recognize it. You would then control the service using `systemctl`, systemd's command tool.
 
 Note that best practices in Linux dictate that we should not run services as root whenever possible, for security reasons. Instead, we should create a new user to run the service.

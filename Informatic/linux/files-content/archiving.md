@@ -38,4 +38,4 @@ tar cvjf archive_name.tar.bz2 directory_to_archive/
 
 ```
 
-Remember, in Linux, archiving and compression are separate processes, hence `tar` to archive and `gzip`/`bzip2` to compress. Although they`re commonly used together, they can very much be used separately as per the requirements.
+Remember, in Linux, archiving and compression are separate processes, hence `tar` to archive and `gzip`/`bzip2` to compress. Although they're commonly used together, they can very much be used separately as per the requirements.

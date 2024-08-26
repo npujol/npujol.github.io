@@ -27,7 +27,6 @@ A simple use of Vim to edit a `example.txt` file would look like this:
 
 ```bash
 vim example.txt
-
 ```
 
 To insert new content, press `i` for `insert mode`. After editing, press `ESC` to go back to `command mode`, and type `:wq` to save and quit.

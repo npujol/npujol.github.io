@@ -23,14 +23,12 @@ To copy files, we utilize the `cp` command. It stands for “copy” and operate
 
 ```bash
 cp /path/to/original/file /path/to/copied/file
-
 ```
 
 On the other hand, to rename or move files, we use the `mv` command. The `mv` command stands for “move”. Similar to the `cp` command, it operates on two arguments being the file you want to rename or move and the file or directory you want to rename or move it to. This would look something like:
 
 ```bash
 mv /path/to/original/file /path/to/new/file
-
 ```
 
 Remember that Linux commands are case sensitive so make sure to enter the commands exactly as they are.

@@ -33,7 +33,6 @@ To create an LVM, you need to follow these steps in Linux:
 pvcreate /dev/sdb1
 vgcreate my-vg /dev/sdb1
 lvcreate -L 10G my-vg -n my-lv
-
 ```
 
 In the above commands, we create a physical volume on `/dev/sdb1`, then create a volume group named `my-vg`. Finally, we carve out a 10GB logical volume from the volume group and name it `my-lv`.

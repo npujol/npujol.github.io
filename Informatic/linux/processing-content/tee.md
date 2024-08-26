@@ -26,4 +26,4 @@ command | tee file
 
 ```
 
-In this construction `command` represents the command from which `tee` reads the output, and `file` signifies the file where `tee` writes the output. It`s an extremely useful command for users who want to document their terminal undertakings as it enables both reviewing the result in the terminal and storing the output in the file simultaneously.
+In this construction `command` represents the command from which `tee` reads the output, and `file` signifies the file where `tee` writes the output. It's an extremely useful command for users who want to document their terminal undertakings as it enables both reviewing the result in the terminal and storing the output in the file simultaneously.

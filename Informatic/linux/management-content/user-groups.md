@@ -17,7 +17,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/linux/user-management/u
 
 ## Linux User Groups
 
-In Linux, a User Group is a mechanism used to manage the system`s users and permissions. It represents a collection of users, designed specifically to simplify system administration. Each user in Linux is a part of one or more groups. These groups are primarily used for determining access rights to various system resources, including files, directories, devices, etc.
+In Linux, a User Group is a mechanism used to manage the system's users and permissions. It represents a collection of users, designed specifically to simplify system administration. Each user in Linux is a part of one or more groups. These groups are primarily used for determining access rights to various system resources, including files, directories, devices, etc.
 
 Understanding and appropriately managing user groups in Linux is crucial for overall system security. It allows the administrator to grant certain privileges to a specific set of users, without granting them complete superuser or `root` access.
 

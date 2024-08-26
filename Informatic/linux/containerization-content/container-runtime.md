@@ -25,4 +25,4 @@ Under Linux, popular container runtime options include:
 * Containerd: Originally developed as a high-level container runtime layer to be used in Docker, Containerd is now often used as a standalone runtime.
 * CRI-O: A lightweight container runtime specifically optimized for Kubernetes.
 
-In containerization, understanding the role of container runtime is integral as it helps in better designing and running your containerized applications. This further ensures reliability and efficient use of resources. Each container runtime can be suited for different use cases so it`s best to understand their pros and cons to use them effectively.
+In containerization, understanding the role of container runtime is integral as it helps in better designing and running your containerized applications. This further ensures reliability and efficient use of resources. Each container runtime can be suited for different use cases so it's best to understand their pros and cons to use them effectively.

@@ -29,4 +29,4 @@ tail /var/log/auth.log
 
 ```
 
-Get yourself familiar with reading and understanding auth logs, as it`s one essential way to keep your server secure.
+Get yourself familiar with reading and understanding auth logs, as it's one essential way to keep your server secure.

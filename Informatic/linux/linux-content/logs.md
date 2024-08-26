@@ -17,7 +17,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/linux/booting-linux/log
 
 ## Introduction to Logs
 
-Linux, much like other operating systems, maintains logs to help administrators understand what is happening on the system. These logs document everything, including users` activities, system errors, and kernel messages. A particularly important time for insightful log messages is during the system boot process, when key system components are loaded and initialized.
+Linux, much like other operating systems, maintains logs to help administrators understand what is happening on the system. These logs document everything, including user's activities, system errors, and kernel messages. A particularly important time for insightful log messages is during the system boot process, when key system components are loaded and initialized.
 
 The “logs under booting” in Linux refers to the messages and information that are generated during the boot process. These logs record all operations and events that take place while the system is booting, which might assist in diagnosing a system issue or understanding system behavior.
 
@@ -27,7 +27,6 @@ Viewing boot messages can occur in real-time with the `dmesg` command. It's used
 
 ```bash
 dmesg | less
-
 ```
 
 This command presents the boot logs in a less direct format with the ability to scroll up and down. The kernel ring buffer only has a certain size, so old messages will be discarded after some time.

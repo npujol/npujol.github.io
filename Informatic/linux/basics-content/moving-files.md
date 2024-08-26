@@ -22,7 +22,6 @@ The general syntax for the `mv` command is as follows:
 
 ```bash
 mv [options] source destination
-
 ```
 
 Here, `source` denotes the file or directory that you want to move while `destination` denotes the location where you want to move your source file or directory.

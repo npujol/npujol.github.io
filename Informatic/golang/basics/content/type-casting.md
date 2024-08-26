@@ -23,7 +23,3 @@ Visit the following resources to learn more:
 
 - [@official@Tour of Go: Type Casting Basics](https://go.dev/tour/basics/13)
 - [@article@Go Docs: Type Casting](https://golangdocs.com/type-casting-in-golang)
-
-## Notes
-
-- [Golang types and their explanation](../../go/roadmap/notes/basics.md##golang-types-and-their-explanation)

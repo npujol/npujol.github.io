@@ -21,7 +21,7 @@ In the Linux environment, every running task or essentially a `process` is assig
 
 The Linux kernel sorts processes in the proc structure, typically found under the `/proc` file system directory. This structure contains information about all active processes, including their priorities. The concept of proc priorities under process management refers to the priority accorded to each process by the system. This priority value (also known as `nice`  value) ranges from -20 (highest priority) to +19 (lowest priority).
 
-By understanding and managing proc priorities, you can optimize system performance and control which processes receive more or less of the CPU`s attention.
+By understanding and managing proc priorities, you can optimize system performance and control which processes receive more or less of the CPU's attention.
 
 Here's a simple command in the Linux terminal to display the process ID, priority, and user for all processes:
 

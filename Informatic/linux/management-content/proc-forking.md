@@ -21,7 +21,7 @@ Process forking is a fundamental concept under process management in Linux syste
 
 The child process created by fork is a nearly perfect copy of the parent process with exception to just a few values including the process ID and parent process ID. Any changes made in the child process does not affect the parent process, and vice versa.
 
-Here`s a basic code snippet of proc forking in C:
+Here's a basic code snippet of proc forking in C:
 
 ```bash
 #include<sys/types.h>

@@ -23,14 +23,12 @@ To view the manual entry for any command, use:
 
 ```bash
 man [command]
-
 ```
 
 For built-in shell functions, use:
 
 ```bash
 help [command]
-
 ```
 
 Remember, Linux is case sensitive so be sure to type commands precisely.

@@ -35,7 +35,6 @@ Perhaps one of the most popular commands related to networking on a Linux system
 
 ```bash
 ifconfig
-
 ```
 
 This will output information about all network interfaces currently active on the system. However, please note that `ifconfig` is becoming obsolete and being replaced by `ip`, which offers more features and capabilities.
