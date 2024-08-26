@@ -7,6 +7,7 @@ tags:
 - informatic
 - frameworks
 - cli
+- go
 ---
 
 # clis

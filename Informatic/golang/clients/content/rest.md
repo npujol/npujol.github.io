@@ -9,6 +9,7 @@ tags:
 - communication
 - rest
 - clients
+- go
 ---
 
 # rest

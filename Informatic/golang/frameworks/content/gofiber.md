@@ -6,6 +6,7 @@ tags:
 - summary
 - informatic
 - frameworks
+- go
 ---
 
 # gofiber

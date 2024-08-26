@@ -8,6 +8,7 @@ tags:
 - database
 - packages
 - logging
+- go
 ---
 
 # zerolog

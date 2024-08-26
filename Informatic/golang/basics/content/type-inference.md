@@ -3,12 +3,10 @@ tags:
 - ready
 - online
 - reviewed
-
 - go
 - summary
 - informatic
 - types
-
 ---
 
 # type-inference

@@ -1,6 +1,5 @@
 ---
 tags:
-
 - ready
 - online
 - reviewed
@@ -9,7 +8,7 @@ tags:
 - database
 - packages
 - logging
-
+- go
 ---
 
 # log-slog
