@@ -18,6 +18,6 @@ tags:
 - [[conditionals]]
 - [[loops]]
 - [[literals]]
-- [[variables]]
+- [[Informatic/linux/programming-content/variables]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/programming)__

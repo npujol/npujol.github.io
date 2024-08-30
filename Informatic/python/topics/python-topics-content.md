@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - algorithms
   - advanced
@@ -12,20 +13,20 @@ tags:
 
 ## Contents
 
-- [[Informatic/python/topics/content/modules]]
-- [[Informatic/python/topics/content/iterators]]
+- [[python-modules]]
+- [[python-iterators]]
 - [[python-oop]]
-- [[Informatic/python/topics/content/decorators]]
-- [[Informatic/python/topics/content/regular-expressions]]
-- [[Informatic/python/topics/content/lambdas]]
-- [[Informatic/python/topics/content/list-comprehensions]]
-- [[Informatic/python/topics/content/generator-expressions]]
-- [[Informatic/python/topics/content/paradigms]]
+- [[python-decorators]]
+- [[python-regular-expressions]]
+- [[python-lambdas]]
+- [[python-list-comprehensions]]
+- [[python-generator-expressions]]
+- [[python-paradigms]]
 - [[python-oop]]
-- [[common-packages]]
-- [[context-manager]]
+- [[python-common-packages]]
+- [[python-context-manager]]
 - [[python-concurrency]]
-- [[python-enviroments]]
+- [[python-environments]]
 - [[python-static-typing]]
 - [[python-formatting]]
 - [[python-documentation]]

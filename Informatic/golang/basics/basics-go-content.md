@@ -21,10 +21,10 @@ tags:
 ## Contents
 
 - [[basic-syntax]]
-- [[variables]]
+- [[go-variables]]
 - [[packages]]
 - [[functions]]
-- [[conditionals]]
+- [[go-conditionals]]
 - [[type-casting]]
 - [[type-inference]]
 - [[for-loop]]

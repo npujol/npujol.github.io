@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - syntax
   - pytest

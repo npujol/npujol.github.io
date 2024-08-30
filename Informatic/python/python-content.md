@@ -10,11 +10,11 @@ tags:
 
 ## Contents
 
-- [[basics-content]]
+- [[python-basics-content]]
 - [[algorithms-content]]
-- [[topics-content]]
-- [[Informatic/python/frameworks/frameworks-content|frameworks-content]]
-- [[testing-content]]
+- [[python-topics-content]]
+- [[python-frameworks-content|python-frameworks-content]]
+- [[python-testing-content]]
 - [[managers-content]]
 - [[python-advanced-content]]
 - [[python-structures-content]]

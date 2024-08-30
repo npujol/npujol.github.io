@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - ready
 ---
@@ -14,5 +15,5 @@ tags:
 - [[heaps-stacks-queues]]
 - [[hash-tables]]
 - [[binary-search-trees]]
-- [[recursion]]
+- [[python-structure-recursion]]
 - [[sorting-algorithms]]

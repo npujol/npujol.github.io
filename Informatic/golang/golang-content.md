@@ -13,7 +13,7 @@ tags:
 - [[basics-go-content]]
 - [[advanced-content]]
 - [[clis-content]]
-- [[frameworks-content]]
+- [[go-frameworks-content]]
 - [[orms-content]]
 - [[logging-content]]
 - [[communication-content]]

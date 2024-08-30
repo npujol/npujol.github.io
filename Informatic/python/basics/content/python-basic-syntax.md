@@ -2,12 +2,13 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - syntax
   - ready
 ---
 
-# basic-syntax
+# python-basic-syntax
 
 ## Contents
 
