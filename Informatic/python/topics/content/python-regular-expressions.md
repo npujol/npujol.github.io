@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - algorithms
   - advanced
@@ -31,7 +32,7 @@ To transform the obsidian markdown link `[what-is-blockchain](./what-is-blockcha
 
 - Find: regex `\[([^\]]+)\]\(\./\1/\1\)`
 
-- Replace with: regex `[[$1]]`
+- Replace with: regex `\[\[$1\]\]`
 
 Explanation:
 

@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - frameworks
   - ready
@@ -33,10 +34,11 @@ Pyramid is a general, open source, web application development framework built i
 
 Plotly Dash is the most downloaded, trusted Python framework for building ML & data science web apps.
 
-- https://dash.plotly.com/tutorial
+- <https://dash.plotly.com/tutorial>
 
 ### streamlit
 
 Streamlit turns data scripts into shareable web apps in minutes.  
 All in pure Python. No front‑end experience required.
-- https://streamlit.io/
+
+- <https://streamlit.io/>

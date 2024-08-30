@@ -16,12 +16,12 @@ tags:
 
 ## Contents
 
-- [[basic-syntax]]
-- [[variables-and-datatypes]]
+- [[python-basic-syntax]]
+- [[python-variables-and-datatypes]]
 - [[lists-tuples-sets-dictionaries]]
-- [[conditionals]]
+- [[python-conditionals]]
 - [[typecasting-exceptions]]
-- [[functions]]
+- [[python-functions]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/basics)__
 

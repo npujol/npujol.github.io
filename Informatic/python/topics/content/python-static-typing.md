@@ -1,10 +1,11 @@
 ---
 tags:
   - python
+  - online
   - ready
   - types
 ---
-# python-static-typing\
+# python-static-typing
 
 ## Static Typing
 

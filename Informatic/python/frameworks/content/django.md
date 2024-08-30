@@ -1,6 +1,7 @@
 ---
 tags:
   - python
+  - online
   - ready
   - frameworks
 ---

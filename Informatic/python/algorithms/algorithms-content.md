@@ -2,6 +2,7 @@
 tags:
   - reviewed
   - python
+  - online
   - programming-language
   - algorithms
   - ready
@@ -15,8 +16,7 @@ tags:
 - [[heaps-stacks-queues]]
 - [[hash-tables]]
 - [[binary-search-trees]]
-- [[recursion]]
+- [[python-structure-recursion]]
 - [[sorting-algorithms]]
-- [[binary-search]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/algorithms)__

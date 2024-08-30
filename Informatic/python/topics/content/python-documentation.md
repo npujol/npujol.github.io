@@ -1,10 +1,10 @@
 ---
 tags:
   - python
+  - online
   - ready
 ---
 # python-documentation
-
 
 ## sphinx
 
