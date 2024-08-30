@@ -16,4 +16,4 @@ tags:
 
 Beispiele:  
 
-- "Lassen Sie Magda__bloß__in Ruhe!"
+- "Lassen Sie Magda __bloß__ in Ruhe!"

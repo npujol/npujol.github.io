@@ -2,6 +2,7 @@
 tags: obsidian-auto-glossary
 ---
 ## Glossary
+
 #### ![[orms-content]]
 
 ***
@@ -261,4 +262,3 @@ tags: obsidian-auto-glossary
 #### ![[advanced-content]]
 
 ***
-
