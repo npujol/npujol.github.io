@@ -11,7 +11,7 @@
       "query": "tag:#deutsch",
       "color": {
         "a": 1,
-        "rgb": 14048466
+        "rgb": 8826606
       }
     },
     {
@@ -26,6 +26,13 @@
       "color": {
         "a": 1,
         "rgb": 15041949
+      }
+    },
+    {
+      "query": "tag:#python  ",
+      "color": {
+        "a": 1,
+        "rgb": 15233380
       }
     }
   ],
