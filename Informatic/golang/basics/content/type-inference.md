@@ -23,3 +23,6 @@ Visit the following resources to learn more:
 
 - [@article@Go Variables: Type Inference](https://www.callicoder.com/golang-variables-zero-values-type-inference/#type-inference)
 - [@official@Tour of Go: Type Inference](https://go.dev/tour/basics/14)
+
+- `:=` syntax to declare a variable and let the compiler infer its type from the assigned value.
+- `fmt.Printf("x is of type %T\n", x)` `%T` returns the type of the function.

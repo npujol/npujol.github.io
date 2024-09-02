@@ -17,9 +17,32 @@ __Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/type-c
 
 ## Type Casting
 
-Go doesn’t support automatic type conversion, but it allows type casting, which is the process of explicitly changing the variable type. To learn more about typecasting, visit these resources :
-
-Visit the following resources to learn more:
+Go doesn’t support automatic type conversion, but it allows type casting, which is the process of explicitly changing the variable type. 
 
 - [@official@Tour of Go: Type Casting Basics](https://go.dev/tour/basics/13)
 - [@article@Go Docs: Type Casting](https://golangdocs.com/type-casting-in-golang)
+
+- **Basic Type Conversion**: Convert between basic types like `int` and `float64` using explicit type conversion. Example: `var floatVal float64 = float64(intVal)`
+- **String Conversion**: Use functions like `strconv.Atoi` and `strconv.Itoa` for converting between strings and integers.
+- **Type Assertion**: Retrieve underlying types from interfaces using type assertions. Example: `strVal, ok := i.(string)
+- **Custom Type Conversion**: Define custom types and methods to handle conversions within your application.
+```go
+package main
+
+import (
+    "fmt"
+)
+
+type Celsius float64
+type Fahrenheit float64
+
+func (c Celsius) ToFahrenheit() Fahrenheit {
+    return Fahrenheit(c*9/5 + 32)
+}
+
+func main() {
+    tempC := Celsius(25)
+    tempF := tempC.ToFahrenheit()
+    fmt.Printf("%.2f°C is %.2f°F\n", tempC, tempF)
+}
+```

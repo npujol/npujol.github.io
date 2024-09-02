@@ -9,7 +9,7 @@ tags:
 - conditionals
 ---
 
-# conditionals
+# go-conditionals
 
 ## Contents
 
