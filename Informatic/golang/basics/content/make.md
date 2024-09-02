@@ -20,7 +20,6 @@ __Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/make)_
 
 Golang’s built-in function make, helps us create and initialize slices, maps and channels, depending on the arguments that are provided to the function.
 
-Visit the following resources to learn more:
 
 - [@official@Effective Go: Allocation with make](https://go.dev/doc/effective_go#allocation_make)
 - [@article@Create a slice with make](https://www.golangprograms.com/how-to-create-slice-using-make-function-in-golang.html)

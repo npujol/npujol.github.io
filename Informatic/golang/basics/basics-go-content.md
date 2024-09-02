@@ -74,79 +74,53 @@ Visit the following resources to learn more:
 
 ## Go Compared to Python and C++
 
-|Go |Python |C++|
-|---|---|---|
-|Statically typed |Dynamically typed |Statically typed|
-|Fast run time |Slow run time |Fast run time|
-|Compiled |Interpreted |Compiled|
-|Fast compile time |Interpreted |Slow compile time|
-|Supports concurrency through goroutines and channel |No built-in concurrency mechanism |Supports concurrency through threads|
-|Has automatic garbage collection |Has automatic garbage collection |Does not have automatic garbage collection|
-|Does not support classes and objects |Has classes and objects |Has classes and objects|
-|Does not support inheritance |Supports inheritance |Supports inheritance|
-
-## Go Syntax
-
-A Go file consists of the following parts:
-
-- Package declaration
-- Import packages
-- Functions
-- Statements and expressions
-
-## Difference Between var and :=
-
-There are some small differences between the var var :=:
-|var |`:=`|
-|--|--|
-|Can be used inside and outside of functions |Can only be used inside functions|
-|Variable declaration and value assignment can be done separately |Variable declaration and value assignment cannot be done separately|
+| Go                                                  | Python                            | C++                                        |
+| --------------------------------------------------- | --------------------------------- | ------------------------------------------ |
+| Statically typed                                    | Dynamically typed                 | Statically typed                           |
+| Fast run time                                       | Slow run time                     | Fast run time                              |
+| Compiled                                            | Interpreted                       | Compiled                                   |
+| Fast compile time                                   | Interpreted                       | Slow compile time                          |
+| Supports concurrency through goroutines and channel | No built-in concurrency mechanism | Supports concurrency through threads       |
+| Has automatic garbage collection                    | Has automatic garbage collection  | Does not have automatic garbage collection |
+| Does not support classes and objects                | Has classes and objects           | Has classes and objects                    |
+| Does not support inheritance                        | Supports inheritance              | Supports inheritance                       |
 
 ## Formatting Verbs for Printf()
 
-Go offers several formatting verbs that can be used with the Printf() function.
-General Formatting Verbs
+Go offers several formatting verbs that can be used with the `Printf()` function.
+General Formatting Verbs. The following verbs can be used with the integer data type:
 
-The following verbs can be used with all data types:
-|Verb |Description|
-|--|--|
-|`%v` |Prints the value in the default format|
-|`%#v` |Prints the value in Go-syntax format|
-|`%T` |Prints the type of the value|
-|`%%` |Prints the `%` sign|
-
-## Integer Formatting Verbs
-
-The following verbs can be used with the integer data type:
-|Verb |Description|
-|---|--|
-|`%b` |Base 2|
-|`%d` |Base 10|
-|`%+d` |Base 10 and always show sign|
-|`%o` |Base 8|
-|`%O` |Base 8, with leading 0o|
-|`%x` |Base 16, lowercase|
-|`%X` |Base 16, uppercase|
-|`%#x` |Base 16, with leading 0x|
-|`%4d` |Pad with spaces (width 4, right justified)|
-|`%-4d` |Pad with spaces (width 4, left justified)|
-|`%04d` |Pad with zeroes (width 4)|
+| Verb   | Description                                |
+| ------ | ------------------------------------------ |
+| `%b`   | Base 2, binary                             |
+| `%d`   | Base 10, decimals                          |
+| `%+d`  | Base 10 and always show sign               |
+| `%o`   | Base 8                                     |
+| `%O`   | Base 8, with leading 0o                    |
+| `%x`   | Base 16, lowercase                         |
+| `%X`   | Base 16, uppercase                         |
+| `%#x`  | Base 16, with leading 0x                   |
+| `%4d`  | Pad with spaces (width 4, right justified) |
+| `%-4d` | Pad with spaces (width 4, left justified)  |
+| `%04d` | Pad with zeroes (width 4)                  |
 
 ## String Formatting Verbs
 
 The following verbs can be used with the string data type:
-| Verb |Description|
-|--|--|
-| `%s` |Prints the value as plain string|
-| `%q` |Prints the value as a double-quoted string|
-| `%8s` |Prints the value as plain string (width 8, right justified)|
-| `%-8s` |Prints the value as plain string (width 8, left justified)|
-| `%x` |Prints the value as hex dump of byte values|
-| `% x` |Prints the value as hex dump with spaces|
+
+| Verb   | Description                                                 |
+| ------ | ----------------------------------------------------------- |
+| `%s`   | Prints the value as plain string                            |
+| `%q`   | Prints the value as a double-quoted string                  |
+| `%8s`  | Prints the value as plain string (width 8, right justified) |
+| `%-8s` | Prints the value as plain string (width 8, left justified)  |
+| `%x`   | Prints the value as hex dump of byte values                 |
+| `% x`  | Prints the value as hex dump with spaces                    |
 
 ## Boolean Formatting Verbs
 
 The following verb can be used with the boolean data type:
+
 | Verb |Description|
 |---|---|
 | `%t` |Value of the boolean operator in true or false format (same as using %v)|
@@ -154,40 +128,51 @@ The following verb can be used with the boolean data type:
 ## Float Formatting Verbs
 
 The following verbs can be used with the float data type:
-|Verb |Description|
-|---|---|
-|`%e` |Scientific notation with 'e' as exponent|
-|`%f` |Decimal point, no exponent|
-|`%.2f`|Default width, precision 2|
-|`%6.2f` |Width 6, precision 2|
-|`%g` |Exponent as needed, only necessary digits|
 
-## Array vs Slice
-
-- Slices are similar to arrays, but are more powerful and flexible.
-- Like arrays, slices are also used to store multiple values of the same type in a single variable.
-- However, unlike arrays, the length of a slice can grow and shrink as you see fit.
-
-### Capacity vs length
-
-- __len() function__ - returns the length of the slice (the number of elements in the slice)
-- __cap() function__ - returns the capacity of the slice (the number of elements the slice can grow or shrink to)
+| Verb    | Description                               |
+| ------- | ----------------------------------------- |
+| `%e`    | Scientific notation with 'e' as exponent  |
+| `%f`    | Decimal point, no exponent                |
+| `%.2f`  | Default width, precision 2                |
+| `%6.2f` | Width 6, precision 2                      |
+| `%g`    | Exponent as needed, only necessary digits |
 
 ### Memory Efficiency
 
 When using slices, Go loads all the underlying elements into the memory.
-If the array is large and you need only a few elements, it is better to copy those elements using the __copy() function__.
-The __copy() function__ creates a new underlying array with only the required elements for the slice. This will reduce the memory used for the program.
+If the array is large and you need only a few elements, it is better to copy those elements using the __copy() function__. The __copy() function__ creates a new underlying array with only the required elements for the slice. This will reduce the memory used for the program.
 
-## Functions
+```go
+package main
 
-### Naming Rules for Go Functions
+import (
+	"fmt"
+)
 
-- A function name must start with a letter
-- A function name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-- Function names are case-sensitive
-- A function name cannot contain spaces
-- If the function name consists of multiple words, techniques introduced for multi-word variable naming can be used
+func main() {
+	// Suppose we have a large array
+	largeArray := [1000000]int{}
+	for i := 0; i < len(largeArray); i++ {
+		largeArray[i] = i
+	}
+
+	// We only need a small slice of this large array
+	smallSlice := largeArray[100:200]
+
+	// This smallSlice still references the entire largeArray in memory
+	fmt.Println("Length of smallSlice:", len(smallSlice))
+	fmt.Println("Capacity of smallSlice:", cap(smallSlice)) // Large capacity indicates underlying array is still large
+
+	// To optimize memory, create a new slice with a new underlying array using copy
+	optimizedSlice := make([]int, len(smallSlice))
+	copy(optimizedSlice, smallSlice)
+
+	// Now, optimizedSlice is independent of largeArray and uses less memory
+	fmt.Println("Length of optimizedSlice:", len(optimizedSlice))
+	fmt.Println("Capacity of optimizedSlice:", cap(optimizedSlice)) // Capacity now matches the length, indicating efficient memory usage
+}
+
+```
 
 ### Defer
 
