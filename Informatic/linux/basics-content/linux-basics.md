@@ -9,7 +9,7 @@ tags:
 - basic
 ---
 
-# basics
+# linux-basics
 
 ## Contents
 
