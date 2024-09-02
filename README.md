@@ -16,3 +16,9 @@ Here are some ideas to get you started:
 -->
 
 [https://npujol.github.io/](https://npujol.github.io/)
+
+## CV
+
+- [English](./Me/chuli-cv/cv-en.pdf)
+- [German](./Me/chuli-cv/cv-de.pdf)
+- [Spanish](./Me/chuli-cv/cv-es.pdf)
