@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f3733b49d6d6954d",
+        "id": "ac46d8336f309780",
         "type": "tabs",
         "children": [
           {
-            "id": "59d3d37c34ecc3aa",
+            "id": "425e5d81f22de379",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,21 +138,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59d3d37c34ecc3aa",
+  "active": "425e5d81f22de379",
   "lastOpenFiles": [
-    "Me/chuli-cv/cv-es.pdf",
-    "Me/chuli-cv/letter.pdf",
-    "Me/chuli-cv/cv-en.pdf",
-    "Me/chuli-cv/cv-de.pdf",
-    "Informatic/linux/linux-content.md",
-    "Informatic/python/structures/content/python-arrays-linked-lists.md",
+    "Deutsch/C1.1/C1_1.md.md",
+    "Deutsch/Deutsch.md",
+    "Informatic/python/python-content-debb.ffs_tmp",
     "Informatic/python/sync.ffs_lock",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
-    "Informatic/python/structures/content/python-structure-recursion.md",
     "Informatic/python/basics/python-basics-content.md",
-    "Informatic/python/python-content-0087.ffs_tmp",
+    "Informatic/python/basics/python-basics-content-def6.ffs_tmp",
+    "Informatic/python/basics/content/python-basic-syntax.md",
+    "Informatic/python/basics/content/python-conditionals.md",
+    "Informatic/python/basics/content/lists-tuples-sets-dictionaries.md",
+    "Informatic/python/basics/content/python-functions.md",
+    "Informatic/python/algorithms/content/recursion.md",
+    "Informatic/python/algorithms/content/python-recursion.md",
+    "Informatic/python/algorithms/algorithms-content-313b.ffs_tmp",
+    "Informatic/golang/tutorials/golang-nixos-with-flake.md",
+    "Informatic/linux/basics-content/linux-basics.md",
+    "Informatic/golang/tutorials",
+    "Informatic/python/structures/python-structures-content-fb1e.ffs_tmp",
+    "README.md",
+    "Me/chuli-cv/cv-es.pdf",
+    "Informatic/linux/linux-content.md",
+    "Informatic/python/structures/content/python-arrays-linked-lists.md",
+    "Informatic/python/structures/content/python-structure-recursion.md",
     "Informatic/python/basics/linux-basics-content.md",
     "Informatic/golang/frameworks/go-frameworks-content.md",
     "Informatic/python/frameworks/python-frameworks-content.md",
@@ -172,18 +176,6 @@
     "Informatic/python/topics/content/python-modules.md",
     "Informatic/python/topics/content/python-list-comprehensions.md",
     "Informatic/python/topics/content/python-lambdas.md",
-    "Informatic/python/topics/content/python-iterators.md",
-    "Informatic/python/topics/content/python-generator-expressions.md",
-    "Informatic/python/topics/content/python-decorators.md",
-    "Informatic/python/topics/content/python-context-manager.md",
-    "Informatic/python/topics/content/python-common-packages.md",
-    "Informatic/python/structures/content/python-sorting-algorithms.md",
-    "Informatic/python/structures/content/python-heaps-stacks-queues.md",
-    "Informatic/python/structures/content/python-hash-tables.md",
-    "Informatic/python/structures/content/python-binary-search-trees.md",
-    "Informatic/python/basics/content/python-variables-and-datatypes.md",
-    "Informatic/python/topics/content/python-static-typing-b6f4.ffs_tmp",
-    "Informatic/golang/advanced/content/go-modules-a09f.ffs_tmp",
     "Untitled.canvas"
   ]
 }

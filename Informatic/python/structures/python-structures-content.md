@@ -11,9 +11,9 @@ tags:
 
 ## Contents
 
-- [[arrays-linked-lists]]
-- [[heaps-stacks-queues]]
-- [[hash-tables]]
-- [[binary-search-trees]]
+- [[python-arrays-linked-lists]]
+- [[python-heaps-stacks-queues]]
+- [[python-hash-tables]]
+- [[python-binary-search-trees]]
 - [[python-structure-recursion]]
-- [[sorting-algorithms]]
+- [[python-sorting-algorithms]]

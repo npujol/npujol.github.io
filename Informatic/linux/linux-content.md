@@ -12,7 +12,7 @@ tags:
 
 ## Contents
 
-- [[python-basics-content]]
+- [[linux-basics]]
 - [[files]]
 - [[processing]]
 - [[review]]

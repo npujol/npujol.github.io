@@ -10,6 +10,7 @@ tags:
 - functions
 - errors
 - exceptions
+- online
 ---
 
 # basics-content
