@@ -140,13 +140,13 @@
   },
   "active": "425e5d81f22de379",
   "lastOpenFiles": [
-    "Deutsch/C1.1/C1_1.md.md",
-    "Deutsch/Deutsch.md",
-    "Informatic/python/python-content-debb.ffs_tmp",
     "Informatic/python/sync.ffs_lock",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
+    "Deutsch/C1.1/C1_1.md.md",
+    "Deutsch/Deutsch.md",
+    "Informatic/python/python-content-debb.ffs_tmp",
     "Informatic/python/basics/python-basics-content.md",
     "Informatic/python/basics/python-basics-content-def6.ffs_tmp",
     "Informatic/python/basics/content/python-basic-syntax.md",
@@ -175,7 +175,6 @@
     "Informatic/python/topics/content/python-paradigms.md",
     "Informatic/python/topics/content/python-modules.md",
     "Informatic/python/topics/content/python-list-comprehensions.md",
-    "Informatic/python/topics/content/python-lambdas.md",
     "Untitled.canvas"
   ]
 }
