@@ -146,32 +146,31 @@ If the array is large and you need only a few elements, it is better to copy tho
 package main
 
 import (
-	"fmt"
+ "fmt"
 )
 
 func main() {
-	// Suppose we have a large array
-	largeArray := [1000000]int{}
-	for i := 0; i < len(largeArray); i++ {
-		largeArray[i] = i
-	}
+ // Suppose we have a large array
+ largeArray := [1000000]int{}
+ for i := 0; i < len(largeArray); i++ {
+  largeArray[i] = i
+ }
 
-	// We only need a small slice of this large array
-	smallSlice := largeArray[100:200]
+ // We only need a small slice of this large array
+ smallSlice := largeArray[100:200]
 
-	// This smallSlice still references the entire largeArray in memory
-	fmt.Println("Length of smallSlice:", len(smallSlice))
-	fmt.Println("Capacity of smallSlice:", cap(smallSlice)) // Large capacity indicates underlying array is still large
+ // This smallSlice still references the entire largeArray in memory
+ fmt.Println("Length of smallSlice:", len(smallSlice))
+ fmt.Println("Capacity of smallSlice:", cap(smallSlice)) // Large capacity indicates underlying array is still large
 
-	// To optimize memory, create a new slice with a new underlying array using copy
-	optimizedSlice := make([]int, len(smallSlice))
-	copy(optimizedSlice, smallSlice)
+ // To optimize memory, create a new slice with a new underlying array using copy
+ optimizedSlice := make([]int, len(smallSlice))
+ copy(optimizedSlice, smallSlice)
 
-	// Now, optimizedSlice is independent of largeArray and uses less memory
-	fmt.Println("Length of optimizedSlice:", len(optimizedSlice))
-	fmt.Println("Capacity of optimizedSlice:", cap(optimizedSlice)) // Capacity now matches the length, indicating efficient memory usage
+ // Now, optimizedSlice is independent of largeArray and uses less memory
+ fmt.Println("Length of optimizedSlice:", len(optimizedSlice))
+ fmt.Println("Capacity of optimizedSlice:", cap(optimizedSlice)) // Capacity now matches the length, indicating efficient memory usage
 }
-
 ```
 
 ### Defer

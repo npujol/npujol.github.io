@@ -27,10 +27,10 @@ Visit the following resources to learn more:
 
 A Go file consists of the following parts:
 
-- **Package declaration**: The first line of every Go source file must declare the package it belongs to. In this example, the package is `main`, which is the entry point of a Go program.
-- **Import packages**: The `import` statement is used to include other packages that your program depends on. In this example, we import the `fmt` package for formatted I/O and the `math` package for mathematical functions.
-- **Functions**: Functions contain the executable code. The `main` function is special; it is the entry point of a Go program. Other functions can be defined to structure the program logic, such as the `add` function in this example.
-- **Statements and expressions**: Inside functions, you write the logic of your program using statements (like `fmt.Println`) and expressions (like `a + b`). These are the actual instructions that the Go compiler will execute.
+- __Package declaration__: The first line of every Go source file must declare the package it belongs to. In this example, the package is `main`, which is the entry point of a Go program.
+- __Import packages__: The `import` statement is used to include other packages that your program depends on. In this example, we import the `fmt` package for formatted I/O and the `math` package for mathematical functions.
+- __Functions__: Functions contain the executable code. The `main` function is special; it is the entry point of a Go program. Other functions can be defined to structure the program logic, such as the `add` function in this example.
+- __Statements and expressions__: Inside functions, you write the logic of your program using statements (like `fmt.Println`) and expressions (like `a + b`). These are the actual instructions that the Go compiler will execute.
 
 ```go
 // Package declaration

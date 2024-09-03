@@ -27,7 +27,6 @@ Slices are similar to arrays but are more powerful and flexible. Like arrays, sl
 - [@article@Slices in Go](https://www.w3schools.com/go/go_slices.php)
 - [@video@Learn Go Programming - Slices (by freeCodeCamp on YouTube)](https://youtu.be/YS4e4q9oBaU?t=6473)
 
-
 ## Array vs Slice
 
 __Slices:__

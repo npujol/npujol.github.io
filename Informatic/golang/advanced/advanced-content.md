@@ -33,4 +33,3 @@ tags:
 - [[pointers]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/advanced)__
-

@@ -39,11 +39,11 @@ Discover how functions work in Go, the list of resources below will cover :
 
 ### Functions Best Practices
 
-- **Keep functions small**: Each function should focus on a single task.
-- **Use descriptive names**: Choose names that clearly convey the function’s purpose.
-- **Limit parameters**: Use structs to group related parameters.
-- **Document clearly**: Use comments to describe what each function does.
-- **Handle errors**: Return errors and handle them appropriately.
-- **Avoid side effects**: Functions should be predictable and not alter external state.
-- **Prefer explicitness**: Make behavior clear and explicit.
-- **Return early**: Simplify control flow by returning early.
+- __Keep functions small__: Each function should focus on a single task.
+- __Use descriptive names__: Choose names that clearly convey the function’s purpose.
+- __Limit parameters__: Use structs to group related parameters.
+- __Document clearly__: Use comments to describe what each function does.
+- __Handle errors__: Return errors and handle them appropriately.
+- __Avoid side effects__: Functions should be predictable and not alter external state.
+- __Prefer explicitness__: Make behavior clear and explicit.
+- __Return early__: Simplify control flow by returning early.

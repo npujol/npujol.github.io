@@ -36,3 +36,12 @@ Visit the following resources to learn more:
 - [@official@How to use modules in Go](https://go.dev/blog/using-go-modules)
 - [@article@How to modify existing projects to use Go modules](https://jfrog.com/blog/converting-projects-for-go-modules/)
 - [@feed@Explore top posts about Golang](https://app.daily.dev/tags/golang?ref=roadmapsh)
+
+### Developing Go code with modules
+
+- Creating a new module.
+- Adding a dependency.
+- Upgrading dependencies.
+- Adding a dependency on a new major version.
+- Upgrading a dependency to a new major version.
+- Removing unused dependencies.

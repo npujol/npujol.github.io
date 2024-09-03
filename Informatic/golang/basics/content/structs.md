@@ -19,11 +19,11 @@ __Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/struct
 
 ## Structs
 
-Structs are user-defined types that help us create a collection of data describing a single entity. 
+Structs are user-defined types that help us create a collection of data describing a single entity.
 
-- Structs are mutable. 
-- Structs are user-defined types that help us create a collection of data describing a single entity. 
-- Structs are mutable. 
+- Structs are mutable.
+- Structs are user-defined types that help us create a collection of data describing a single entity.
+- Structs are mutable.
 - It’s idiomatic to encapsulate new struct creation in constructor functions
 
 - [@official@Go Structs](https://go.dev/tour/moretypes/2)
