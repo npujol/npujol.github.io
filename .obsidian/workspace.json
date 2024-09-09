@@ -11,12 +11,8 @@
             "id": "894036802342ecd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/Deutsch.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deutsch/Deutsch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deutsch/Deutsch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Deutsch/Deutsch.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,6 +140,7 @@
   },
   "active": "894036802342ecd7",
   "lastOpenFiles": [
+    "Deutsch/Deutsch.md",
     "Informatic/golang/logging/content/logrus.md",
     "Informatic/golang/communication/communication-content-1b34.ffs_tmp",
     "Informatic/python/sync.ffs_lock",
@@ -156,7 +149,6 @@
     "Deutsch/C1.1/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
     "C1_1.md",
-    "Deutsch/Deutsch.md",
     "Deutsch/C1.1/c11_inhalte.md",
     "Deutsch/C1.1/C1_1.md",
     "Deutsch/C1.1/C1_1.md.md",

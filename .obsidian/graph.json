@@ -34,6 +34,13 @@
         "a": 1,
         "rgb": 15233380
       }
+    },
+    {
+      "query": "tag:#terraform",
+      "color": {
+        "a": 1,
+        "rgb": 13476397
+      }
     }
   ],
   "collapse-display": true,
@@ -47,5 +54,5 @@
   "linkStrength": 1,
   "linkDistance": 250,
   "scale": 0.24007856837437574,
-  "close": true
+  "close": false
 }
