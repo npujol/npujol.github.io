@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ac46d8336f309780",
+        "id": "0f3e02ee1d05e99c",
         "type": "tabs",
         "children": [
           {
-            "id": "425e5d81f22de379",
+            "id": "894036802342ecd7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/Deutsch.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deutsch/Deutsch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deutsch/Deutsch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deutsch/Deutsch.md"
+              }
             }
           }
         ]
@@ -138,14 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "425e5d81f22de379",
+  "active": "894036802342ecd7",
   "lastOpenFiles": [
+    "C1_1.md",
+    "Deutsch/Deutsch.md",
     "Informatic/python/sync.ffs_lock",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
+    "Deutsch/C1.1/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
+    "Deutsch/C1.1/c11_inhalte.md",
+    "Deutsch/C1.1/C1_1.md",
     "Deutsch/C1.1/C1_1.md.md",
-    "Deutsch/Deutsch.md",
     "Informatic/python/python-content-debb.ffs_tmp",
     "Informatic/python/basics/python-basics-content.md",
     "Informatic/python/basics/python-basics-content-def6.ffs_tmp",
@@ -161,7 +173,6 @@
     "Informatic/golang/tutorials",
     "Informatic/python/structures/python-structures-content-fb1e.ffs_tmp",
     "README.md",
-    "Me/chuli-cv/cv-es.pdf",
     "Informatic/linux/linux-content.md",
     "Informatic/python/structures/content/python-arrays-linked-lists.md",
     "Informatic/python/structures/content/python-structure-recursion.md",
@@ -173,8 +184,6 @@
     "Informatic/python/topics/content/python-environments.md",
     "Informatic/python/topics/content/python-regular-expressions.md",
     "Informatic/python/topics/content/python-paradigms.md",
-    "Informatic/python/topics/content/python-modules.md",
-    "Informatic/python/topics/content/python-list-comprehensions.md",
     "Untitled.canvas"
   ]
 }
