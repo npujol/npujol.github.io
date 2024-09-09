@@ -24,3 +24,32 @@ Visit the following resources to learn more:
 
 - [@opensource@GitHub Repository](https://github.com/twitchtv/twirp)
 - [@article@Getting started](https://twitchtv.github.io/twirp/docs/intro.html)
+
+### __Twirp__
+
+- __Purpose__: A lightweight RPC framework using Protobuf or JSON.
+- __Best For__: Simpler RPC-based microservices with minimal setup and overhead.
+
+   __Example__:
+
+   ```go
+   twirpHandler := pb.NewHaberdasherServer(&Server{}, nil)
+   http.ListenAndServe(":8080", twirpHandler)
+   ```
+
+### __Twirp__ - Lightweight RPC Framework
+
+   __Solution Example__: __Simple Microservices for a SaaS Platform__
+
+- __Use Case__: A SaaS platform with simple, small microservices (e.g., billing, authentication) that need efficient communication.
+- __Framework Usage__: __Twirp__ allows each service to use lightweight RPC, supporting both Protobuf and JSON for simple inter-service communication.
+- __Workflow__:
+     1. __BillingService__ communicates with __AuthService__ using Twirp for authentication checks before processing payments.
+     2. Services communicate over HTTP with minimal overhead using Protobuf for serialization.
+
+   __Example__:
+
+   ```go
+   twirpHandler := pb.NewBillingServer(&Server{}, nil)
+   http.ListenAndServe(":8080", twirpHandler)
+   ```

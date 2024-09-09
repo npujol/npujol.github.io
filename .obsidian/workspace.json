@@ -148,13 +148,15 @@
   },
   "active": "894036802342ecd7",
   "lastOpenFiles": [
-    "C1_1.md",
-    "Deutsch/Deutsch.md",
+    "Informatic/golang/logging/content/logrus.md",
+    "Informatic/golang/communication/communication-content-1b34.ffs_tmp",
     "Informatic/python/sync.ffs_lock",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
     "Deutsch/C1.1/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
+    "C1_1.md",
+    "Deutsch/Deutsch.md",
     "Deutsch/C1.1/c11_inhalte.md",
     "Deutsch/C1.1/C1_1.md",
     "Deutsch/C1.1/C1_1.md.md",
@@ -171,7 +173,6 @@
     "Informatic/golang/tutorials/golang-nixos-with-flake.md",
     "Informatic/linux/basics-content/linux-basics.md",
     "Informatic/golang/tutorials",
-    "Informatic/python/structures/python-structures-content-fb1e.ffs_tmp",
     "README.md",
     "Informatic/linux/linux-content.md",
     "Informatic/python/structures/content/python-arrays-linked-lists.md",
@@ -183,7 +184,6 @@
     "Informatic/golang/basics/content/go-conditionals.md",
     "Informatic/python/topics/content/python-environments.md",
     "Informatic/python/topics/content/python-regular-expressions.md",
-    "Informatic/python/topics/content/python-paradigms.md",
     "Untitled.canvas"
   ]
 }
