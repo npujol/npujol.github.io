@@ -4,6 +4,7 @@ tags:
   - output
   - ready
   - online
+  - docker
 ---
 
 # docker-content

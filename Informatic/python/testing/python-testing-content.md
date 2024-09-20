@@ -12,10 +12,10 @@ tags:
 
 ## Contents
 
-- [[unittest-pyunit]]
-- [[pytest]]
-- [[doctest]]
-- [[nose]]
+- [[python-unittest-pyunit]]
+- [[python-pytest]]
+- [[python-doctest]]
+- [[python-nose]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/testing)__
 

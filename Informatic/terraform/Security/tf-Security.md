@@ -11,8 +11,8 @@ tags:
 
 ## Contents
 
-- [[Terrascan]]
-- [[Checkov]]
+- [[tf-Terrascan]]
+- [[tf-Checkov]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/security@erxow5xNRj01WepdFOhVf)__
 

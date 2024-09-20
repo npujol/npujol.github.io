@@ -13,15 +13,15 @@ tags:
 
 ## Contents
 
-- [[basic-commands]]
-- [[moving-files]]
-- [[creating-files]]
-- [[directory-hierarchy]]
-- [[command-path]]
-- [[environment-variables]]
-- [[command-help]]
-- [[redirects]]
-- [[super-user]]
+- [[linux-basic-commands]]
+- [[linux-moving-files]]
+- [[linux-creating-files]]
+- [[linux-directory-hierarchy]]
+- [[linux-command-path]]
+- [[linux-environment-variables]]
+- [[linux-command-help]]
+- [[linux-redirects]]
+- [[linux-super-user]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/basics)__
 

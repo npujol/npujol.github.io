@@ -33,7 +33,7 @@ Visit the following resources to learn more:
 
 ### Example: Using the `context` Package with Channels in Go
 
-The `context` package in Go is commonly used to manage the lifecycle of goroutines and handle cancellations, timeouts, and deadlines. Below is an example that demonstrates how to use `context` with [[channels]] to control the execution of worker goroutines.
+The `context` package in Go is commonly used to manage the lifecycle of goroutines and handle cancellations, timeouts, and deadlines. Below is an example that demonstrates how to use `context` with [[go-channels]] to control the execution of worker goroutines.
 
 #### Scenario
 

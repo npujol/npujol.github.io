@@ -14,7 +14,7 @@ tags:
 
 ## Contents
 
-- [[cobra]]
-- [[urfave-cli]]
+- [[go-cobra]]
+- [[go-urfave-cli]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/clis)__

@@ -11,9 +11,9 @@ tags:
 
 ## Contents
 
-- [[state-pull-push]]
-- [[state-replace-provider]]
-- [[state-force-unlock]]
+- [[tf-state-pull-push]]
+- [[tf-state-replace-provider]]
+- [[tf-state-force-unlock]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/template> files@nFq-64JQoYAKjN9YkmOfO)__
 

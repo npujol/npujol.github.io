@@ -18,18 +18,18 @@ tags:
 
 ## Contents
 
-- [[interfaces]]
-- [[types-and-type-assertions]]
-- [[goroutines]]
-- [[channels]]
-- [[buffer]]
-- [[select]]
-- [[scheduler]]
+- [[go-interfaces]]
+- [[go-types-and-type-assertions]]
+- [[go-goroutines]]
+- [[go-channels]]
+- [[go-buffer]]
+- [[go-select]]
+- [[go-scheduler]]
 - [[go-modules]]
-- [[working-with-json]]
-- [[context]]
-- [[mutex]]
-- [[generics]]
-- [[pointers]]
+- [[go-working-with-json]]
+- [[go-context]]
+- [[go-mutex]]
+- [[go-generics]]
+- [[go-pointers]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/advanced)__

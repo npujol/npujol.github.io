@@ -14,9 +14,9 @@ tags:
 
 ## Contents
 
-- [[uptime-load]]
-- [[auth-logs]]
-- [[services-running]]
-- [[available-mem]]
+- [[linux-uptime-load]]
+- [[linux-auth-logs]]
+- [[linux-services-running]]
+- [[linux-available-mem]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/review)__

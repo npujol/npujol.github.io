@@ -13,15 +13,15 @@ tags:
 
 ## Contents
 
-- [[tcp-ip]]
-- [[subnetting]]
-- [[ethernet-arp-rarp]]
-- [[dhcp]]
-- [[ip-routing]]
-- [[dns-resolution]]
-- [[netfilter]]
-- [[ssh]]
-- [[file-transfer]]
+- [[linux-tcp-ip]]
+- [[linux-subnetting]]
+- [[linux-ethernet-arp-rarp]]
+- [[linux-dhcp]]
+- [[linux-ip-routing]]
+- [[linux-dns-resolution]]
+- [[linux-netfilter]]
+- [[linux-ssh]]
+- [[linux-file-transfer]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/networking)__
 

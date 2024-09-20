@@ -11,12 +11,12 @@ tags:
 
 ## Contents
 
-- [[When-to-Use]]
-- [[Creation-Destroy-Time]]
-- [[file-provisioner]]
-- [[local-exec-provisioner]]
-- [[remote-exec-provisioner]]
-- [[Custom-Provisioners]]
+- [[tf-When-to-Use]]
+- [[tf-Creation-Destroy-Time]]
+- [[tf-file-provisioner]]
+- [[tf-local-exec-provisioner]]
+- [[tf-remote-exec-provisioner]]
+- [[tf-Custom-Provisioners]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/provisioners@huXZz55P7kVJwTn5BS_Wk)__
 

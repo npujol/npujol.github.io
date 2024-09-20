@@ -16,7 +16,7 @@ tags:
 
 ## Contents
 
-- [[gorm-content]]
+- [[go-gorm-content]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/orms)__
 

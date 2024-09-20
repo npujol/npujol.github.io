@@ -14,11 +14,11 @@ tags:
 
 ## Contents
 
-- [[icmp]]
-- [[ping]]
-- [[traceroute]]
-- [[netstat]]
-- [[packet-analysis]]
+- [[linux-icmp]]
+- [[linux-ping]]
+- [[linux-traceroute]]
+- [[linux-netstat]]
+- [[linux-packet-analysis]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/troubleshooting)__
 

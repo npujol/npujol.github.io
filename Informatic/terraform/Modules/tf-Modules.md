@@ -11,11 +11,11 @@ tags:
 
 ## Contents
 
-- [[Root-vs-Child-Modules]]
-- [[Published-Modules-Usage]]
-- [[Creating-Local-Modules]]
-- [[Inputs-Outputs]]
-- [[Modules-Best-Practices]]
+- [[tf-Root-vs-Child-Modules]]
+- [[tf-Published-Modules-Usage]]
+- [[tf-Creating-Local-Modules]]
+- [[tf-Inputs-Outputs]]
+- [[tf-Modules-Best-Practices]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/modules@6vs1VvjeILgAPLL6g7dfy)__
 

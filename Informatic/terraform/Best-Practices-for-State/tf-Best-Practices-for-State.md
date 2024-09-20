@@ -11,7 +11,7 @@ tags:
 
 ## Contents
 
-- [[replace-option-in-apply]]
+- [[tf-replace-option-in-apply]]
 - [[tf-show]]
 - [[tf-rm]]
 - [[tf-mv]]

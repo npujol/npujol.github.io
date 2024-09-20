@@ -12,12 +12,12 @@ tags:
 
 ## Contents
 
-- [[Remote-State]]
-- [[State-Locking]]
+- [[tf-Remote-State]]
+- [[tf-State-Locking]]
 - [[tf-Import-Existing-Resources]]
-- [[Splitting-State-Files]]
-- [[Versioning]]
-- [[Sensitive-Data]]
+- [[tf-Splitting-State-Files]]
+- [[tf-Versioning]]
+- [[tf-Sensitive-Data]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/state@jas0XILqCUXjWRk3ZoSEO)__
 

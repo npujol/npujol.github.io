@@ -16,7 +16,7 @@ tags:
 - [[python-topics-content]]
 - [[python-frameworks-content|python-frameworks-content]]
 - [[python-testing-content]]
-- [[managers-content]]
+- [[python-managers-content]]
 - [[python-advanced-content]]
 - [[python-structures-content]]
 

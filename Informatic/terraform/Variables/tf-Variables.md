@@ -11,12 +11,12 @@ tags:
 
 ## Contents
 
-- [[Input-Variables]]
-- [[Type-Constraints]]
-- [[Environment-Variables]]
-- [[Variable-Definition-File]]
-- [[Validation-Rules]]
-- [[Local-Values]]
+- [[tf-Input-Variables]]
+- [[tf-Type-Constraints]]
+- [[tf-Environment-Variables]]
+- [[tf-Variable-Definition-File]]
+- [[tf-Validation-Rules]]
+- [[tf-Local-Values]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/variables@7GK4fQf1FRKrZgZkxNahj)__
 

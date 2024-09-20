@@ -11,9 +11,9 @@ tags:
 
 ## Contents
 
-- [[Output-Syntax]]
-- [[Sensitive-Outputs]]
-- [[Preconditions]]
+- [[tf-Output-Syntax]]
+- [[tf-Sensitive-Outputs]]
+- [[tf-Preconditions]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/outputs@Xes24SqkwSaO844kLbClj)__
 

@@ -17,7 +17,7 @@ tags:
 
 ## Contents
 
-- [[rest]]
-- [[graphql]]
+- [[go-rest]]
+- [[go-graphql]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/clients)__

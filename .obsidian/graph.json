@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 13476397
       }
+    },
+    {
+      "query": "tag:docker",
+      "color": {
+        "a": 1,
+        "rgb": 11828334
+      }
     }
   ],
   "collapse-display": true,
