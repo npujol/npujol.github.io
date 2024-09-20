@@ -11,14 +11,14 @@ tags:
 
 ## Contents
 
-- [[Resource-Behavior]]
-- [[Resource-Lifecycle]]
-- [[dependson]]
-- [[tfcount]]
-- [[tfforeach]]
-- [[tfprovider]]
-- [[lifecycle]]
-- [[Meta-Arguments]]
+- [[tf-Resource-Behavior]]
+- [[tf-Resource-Lifecycle]]
+- [[tf-dependson]]
+- [[tf-count]]
+- [[tf-foreach]]
+- [[tf-provider]]
+- [[tf-lifecycle]]
+- [[tf-Meta-Arguments]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/resources@AY7_xUeCl6ilqZzg1YFoP)__
 

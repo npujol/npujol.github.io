@@ -11,15 +11,15 @@ tags:
 
 ## Contents
 
-- [[watermill]]
-- [[rpcx]]
+- [[go-watermill]]
+- [[go-rpcx]]
 - [[go-kit]]
-- [[micro]]
+- [[go-micro]]
 - [[go-zero]]
-- [[protocol-buffers]]
-- [[grpc-go]]
-- [[grpc-gateway]]
-- [[twirp]]
+- [[go-protocol-buffers]]
+- [[go-grpc-go]]
+- [[go-grpc-gateway]]
+- [[go-twirp]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/microservices)__
 

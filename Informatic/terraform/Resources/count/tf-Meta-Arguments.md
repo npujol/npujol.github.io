@@ -11,11 +11,11 @@ tags:
 
 ## Contents
 
-- [[dependson]]
-- [[tfcount]]
-- [[tfforeach]]
-- [[tfprovider]]
-- [[lifecycle]]
+- [[tf-dependson]]
+- [[tf-count]]
+- [[tf-foreach]]
+- [[tf-provider]]
+- [[tf-lifecycle]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/meta> arguments@TPd00dRndj1P8674KTTrm)__
 

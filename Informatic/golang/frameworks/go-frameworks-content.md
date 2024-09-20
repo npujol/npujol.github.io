@@ -12,12 +12,12 @@ tags:
 
 ## Contents
 
-- [[beego]]
-- [[gin]]
-- [[revel]]
-- [[echo]]
-- [[gorilla]]
-- [[gofiber]]
+- [[go-beego]]
+- [[go-gin]]
+- [[go-revel]]
+- [[go-echo]]
+- [[go-gorilla]]
+- [[go-gofiber]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/frameworks)__
 

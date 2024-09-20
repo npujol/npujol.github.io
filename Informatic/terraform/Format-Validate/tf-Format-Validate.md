@@ -11,9 +11,9 @@ tags:
 
 ## Contents
 
-- [[terraform-fmt]]
-- [[terraform-validate]]
-- [[TFLint]]
+- [[tf-terraform-fmt]]
+- [[tf-terraform-validate]]
+- [[tf-TFLint]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/format> & validate@pjmOK1MEMnIV_zAlaOF01)__
 

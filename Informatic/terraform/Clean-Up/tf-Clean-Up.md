@@ -11,7 +11,7 @@ tags:
 
 ## Contents
 
-- [[terraform-destroy]]
+- [[tf-terraform-destroy]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/clean> up@5xAE-9viD7DP_ugQ6NE_C)__
 

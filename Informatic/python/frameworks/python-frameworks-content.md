@@ -12,11 +12,11 @@ tags:
 
 ## Contents
 
-- [[synchronous]]
-- [[asynchronous]]
-- [[fastapi]]
-- [[django]]
-- [[flask]]
+- [[python-synchronous]]
+- [[python-asynchronous]]
+- [[python-fastapi]]
+- [[python-django]]
+- [[python-flask]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/frameworks)__
 

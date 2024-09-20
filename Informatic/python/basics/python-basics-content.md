@@ -19,9 +19,9 @@ tags:
 
 - [[python-basic-syntax]]
 - [[python-variables-and-datatypes]]
-- [[lists-tuples-sets-dictionaries]]
+- [[python-lists-tuples-sets-dictionaries]]
 - [[python-conditionals]]
-- [[typecasting-exceptions]]
+- [[python-typecasting-exceptions]]
 - [[python-functions]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/basics)__

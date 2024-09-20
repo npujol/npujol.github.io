@@ -12,12 +12,12 @@ tags:
 
 ## Contents
 
-- [[vim]]
-- [[nano]]
-- [[permissions]]
-- [[archiving]]
-- [[copying-renaming]]
-- [[soft-hard-links]]
+- [[linux-vim]]
+- [[linux-nano]]
+- [[linux-permissions]]
+- [[linux-archiving]]
+- [[linux-copying-renaming]]
+- [[linux-soft-hard-links]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/files)__
 

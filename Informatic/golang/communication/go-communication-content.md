@@ -14,8 +14,8 @@ tags:
 
 ## Contents
 
-- [[melody]]
-- [[centrifugo]]
+- [[go-melody]]
+- [[go-centrifugo]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/communication)__
 

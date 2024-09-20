@@ -20,22 +20,22 @@ tags:
 
 ## Contents
 
-- [[basic-syntax]]
+- [[go-basic-syntax]]
 - [[go-variables]]
-- [[packages]]
-- [[functions]]
+- [[go-packages]]
+- [[go-functions]]
 - [[go-conditionals]]
-- [[type-casting]]
-- [[type-inference]]
-- [[for-loop]]
-- [[structs]]
-- [[arrays]]
-- [[slices]]
-- [[make]]
-- [[range]]
-- [[maps]]
-- [[errors-panic-recover]]
-- [[data-types]]
+- [[go-type-casting]]
+- [[go-type-inference]]
+- [[go-for-loop]]
+- [[go-structs]]
+- [[go-arrays]]
+- [[go-slices]]
+- [[go-make]]
+- [[go-range]]
+- [[go-maps]]
+- [[go-errors-panic-recover]]
+- [[go-data-types]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/basics)__
 

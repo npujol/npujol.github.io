@@ -12,11 +12,11 @@ tags:
 
 ## Contents
 
-- [[pypi]]
-- [[pip]]
-- [[conda]]
-- [[poetry]]
-- [[uv]]
+- [[python-pypi]]
+- [[python-pip]]
+- [[python-conda]]
+- [[python-poetry]]
+- [[python-uv]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/managers)__
 

@@ -11,8 +11,8 @@ tags:
 
 ## Contents
 
-- [[terraform-plan]]
-- [[terraform-apply]]
+- [[tf-terraform-plan]]
+- [[tf-terraform-apply]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/deployment@KXlLlaR0_S7gE_ZB1hNEd)__
 

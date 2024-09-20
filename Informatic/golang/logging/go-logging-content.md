@@ -15,10 +15,10 @@ tags:
 
 ## Contents
 
-- [[zap]]
-- [[zerolog]]
-- [[log-slog]]
-- [[logrus]]
+- [[go-zap]]
+- [[go-zerolog]]
+- [[go-log-slog]]
+- [[go-logrus]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/golang/logging)__
 

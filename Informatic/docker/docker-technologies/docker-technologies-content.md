@@ -29,7 +29,7 @@ Linux Containers (LXC) enables running multiple independent Linux systems on a s
 
 ## Control Groups (cgroups)
 
-Control Groups ([[cgroups]]) is a Linux kernel feature that allows the allocation and management of resources like CPU, memory, and I/O to a set of processes. Docker leverages cgroups to limit the resources used by containers and ensure that one container does not monopolize the resources of the host system.
+Control Groups ([[linux-cgroups]]) is a Linux kernel feature that allows the allocation and management of resources like CPU, memory, and I/O to a set of processes. Docker leverages cgroups to limit the resources used by containers and ensure that one container does not monopolize the resources of the host system.
 
 ## Union File Systems (UnionFS)
 

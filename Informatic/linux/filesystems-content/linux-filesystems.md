@@ -13,11 +13,11 @@ tags:
 
 ## Contents
 
-- [[adding-disks]]
-- [[inodes]]
-- [[lvm]]
-- [[mounts]]
-- [[swap]]
+- [[linux-adding-disks]]
+- [[linux-inodes]]
+- [[linux-lvm]]
+- [[linux-mounts]]
+- [[linux-swap]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/disks-filesystems/filesystems)__
 

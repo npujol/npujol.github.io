@@ -11,11 +11,11 @@ tags:
 
 ## Contents
 
-- [[Unit-Testing]]
-- [[Contract-Testing]]
-- [[Integration-Testing]]
-- [[End-to-End-Testing]]
-- [[Testing-Modules]]
+- [[tf-Unit-Testing]]
+- [[tf-Contract-Testing]]
+- [[tf-Integration-Testing]]
+- [[tf-End-to-End-Testing]]
+- [[tf-Testing-Modules]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/testing@ECcHo0KTDN27MuVTC-Fwy)__
 

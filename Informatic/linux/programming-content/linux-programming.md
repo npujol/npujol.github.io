@@ -14,10 +14,10 @@ tags:
 
 ## Contents
 
-- [[debugging]]
-- [[conditionals]]
-- [[loops]]
-- [[literals]]
-- [[Informatic/linux/programming-content/variables]]
+- [[linux-debugging]]
+- [[linux-conditionals]]
+- [[linux-loops]]
+- [[linux-literals]]
+- [[linux-variables]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/programming)__

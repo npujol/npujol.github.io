@@ -11,10 +11,10 @@ tags:
 
 ## Contents
 
-- [[What-is-Terraform]]
-- [[Usecases-and-Benefits]]
-- [[Installing-Terraform]]
-- [[CaC-vs-IaC]]
+- [[tf-What-is-Terraform]]
+- [[tf-Usecases-and-Benefits]]
+- [[tf-Installing-Terraform]]
+- [[tf-CaC-vs-IaC]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/introduction@GlIXmCuvR_C81RMeMM1Kz)__
 

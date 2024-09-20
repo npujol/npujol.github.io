@@ -13,9 +13,9 @@ tags:
 
 ## Contents
 
-- [[ulimits]]
-- [[cgroups]]
-- [[container-runtime]]
+- [[linux-ulimits]]
+- [[linux-cgroups]]
+- [[linux-container-runtime]]
 - [[linux-docker]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/containerization)__

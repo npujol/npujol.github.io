@@ -11,15 +11,15 @@ tags:
 
 ## Contents
 
-- [[Splitting-Large-State]]
-- [[Parallelism]]
-- [[Deployment-Workflow]]
-- [[Terragrunt]]
-- [[Infracost]]
-- [[Secret-Management]]
-- [[Compliance-Sentinel]]
-- [[Trivy]]
-- [[KICS]]
+- [[tf-Splitting-Large-State]]
+- [[tf-Parallelism]]
+- [[tf-Deployment-Workflow]]
+- [[tf-Terragrunt]]
+- [[tf-Infracost]]
+- [[tf-Secret-Management]]
+- [[tf-Compliance-Sentinel]]
+- [[tf-Trivy]]
+- [[tf-KICS]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/scaling> terraform@3MnZK2V5KhBhw67SyUVPk)__
 

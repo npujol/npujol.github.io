@@ -11,9 +11,9 @@ tags:
 
 ## Contents
 
-- [[What-is-Infrastructure-as-Code]]
-- [[What-is-HCL]]
-- [[Basic-Syntax]]
+- [[tf-What-is-Infrastructure-as-Code]]
+- [[tf-What-is-HCL]]
+- [[tf-Basic-Syntax]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/hashicorp> config. language (hcl)@BYydmFc2e-YPCC4MCWmh2)__
 

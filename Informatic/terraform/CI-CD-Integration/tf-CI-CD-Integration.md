@@ -11,10 +11,10 @@ tags:
 
 ## Contents
 
-- [[GitHub-Actions]]
-- [[Circle-CI]]
-- [[GitLab-CI]]
-- [[Jenkins]]
+- [[tf-GitHub-Actions]]
+- [[tf-Circle-CI]]
+- [[tf-GitLab-CI]]
+- [[tf-Jenkins]]
 
 __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/ci> / cd integration@QSftI21seX6I_xPonlfmU)__
 
