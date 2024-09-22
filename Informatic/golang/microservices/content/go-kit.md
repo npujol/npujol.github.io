@@ -25,7 +25,7 @@ Visit the following resources to learn more:
 - [@video@Building Microservices with the Go Kit Toolkit](https://www.youtube.com/watch?v=sjd2ePF3CuQ)
 - [@feed@Explore top posts about Golang](https://app.daily.dev/tags/golang?ref=roadmapsh)
 
-### __Go-Kit__
+### Go-Kit__
 
 - __Purpose__: Building reliable, large-scale microservices with observability.
 - __Key Features__: Service discovery, logging, tracing, transport layers (HTTP, gRPC), middleware support.
@@ -39,7 +39,7 @@ Visit the following resources to learn more:
    handler := httptransport.NewServer(endpoint, decodeAddRequest, encodeResponse)
    ```
 
-### __Go-Kit__ - Enterprise Microservice Platform
+### Go-Kit__ - Enterprise Microservice Platform
 
    __Solution Example__: __Banking System with Multiple Services__
 

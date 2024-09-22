@@ -41,7 +41,7 @@ Here's a comparison of __Zap__, __Zerolog__, __Log/slog__, and __Logrus__ in a m
 | __Best Use Case__      | High-throughput, production-grade applications     | High-performance logging with zero memory overhead | Lightweight applications, standard logging in Go projects | Simple applications needing easy-to-implement logging with customizable features |
 | __Community/Support__  | Large community, actively maintained               | Smaller but active community, popular in performance-focused applications | Growing adoption since it's part of Go’s standard library | Large, well-established community with many extensions available |
 
-### __Summary of Each:__
+### Summary of Each:__
 
 - __Zap__:
   - __Best For__: High-performance production systems that need structured logging and customization options.
@@ -59,7 +59,7 @@ Here's a comparison of __Zap__, __Zerolog__, __Log/slog__, and __Logrus__ in a m
   - __Best For__: Simpler applications that value ease of use and flexibility in logging formats and outputs over raw performance.
   - __Use Case__: Small to medium applications where setup speed and ease of use are priorities, or where you need a flexible logging solution that can easily be extended with hooks.
 
-### __When to Choose__
+### When to Choose__
 
 - __Zap__: If you need highly efficient, high-performance logging with lots of customization and structured data handling.
 - __Zerolog__: If zero-allocation performance is critical, and you need extremely fast and memory-efficient logging.

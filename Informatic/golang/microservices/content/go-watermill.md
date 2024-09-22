@@ -23,7 +23,7 @@ Visit the following resources to learn more:
 
 - [@official@Watermill Website](https://watermill.io/)
 
-### __Watermill__
+### Watermill__
 
 - __Purpose__: Event-driven systems, pub/sub architecture.
 - __Key Features__: Messaging abstraction, integrates with Kafka, RabbitMQ, Google Cloud Pub/Sub.
@@ -38,7 +38,7 @@ pub, err := message.NewPublisher(
 )
 ```
 
-### __Watermill__ - Event-Driven Systems
+### Watermill__ - Event-Driven Systems
 
    __Solution Example__: __E-Commerce Order Processing__
 

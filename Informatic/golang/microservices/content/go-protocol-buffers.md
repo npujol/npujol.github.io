@@ -32,7 +32,7 @@ Visit the following resources to learn more:
 - [@article@Protobuf with Go](https://developers.google.com/protocol-buffers/docs/gotutorial/)
 - [@feed@Explore top posts about Backend Development](https://app.daily.dev/tags/backend?ref=roadmapsh)
 
-### __Protocol Buffers__
+### Protocol Buffers__
 
 - __Purpose__: Efficient serialization format used by gRPC.
 - __Best For__: Defining APIs and exchanging data between microservices efficiently.
@@ -47,7 +47,7 @@ Visit the following resources to learn more:
    }
    ```
 
-### __Protocol Buffers__ - Data Serialization for Microservices
+### Protocol Buffers__ - Data Serialization for Microservices
 
    __Solution Example__: __Cross-Service Communication in a FinTech App__
 

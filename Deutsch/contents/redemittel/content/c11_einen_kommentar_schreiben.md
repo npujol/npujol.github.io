@@ -14,74 +14,74 @@ tags:
 
 ## Einen Kommentar einleiten
 
-### __Mein Kommentar bezieht sich auf [...]
+### Mein Kommentar bezieht sich auf [...]
 
 __Beispiel:__ Mein Kommentar bezieht sich auf den Artikel über die neuesten Entwicklungen im Bereich erneuerbare Energien.
 
-### __Die Meldung / Der Text [...] behandelt das Thema [...]
+### Die Meldung / Der Text [...] behandelt das Thema [...]
 
 __Beispiel:__ Die Meldung über die geplanten Gesetzesänderungen behandelt das Thema der Arbeitszeiterfassung.
 
 ## Die eigene Ansicht argumentierend darlegen
 
-### __Ich bin der Meinung / Ansicht / Auffassung, dass [...]
+### Ich bin der Meinung / Ansicht / Auffassung, dass [...]
 
 __Beispiel:__ Ich bin der Meinung, dass flexible Arbeitszeiten die Produktivität der Mitarbeiter steigern können.
 
-### __Ich halte diese Idee für [...], weil [...]
+### Ich halte diese Idee für [...], weil [...]
 
 __Beispiel:__ Ich halte diese Idee für vorteilhaft, weil sie die Work-Life-Balance verbessert.
 
-### __In meinen Augen ist dieses Konzept / diese Methode [...], denn [...]
+### In meinen Augen ist dieses Konzept / diese Methode [...], denn [...]
 
 __Beispiel:__ In meinen Augen ist dieses Konzept effektiv, denn es fördert die Selbstmotivation.
 
-### __Für/Gegen [...] spricht zum Beispiel das Argument, dass [...]
+### Für/Gegen [...] spricht zum Beispiel das Argument, dass [...]
 
 __Beispiel:__ Für flexible Arbeitszeiten spricht zum Beispiel das Argument, dass Mitarbeiter ihre Arbeitszeiten selbstständig gestalten können.
 
 ## Auf Argumente / Aussagen eingehen
 
-### __Sicher ist [...] für viele [...] sinnvoll, aber [...]
+### Sicher ist [...] für viele [...] sinnvoll, aber [...]
 
 __Beispiel:__ Sicher ist Homeoffice für viele Arbeitnehmer sinnvoll, aber es könnte auch zu einer Verringerung der Teamkohäsion führen.
 
-### __In der Meldung wird zwar gesagt, dass [...], aber [...]
+### In der Meldung wird zwar gesagt, dass [...], aber [...]
 
 __Beispiel:__ In der Meldung wird zwar gesagt, dass digitale Tools die Kommunikation verbessern, aber es fehlen oft die persönlichen Gespräche.
 
-### __Man sollte bedenken, dass [...]
+### Man sollte bedenken, dass [...]
 
 __Beispiel:__ Man sollte bedenken, dass die Einführung neuer Technologien immer mit einer Lernkurve verbunden ist.
 
-### __Dieser Gedanke ist für viele sicher richtig / hilfreich, trotzdem [...]
+### Dieser Gedanke ist für viele sicher richtig / hilfreich, trotzdem [...]
 
 __Beispiel:__ Dieser Gedanke ist für viele sicher hilfreich, trotzdem sollten wir auch die langfristigen Auswirkungen auf die Arbeitskultur berücksichtigen.
 
 ## Die eigenen Hauptgründe hervorheben
 
-### __Für mich persönlich ist [...] am wichtigsten
+### Für mich persönlich ist [...] am wichtigsten
 
 __Beispiel:__ Für mich persönlich ist die Flexibilität bei der Arbeitszeit am wichtigsten.
 
-### __Mein Standpunkt zu [...] lautet ganz klar: [...]
+### Mein Standpunkt zu [...] lautet ganz klar: [...]
 
 __Beispiel:__ Mein Standpunkt zu den geplanten Veränderungen lautet ganz klar: Die Vorteile überwiegen die Nachteile.
 
-### __Das entscheidende Argument dafür / dagegen ist [...]
+### Das entscheidende Argument dafür / dagegen ist [...]
 
 __Beispiel:__ Das entscheidende Argument dafür ist, dass flexible Arbeitszeiten zu einer besseren Work-Life-Balance führen.
 
 ## Konsequenzen für das eigene Handeln darlegen / Resümee ziehen
 
-### __Meine persönliche Schlussfolgerung ist, [...]
+### Meine persönliche Schlussfolgerung ist, [...]
 
 __Beispiel:__ Meine persönliche Schlussfolgerung ist, dass eine flexible Arbeitszeitregelung sowohl für Arbeitgeber als auch für Arbeitnehmer Vorteile bietet.
 
-### __Für mich kommt nur [...] in Frage
+### Für mich kommt nur [...] in Frage
 
 __Beispiel:__ Für mich kommt nur eine flexible Arbeitszeitregelung in Frage.
 
-### __Ich würde niemals / jederzeit [...]
+### Ich würde niemals / jederzeit [...]
 
 __Beispiel:__ Ich würde niemals auf flexible Arbeitszeiten verzichten, da sie meine Produktivität erheblich steigern.

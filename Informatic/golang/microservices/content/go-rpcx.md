@@ -29,7 +29,7 @@ Visit the following resources to learn more:
 - [@opensource@Rpcx Github](https://github.com/smallnest/rpcx)
 - [@official@Rpcx Official Website](https://rpcx.io/)
 
-### __RPCx__
+### RPCx__
 
 - __Purpose__: High-performance RPC framework.
 - __Key Features__: Multiple codecs (Protobuf, JSON), plugins for service discovery, rate limiting, and tracing.
@@ -43,7 +43,7 @@ Visit the following resources to learn more:
    s.Serve("tcp", ":8972")
    ```
 
-### __RPCx__ - High-Performance RPC
+### RPCx__ - High-Performance RPC
 
    __Solution Example__: __Real-time Online Gaming__
 

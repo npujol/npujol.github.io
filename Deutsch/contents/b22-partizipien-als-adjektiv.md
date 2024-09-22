@@ -39,7 +39,7 @@ Steht das __Partizip I__ vor dem Nomen als Adjektivattribut, gelten die allgemei
 
 __Wie kann man das Partizip I bilden?__
 
-- Das Partizip I bildet man mit dem Infinitiv + d: schreiend, schwimmend, wartend, ...
+- Das Partizip I bildet man mit dem Infinitiv + d: schreiend, schwimmend, wartend, [...]
 
 ## Partizip II
 
@@ -66,7 +66,7 @@ Das Partizip II als Adjektiv drückt meist eine __passivische Handlung__, __ein 
 - Letzte Woche wurde mir mein Fahrrad __gestohlen__. Gestern wurde es wiedergefunden.
 - Gestern wurde mein __gestohlenes__ Fahrrad wiedergefunden.
 
-Das Partizip II als Attribut steht zwischen dem Artikel und dem Nomen, auf das es sich bezieht (der ... Schmuck, das ... Auto, das ... Fahrrad). Steht das Partizip II vor dem Nomen als Adjektivattribut, gelten die allgemeinen Regeln zur Adjektivdeklination.
+Das Partizip II als Attribut steht zwischen dem Artikel und dem Nomen, auf das es sich bezieht (der [...] Schmuck, das [...] Auto, das [...] Fahrrad). Steht das Partizip II vor dem Nomen als Adjektivattribut, gelten die allgemeinen Regeln zur Adjektivdeklination.
 
 `Artikel + Partizip II + Adjektivdeklination + Nomen`
 

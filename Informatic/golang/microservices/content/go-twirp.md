@@ -25,7 +25,7 @@ Visit the following resources to learn more:
 - [@opensource@GitHub Repository](https://github.com/twitchtv/twirp)
 - [@article@Getting started](https://twitchtv.github.io/twirp/docs/intro.html)
 
-### __Twirp__
+### Twirp__
 
 - __Purpose__: A lightweight RPC framework using Protobuf or JSON.
 - __Best For__: Simpler RPC-based microservices with minimal setup and overhead.
@@ -37,7 +37,7 @@ Visit the following resources to learn more:
    http.ListenAndServe(":8080", twirpHandler)
    ```
 
-### __Twirp__ - Lightweight RPC Framework
+### Twirp__ - Lightweight RPC Framework
 
    __Solution Example__: __Simple Microservices for a SaaS Platform__
 

@@ -44,7 +44,7 @@ Here’s a comparison of __Melody__ and __Centrifugo__ in a markdown table:
 
 Here are example use cases for both __Melody__ and __Centrifugo__:
 
-### __When to Choose Melody vs Centrifugo__
+### When to Choose Melody vs Centrifugo__
 
 - Use __Melody__ when:
   - You need simple WebSocket support in a Go application.
