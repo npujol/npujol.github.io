@@ -24,7 +24,7 @@ Visit the following resources to learn more:
 - [@article@Grpc-gateway Doc](https://grpc-ecosystem.github.io/grpc-gateway/)
 - [@feed@Explore top posts about gRPC](https://app.daily.dev/tags/grpc?ref=roadmapsh)
 
-### __gRPC-Gateway__
+### gRPC-Gateway__
 
 - __Purpose__: Allows RESTful clients to interact with gRPC services.
 - __Best For__: Providing both REST and gRPC APIs for microservices.
@@ -36,7 +36,7 @@ Visit the following resources to learn more:
    err := pb.RegisterYourServiceHandlerFromEndpoint(ctx, mux, "localhost:50051", opts)
    ```
 
-### __gRPC-Gateway__ - RESTful API for gRPC Services
+### gRPC-Gateway__ - RESTful API for gRPC Services
 
    __Solution Example__: __Mobile Backend for Streaming Service__
 

@@ -25,7 +25,7 @@ Visit the following resources to learn more:
 
 - [@opensource@GitHub Repository](https://github.com/olahol/melody)
 
-### __Melody__ Use Cases
+### Melody__ Use Cases
 
 1. __Simple Chat Application__:
    - __Scenario__: You're building a small real-time chat application that doesn't require complex scaling or high concurrency.

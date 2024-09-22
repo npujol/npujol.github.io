@@ -27,7 +27,7 @@ Für eine __Zeitdauer__ verwendet man folgende Präpositionen:
   __W-Frage__: seit wann?, wie lange?  
   __Beispiel__: __Seit einer Stunde__ wartet er schon auf Simon.
 
-- __von ... bis + Dativ__: Zeitraum mit genauem Beginn und Ende  
+- __von [...] bis + Dativ__: Zeitraum mit genauem Beginn und Ende  
   __W-Frage__: von wann bis wann?  
   __Beispiel__: Ich arbeite __von Montag bis Freitag__.
 
@@ -44,7 +44,7 @@ Für einen __Zeitpunkt__ verwendet man folgende Präpositionen:
   __W-Frage__: um wie viel Uhr?, wann?  
   __Beispiel__: __Um 16 Uhr__ hat er einen Termin beim Jobcenter.
 
-- __ab + Dativ__ und __von ... an + Dativ__: gegenwärtiger oder zukünftiger Zeitraum mit einem festgelegten Beginn und offenem Ende  
+- __ab + Dativ__ und __von [...] an + Dativ__: gegenwärtiger oder zukünftiger Zeitraum mit einem festgelegten Beginn und offenem Ende  
   __W-Frage__: wann?, ab wann?  
   __Beispiel__: __Ab der nächsten Woche__ muss sich Yonas arbeitssuchend melden.
 

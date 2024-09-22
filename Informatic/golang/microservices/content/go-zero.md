@@ -27,7 +27,7 @@ Visit the following resources to learn more:
 - [@opensource@GitHub Repository](https://github.com/zeromicro/go-zero)
 - [@feed@Explore top posts about Golang](https://app.daily.dev/tags/golang?ref=roadmapsh)
 
-### __Go-Zero__
+### Go-Zero__
 
 - __Purpose__: Web and RPC services with integrated service discovery, concurrency control, and observability.
 - __Key Features__: Concurrency control, built-in observability, and service governance.
@@ -41,7 +41,7 @@ Visit the following resources to learn more:
    })
    ```
 
-### __Go-Zero__ - High-Performance Web and RPC Services
+### Go-Zero__ - High-Performance Web and RPC Services
 
    __Solution Example__: __High-Traffic Social Media Application__
 

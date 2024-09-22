@@ -10,7 +10,7 @@ tags:
 
 # Fortbildung oder Weiterbildung
 
-Fortbildung, Weiterbildung, Umschulung ... es gibt viele Begriffe für berufliche Qualifizierungsmaßnahmen. Oft ist es nicht ganz einfach, sie auseinanderzuhalten. Dabei unterscheiden sich die Ziele, die Inhalte und die Dauer der Maßnahmen deutlich.
+Fortbildung, Weiterbildung, Umschulung [...] es gibt viele Begriffe für berufliche Qualifizierungsmaßnahmen. Oft ist es nicht ganz einfach, sie auseinanderzuhalten. Dabei unterscheiden sich die Ziele, die Inhalte und die Dauer der Maßnahmen deutlich.
 
 Die Umschulung - __eine zweite Ausbildung__  
 Diese Form der Qualifizierung bietet die Möglichkeit, sich beruflich ganz neu zu orientieren und einen anerkannten Berufsabschluss zu erwerben. Das ist der Fall, wenn der erste Beruf beispielsweise aus gesundheitlichen Gründen nicht mehr ausgeübt werden kann. Häufig kann man hierfür finanzielle Unterstützung bei der Agentur für Arbeit oder beim Jobcenter beantragen.  

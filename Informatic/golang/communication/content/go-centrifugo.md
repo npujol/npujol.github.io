@@ -25,7 +25,7 @@ Visit the following resources to learn more:
 - [@opensource@GitHub Repository](https://github.com/centrifugal/centrifugo)
 - [@article@Getting started](https://centrifugal.dev/docs/getting-started/introduction)
 
-### __Centrifugo__ Use Cases
+### Centrifugo__ Use Cases
 
 1. __Scalable Real-time Dashboard__:
    - __Scenario__: A large-scale dashboard for monitoring live data, such as stock prices, requires real-time updates across multiple clients.

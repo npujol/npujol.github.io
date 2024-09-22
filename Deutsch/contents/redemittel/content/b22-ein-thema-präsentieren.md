@@ -81,7 +81,7 @@ __Person A:__ __Natürlich habe ich mir auch__ den Louvre __angesehen,__ als ich
 
 __Person B:__ __Natürlich habe ich mir auch__ den Times Square __angesehen,__ als ich in New York war. Die Lichter und die Energie des Ortes sind einzigartig.
 
-### Ich war... Wochen unterwegs
+### Ich war[...] Wochen unterwegs
 
 __Person A:__ __Ich war__ drei __Wochen unterwegs__ und habe dabei vier verschiedene Städte besucht.
 

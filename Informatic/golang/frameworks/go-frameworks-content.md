@@ -34,7 +34,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/golang/frameworks)__
 | __Goa__            | A design-first framework where APIs are defined via DSLs before being implemented.                 | Focus on design and API-first approach, generating consistent Go code based on the design specs.    |
 | __Gorilla__        | A set of libraries (not a full framework) for building robust web applications with custom routing and middleware. | Highly modular, with libraries for websockets, sessions, and routing, allowing you to compose your framework. |
 
-### __Key Comparisons__
+### Key Comparisons__
 
 - __Gin vs Echo__: Both are high-performance and minimalistic, great for REST APIs. Echo has more built-in middleware, while Gin is slightly faster.
 - __Revel vs Buffalo__: Both are more "batteries-included" like Beego, with built-in ORMs, routing, and utilities for rapid development. Buffalo focuses more on productivity with hot-reloading and CLI tools, while Revel is closer to traditional MVC.

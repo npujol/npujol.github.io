@@ -23,7 +23,7 @@ Visit the following resources to learn more:
 - [@official@Official Website](https://micro.dev/)
 - [@opensource@Micro Github](https://github.com/micro/micro)
 
-### __Micro__
+### Micro__
 
 - __Purpose__: Distributed systems development with built-in tooling.
 - __Key Features__: Service discovery, API gateway, message broker, built-in CLI.
@@ -36,7 +36,7 @@ Visit the following resources to learn more:
    service.Init()
    ```
 
-### __Micro__ - Distributed System with Service Orchestration
+### Micro__ - Distributed System with Service Orchestration
 
    __Solution Example__: __IoT Platform__
 

@@ -25,7 +25,7 @@ Visit the following resources to learn more:
 - [@official@Basic tutorial introduction to gRPC in Go.](https://grpc.io/docs/languages/go/basics/)
 - [@feed@Explore top posts about gRPC](https://app.daily.dev/tags/grpc?ref=roadmapsh)
 
-### __gRPC-Go__
+### gRPC-Go__
 
 - __Purpose__: High-performance, low-latency RPC framework using HTTP/2.
 - __Best For__: Building performant microservices that require fast communication.
@@ -38,7 +38,7 @@ Visit the following resources to learn more:
    client := pb.NewGreeterClient(conn)
    ```
 
-### __gRPC-Go__ - High-Performance Communication Between Services
+### gRPC-Go__ - High-Performance Communication Between Services
 
    __Solution Example__: __Video Streaming Platform__
 
