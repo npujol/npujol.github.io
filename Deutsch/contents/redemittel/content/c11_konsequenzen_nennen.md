@@ -18,7 +18,7 @@ tags:
 - __Beispiel:__ Als Konsequenz ergibt sich daraus, dass wir unsere Strategie anpassen müssen, um die Kosten im Griff zu behalten.
 - __Beispiel:__ Als Konsequenz ergibt sich daraus, dass wir die Lieferzeiten neu planen müssen, um Verzögerungen zu vermeiden.
 
-### [[...] ist eine logische Folge.]
+### [...] ist eine logische Folge
 
 - __Beispiel:__ Der Anstieg der Verkaufszahlen ist eine logische Folge unserer neuen Marketingkampagne.
 - __Beispiel:__ Die verbesserten Ergebnisse sind eine logische Folge der intensiven Schulungen, die das Team durchlaufen hat.
@@ -38,7 +38,7 @@ tags:
 - __Beispiel:__ Daraus ergibt sich, dass wir zusätzliche Ressourcen bereitstellen müssen, um das Projekt pünktlich abzuschließen.
 - __Beispiel:__ Daraus ergibt sich, dass wir die Kundenbetreuung ausbauen sollten, um die Nachfrage zu decken.
 
-### [[...] führt zu [...]]
+### [...] führt zu [...]
 
 - __Beispiel:__ Eine verbesserte Kommunikation führt zu effizienteren Abläufen im Unternehmen.
 - __Beispiel:__ Das fehlerhafte System führt zu Verzögerungen in der Produktion.

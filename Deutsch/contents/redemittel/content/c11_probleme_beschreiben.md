@@ -17,7 +17,7 @@ tags:
 - __Beispiel:__ Für viele ist es problematisch, wenn sich die Anforderungen kurzfristig ändern.
 - __Beispiel:__ Für viele ist es problematisch, wenn es keine klare Kommunikation gibt.
 
-### [[...] macht vielen (große) Schwierigkeiten.]
+### [...] macht vielen (große) Schwierigkeiten
 
 - __Beispiel:__ Die neue Software macht vielen große Schwierigkeiten, weil sie kompliziert zu bedienen ist.
 - __Beispiel:__ Die enge Deadline macht vielen Schwierigkeiten bei der Planung.
@@ -32,7 +32,7 @@ tags:
 - __Beispiel:__ Es ist immer schwierig, alle Teammitglieder auf einen gemeinsamen Nenner zu bringen.
 - __Beispiel:__ Es ist immer schwierig, wenn wichtige Informationen fehlen.
 
-### [[...] ist ein großes Problem.]
+### [...] ist ein großes Problem
 
 - __Beispiel:__ Zeitmangel ist ein großes Problem bei der Umsetzung des Projekts.
 - __Beispiel:__ Die mangelnde Kommunikation ist ein großes Problem in unserem Team.
