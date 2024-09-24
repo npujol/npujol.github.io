@@ -22,11 +22,11 @@ __Beispiel:__ Man kann das Werk folgender Rubrik zuordnen: Thriller.
 
 __Beispiel:__ Das Buch gehört zum Genre historische Romane.
 
-### Es / Er ist ein Krimi / ein klassisches Familiendrama / [...]
+### Es / Er ist ein Krimi / ein klassisches Familiendrama/ [...]
 
 __Beispiel:__ Es ist ein klassisches Familiendrama.
 
-### Der Film „[...]“ ist eine moderne Komödie / ein Spielfilm / [...]
+### Der Film „[...]“ ist eine moderne Komödie / ein Spielfilm/ [...]
 
 __Beispiel:__ Der Film „Lachen ist gesund“ ist eine moderne Komödie.
 
@@ -40,19 +40,19 @@ __Beispiel:__ Den Regisseur kennt man bereits von „Der letzte Mohikaner“.
 
 ## Eine positive / negative Bewertung abgeben
 
-### Das Buch liest sich / Der Film ist spannend / kurzweilig / unterhaltsam / [...]
+### Das Buch liest sich / Der Film ist spannend / kurzweilig / unterhaltsam/ [...]
 
 __Beispiel:__ Der Film ist spannend und unterhaltsam.
 
-### Ich halte [...] für ein sehr lesenswertes / überbewertetes / [...] Buch
+### Ich halte [...] für ein sehr lesenswertes / überbewertetes/ [...] Buch
 
 __Beispiel:__ Ich halte „Das verlorene Paradies“ für ein sehr lesenswertes Buch.
 
-### Die Geschichte ist tiefsinnig / gut durchdacht / [...]
+### Die Geschichte ist tiefsinnig / gut durchdacht/ [...]
 
 __Beispiel:__ Die Geschichte ist tiefsinnig und gut durchdacht.
 
-### Auf mich wirkt die Handlung oberflächlich / unrealistisch / nicht schlüssig / [...]
+### Auf mich wirkt die Handlung oberflächlich / unrealistisch / nicht schlüssig/ [...]
 
 __Beispiel:__ Auf mich wirkt die Handlung etwas unrealistisch.
 
@@ -64,7 +64,7 @@ __Beispiel:__ Man kann sich auf gute Unterhaltung freuen.
 
 __Beispiel:__ Die Vielfalt und Verschiedenartigkeit der Einfälle von „Der unendliche Spaß“ sind immer wieder überraschend.
 
-### Besonders die Schauspieler sind überzeugend / hervorragend / [...]
+### Besonders die Schauspieler sind überzeugend / hervorragend/ [...]
 
 __Beispiel:__ Besonders die Schauspieler sind hervorragend.
 

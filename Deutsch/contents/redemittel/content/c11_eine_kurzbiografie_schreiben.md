@@ -38,7 +38,7 @@ __Beispiel:__ Seine Eltern waren Hermann Einstein und Pauline Koch.
 
 __Beispiel:__ Er kam aus einer jüdischen Familie.
 
-### In seiner/ihrer Jugend [...] danach [...] und arbeitete / schrieb / [...] dann von [...] bis [...]
+### In seiner/ihrer Jugend [...] danach [...] und arbeitete / schrieb/ [...] dann von [...] bis [...]
 
 __Beispiel:__ In seiner Jugend zeigte er früh großes Interesse an Mathematik, danach arbeitete er als Patentanwalt und schrieb wissenschaftliche Arbeiten, dann von 1905 bis 1915 als Professor an der Universität Zürich.
 
@@ -80,7 +80,7 @@ __Beispiel:__ Er ist einer der bedeutendsten Physiker des 20. Jahrhunderts.
 
 __Beispiel:__ In seiner bekanntesten Theorie beschreibt er die Beziehung zwischen Raum und Zeit.
 
-### Seine/Ihre Werke / Romane / [...] zeichnen sich durch [...] aus
+### Seine/Ihre Werke / Romane/ [...] zeichnen sich durch [...] aus
 
 __Beispiel:__ Seine Werke zeichnen sich durch tiefgründige theoretische Überlegungen aus.
 
