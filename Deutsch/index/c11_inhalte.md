@@ -50,3 +50,5 @@ tags:
 - [[c11_einen_begriff_definieren_oder_erklären]]
 - [[c11_eine_email_einleiten_oder_beenden]]
 - [[c11_gute_wünsche_aussprechen_oder_gratulieren]]
+- [[c11_redewiedergabe]]
+- [[c11_nominal_verbal_stil]]
