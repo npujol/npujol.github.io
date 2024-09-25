@@ -47,3 +47,17 @@ Donald Trump sagt:
 
 - Meine Ohren __haben__ mir sehr wehgetan(direkte Rede)
 - Seine Ohren __habe__ ihm sehr wehgetan.(indirekte Rede)
+
+## Wichtige Verben
+
+| __Pronomen__     | __Ich__             | __Du__          | __Er/Es/Sie__     | __Wir__                 | __Ihr__           | __Sie/sie__             |
+| ---------------- | ------------------- | --------------- | ----------------- | ----------------------- | ----------------- | ----------------------- |
+| __Haben__        | habe / hätte         | habest          | habe               | haben / hätten          | habet             | haben / hätten          |
+| __Können__       | könne / könnte       | könnest         | könne              | können / könnten        | könnet            | können / könnten        |
+| __Sehen__        | sehe / würde sehen   | sehest          | sehe               | sehen / würden sehen     | sehet             | sehen / würden sehen     |
+| __Sein__         | sei                  | seist           | sei                | seien                   | seiet             | seien                   |
+
+- Gegenwart: Infinitivstamm + Endung
+- Die Formen in der 2. Person sind sehr ungebräuchlich. Hier wird meist der Konjunktiv II verwendet.
+- Sind die Formen von Konjunktiv I und Indikativ identisch,verwendet man den Konjunktiv II.
+- Vergangenheit: Konjunktiv I von haben/sein + Partizip II: sie habe erkannt, sie sei gewesen
