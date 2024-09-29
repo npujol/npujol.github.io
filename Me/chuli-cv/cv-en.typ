@@ -1,4 +1,4 @@
-#import "@local/chuli-cv:0.1.0": *
+#import "@preview/chuli-cv:0.1.0": *
 #import "@preview/fontawesome:0.1.0": *
 
 #show: cv
@@ -95,7 +95,7 @@
     "media/universidad_de_las_ciencias_informaticas_logo.jpeg",  
   ),
   gpa: "4.82",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 #education-entry(
   title: "Bachelor of Software Engineering", 
@@ -106,7 +106,7 @@
     "media/universidad_de_las_ciencias_informaticas_logo.jpeg",
   ), 
   gpa: "4.71",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 
 #section("Personal Projects")
@@ -136,7 +136,7 @@
 
 #section("Skills")
 #skill(
-  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry", "bash", "typst"),
+  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry", "bash", "typst", "nix", "TDD", "rest", "selenium", "pydantic"),
 )
 
 #section("Languages")

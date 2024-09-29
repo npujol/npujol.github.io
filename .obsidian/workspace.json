@@ -11,8 +11,12 @@
             "id": "894036802342ecd7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md"
+              }
             }
           }
         ]
@@ -140,37 +148,38 @@
   },
   "active": "894036802342ecd7",
   "lastOpenFiles": [
+    "Deutsch/contents/redemittel/content/b22-ein-referat-oder-vortrag-halten.md",
+    "Deutsch/contents/redemittel/content/b22-ein-beschwerdebrief-schreiben.md",
+    "Deutsch/contents/redemittel/content/b22-argumente-austauschen.md",
+    "Deutsch/contents/partikel/partikel_inhalte.md",
+    "Deutsch/contents/partikel/partikel/b22-wohl.md",
+    "Deutsch/contents/partikel/partikel/b22-schon.md",
+    "Deutsch/contents/partikel/partikel/b22-ruhig.md",
+    "Deutsch/contents/partikel/partikel/b22-mal.md",
+    "Deutsch/contents/partikel/partikel/b22-ja.md",
+    "Deutsch/contents/partikel/partikel/b22-eigentlich.md",
+    "Deutsch/contents/partikel/partikel/b22-doch.md",
+    "Deutsch/contents/partikel/partikel/b22-auch.md",
+    "Deutsch/contents/partikel/partikel/b22-aber.md",
+    "Deutsch/contents/konnektoren/c11_konditionale_konnektoren.md",
+    "Deutsch/contents/grammatik_erklärungen/alt-es-bei-unpersönlichen-verben.md",
+    "Deutsch/index/alt-inhalte.md",
+    "Deutsch/contents/b11_ob.md",
+    "Deutsch/index/deutsch_inhalte.md",
+    "Deutsch/index/c11_inhalte.md",
+    "Deutsch/index/b22_inhalte.md",
+    "Deutsch/index/b11_inhalte.md",
+    "Deutsch/contents/c11_redewiedergabe.md",
+    "Deutsch/contents/b22-wortarten-präpositionen.md",
+    "Deutsch/contents/b22-passiv.md",
+    "Deutsch/contents/b22-partizipien-als-adjektiv.md",
+    "Deutsch/contents/b22-eine-präsentation.md",
     "Informatic/terraform/sync.ffs_lock",
     "Informatic/python/sync.ffs_lock",
     "Informatic/linux/sync.ffs_lock",
     "Informatic/golang/sync.ffs_lock",
     "Informatic/docker/sync.ffs_lock",
     "Deutsch/sync.ffs_lock",
-    "Deutsch/index/deutsch_inhalte.md",
-    "Informatic/docker/docker-content.md",
-    "Informatic/docker/containers/docker-compose/docker-compose.md",
-    "Informatic/python/testing/content/python-unittest-pyunit.md",
-    "Informatic/python/testing/content/python-pytest.md",
-    "Informatic/python/testing/content/python-nose.md",
-    "Informatic/python/testing/content/python-doctest.md",
-    "Informatic/python/managers/content/python-uv.md",
-    "Informatic/python/managers/content/python-pypi.md",
-    "Informatic/python/managers/content/python-poetry.md",
-    "Informatic/python/managers/content/python-pip.md",
-    "Informatic/python/managers/content/python-conda.md",
-    "Informatic/python/frameworks/content/python-synchronous.md",
-    "Informatic/python/frameworks/content/python-flask.md",
-    "Informatic/python/frameworks/content/python-fastapi.md",
-    "Informatic/python/frameworks/content/python-django.md",
-    "Informatic/python/frameworks/content/python-asynchronous.md",
-    "Informatic/python/basics/content/python-typecasting-exceptions.md",
-    "Informatic/python/basics/content/python-lists-tuples-sets-dictionaries.md",
-    "Informatic/python/managers/python-managers-content.md",
-    "Informatic/terraform/Variables/content/tf-Variable-Definition-File.md",
-    "Informatic/terraform/Variables/content/tf-Validation-Rules.md",
-    "Informatic/terraform/Variables/content/tf-Type-Constraints.md",
-    "Informatic/terraform/Variables/content/tf-Local-Values.md",
-    "Informatic/terraform/Variables/content/tf-Input-Variables.md",
     "Informatic/golang/communication/communication-content-1b34.ffs_tmp",
     "Deutsch/C1.1/sync.ffs_lock",
     "Deutsch/B2.2/sync.ffs_lock",
