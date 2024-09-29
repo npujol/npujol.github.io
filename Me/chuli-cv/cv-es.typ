@@ -99,7 +99,7 @@
   location: "La Habana, Cuba", 
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"),
   gpa: "4.82",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 #education-entry(
   title: "Ingeniería en Ciencias Informáticas", 
@@ -108,7 +108,7 @@
   location: "La Habana, Cuba", 
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"), 
   gpa: "4.71",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 
 #section("Proyectos Personales")

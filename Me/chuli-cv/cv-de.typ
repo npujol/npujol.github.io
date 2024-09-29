@@ -1,4 +1,4 @@
-#import "@local/chuli-cv:0.1.0": *
+#import "@preview/chuli-cv:0.1.0": *
 #import "@preview/fontawesome:0.1.0": *
 
 #show: cv
@@ -91,7 +91,7 @@
   location: "Havanna, Kuba", 
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"),
   gpa: "4.82",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 #education-entry(
   title: "Bachelor in Software Ingenieurwesen", 
@@ -100,7 +100,7 @@
   location: "Havanna, Kuba", 
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"), 
   gpa: "4.71",
-  gpa_total: "5.0"
+  gpa-total: "5.0"
 )
 
 #section("Private Projekte")
@@ -130,7 +130,7 @@
 
 #section("Fähigkeiten")
 #skill(
-  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry"),
+  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry", "bash", "typst", "nix", "TDD", "rest", "selenium", "pydantic"),
 )
 
 #section("Sprachen")
