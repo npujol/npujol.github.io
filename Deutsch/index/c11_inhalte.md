@@ -52,3 +52,5 @@ tags:
 - [[c11_gute_wünsche_aussprechen_oder_gratulieren]]
 - [[c11_redewiedergabe]]
 - [[c11_nominal_verbal_stil]]
+- [[c11_subjekt_und_objektsätze]]
+- [[c11_weiterfuhrende_nebensätze]]
