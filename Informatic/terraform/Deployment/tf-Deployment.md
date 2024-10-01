@@ -24,7 +24,6 @@ Deploying Terraform-defined infrastructure involves several key steps:
 
 You can learn more from the following resources:
 
-Free Resources
 
 ---
 

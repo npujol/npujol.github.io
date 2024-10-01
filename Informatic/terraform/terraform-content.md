@@ -43,7 +43,6 @@ HCP (HashiCorp Cloud Platform) is a fully managed platform that provides HashiCo
 ### What and when to use HCP?
 
 HashiCorp Cloud Platform (HCP) is best used when organizations need a managed, scalable solution for their infrastructure-as-code practices. It’s particularly valuable for teams seeking to streamline operations across multi-cloud environments, enhance collaboration, and maintain consistent governance. HCP is ideal when there’s a need for centralized management of Terraform workflows, secure remote operations, and integrated secrets management. It’s beneficial for large enterprises or growing teams that require robust access controls, policy enforcement, and audit capabilities. HCP should be considered when the complexity of self-managing HashiCorp tools becomes a burden, or when there’s a desire to reduce operational overhead. It’s also useful when organizations want to leverage the synergies between different HashiCorp products like Terraform, Vault, and Consul in a unified, managed environment. The platform is most effective when scaling infrastructure management needs outgrow the capabilities of standalone Terraform implementations.
-Free Resources
 
 ---
 
@@ -78,7 +77,6 @@ These features collectively provide a robust, secure, and scalable environment f
 ### Authentication
 
 HCP (HashiCorp Cloud Platform) authentication provides secure access management for its services, including Terraform Cloud. It utilizes a comprehensive identity and access management system that supports multiple authentication methods. These include username/password combinations, single sign-on (SSO) integration with popular identity providers, and API tokens for programmatic access. HCP supports SAML 2.0 for enterprise-grade SSO, allowing seamless integration with existing identity management systems. For machine-to-machine communication, HCP offers service principal authentication, enabling secure, automated interactions with HCP services. The platform also provides fine-grained role-based access control (RBAC), allowing administrators to define and manage user permissions across different resources and operations.
-Free Resources
 
 ---
 
@@ -97,7 +95,6 @@ HCP workspaces, particularly in the context of Terraform Cloud, provide isolated
 ### VCS Integration
 
 HCP’s Version Control System (VCS) integration, particularly in Terraform Cloud, enables seamless connection between infrastructure code repositories and HCP services. This feature allows teams to directly link their Git repositories (from providers like GitHub, GitLab, or Bitbucket) to HCP workspaces. When configured, changes pushed to the linked repository automatically trigger Terraform runs in the corresponding workspace. This integration supports GitOps workflows, ensuring that infrastructure changes go through proper version control processes. It enables features like automatic plan generation on pull requests, providing early feedback on proposed changes. The integration also supports branch-based workflows, allowing different branches to be linked to different workspaces for staging and production environments.
-Free Resources
 
 - [officialConnecting VCS Providers to HCP Terraform](https://developer.hashicorp.com/terraform/cloud-docs/vcs)
 - [officialUse VCS-driven workflow](https://developer.hashicorp.com/terraform/tutorials/cloud-get-started/cloud-vcs-change)
@@ -106,7 +103,6 @@ Free Resources
 ### Run Tasks
 
 HCP Run Tasks, a feature of Terraform Cloud, allow for the integration of external services or custom logic into the Terraform workflow. These tasks can be configured to run before or after Terraform plans and applies, enabling additional validation, notification, or data processing steps. Run Tasks can be used for various purposes such as security scanning, cost estimation, custom policy checks, or triggering external workflows. They are executed via webhooks, allowing integration with a wide range of third-party services or internal tools. This feature enhances the flexibility and extensibility of the Terraform workflow, enabling organizations to implement custom processes and integrations tailored to their specific needs.
-Free Resources
 
 - [officialRun Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
 - [officialTerraform Registry - Run Tasks](https://registry.terraform.io/browse/run-tasks)

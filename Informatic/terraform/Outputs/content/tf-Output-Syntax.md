@@ -24,7 +24,6 @@ output "name" {
 ```
 
 `name` is a unique identifier for the output. `value` is the expression whose result will be output. `description` is optional and provides context. `sensitive` is a boolean flag to mark sensitive data.
-Free Resources
 
 ---
 

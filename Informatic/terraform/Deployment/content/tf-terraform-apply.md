@@ -17,7 +17,6 @@ __Roadmap info from [roadmap website](<https://roadmap.sh/terraform/terraform> a
 
 Learn more from the following resources:
 
-Free Resources
 
 ---
 

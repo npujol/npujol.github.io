@@ -25,7 +25,6 @@ Terraform module best practices focus on creating reusable, maintainable, and sc
 - Avoid hard-coding values that might change across environments.
 - Consider using nested modules for complex structures, but be mindful of over-nesting.
 - Regularly review and refactor modules to incorporate improvements and maintain best practices.
-Free Resources
 
 ---
 
