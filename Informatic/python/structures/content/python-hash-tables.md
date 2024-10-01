@@ -17,7 +17,6 @@ Hash Table, Map, HashMap, Dictionary or Associative are all the names of the sam
 
 Visit the following resources to learn more:
 
-Free Resources
 
 ---
 

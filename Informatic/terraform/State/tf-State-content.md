@@ -22,7 +22,6 @@ tags:
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/state@jas0XILqCUXjWRk3ZoSEO)__
 
 Terraform state is a crucial concept in Terraform that tracks the current state of your managed infrastructure. It’s typically stored in a file named `terraform.tfstate`, which maps real-world resources to your configuration. This state allows Terraform to determine which changes are necessary to achieve the desired configuration. It contains sensitive information and should be stored securely, often in remote backends like S3 or Terraform Cloud. The state can be manipulated using terraform state commands for tasks like moving resources between states or removing resources from management. Proper state management is essential for collaborative work, ensuring consistency across team members and enabling Terraform to accurately plan and apply changes to your infrastructure.
-Free Resources
 
 ---
 
@@ -43,7 +42,6 @@ Terraform state best practices focus on security, consistency, and collaboration
 - Regularly review and clean up unused resources in the state.
 
 These practices help maintain a secure, efficient, and manageable Terraform workflow, especially in team environments and complex infrastructures.
-Free Resources
 
 - [articleManaging Terraform State – Best Practices & Examples](https://spacelift.io/blog/terraform-state)
 - [articleBest Practices for Terraform State File Management](https://www.cloudthat.com/resources/blog/best-practices-for-terraform-state-file-management)

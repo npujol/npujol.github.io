@@ -23,7 +23,6 @@ Python has a rich standard library of built-in modules that provide a wide range
 
 Visit the following resources to learn more:
 
-Free Resources
 
 - [articlePython Modules](https://www.digitalocean.com/community/tutorials/python-modules)
 - [articlePython - Built-In Modules](https://www.knowledgehut.com/tutorials/python-tutorial/python-built-in-modules)
@@ -34,7 +33,6 @@ Modules refer to a file containing Python statements and definitions. A file con
 
 Visit the following resources to learn more:
 
-Free Resources
 
 - [articlePython Modules](https://docs.python.org/3/tutorial/modules.html)
 - [articleModules in Python](https://www.programiz.com/python-programming/modules)

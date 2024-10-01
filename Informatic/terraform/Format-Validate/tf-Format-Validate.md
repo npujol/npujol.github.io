@@ -25,7 +25,6 @@ Terraform `format` and `validate` are two essential commands for maintaining cle
 
 You can learn more about these using the following resources
 
-Free Resources
 
 ---
 
