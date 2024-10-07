@@ -136,7 +136,7 @@
 
 #section("Skills")
 #skill(
-  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry", "bash", "typst", "nix", "TDD", "rest", "selenium", "pydantic"),
+  skills: ("python", "django", "terraform", "golang", "aws", "azure", "devops", "docker", "javascript", "postgresql", "celery", "redis", "github actions", "yaml", "latex", "pandas", "pydantic", "git", "linux", "postman", "sentry", "bash", "typst"),
 )
 
 #section("Languages")
