@@ -12,7 +12,6 @@ tags:
 
 ## Contents
 
-
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/file-transfer)__
 
 ## Linux File Transfer under Networking
@@ -23,8 +22,7 @@ Linux provides several command-line tools and applications for network-based fil
 
 For instance, when transferring a file from a local machine to a remote server, the `scp` command can be utilized as follows:
 
-
-```
+```bash
 scp /path/to/local/file username@remote:/path/to/destination
 ```
 

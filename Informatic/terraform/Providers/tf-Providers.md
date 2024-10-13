@@ -13,7 +13,7 @@ tags:
 
 - [[tf-Terraform-Registry]]
 - [[tf-Configuring-Providers]]
-- [[Versions]]
+- [[tf-Versions]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/terraform/providers@qhO7CY-1_vuh2BVJYQCzh)__
 

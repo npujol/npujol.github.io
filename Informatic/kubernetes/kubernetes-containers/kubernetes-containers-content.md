@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- Informatic
-- kubernetes
-- ready
+  - roadmap
+  - Informatic
+  - kubernetes
+  - ready
+  - online
 ---
 
 # kubernetes-containers

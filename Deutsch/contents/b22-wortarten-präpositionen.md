@@ -9,7 +9,7 @@ tags:
 - präpositionen
 ---
 
-# Wortarten mit Präpositionen
+# B22: Wortarten mit Präpositionen
 
 | Verb                        | Nomen                     | Adjektiv               | Präposition + Kasus            |
 |-----------------------------|---------------------------|------------------------|--------------------------------|

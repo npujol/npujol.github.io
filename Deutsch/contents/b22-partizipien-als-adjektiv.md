@@ -10,12 +10,11 @@ tags:
 - online
 ---
 
-# partizipien-als-adjektiv
+# B22: Partizipien als Adjektiv
 
 ## Partizip I
 
-Das Partizip I als Adjektiv
-drückt eine __Gleichzeitigkeit__ oder eine nicht __abgeschlossene Aktion__ aus. Gleichzeitigkeit bedeutet, dass zeitgleich zwei parallele Handlungen durchgeführt werden. Eine von beiden Handlungen wird untergeordnet und bildet das __Partizip I__, die andere Handlung ist übergeordnet und bildet das Prädikat im Satz.
+Das Partizip I als Adjektiv drückt eine __Gleichzeitigkeit__ oder eine nicht __abgeschlossene Aktion__ aus. Gleichzeitigkeit bedeutet, dass zeitgleich zwei parallele Handlungen durchgeführt werden. Eine von beiden Handlungen wird untergeordnet und bildet das __Partizip I__, die andere Handlung ist übergeordnet und bildet das Prädikat im Satz.
 
 Beispiele:
 

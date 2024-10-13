@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-patterns
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-patterns
+  - ready
+  - online
 ---
 
 # kubernetes-patterns-rolling-updates-rollbacks

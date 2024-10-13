@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-networking
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-networking
+  - ready
+  - online
 ---
 
 # kubernetes-networking-networking-and-pod-to-pod-communication
