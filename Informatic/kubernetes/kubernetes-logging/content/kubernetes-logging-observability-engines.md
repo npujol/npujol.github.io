@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-logging
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-logging
+  - ready
+  - online
 ---
 
 # kubernetes-logging-observability-engines

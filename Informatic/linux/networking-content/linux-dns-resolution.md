@@ -13,11 +13,9 @@ tags:
 
 ## Contents
 
-
 __Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/dns-resolution)__
 
 ## DNS Resolution in Networking on Linux
-
 
 Domain Name System (DNS) is a decentralized system used for converting hostnames into IP addresses, making it easier for users to access websites without having to remember specific numeric IP addresses. DNS resolution, therefore, is a critical aspect of networking in Linux.
 
@@ -25,13 +23,13 @@ On Linux systems, when an application needs to connect to a certain URL, it cons
 
 Below command is used to query DNS and fetch IP addresses:
 
-```
+```bash
 nslookup www.example.com
 ```
 
 Or using dig command:
 
-```
+```bash
 dig www.example.com
 ```
 

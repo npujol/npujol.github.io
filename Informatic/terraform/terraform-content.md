@@ -7,7 +7,7 @@ tags:
 - infrastructure
 ---
 
-# Terraform content
+# terraform-content
 
 ## Contents
 

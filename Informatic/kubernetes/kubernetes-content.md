@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- nai_obsidian
-- Informatic
-- ready
+  - roadmap
+  - nai_obsidian
+  - Informatic
+  - ready
+  - online
 ---
 
 # kubernetes-content
@@ -11,7 +12,7 @@ tags:
 ## Contents
 
 - [[kubernetes-containers-content]]
-- [[kubernetes-introduction]]
+- [[kubernetes-introduction-content]]
 - [[kubernetes-kubernetes-content]]
 - [[kubernetes-networking-content]]
 - [[kubernetes-management-content]]

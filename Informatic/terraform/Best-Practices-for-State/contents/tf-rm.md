@@ -6,7 +6,7 @@ tags:
 - IaC
 - infrastructure
 ---
-2
+
 # rm
 
 ## Contents

@@ -11,12 +11,8 @@
             "id": "894036802342ecd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Deutsch/contents/redemittel/content/c11_argumente_anführen.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,42 +140,43 @@
   },
   "active": "894036802342ecd7",
   "lastOpenFiles": [
-    "Deutsch/contents/redemittel/content/b22-ein-referat-oder-vortrag-halten.md",
-    "Deutsch/contents/redemittel/content/b22-ein-beschwerdebrief-schreiben.md",
-    "Deutsch/contents/redemittel/content/b22-argumente-austauschen.md",
-    "Deutsch/contents/partikel/partikel_inhalte.md",
-    "Deutsch/contents/partikel/partikel/b22-wohl.md",
-    "Deutsch/contents/partikel/partikel/b22-schon.md",
-    "Deutsch/contents/partikel/partikel/b22-ruhig.md",
-    "Deutsch/contents/partikel/partikel/b22-mal.md",
-    "Deutsch/contents/partikel/partikel/b22-ja.md",
-    "Deutsch/contents/partikel/partikel/b22-eigentlich.md",
-    "Deutsch/contents/partikel/partikel/b22-doch.md",
-    "Deutsch/contents/partikel/partikel/b22-auch.md",
-    "Deutsch/contents/partikel/partikel/b22-aber.md",
-    "Deutsch/contents/konnektoren/c11_konditionale_konnektoren.md",
-    "Deutsch/contents/grammatik_erklärungen/alt-es-bei-unpersönlichen-verben.md",
-    "Deutsch/index/alt-inhalte.md",
-    "Deutsch/contents/b11_ob.md",
-    "Deutsch/index/deutsch_inhalte.md",
-    "Deutsch/index/c11_inhalte.md",
-    "Deutsch/index/b22_inhalte.md",
-    "Deutsch/index/b11_inhalte.md",
-    "Deutsch/contents/c11_redewiedergabe.md",
-    "Deutsch/contents/b22-wortarten-präpositionen.md",
-    "Deutsch/contents/b22-passiv.md",
-    "Deutsch/contents/b22-partizipien-als-adjektiv.md",
-    "Deutsch/contents/b22-eine-präsentation.md",
-    "Informatic/terraform/sync.ffs_lock",
-    "Informatic/python/sync.ffs_lock",
-    "Informatic/linux/sync.ffs_lock",
-    "Informatic/golang/sync.ffs_lock",
-    "Informatic/docker/sync.ffs_lock",
-    "Deutsch/sync.ffs_lock",
-    "Informatic/golang/communication/communication-content-1b34.ffs_tmp",
-    "Deutsch/C1.1/sync.ffs_lock",
-    "Deutsch/B2.2/sync.ffs_lock",
-    "Informatic/python/python-content-debb.ffs_tmp",
-    "Untitled.canvas"
+    "Informatic/informatic_Index.md",
+    "Untitled.canvas",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-tomcat.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-reverse-proxy.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-nginx.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-load-balancer.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-iis.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-forward-proxy.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-firewall.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-caddy.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-caching-server.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-apache.md",
+    "Informatic/devops/devops-version-control-systems/content/devops-version-control-systems-git.md",
+    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-gitlab.md",
+    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-github.md",
+    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-bitbucket.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-vim-nano-emacs.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-text-manipulation.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-process-monitoring.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-power-shell.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-performance-monitoring.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-networking-tools.md",
+    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-bash.md",
+    "Informatic/devops/devops-serverless/content/devops-serverless-vercel.md",
+    "Informatic/devops/devops-serverless/content/devops-serverless-netlify.md",
+    "Informatic/devops/devops-serverless/content/devops-serverless-cloudflare.md",
+    "Informatic/devops/devops-what-is-and-how-to-setup-x/content",
+    "Informatic/devops/devops-version-control-systems/content",
+    "Informatic/devops/devops-vcs-hosting/content",
+    "Informatic/devops/devops-terminal-knowledge/content",
+    "Informatic/devops/devops-service-mesh/content",
+    "Informatic/devops/devops-serverless/content",
+    "Informatic/devops/devops-secret-management/content",
+    "Informatic/devops/devops-provisioning/content",
+    "Informatic/devops/devops-operating-system/content",
+    "Informatic/devops/devops-networking-protocols/contents",
+    "Deutsch/contents/deutsch-canvas.canvas",
+    "Untitled 1.canvas"
   ]
 }

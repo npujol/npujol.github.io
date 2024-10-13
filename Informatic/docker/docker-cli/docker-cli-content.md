@@ -108,3 +108,26 @@ docker-compose up
 ```
 
 In conclusion, the Docker CLI is a robust and versatile tool for managing all aspects of Docker containers and resources. Once familiar with its commands and capabilities, you’ll be well-equipped to develop, maintain and deploy applications using Docker with ease.
+
+
+## Cases
+
+### Docker Compose wait for container X before starting Y
+Ref: https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y
+Ref: https://docs.docker.com/reference/compose-file/services/#depends_on
+
+```yaml
+services:
+  web:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+        restart: true
+      redis:
+        condition: service_started
+  redis:
+    image: redis
+  db:
+    image: postgres
+```

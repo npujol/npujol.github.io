@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-topics
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-topics
+  - ready
+  - online
 ---
 
 # kubernetes-topics-kubernetes-extensions-and-apis

@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-kubernetes
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-kubernetes
+  - ready
+  - online
 ---
 
 # kubernetes-kubernetes-choosing-a-managed-provider

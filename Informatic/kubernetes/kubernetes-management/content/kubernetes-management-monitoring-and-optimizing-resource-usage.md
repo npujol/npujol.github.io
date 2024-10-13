@@ -1,9 +1,10 @@
 ---
 tags:
-- roadmap
-- kubernetes
-- kubernetes-management
-- ready
+  - roadmap
+  - kubernetes
+  - kubernetes-management
+  - ready
+  - online
 ---
 
 # kubernetes-management-monitoring-and-optimizing-resource-usage

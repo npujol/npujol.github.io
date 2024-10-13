@@ -1,8 +1,9 @@
 ---
 tags:
-- python
-- programming-language
-- ready
+  - python
+  - programming-language
+  - ready
+  - online
 ---
 
 # common-packages

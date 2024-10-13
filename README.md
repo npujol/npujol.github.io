@@ -20,4 +20,4 @@ Here are some ideas to get you started:
 ## CV
 
 - [x] [English](./Me/chuli-cv/cv-en.pdf) 👌, [Basic English](./Me/basic-cv/basic-cv-en.pdf) 👌
-- [x] [German](./Me/chuli-cv/cv-de.pdf), [Basic German](./Me/basic-cv/basic-cv-de.pdf) 👌
+- [x] [German](./Me/chuli-cv/cv-de.pdf) 👌, [Basic German](./Me/basic-cv/basic-cv-de.pdf) 👌

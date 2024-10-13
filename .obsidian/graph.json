@@ -48,6 +48,27 @@
         "a": 1,
         "rgb": 11828334
       }
+    },
+    {
+      "query": "tag:#obsidian-auto-glossary  ",
+      "color": {
+        "a": 1,
+        "rgb": 15113604
+      }
+    },
+    {
+      "query": "tag:#kubernetes  ",
+      "color": {
+        "a": 1,
+        "rgb": 11361494
+      }
+    },
+    {
+      "query": "tag:#devops  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
+      }
     }
   ],
   "collapse-display": true,
@@ -60,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.24007856837437574,
-  "close": true
+  "scale": 0.19819801558400285,
+  "close": false
 }
