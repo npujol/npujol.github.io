@@ -32,8 +32,6 @@ jobs:
           nix build -o ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-      - name: Generate graph
-        run: nix graph --json > graph.json
   deploy:
     # Add a dependency to the build job
     needs: build
