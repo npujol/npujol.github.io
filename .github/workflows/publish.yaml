@@ -22,6 +22,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+          # Clone the Obsidian Vault HTML Graph Generator repo
+      - name: Clone Obsidian Vault HTML Graph Generator
+        run: |
+          git clone https://github.com/Hellyom/Obsidian-Vault-HTML-Graph-Generator.git
+          cd Obsidian-Vault-HTML-Graph-Generator
+          mkdir -p ../graph
+      # Run the script to generate the graph
+      - name: Run the HTML Graph Generator
+        run: |
+          cd Obsidian-Vault-HTML-Graph-Generator
+          python3 generate_html_graph.py ../.
+      # Save the generated graph into the folder 'graph'
+      - name: Save Graph to Project
+        run: |
+          mv ./Obsidian-Vault-HTML-Graph-Generator/output/* ../graph/
+      # Commit the results
+      - name: Commit the graph
+        run: |
+          cd ../current-project
+          git config --global user.name "github-actions"
+          git config --global user.email "actions@github.com"
+          git add graph/*
+          git commit -m "Add generated HTML graph"
+          git push origin main
       - uses: DeterminateSystems/nix-installer-action@main
         with:
           extra-conf: |
@@ -32,6 +56,8 @@ jobs:
           nix build -o ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+      - name: Generate graph
+        run: nix graph --json > graph.json
   deploy:
     # Add a dependency to the build job
     needs: build
