@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f3e02ee1d05e99c",
+        "id": "8a1d1c5651d46d7e",
         "type": "tabs",
         "children": [
           {
-            "id": "894036802342ecd7",
+            "id": "fcd6012c1cae5260",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -138,8 +138,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "894036802342ecd7",
+  "active": "fcd6012c1cae5260",
   "lastOpenFiles": [
+    "graph",
+    "script.py",
+    "templates/custom.tpl",
+    "templates",
+    "html-templates/custom.tpl",
+    "html-templates",
+    "html-template/custom.tpl",
+    "html-template/post.tpl",
+    "html-template/home.tpl",
+    "html-template/base.tpl",
+    "html-template",
+    "Informatic/terraform/terraform_Index.md",
+    "Informatic/kubernetes/kubernetes-content.md",
     "Informatic/informatic_Index.md",
     "Untitled.canvas",
     "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-tomcat.md",
@@ -164,18 +177,6 @@
     "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-networking-tools.md",
     "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-bash.md",
     "Informatic/devops/devops-serverless/content/devops-serverless-vercel.md",
-    "Informatic/devops/devops-serverless/content/devops-serverless-netlify.md",
-    "Informatic/devops/devops-serverless/content/devops-serverless-cloudflare.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content",
-    "Informatic/devops/devops-version-control-systems/content",
-    "Informatic/devops/devops-vcs-hosting/content",
-    "Informatic/devops/devops-terminal-knowledge/content",
-    "Informatic/devops/devops-service-mesh/content",
-    "Informatic/devops/devops-serverless/content",
-    "Informatic/devops/devops-secret-management/content",
-    "Informatic/devops/devops-provisioning/content",
-    "Informatic/devops/devops-operating-system/content",
-    "Informatic/devops/devops-networking-protocols/contents",
     "Deutsch/contents/deutsch-canvas.canvas",
     "Untitled 1.canvas"
   ]
