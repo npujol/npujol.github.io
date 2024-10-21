@@ -24,3 +24,4 @@ tags:
 - [[linux-programming]]
 - [[linux-troubleshooting]]
 - [[linux-containerization]]
+- [[linux-distros]]

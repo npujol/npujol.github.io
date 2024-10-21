@@ -1,7 +1,12 @@
 ---
-tags: obsidian-auto-glossary
+tags:
+  - obsidian-auto-glossary
+  - online
+  - devops
 ---
-## Index
+
+# Index
+
 - [[algorithms-content]]
 - [[devops-application-monitoring-content]]
 - [[devops-artifact-management-artifactory]]

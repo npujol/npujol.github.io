@@ -5,6 +5,7 @@ tags:
   - Informatic
   - ready
   - online
+  - kubernetes
 ---
 
 # kubernetes-content

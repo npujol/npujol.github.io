@@ -53,6 +53,61 @@ Platform as a Service (PaaS) is a cloud computing model that simplifies the depl
 * Integration with Azure services and Azure Kubernetes Service
 * Pay-per-second billing model
 
+
+### Containers apps
+
+#### HTTP probes
+
+Case Web server with Terraform:
+```terraform
+{
+  ...
+  "containers":[
+    {
+      "image":"nginx",
+      "name":"web",
+      "probes": [
+        {
+          "type": "liveness",
+          "httpGet": {
+            "path": "/health",
+            "port": 8080,
+            "httpHeaders": [
+              {
+                "name": "Custom-Header",
+                "value": "liveness probe"
+              }]
+          },
+          "initialDelaySeconds": 7,
+          "periodSeconds": 3
+        },
+        {
+          "type": "readiness",
+          "tcpSocket": {
+            "port": 8081
+          },
+          "initialDelaySeconds": 10,
+          "periodSeconds": 3
+        },
+        {
+          "type": "startup",
+          "httpGet": {
+            "path": "/startup",
+            "port": 8080,
+            "httpHeaders": [
+              {
+                "name": "Custom-Header",
+                "value": "startup probe"
+              }]
+          },
+          "initialDelaySeconds": 3,
+          "periodSeconds": 3
+        }]
+    }]
+  ...
+}
+```
+
 ## IBM Cloud Code Engine
 
 [IBM Cloud Code Engine](https://www.ibm.com/cloud/code-engine) is a fully managed, serverless platform by IBM that runs your containerized applications and source code. It supports deploying, running, and auto-scaling applications on Kubernetes.
