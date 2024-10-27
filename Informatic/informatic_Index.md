@@ -1,12 +1,7 @@
 ---
-tags:
-  - obsidian-auto-glossary
-  - online
-  - devops
+tags: obsidian-auto-glossary
 ---
-
-# Index
-
+## Index
 - [[algorithms-content]]
 - [[devops-application-monitoring-content]]
 - [[devops-artifact-management-artifactory]]
@@ -57,6 +52,7 @@ tags:
 - [[devops-container-orchestration-aws-ecs-fargate]]
 - [[devops-container-orchestration-content]]
 - [[devops-container-orchestration-docker-swarm]]
+- [[devops-container-orchestration-gke-coursera]]
 - [[devops-container-orchestration-gke-eks-aks]]
 - [[devops-container-orchestration-kubernetes]]
 - [[devops-containers-content]]
@@ -138,6 +134,7 @@ tags:
 - [[devops-what-is-and-how-to-setup-x-nginx]]
 - [[devops-what-is-and-how-to-setup-x-reverse-proxy]]
 - [[devops-what-is-and-how-to-setup-x-tomcat]]
+- [[devops_Index]]
 - [[docker-basics-content]]
 - [[docker-cli-containers]]
 - [[docker-cli-content]]
@@ -189,6 +186,7 @@ tags:
 - [[docker-technologies-namespaces]]
 - [[docker-technologies-union-filesystems]]
 - [[docker_Index]]
+- [[general-programming-solving-problems]]
 - [[go-advanced-content]]
 - [[go-apps-content]]
 - [[go-arrays]]
@@ -270,6 +268,10 @@ tags:
 - [[kubernetes-autoscaling-content]]
 - [[kubernetes-autoscaling-horizontal-pod-autoscaler]]
 - [[kubernetes-autoscaling-vertical-pod-autoscaler]]
+- [[kubernetes-c1-m1]]
+- [[kubernetes-c1-m2]]
+- [[kubernetes-c1-m3]]
+- [[kubernetes-c1-m4]]
 - [[kubernetes-containers-content]]
 - [[kubernetes-content]]
 - [[kubernetes-introduction-content]]
@@ -328,6 +330,10 @@ tags:
 - [[kubernetes-volumes-csi-drivers]]
 - [[kubernetes-volumes-stateful-applications]]
 - [[kubernetes_Index]]
+- [[lab1]]
+- [[lab2]]
+- [[lab3]]
+- [[lab4]]
 - [[linux-adding-disks]]
 - [[linux-archiving]]
 - [[linux-auth-logs]]
@@ -353,6 +359,8 @@ tags:
 - [[linux-debugging]]
 - [[linux-dhcp]]
 - [[linux-directory-hierarchy]]
+- [[linux-distros-nixos]]
+- [[linux-distros]]
 - [[linux-dns-resolution]]
 - [[linux-docker]]
 - [[linux-environment-variables]]

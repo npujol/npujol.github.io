@@ -98,3 +98,161 @@ To deploy your first application in Kubernetes, you need to create a deployment 
 - [articleKubernetes 101: Deploy Your First Application with MicroK8s](https://thenewstack.io/kubernetes-101-deploy-your-first-application-with-microk8s/)
 - [videoKubernetes Tutorial | Your First Kubernetes Application](https://www.youtube.com/watch?v=Vj6EFnav5Mg)
 - [videoKubernetes 101: Deploying Your First Application](https://www.youtube.com/watch?v=XltFOyGanYE)
+
+### How Does `kubectl` Work?
+
+`kubectl` communicates directly with the Kubernetes __API server__ that manages the cluster’s control plane. When you issue a command, `kubectl` interacts with the __Kubernetes API__ to retrieve information or make changes to the state of the cluster.
+
+### Why is `kubectl` Important?
+
+- __Cluster Management__: It simplifies managing Kubernetes resources such as Pods, services, and deployments by converting command-line inputs into API calls that are sent to the Kube API server.
+- __Automation__: `kubectl` allows for automation of tasks, such as scaling applications or managing configurations, which are crucial for maintaining cluster reliability and performance.
+- __Troubleshooting__: It provides the ability to introspect and troubleshoot running Kubernetes workloads by retrieving logs, monitoring events, and inspecting the status of various components.
+
+### How `kubectl` Works
+
+`kubectl` communicates with the __Kube API server__ over HTTPS. The process can be broken down as follows:
+
+1. The user issues a `kubectl` command (e.g., `kubectl get pod`).
+2. `kubectl` transforms the command into an API request and sends it to the __Kube API server__ over HTTPS.
+3. The __Kube API server__ processes the request by querying __etcd__, the cluster's database.
+4. The __Kube API server__ sends the response back to `kubectl`.
+5. `kubectl` interprets the API response and displays it in a readable format for the user.
+
+### `kubectl` Configuration
+
+To use `kubectl`, it must first be configured with the location and credentials of a Kubernetes cluster. Configuration details are stored in the user's home directory, specifically in `~/.kube/config`. This file contains information about:
+
+- __Clusters__: List of available Kubernetes clusters.
+- __Contexts__: Specific combinations of clusters, namespaces, and user credentials.
+- __Credentials__: User authentication information.
+
+#### Viewing Configuration
+
+To inspect the current `kubectl` configuration:
+
+```bash
+kubectl config view
+```
+
+This command displays the configuration of the `kubectl` tool itself, while other `kubectl` commands show configurations of the cluster or workloads.
+
+### Key `kubectl` Syntax
+
+`kubectl` commands follow a consistent syntax pattern:
+
+```bash
+kubectl [command] [TYPE] [NAME] [flags]
+```
+
+- __Command__: The action to be performed, such as `get`, `describe`, `apply`, `delete`, or `logs`.
+- __TYPE__: The type of Kubernetes object, such as `pod`, `service`, `deployment`, or `node`.
+- __NAME__: The name of the specific object (optional, especially for listing commands).
+- __Flags__: Optional arguments to modify the command output or behavior, such as `-o=yaml` for YAML output or `--context` to specify a different cluster context.
+
+#### Example Commands
+
+- __List all Pods__:
+
+  ```bash
+  kubectl get pods
+  ```
+
+- __Get information on a specific Pod__:
+
+  ```bash
+  kubectl get pod my-test-app
+  ```
+
+- __Show detailed information about a Pod__:
+
+  ```bash
+  kubectl describe pod my-test-app
+  ```
+
+- __View Pod details in YAML format__:
+
+  ```bash
+  kubectl get pod my-test-app -o=yaml
+  ```
+
+- __Get Pods with additional node information__:
+
+  ```bash
+  kubectl get pods -o=wide
+  ```
+
+### Practical Uses of `kubectl`
+
+- __Creating Kubernetes Objects__: Apply configurations via manifest files (YAML/JSON) to create Pods, services, and other Kubernetes objects.
+
+  ```bash
+  kubectl apply -f [manifest_file.yaml]
+  ```
+
+- __Viewing and Deleting Objects__: Inspect the state of resources and delete them when necessary.
+
+  ```bash
+  kubectl delete pod [POD_NAME]
+  ```
+
+- __Viewing Logs__: Retrieve logs from running Pods for troubleshooting.
+
+  ```bash
+  kubectl logs [POD_NAME]
+  ```
+
+- __Exporting Configurations__: Use `-o=yaml` to export configuration details for recreating or troubleshooting in another cluster.
+
+### Introspection in Kubernetes with `kubectl`
+
+Introspection is the process of gathering information about the state of your applications running within a Kubernetes cluster. Using `kubectl`, you can gather detailed insights about Pods, containers, and services to troubleshoot and debug issues effectively.
+
+### Key `kubectl` Commands for Introspection
+
+1. __Get Pods__
+   - Command: `kubectl get pods`
+   - This command lists all the Pods in the current namespace, showing their status, which can be one of the following:
+     - __Pending__: The Pod is accepted but not yet scheduled.
+     - __Running__: The Pod is successfully attached to a node and is running its containers.
+     - __Succeeded__: All containers in the Pod have terminated successfully and will not restart.
+     - __Failed__: One or more containers in the Pod terminated with a failure and will not restart.
+     - __Unknown__: The state of the Pod cannot be determined due to communication issues.
+     - __CrashLoopBackOff__: The Pod's container is crashing repeatedly.
+
+2. __Describe Pod__
+   - Command: `kubectl describe pod [POD_NAME]`
+   - This command provides detailed information about a specific Pod, including:
+     - Pod status
+     - Node name
+     - Labels
+     - Container states (waiting, running, or terminated)
+     - Resource requirements
+     - IP addresses
+     - Events related to the Pod (e.g., failed scheduling or image pull errors)
+
+3. __Execute Command in a Container__
+   - Command: `kubectl exec [POD_NAME] -- [COMMAND]`
+   - Use this command to run a single command inside a container. This is useful for executing diagnostic commands like `ping` or `curl`.
+   - __Interactive Shell__: For an interactive shell session, use the `-it` switch:
+
+     ```bash
+     kubectl exec -it [POD_NAME] -- /bin/bash
+     ```
+
+   - Here, `-i` enables interactive mode and `-t` allocates a TTY.
+
+4. __View Logs__
+   - Command: `kubectl logs [POD_NAME]`
+   - This command retrieves the logs from the specified Pod, providing insights into what is happening inside the application.
+   - If the Pod contains multiple containers, specify which container to get logs from using the `-c` flag:
+
+     ```bash
+     kubectl logs [POD_NAME] -c [CONTAINER_NAME]
+     ```
+
+### Best Practices for Debugging
+
+- __Avoid Directly Installing Software in Containers__: While you can use `kubectl exec` to install tools for debugging, it's not recommended. Changes made this way are ephemeral and will be lost when the container restarts.
+- __Build Custom Container Images__: Instead of making temporary fixes, create new container images that include the necessary tools or configurations, and then redeploy them.
+- __Integrate Findings__: Use the insights gained from introspection to make informed changes to your container images and application configurations.
