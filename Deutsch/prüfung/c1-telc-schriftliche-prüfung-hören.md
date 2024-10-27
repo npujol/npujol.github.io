@@ -8,7 +8,7 @@ tags:
 - hören
 ---
 
-# C1 Telc - Schriftliche Prüfung - Hören
+# C1: Telc - Schriftliche Prüfung - Hören
 
 Total Punkte: 48
 Dauer: ca. 40 Min.

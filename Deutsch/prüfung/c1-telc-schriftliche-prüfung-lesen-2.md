@@ -8,7 +8,7 @@ tags:
 - lesen
 ---
 
-# C1 Telc - Schriftliche Prüfung - Lesen - Selektives Verstehen
+# C1: Telc - Schriftliche Prüfung - Lesen - Selektives Verstehen
 
 Zentrale Aussagen eines längeren Texts verstehen
 

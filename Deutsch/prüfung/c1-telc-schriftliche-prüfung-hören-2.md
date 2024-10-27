@@ -8,7 +8,7 @@ tags:
 - hören
 ---
 
-# C1 Telc - Schriftliche Prüfung - Hören - Detailverstehen
+# C1: Telc - Schriftliche Prüfung - Hören - Detailverstehen
 
 Aussagen, Haltungen eines Sprechers bzw. einer Sprecherin in einem Interview verstehen
 

@@ -8,7 +8,7 @@ tags:
 - sprachbausteine
 ---
 
-# C1 Telc - Schriftliche Prüfung - Sprachbausteine
+# C1: Telc - Schriftliche Prüfung - Sprachbausteine
 
 Grammatik- und Rechtschreibkompetenzen unter Beweis stellen
 

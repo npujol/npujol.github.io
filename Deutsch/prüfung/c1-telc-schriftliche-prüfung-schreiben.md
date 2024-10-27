@@ -8,7 +8,7 @@ tags:
 - schrieben
 ---
 
-# C1 Telc - Schriftliche Prüfung - Schreiben
+# C1: Telc - Schriftliche Prüfung - Schreiben
 
 Einen komplexeren Text (Erörterung, Essay o. Ä.) schreiben können
 

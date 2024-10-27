@@ -8,7 +8,7 @@ tags:
 - vorbereitung
 ---
 
-# C1 Prüfung: Telc
+# C1: Prüfung: Telc
 
 1. [[c1-telc-schriftliche-prüfung]]
 2. [[c1-telc-mündliche-prüfung]]
