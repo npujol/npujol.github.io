@@ -9,6 +9,7 @@ page:
     <snippet var="js.mermaid" />
 
 template:
+  name: /templates/layouts/layout
   theme: purple
   # sidebar:
   #   collapsed: true
@@ -46,3 +47,4 @@ js:
       mermaid.initialize(myMermaidConfig);
       mermaid.init(myMermaidConfig, document.querySelectorAll(".mermaid"));
     </script>
+
