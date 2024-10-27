@@ -29,7 +29,7 @@ js:
     <script>
       var myMermaidConfig = {
         // lets mermaid work with emanote live-reloading
-        startOnLoad: false,
+        startOnLoad: true,
         // permit clicks
         securityLevel: "loose",
         // set default theme with primary colour to tailwind blue
