@@ -8,7 +8,7 @@ tags:
 - lesen
 ---
 
-# C1 Telc - Schriftliche Prüfung - Lesen - Detailverstehen und  Globalverstehen
+# C1: Telc - Schriftliche Prüfung - Lesen - Detailverstehen und  Globalverstehen
 
 ## Detailverstehen
 

@@ -7,7 +7,7 @@ tags:
 - vorbereitung
 ---
 
-# C1 Telc - Schriftliche Prüfung
+# C1: Telc - Schriftliche Prüfung
 
 ## Teile
 

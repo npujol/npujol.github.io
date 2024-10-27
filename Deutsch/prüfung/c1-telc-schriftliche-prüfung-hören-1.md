@@ -8,7 +8,7 @@ tags:
 - hören
 ---
 
-# C1 Telc - Schriftliche Prüfung - Hören - Globalverstehen
+# C1: Telc - Schriftliche Prüfung - Hören - Globalverstehen
 
 Die zentrale Aussage, Intention o. Ä. eines Sprechers bzw. einer Sprecherin verstehen
 

@@ -8,7 +8,7 @@ tags:
 - vorbereitung
 ---
 
-# C1 Telc - Mündliche Prüfung
+# C1: Telc - Mündliche Prüfung
 
 Total Punkte: 48
 Dauer: ca. 16 Min.

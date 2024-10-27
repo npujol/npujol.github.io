@@ -8,7 +8,7 @@ tags:
 - lesen
 ---
 
-# C1 Telc - Schriftliche Prüfung - Lesen
+# C1: Telc - Schriftliche Prüfung - Lesen
 
 Total Punkte: 48
 

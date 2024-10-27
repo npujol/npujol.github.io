@@ -8,7 +8,7 @@ tags:
 - lesen
 ---
 
-# C1 Telc - Schriftliche Prüfung - Textrekonstruktion
+# C1: Telc - Schriftliche Prüfung - Textrekonstruktion
 
 Längere Texte verstehen und Lücken schließen
 

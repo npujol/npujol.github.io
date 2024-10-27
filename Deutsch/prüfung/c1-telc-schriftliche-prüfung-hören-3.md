@@ -8,7 +8,7 @@ tags:
 - hören
 ---
 
-# C1 Telc - Schriftliche Prüfung - Hören - Informationstransfer
+# C1: Telc - Schriftliche Prüfung - Hören - Informationstransfer
 
 Einem längeren Hörtext (Vortrag, Vorlesung etc.) folgen und zentrale Punkte aus dem Inhalt
 schriftlich festhalten können
