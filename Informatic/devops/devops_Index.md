@@ -1,12 +1,7 @@
 ---
-tags:
-  - obsidian-auto-glossary
-  - online
-  - devops
+tags: obsidian-auto-glossary
 ---
-
-# Index
-
+## Index
 - [[devops-application-monitoring-content]]
 - [[devops-artifact-management-artifactory]]
 - [[devops-artifact-management-cloud-smith]]
@@ -56,6 +51,15 @@ tags:
 - [[devops-container-orchestration-aws-ecs-fargate]]
 - [[devops-container-orchestration-content]]
 - [[devops-container-orchestration-docker-swarm]]
+- [[devops-container-orchestration-gke-coursera--1-workloads-in-gke]]
+- [[devops-container-orchestration-gke-coursera--2-pod--cluster-networking]]
+- [[devops-container-orchestration-gke-coursera--3-storage-abstractions]]
+- [[devops-container-orchestration-gke-coursera--4-authentication-authorization--security]]
+- [[devops-container-orchestration-gke-coursera--5-monitoring--observability]]
+- [[devops-container-orchestration-gke-coursera--6-google-cloud-managed-storage-services]]
+- [[devops-container-orchestration-gke-coursera--7-cicd-pipelines]]
+- [[devops-container-orchestration-gke-coursera--devops-container-orchestration-gke-coursera]]
+- [[devops-container-orchestration-gke-coursera]]
 - [[devops-container-orchestration-gke-eks-aks]]
 - [[devops-container-orchestration-kubernetes]]
 - [[devops-containers-content]]
@@ -137,3 +141,4 @@ tags:
 - [[devops-what-is-and-how-to-setup-x-nginx]]
 - [[devops-what-is-and-how-to-setup-x-reverse-proxy]]
 - [[devops-what-is-and-how-to-setup-x-tomcat]]
+- [[devops_Index]]

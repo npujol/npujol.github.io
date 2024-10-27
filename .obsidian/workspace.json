@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8a1d1c5651d46d7e",
+        "id": "06b22177d2901a3c",
         "type": "tabs",
         "children": [
           {
-            "id": "fcd6012c1cae5260",
+            "id": "c0f45c454821d7fb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Deutsch/deutsch_Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "deutsch_Index"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -81,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Deutsch/index/b22-inhalte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for b22-inhalte"
             }
           },
           {
@@ -97,9 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Deutsch/index/b22-inhalte.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from b22-inhalte"
             }
           },
           {
@@ -110,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -118,7 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Deutsch/index/b22-inhalte.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of b22-inhalte"
             }
           }
         ]
@@ -138,45 +162,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fcd6012c1cae5260",
+  "active": "c074e4409c292645",
   "lastOpenFiles": [
+    "Deutsch/index/deutsch-inhalte.md",
+    "Deutsch/index/c11-inhalte.md",
+    "Deutsch/index/b22-inhalte.md",
+    "Deutsch/index/b11-inhalte.md",
+    "Deutsch/contents/b22-partikel-auch.md",
+    "Deutsch/contents/alt-konjunktiv-ii.md",
+    "Deutsch/prüfung/c1-telc-prüfung-learnplan.md",
+    "Deutsch/deutsch_Index.md",
+    "Deutsch/sync.ffs_lock",
+    "Informatic/sync.ffs_lock",
+    "Informatic/devops/devops-container-orchestration/content/devops-container-orchestration-gke-coursera--1-workloads-in-gke.md",
+    "Informatic/devops/devops-container-orchestration/content/devops-container-orchestration-gke-coursera--2-pod--cluster-networking-c493.ffs_tmp",
+    "Informatic/devops/devops-container-orchestration/content/devops-container-orchestration-gke-coursera-50ae.ffs_tmp",
+    "Deutsch/contents/c11-telc-prüfung.md",
+    "Deutsch/contents/c11-redemittel-eine-buch-oder-Filmbesprechung-schreiben.md",
+    "Deutsch/contents/c11-redemittel-einen-aufsatz-schreiben.md",
+    "Deutsch/contents/c11-redemittel-einen-kommentar-schreiben.md",
+    "Deutsch/contents/c11-redemittel-etwas-vergleichen.md",
+    "Deutsch/contents/c11-redemittel-probleme-beschreiben.md",
+    "Deutsch/contents/c11-redemittel-unsicherheit-oder-sorge-ausdrücken.md",
+    "Deutsch/contents/c11-redemittel-verärgerung-ausdrücken-oder-Kritik-üben.md",
+    "Deutsch/contents/c11-redemittel-einen-forumsbeitrag-schreiben.md",
+    "Deutsch/contents/c11-redemittel-eine-bewerbung-schreiben.md",
+    "Deutsch/contents/c11-redemittel-argumente-verbinden.md",
+    "Deutsch/contents/b22-partikel-ruhig.md",
+    "Deutsch/contents/b22-partikel-halt.md",
+    "Deutsch/contents/b22-partikel-doch.md",
+    "Deutsch/contents/alt-temporale-nebensätze.md",
+    "Deutsch/contents/alt-indirekte-fragen.md",
+    "Deutsch/contents/alt-es-bei-unpersönlichen-verben.md",
+    "Untitled.canvas",
     "graph",
     "script.py",
     "templates/custom.tpl",
     "templates",
     "html-templates/custom.tpl",
     "html-templates",
-    "html-template/custom.tpl",
-    "html-template/post.tpl",
-    "html-template/home.tpl",
-    "html-template/base.tpl",
-    "html-template",
-    "Informatic/terraform/terraform_Index.md",
-    "Informatic/kubernetes/kubernetes-content.md",
-    "Informatic/informatic_Index.md",
-    "Untitled.canvas",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-tomcat.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-reverse-proxy.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-nginx.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-load-balancer.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-iis.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-forward-proxy.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-firewall.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-caddy.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-caching-server.md",
-    "Informatic/devops/devops-what-is-and-how-to-setup-x/content/devops-what-is-and-how-to-setup-x-apache.md",
-    "Informatic/devops/devops-version-control-systems/content/devops-version-control-systems-git.md",
-    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-gitlab.md",
-    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-github.md",
-    "Informatic/devops/devops-vcs-hosting/content/devops-vcs-hosting-bitbucket.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-vim-nano-emacs.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-text-manipulation.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-process-monitoring.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-power-shell.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-performance-monitoring.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-networking-tools.md",
-    "Informatic/devops/devops-terminal-knowledge/content/devops-terminal-knowledge-bash.md",
-    "Informatic/devops/devops-serverless/content/devops-serverless-vercel.md",
     "Deutsch/contents/deutsch-canvas.canvas",
     "Untitled 1.canvas"
   ]
