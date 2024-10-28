@@ -13,7 +13,7 @@ tags:
 
 __Roadmap info from [roadmap website](https://roadmap.sh/devops/python@TwVfCYMS9jSaJ6UyYmC-K)__
 
-Ref: [[informatic/python/python]]
+Ref: [[python]]
 
 ## Python
 

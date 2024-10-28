@@ -18,6 +18,6 @@ tags:
 - [[python-structures-binary-search-trees]]
 - [[python-structures-recursion]]
 - [[python-structures-sorting-algorithms]]
-- [[python-recursion]]
+- [[python-structures-recursion]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/python/algorithms)__
