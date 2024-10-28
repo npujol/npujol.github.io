@@ -1,12 +1,13 @@
 ---
 tags: obsidian-auto-glossary
 ---
+
 ## Index
+
 - [[alt-es-bei-unpersönlichen-verben]]
 - [[alt-fortbildung-oder-weiterbildung]]
 - [[alt-futur-1]]
 - [[alt-indirekte-fragen]]
-- [[alt-inhalte]]
 - [[alt-konjunktiv-ii]]
 - [[alt-nominalisierung]]
 - [[alt-passiv-präsens]]
@@ -14,9 +15,9 @@ tags: obsidian-auto-glossary
 - [[alt-realität-wunsh]]
 - [[alt-temporale-nebensätze]]
 - [[alt-temporale-präpositionen]]
-- [[b11-inhalte]]
+- [[alt]]
 - [[b11-ob]]
-- [[b22-inhalte]]
+- [[b11]]
 - [[b22-partikel-aber]]
 - [[b22-partikel-auch]]
 - [[b22-partikel-bloß]]
@@ -66,6 +67,7 @@ tags: obsidian-auto-glossary
 - [[b22-verben-mit-präpositionen]]
 - [[b22-widerspruch-ablehnung-ausdruck]]
 - [[b22-wortarten-präpositionen]]
+- [[b22]]
 - [[c1-telc-mündliche-prüfung-sprechen]]
 - [[c1-telc-mündliche-prüfung]]
 - [[c1-telc-prüfung-learnplan]]
@@ -81,7 +83,6 @@ tags: obsidian-auto-glossary
 - [[c1-telc-schriftliche-prüfung-schreiben]]
 - [[c1-telc-schriftliche-prüfung-sprachbausteine]]
 - [[c1-telc-schriftliche-prüfung]]
-- [[c11-inhalte]]
 - [[c11-konditionale-konnektoren]]
 - [[c11-nominal-verbal-stil]]
 - [[c11-nominalisiereung-und-verbalisierung-von-kausalsätzen]]
@@ -133,5 +134,6 @@ tags: obsidian-auto-glossary
 - [[c11-telc-prüfung]]
 - [[c11-trennbare-und-untrennbare-verben]]
 - [[c11-unterricht-inhalte]]
-- [[contents_Index]]
-- [[deutsch-inhalte]]
+- [[c11]]
+- [[deutsch]]
+- [[prüfung]]
