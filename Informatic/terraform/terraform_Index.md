@@ -1,13 +1,8 @@
 ---
-tags: 
-- obsidian-auto-glossary
-- online
-- ready
+tags: obsidian-auto-glossary
 ---
-
-# Index
-
-- [[terraform-content]]
+## Index
+- [[terraform]]
 - [[tf-Basic-Syntax]]
 - [[tf-Best-Practices-for-State]]
 - [[tf-CaC-vs-IaC]]
@@ -79,7 +74,7 @@ tags:
 - [[tf-show]]
 - [[tf-Splitting-Large-State]]
 - [[tf-Splitting-State-Files]]
-- [[tf-State-content]]
+- [[tf-State]]
 - [[tf-state-force-unlock]]
 - [[tf-State-Locking]]
 - [[tf-state-pull-push]]
