@@ -55,16 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Deutsch.md",
+                "file": "Informatic/informatic_Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Deutsch"
+              "title": "informatic_Index"
+            }
+          },
+          {
+            "id": "fc80c6b6edffd382",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatic/informatic_Index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "informatic_Index"
+            }
+          },
+          {
+            "id": "8baea356d8f2a9d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Informatic/python/python-basics/python-basics-variables-and-datatypes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "python-basics-variables-and-datatypes"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -205,8 +233,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "633b5e23967382c2",
+  "active": "8baea356d8f2a9d6",
   "lastOpenFiles": [
+    "Informatic/python/python-advanced-f2a0.ffs_tmp",
+    "Informatic/sync.ffs_lock",
+    "Deutsch/sync.ffs_lock",
+    "Informatic/python/python-managers/python-managers-uv.md",
+    "Informatic/python/python_Index.md",
+    "Informatic/python/python-advanced.md",
+    "Informatic/python/python-basics.md",
+    "Informatic/python/python-algorithms.md",
+    "Informatic/python/python-frameworks.md",
+    "Informatic/python/python-structures.md",
+    "Informatic/python/python-testing.md",
+    "Informatic/python/python-topics.md",
+    "Informatic/python.md",
+    "Informatic/informatic_Index.md",
+    "Deutsch/deutsch_Index.md",
+    "Deutsch.md",
     "Informatic/python/python-topics/python-static-typing.md",
     "Informatic/python/python-topics/python-regular-expressions.md",
     "Informatic/python/python-topics/python-paradigms.md",
@@ -219,27 +263,11 @@
     "Informatic/python/python-topics/python-formatting.md",
     "Informatic/python/python-topics/python-environments.md",
     "Informatic/python/python-topics/python-documentation.md",
-    "Informatic/python/python-topics/python-decorators.md",
-    "Informatic/python/python-topics/python-context-manager.md",
-    "Informatic/python/python-topics/python-concurrency.md",
-    "Informatic/python/python-topics/python-common-packages.md",
     "Informatic/python/python-topics",
-    "Informatic/linux/linux-contents.md",
-    "Informatic/contents.md",
-    "Informatic/sync.ffs_lock",
-    "Deutsch/sync.ffs_lock",
-    "Informatic/golang/go-orms/go-gorm.md",
     "Informatic/informatic_Index-7321.ffs_tmp",
-    "Informatic/terraform/tf-State.md",
-    "Informatic/golang/go-examples.md",
     "Informatic/informatic_Index-11c8.ffs_tmp",
-    "Informatic/golang/go-orms/gorm/go-gorm-content.md",
     "Informatic/golang/go-orms/gorm",
     "Informatic/golang/go-orms",
-    "Informatic/golang/go-microservices/go-zero.md",
-    "Informatic/golang/go-microservices/go-watermill.md",
-    "Informatic/golang/go-microservices/go-twirp.md",
-    "Informatic/golang/go-microservices/go-rpcx.md",
     "Informatic/golang/go-microservices",
     "Informatic/golang/go-logging",
     "Informatic/golang/go-frameworks",

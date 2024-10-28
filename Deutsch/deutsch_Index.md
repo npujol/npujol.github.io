@@ -1,9 +1,7 @@
 ---
 tags: obsidian-auto-glossary
 ---
-
 ## Index
-
 - [[alt-es-bei-unpersönlichen-verben]]
 - [[alt-fortbildung-oder-weiterbildung]]
 - [[alt-futur-1]]
@@ -135,5 +133,4 @@ tags: obsidian-auto-glossary
 - [[c11-trennbare-und-untrennbare-verben]]
 - [[c11-unterricht-inhalte]]
 - [[c11]]
-- [[deutsch]]
 - [[prüfung]]
