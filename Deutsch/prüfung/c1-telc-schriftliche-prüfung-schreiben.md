@@ -38,3 +38,7 @@ Bewertung: Ihre Texte werden auf Grundlage des Europäischen Referenzrahmens fü
 ## Quelle
 
 - [https://telc.hu/wp-content/uploads/2021/11/DE_C1_Mock_1.pdf](https://telc.hu/wp-content/uploads/2021/11/DE_C1_Mock_1.pdf)
+
+## Beispiele
+
+- [[c1-telc-schriftliche-prüfung-schreiben-beispiel-1]]
