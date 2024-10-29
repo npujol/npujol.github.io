@@ -7,6 +7,6 @@ tags:
   - contents
 ---
 
-# Devops 🛠
+# General contents 🧩
 
-[[contents_Index]]
+This Folder contains different topics related to Informatics, but without a dedicated folder. To know the contents of this folder, go to the following file [[contents_Index]]

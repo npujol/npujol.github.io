@@ -14,6 +14,6 @@ Weiterführende Nebensätze beziehen sich auf die Gesamtaussage des Hauptsatzes,
 
 - Der Mensch kann nicht erfolgreich mehrere Dinge auf einmal tun, __was Wissenschaftler in neuen Untersuchungen bestätigen.__
 
-- Beim Arbeiten werde ich stä ndig unterbrochen,__worüber ich mich oft ärgere.__
+- Beim Arbeiten werde ich ständig unterbrochen,__worüber ich mich oft ärgere.__
 
 - Durch Multitasking wird viel Zeit verschwendet, __weswegen man es vermeiden sollte.__
