@@ -225,4 +225,8 @@ This configuration provides an accessible dashboard to monitor and manage worklo
 
 ## K9s
 
+<<<<<<< HEAD
 * [https://k9scli.io/](https://k9scli.io/)
+=======
+* https://k9scli.io/
+>>>>>>> 22c5ca6 (Add presentations)
