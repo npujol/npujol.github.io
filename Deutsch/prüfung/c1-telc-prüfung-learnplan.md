@@ -20,7 +20,7 @@ kanban-plugin: board
 
 ## Woche 5-6: Schreiben und Sprechen auf hohem Niveau
 
-- [ ] **Lesen:** Aufgaben der ersten Probeprüfung ([Mock-Test 3](https://www.telc.net/sprachpruefungen/zertifikatspruefung/deutsch/telc-deutsch-c1-hochschule/)).
+- [ ] **Lesen:** Aufgaben der ersten Probeprüfung ([Mock-Test 3](https://www.perfekt-deutsch.de/wp-content/uploads/2021/07/telc_deutsch_c1_hochschule_uebungstest1.pdf)).
 - [ ] **Hören** Nachrichten oder Podcasts auf Deutsch hören (z. B. Tagesschau).
 - [ ] **Schreiben:** Zwei Texte (350 Wörter) über ein gesellschaftliches Thema.
 - [ ] **Sprechen:**: Diskussion zu komplexen Themen, wie Technologie oder Umwelt (15 Minuten).
@@ -42,7 +42,7 @@ kanban-plugin: board
 
 ## Zusätzliche Tipps für jede Woche
 
-- [ ] **Vokabeltraining:** Führe eine tägliche Liste neuer Wörter.
+- [ ] **Vokabeltraining:** Führe eine tägliche Liste neuer Wörter. [Ref](https://deutschtraining.org/)
 - [ ] **Grammatikübungen:** Bearbeite schwierige Strukturen wöchentlich.
 - [ ] **Selbsttests:** Überprüfe wöchentlich deinen Fortschritt mit den Mock-Tests.
 
