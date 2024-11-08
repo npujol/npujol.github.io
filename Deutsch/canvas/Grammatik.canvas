@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"655f30e740258d81","x":774,"y":495,"width":400,"height":400,"type":"file","file":"languages/deutsch/canvas/Adjektive-und-Adverbien.canvas"},
+		{"id":"1a2cc0ce7359fe52","type":"text","text":"Deutsche Grammatik","x":-125,"y":-30,"width":225,"height":59},
+		{"id":"a3a366c15c1de795","type":"text","text":"Präpositionen","x":-520,"y":-31,"width":180,"height":60},
+		{"id":"5f1264ad343b7a17","type":"text","text":"Artikel","x":240,"y":37,"width":125,"height":50},
+		{"id":"3a8eeb0dba0dd5a5","type":"text","text":"Konnektoren","x":-480,"y":62,"width":178,"height":50},
+		{"id":"7167e90737ca68e7","type":"text","text":"Pronomen","x":-463,"y":-144,"width":145,"height":53},
+		{"id":"056b678c6480dab5","type":"text","text":"Verben\n","x":258,"y":-223,"width":125,"height":60},
+		{"id":"e35e262de04df369","type":"text","text":"Sustantive","x":285,"y":-91,"width":160,"height":60},
+		{"id":"36b3561b34bf31dd","type":"text","text":"Satzbau","x":-410,"y":175,"width":143,"height":60},
+		{"id":"8498ee3ab464728d","type":"file","file":"languages/deutsch/canvas/Verben.canvas","x":546,"y":-918,"width":400,"height":400},
+		{"id":"1fa3713df2cb200d","type":"file","file":"languages/deutsch/canvas/Sustantive.canvas","x":746,"y":-461,"width":400,"height":400},
+		{"id":"5739e0ba984e626d","type":"file","file":"languages/deutsch/canvas/Artikel.canvas","x":546,"y":62,"width":400,"height":400},
+		{"id":"a8303e5f77f00ad1","type":"file","file":"languages/deutsch/canvas/Pronomen.canvas","x":-1000,"y":-660,"width":400,"height":400},
+		{"id":"c691088332975556","type":"file","file":"languages/deutsch/canvas/Präpositionen.canvas","x":-1100,"y":-223,"width":400,"height":400},
+		{"id":"f475f0426b24b1e7","type":"file","file":"languages/deutsch/canvas/Satzbau.canvas","x":-900,"y":300,"width":400,"height":400},
+		{"id":"569c35746ac2e38b","type":"text","text":"Adjektive und Adverbien","x":285,"y":620,"width":253,"height":60}
+	],
+	"edges":[
+		{"id":"25a4e14657a85f45","fromNode":"1a2cc0ce7359fe52","fromSide":"right","toNode":"5f1264ad343b7a17","toSide":"left"},
+		{"id":"fbc339a913daa39e","fromNode":"1a2cc0ce7359fe52","fromSide":"right","toNode":"569c35746ac2e38b","toSide":"left"},
+		{"id":"a3e013fdc649a435","fromNode":"1a2cc0ce7359fe52","fromSide":"left","toNode":"7167e90737ca68e7","toSide":"right"},
+		{"id":"fe960950444db0bf","fromNode":"1a2cc0ce7359fe52","fromSide":"left","toNode":"a3a366c15c1de795","toSide":"right"},
+		{"id":"234793a93aad0359","fromNode":"1a2cc0ce7359fe52","fromSide":"left","toNode":"3a8eeb0dba0dd5a5","toSide":"right"},
+		{"id":"b741c4f0b8015c46","fromNode":"1a2cc0ce7359fe52","fromSide":"left","toNode":"36b3561b34bf31dd","toSide":"right"},
+		{"id":"c55360c2b3594b66","fromNode":"1a2cc0ce7359fe52","fromSide":"right","toNode":"e35e262de04df369","toSide":"left"},
+		{"id":"48a98d751c070d87","fromNode":"1a2cc0ce7359fe52","fromSide":"right","toNode":"056b678c6480dab5","toSide":"left"},
+		{"id":"1ea3111b5508a1f3","fromNode":"056b678c6480dab5","fromSide":"right","toNode":"8498ee3ab464728d","toSide":"left"},
+		{"id":"af05108f52893137","fromNode":"e35e262de04df369","fromSide":"right","toNode":"1fa3713df2cb200d","toSide":"left"},
+		{"id":"98a3451c44696153","fromNode":"5f1264ad343b7a17","fromSide":"right","toNode":"5739e0ba984e626d","toSide":"left"},
+		{"id":"343185de3a2db524","fromNode":"7167e90737ca68e7","fromSide":"left","toNode":"a8303e5f77f00ad1","toSide":"right"},
+		{"id":"81cf9f6cf39ec91f","fromNode":"a3a366c15c1de795","fromSide":"left","toNode":"c691088332975556","toSide":"right"},
+		{"id":"a23bc713690be458","fromNode":"36b3561b34bf31dd","fromSide":"left","toNode":"f475f0426b24b1e7","toSide":"right"},
+		{"id":"fc6f3e777cb39175","fromNode":"569c35746ac2e38b","fromSide":"right","toNode":"655f30e740258d81","toSide":"left"}
+	]
+}

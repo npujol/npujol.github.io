@@ -192,7 +192,6 @@ tags: obsidian-auto-glossary
 - [[docker-technologies-union-filesystems]]
 - [[docker-technologies]]
 - [[docker]]
-- [[general-nixcon-2024-berlin]]
 - [[general-programming-solving-problems]]
 - [[go-advanced]]
 - [[go-apps]]

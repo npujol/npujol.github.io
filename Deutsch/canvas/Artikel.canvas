@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"b5494fa795837cd1","type":"file","file":"languages/deutsch/grammatik/grammatik-artikelwörter.md","x":-680,"y":56,"width":320,"height":184},
+		{"id":"c98e33e9ae0aa912","type":"text","text":"bestimmter Artikel","x":202,"y":-114,"width":218,"height":54},
+		{"id":"12d7f1c36af1d02d","type":"text","text":"unbestimmter Artikel","x":261,"y":26,"width":239,"height":55},
+		{"id":"8e750089e3229b25","type":"text","text":"Possessivartikel","x":-580,"y":-140,"width":200,"height":56},
+		{"id":"ea1ebb28f6928c58","type":"text","text":"Artikel","x":-140,"y":-30,"width":120,"height":56},
+		{"id":"e6f62f38dcb05ae2","type":"text","text":"Nullartikel","x":-162,"y":160,"width":165,"height":50}
+	],
+	"edges":[
+		{"id":"21a5be431d5992fc","fromNode":"ea1ebb28f6928c58","fromSide":"right","toNode":"c98e33e9ae0aa912","toSide":"left"},
+		{"id":"a34e5b1ac2758747","fromNode":"ea1ebb28f6928c58","fromSide":"right","toNode":"12d7f1c36af1d02d","toSide":"left"},
+		{"id":"d885ebbc9a7c4f2c","fromNode":"ea1ebb28f6928c58","fromSide":"left","toNode":"8e750089e3229b25","toSide":"right"},
+		{"id":"a8adde1d88e2ff93","fromNode":"ea1ebb28f6928c58","fromSide":"left","toNode":"b5494fa795837cd1","toSide":"right"},
+		{"id":"8f0f8bdf7b95f42e","fromNode":"ea1ebb28f6928c58","fromSide":"bottom","toNode":"e6f62f38dcb05ae2","toSide":"top"}
+	]
+}

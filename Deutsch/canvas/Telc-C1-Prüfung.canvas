@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"4e703d0a00d5dcef","type":"group","x":-140,"y":-740,"width":620,"height":1340,"color":"#f5e284","label":"Telc Prüfung"},
+		{"id":"955e03126306ff88","type":"group","x":-110,"y":-680,"width":560,"height":760,"color":"#ffd6d6","label":"Schriftliche Prüfung "},
+		{"id":"5db6c577f07ef650","type":"group","x":-110,"y":300,"width":560,"height":260,"color":"#e2dbff","label":"Mündliche Prüfung"},
+		{"id":"65b31e9c03812713","type":"group","x":-80,"y":-620,"width":500,"height":260,"color":"#ffadad","label":"Lesen/Sprachbausteine: 90 Min"},
+		{"id":"9f413c266a234b1f","type":"group","x":-80,"y":-140,"width":500,"height":190,"color":"#ffa3a3","label":"Schreiben: 70 Min"},
+		{"id":"a3ab6d759a6aecc3","type":"group","x":-80,"y":360,"width":500,"height":160,"color":"#b29df3","label":"Sprechen: 16 Min + 20 Min"},
+		{"id":"f3efc51bb0dd01ac","type":"group","x":-80,"y":-300,"width":500,"height":100,"color":"#ffadad","label":"Hören: 40 Min "},
+		{"id":"8e6626601d55a89f","type":"text","text":"Lesen: 3 Teile","x":-60,"y":-600,"width":460,"height":80,"color":"1"},
+		{"id":"e23e7ef9c7f80bbc","type":"text","text":"Sprachbausteine: 1 Teil","x":-60,"y":-500,"width":460,"height":100,"color":"1"},
+		{"id":"33638d2d82cef02c","type":"text","text":"Pausa: 20 Min","x":-110,"y":100,"width":560,"height":140,"color":"4"},
+		{"id":"e5df41174de536d0","type":"text","text":"Hören: 3 Teile","x":-60,"y":-280,"width":460,"height":50,"color":"1"},
+		{"id":"1c207462780c2fd2","type":"text","text":"Schreiben: 1 Teil","x":-60,"y":-100,"width":460,"height":120,"color":"1"},
+		{"id":"942841f48b029eb3","type":"text","text":"Sprechen: 2Teile","x":-60,"y":380,"width":460,"height":80,"color":"6"},
+		{"id":"1854ced5681eebaa","x":600,"y":-140,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-hören.md"},
+		{"id":"1b2d7e24438d7afc","type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-lesen.md","x":600,"y":-811,"width":400,"height":422},
+		{"id":"98da372ef3564ade","x":600,"y":460,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-mündliche-prüfung-sprechen.md"},
+		{"id":"28fbbb75f557d24f","type":"file","file":"languages/deutsch/prüfung/c1-telc-prüfung.md","x":0,"y":-1320,"width":400,"height":400},
+		{"id":"5d5ea096c128a5fb","x":-720,"y":380,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-hören-1.md"},
+		{"id":"82f9e7c7a14bd274","x":-720,"y":-140,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-sprachbausteine.md"},
+		{"id":"515f04cf819ad542","x":-720,"y":-650,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-lesen-3.md"},
+		{"id":"cbc34be755e2d656","x":-660,"y":-1160,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-lesen-2.md"},
+		{"id":"0525a85cae8730bc","type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-lesen-1.md","x":-600,"y":-1640,"width":400,"height":400},
+		{"id":"c2cf37ee6da037e4","x":-60,"y":680,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-hören-2.md"},
+		{"id":"689a47c4f84477fc","x":-660,"y":860,"width":400,"height":400,"type":"file","file":"languages/deutsch/prüfung/c1-telc-schriftliche-prüfung-hören-3.md"}
+	],
+	"edges":[
+		{"id":"01921edef4e09c11","fromNode":"8e6626601d55a89f","fromSide":"left","toNode":"0525a85cae8730bc","toSide":"right"},
+		{"id":"b6830cc9761eba1a","fromNode":"8e6626601d55a89f","fromSide":"left","toNode":"cbc34be755e2d656","toSide":"right"},
+		{"id":"7f4c0d6c02eaebea","fromNode":"8e6626601d55a89f","fromSide":"left","toNode":"515f04cf819ad542","toSide":"right"},
+		{"id":"d6334ca8d9caf8bf","fromNode":"e23e7ef9c7f80bbc","fromSide":"left","toNode":"82f9e7c7a14bd274","toSide":"right"},
+		{"id":"2a65f69e8bab672e","fromNode":"e5df41174de536d0","fromSide":"left","toNode":"5d5ea096c128a5fb","toSide":"right"},
+		{"id":"6f5b06c25bed2601","fromNode":"e5df41174de536d0","fromSide":"left","toNode":"c2cf37ee6da037e4","toSide":"left"},
+		{"id":"67968c7b0f368d11","fromNode":"e5df41174de536d0","fromSide":"left","toNode":"689a47c4f84477fc","toSide":"right"},
+		{"id":"7e70d2d51c8c046c","fromNode":"9f413c266a234b1f","fromSide":"right","toNode":"1854ced5681eebaa","toSide":"left"},
+		{"id":"ee96c24c5fb9dc90","fromNode":"955e03126306ff88","fromSide":"right","toNode":"1b2d7e24438d7afc","toSide":"bottom"},
+		{"id":"7b0c1284ceacb609","fromNode":"4e703d0a00d5dcef","fromSide":"top","toNode":"28fbbb75f557d24f","toSide":"bottom"},
+		{"id":"126a6fe6afe1ec6f","fromNode":"5db6c577f07ef650","fromSide":"right","toNode":"98da372ef3564ade","toSide":"top"}
+	]
+}

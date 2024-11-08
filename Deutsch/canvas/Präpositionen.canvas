@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"dc62fefb5a4dd99d","type":"text","text":"Präpositionen","x":-125,"y":-30,"width":185,"height":50},
+		{"id":"631c7d6cd11dbd7d","type":"text","text":"Mit Akkusativ","x":278,"y":-159,"width":182,"height":57},
+		{"id":"73f51b3ee130676a","type":"text","text":"Mit Dativ","x":261,"y":-19,"width":159,"height":50},
+		{"id":"bf39dc91466185dc","type":"text","text":"Mit Genitiv","x":248,"y":72,"width":152,"height":50},
+		{"id":"639101bf217c9be5","type":"text","text":"Wechselpräpositionen","x":-462,"y":220,"width":250,"height":60},
+		{"id":"fec5444bcc3b313f","type":"text","text":"Verben mit Präpositionen","x":-540,"y":-154,"width":277,"height":52},
+		{"id":"b9fefdb45ce01871","type":"text","text":"lokale Präpositionen","x":-518,"y":-5,"width":234,"height":50}
+	],
+	"edges":[
+		{"id":"6121f9ccc64e6666","fromNode":"dc62fefb5a4dd99d","fromSide":"right","toNode":"631c7d6cd11dbd7d","toSide":"left"},
+		{"id":"ca8fb56104a35850","fromNode":"dc62fefb5a4dd99d","fromSide":"right","toNode":"73f51b3ee130676a","toSide":"left"},
+		{"id":"cd14caf7a7ce1a54","fromNode":"dc62fefb5a4dd99d","fromSide":"right","toNode":"bf39dc91466185dc","toSide":"left"},
+		{"id":"df418fdab981a6a3","fromNode":"dc62fefb5a4dd99d","fromSide":"left","toNode":"fec5444bcc3b313f","toSide":"right"},
+		{"id":"c01431b672b89dda","fromNode":"dc62fefb5a4dd99d","fromSide":"left","toNode":"b9fefdb45ce01871","toSide":"right"},
+		{"id":"de51337aa0c51f43","fromNode":"b9fefdb45ce01871","fromSide":"bottom","toNode":"639101bf217c9be5","toSide":"top"}
+	]
+}

@@ -2,12 +2,14 @@
 tags: obsidian-auto-glossary
 ---
 ## Index
-
 - [[c11-konditionale-konnektoren]]
+- [[c11-negative-konsekutivsätze]]
 - [[c11-nominal-verbal-stil]]
 - [[c11-nominalisiereung-und-verbalisierung-von-kausalsätzen]]
 - [[c11-nominalisiereung-und-verbalisierung-von-modalsätzen]]
 - [[c11-nominalisiereung-und-verbalisierung-von-temporalsätzen]]
+- [[c11-nominalisierung-und-verbalisierung-von-finalsätzen]]
+- [[c11-nominalisierung-und-verbalisierung-von-Konzessivsätzen]]
 - [[c11-redemittel-argumente-anführen]]
 - [[c11-redemittel-argumente-verbinden]]
 - [[c11-redemittel-auf-kritik-reagieren]]
@@ -25,6 +27,7 @@ tags: obsidian-auto-glossary
 - [[c11-redemittel-einen-kommentar-schreiben]]
 - [[c11-redemittel-erstaunen-oder-überraschung-ausdrücken]]
 - [[c11-redemittel-etwas-bewerten-oder-einschätzen]]
+- [[c11-redemittel-etwas-planen]]
 - [[c11-redemittel-etwas-vergleichen]]
 - [[c11-redemittel-gefühle-und-wünsche-ausdrücken]]
 - [[c11-redemittel-gute-wünsche-aussprechen-oder-gratulieren]]
@@ -54,5 +57,5 @@ tags: obsidian-auto-glossary
 - [[c11-telc-prüfung]]
 - [[c11-trennbare-und-untrennbare-verben]]
 - [[c11-unterricht-inhalte]]
-- [[c11]]
 - [[c11-über-ziele-zu-sprechen]]
+- [[c11]]
