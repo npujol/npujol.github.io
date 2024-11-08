@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"e72b3ef49907e075","type":"text","text":"Satzbau","x":-125,"y":-30,"width":145,"height":50},
+		{"id":"96fe498c763c0b34","type":"text","text":"Nebensätze","x":272,"y":32,"width":172,"height":50},
+		{"id":"bdb2a7b93c833dd2","type":"text","text":"Angabe und Ergänzungen","x":308,"y":120,"width":272,"height":50},
+		{"id":"b48a0a4c7e05e874","type":"text","text":"Fragesätze","x":128,"y":-209,"width":163,"height":52},
+		{"id":"e4fbf67a5122f417","type":"text","text":"Imperativsätze","x":210,"y":-80,"width":201,"height":50},
+		{"id":"1944352f998384cf","type":"text","text":"Konnektoren","x":-351,"y":-169,"width":161,"height":50},
+		{"id":"3fa9d9fb7e9706c2","type":"text","text":"Konjunktionen","x":-640,"y":-157,"width":186,"height":50},
+		{"id":"2d09f29b6e54d7e6","type":"text","text":"nicht","x":-424,"y":-55,"width":106,"height":50},
+		{"id":"a08678e264700554","type":"text","text":"Kausalsätze","x":-454,"y":32,"width":156,"height":50},
+		{"id":"10d077c7d08b51b9","type":"text","text":"Relativsätze","x":-552,"y":119,"width":176,"height":51}
+	],
+	"edges":[
+		{"id":"b76ca676cd44c63f","fromNode":"e72b3ef49907e075","fromSide":"right","toNode":"b48a0a4c7e05e874","toSide":"left"},
+		{"id":"402e4bb24f3d036b","fromNode":"e72b3ef49907e075","fromSide":"right","toNode":"e4fbf67a5122f417","toSide":"left"},
+		{"id":"0bad4d3c0f5c4e71","fromNode":"e72b3ef49907e075","fromSide":"right","toNode":"96fe498c763c0b34","toSide":"left"},
+		{"id":"38db4967b558fb65","fromNode":"e72b3ef49907e075","fromSide":"right","toNode":"bdb2a7b93c833dd2","toSide":"left"},
+		{"id":"ed6699f563e7411f","fromNode":"e72b3ef49907e075","fromSide":"left","toNode":"1944352f998384cf","toSide":"right"},
+		{"id":"5d802495eb14f1e2","fromNode":"e72b3ef49907e075","fromSide":"left","toNode":"2d09f29b6e54d7e6","toSide":"right"},
+		{"id":"f849b58efd2d9047","fromNode":"e72b3ef49907e075","fromSide":"left","toNode":"a08678e264700554","toSide":"right"},
+		{"id":"a3fe62212d942d6d","fromNode":"1944352f998384cf","fromSide":"left","toNode":"3fa9d9fb7e9706c2","toSide":"right"},
+		{"id":"4e794f8e889a63a5","fromNode":"e72b3ef49907e075","fromSide":"left","toNode":"10d077c7d08b51b9","toSide":"right"}
+	]
+}

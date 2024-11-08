@@ -57,11 +57,11 @@ To install and configure a Kubernetes cluster on CentOS 7 or Ubuntu, you would n
 ## K3D Tutorial
 
 * __Documentation:__ [K3D Documentation](https://k3d.io/v5.7.4/)
-* __Further Reading:__  
-  * [Provision a High-Availability K3s Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
-  * [Introduction to K3D: Running K3s in Docker](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
 
----
+* __Further Reading:__
+  
+* [Provision a High-Availability K3s Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
+* [Introduction to K3D: Running K3s in Docker](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
 
 ### Own Tutorial
 
@@ -127,8 +127,6 @@ To list all services in all namespaces, use:
 kubectl get services --all-namespaces
 ```
 
----
-
 ### Overview of Services Up to This Point
 
 | Namespace       | Service Name     | Type           | Cluster IP       | External IP(s)                     | Ports                           | Age |
@@ -147,86 +145,78 @@ This section guides you through setting up and accessing the Kubernetes Dashboar
 
 To deploy the Kubernetes Dashboard, follow the steps below:
 
-1. __Add the Kubernetes Dashboard Helm Repository__
+Step 1. __Add the Kubernetes Dashboard Helm Repository__
 
-   ```shell
-   helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
-   ```
+```shell
+helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+```
 
-2. __Install the Kubernetes Dashboard__
+Step 2. __Install the Kubernetes Dashboard__
 
-   Deploy the dashboard in the `kubernetes-dashboard` namespace:
+Deploy the dashboard in the `kubernetes-dashboard` namespace:
 
-   ```shell
-   helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
-   ```
+```shell
+helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dashboard --create-namespace --namespace kubernetes-dashboard
+```
 
-3. __Set Up Access Permissions__
+Step 3. __Set Up Access Permissions__
 
-   Create and apply a `ServiceAccount` and `ClusterRoleBinding` for admin access:
+Create and apply a `ServiceAccount` and `ClusterRoleBinding` for admin access:
 
-   * Copy the following YAML into a new file, such as `dashboard-adminuser.yaml`:
+* Copy the following YAML into a new file, such as `dashboard-adminuser.yaml`:
 
-     ```yaml
-     apiVersion: rbac.authorization.k8s.io/v1
-     kind: ClusterRoleBinding
-     metadata:
-       name: admin-user
-     roleRef:
-       apiGroup: rbac.authorization.k8s.io
-       kind: ClusterRole
-       name: cluster-admin
-     subjects:
-     - kind: ServiceAccount
-       name: admin-user
-       namespace: kubernetes-dashboard
+```yaml
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: admin-user
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
+subjects:
+- kind: ServiceAccount
+  name: admin-user
+  namespace: kubernetes-dashboard
 
-     ---
 
-     apiVersion: v1
-     kind: ServiceAccount
-     metadata:
-       name: admin-user
-       namespace: kubernetes-dashboard
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: admin-user
+  namespace: kubernetes-dashboard
 
-     ---
 
-     apiVersion: v1
-     kind: Secret
-     metadata:
-       name: admin-user
-       namespace: kubernetes-dashboard
-       annotations:
-         kubernetes.io/service-account.name: "admin-user"
-     type: kubernetes.io/service-account-token
-     ```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: admin-user
+  namespace: kubernetes-dashboard
+  annotations:
+    kubernetes.io/service-account.name: "admin-user"
+type: kubernetes.io/service-account-token
+```
 
-   * Apply the file:
+* Apply the file:
 
-     ```shell
-     kubectl apply -f dashboard-adminuser.yaml
-     ```
+  ```shell
+  kubectl apply -f dashboard-adminuser.yaml
+  ```
 
-4. __Access the Dashboard__
+Step 4. __Access the Dashboard__
 
-   * Retrieve the access token for the `admin-user` account:
+* Retrieve the access token for the `admin-user` account:
 
-     ```shell
-     kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d
-     ```
+```shell
+kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d
+```
 
-   * Go to the [Kubernetes Dashboard](https://localhost:8443/#/workloads?namespace=default) and enter the token when prompted for authentication.
+* Go to the [Kubernetes Dashboard](https://localhost:8443/#/workloads?namespace=default) and enter the token when prompted for authentication.
 
-   > Note: You may need to set up port forwarding or use `kubectl proxy` to access the dashboard locally.
+> Note: You may need to set up port forwarding or use `kubectl proxy` to access the dashboard locally.
+
+```bash
+kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy 8443:443
+```
 
 This configuration provides an accessible dashboard to monitor and manage workloads in your K3D cluster.
-
-## Rancher
-
-## K9s
-
-<<<<<<< HEAD
-* [https://k9scli.io/](https://k9scli.io/)
-=======
-* https://k9scli.io/
->>>>>>> 22c5ca6 (Add presentations)

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"fa765257b0fe21a6","type":"text","text":"Stil","x":-125,"y":193,"width":105,"height":50},
+		{"id":"29c8a0fff67ff0fc","type":"text","text":"Fachsprache","x":-342,"y":234,"width":175,"height":53},
+		{"id":"52aa2cb6b8769358","type":"text","text":"Dialekte","x":-342,"y":143,"width":140,"height":50},
+		{"id":"0f355955638fb15c","type":"text","text":"Nominalstil","x":120,"y":193,"width":165,"height":50},
+		{"id":"0b29c8dcfe9b4df9","type":"text","text":"Umgangsprache","x":108,"y":287,"width":190,"height":50},
+		{"id":"e8e261c28595aac8","type":"text","text":"Verbalstil","x":108,"y":117,"width":150,"height":51}
+	],
+	"edges":[
+		{"id":"2030cc2a10911c94","fromNode":"fa765257b0fe21a6","fromSide":"right","toNode":"e8e261c28595aac8","toSide":"left"},
+		{"id":"345862e8e1475a4a","fromNode":"fa765257b0fe21a6","fromSide":"right","toNode":"0f355955638fb15c","toSide":"left"},
+		{"id":"c897fb4bfd28c27f","fromNode":"fa765257b0fe21a6","fromSide":"right","toNode":"0b29c8dcfe9b4df9","toSide":"left"},
+		{"id":"e9d81017a589d191","fromNode":"fa765257b0fe21a6","fromSide":"left","toNode":"29c8a0fff67ff0fc","toSide":"right"},
+		{"id":"cf97542f2eed54e6","fromNode":"fa765257b0fe21a6","fromSide":"left","toNode":"52aa2cb6b8769358","toSide":"right"}
+	]
+}
