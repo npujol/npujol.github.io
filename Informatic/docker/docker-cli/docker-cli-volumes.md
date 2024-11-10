@@ -43,7 +43,6 @@ To use a volume in a container, you can use the `-v` or `--volume` flag during t
 
 ```bash
 docker run -d --name my-container -v my-named-volume:/var/lib/data my-image
-
 ```
 
 This command creates a new container named “my-container” using the “my-image” image and mounts the “my-named-volume” volume at the `/var/lib/data` path inside the container.
@@ -112,3 +111,11 @@ volumes:
 * __Named Volume__: Defined by a name, making it easy to reference and manage across containers.
 
 Each of these volume types has different use cases depending on the persistence and management requirements for your data.
+
+## Helpers
+
+Get docker volumes size
+
+```bash
+docker system df --verbose --format '{{ range .Volumes }}{{ .Name }} {{ .Size }}\n{{ end }}'
+```
