@@ -137,7 +137,7 @@ tags: obsidian-auto-glossary
 - [[c11-subjekt-und-objektsätze]]
 - [[c11-telc-prüfung]]
 - [[c11-trennbare-und-untrennbare-verben]]
-- [[c11-unterricht-inhalte]]
+- [[c11-nomen-verb-verbindungen]]
 - [[c11-über-ziele-zu-sprechen]]
 - [[c11]]
 - [[grammatik-artikelwörter]]

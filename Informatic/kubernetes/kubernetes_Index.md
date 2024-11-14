@@ -20,6 +20,7 @@ tags: obsidian-auto-glossary
 - [[kubernetes-introduction]]
 - [[kubernetes-kubernetes-choosing-a-managed-provider]]
 - [[kubernetes-kubernetes-deploying-your-first-application]]
+- [[kubernetes-kubernetes-installing-a-local-cluster-taefik]]
 - [[kubernetes-kubernetes-installing-a-local-cluster]]
 - [[kubernetes-kubernetes]]
 - [[kubernetes-logging-logs]]

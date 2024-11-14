@@ -108,6 +108,7 @@ kubectl port-forward -n kube-system "$(kubectl get pods -n kube-system | grep '^
 ```
 
 You can access the Traefik dashboard [here](http://localhost:9000/dashboard/#/).
+More about [[kubernetes-kubernetes-installing-a-local-cluster-taefik]]
 
 #### Step 6: Access Kubernetes Control Panel
 
@@ -220,3 +221,7 @@ kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy
 ```
 
 This configuration provides an accessible dashboard to monitor and manage workloads in your K3D cluster.
+
+### Related projects
+
+- [https://github.com/npujol/kaos](https://github.com/npujol/kaos) Follow k3d Readme Instructions.

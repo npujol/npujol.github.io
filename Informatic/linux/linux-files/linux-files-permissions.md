@@ -37,3 +37,19 @@ Learn more from the following resources:
 
 * [@article@Linux File Permissions](https://linuxhandbook.com/linux-file-permissions/)
 * [@video@Linux File Permissions in 5 Minutes](https://www.youtube.com/watch?v=LnKoncbQBsM)
+
+```bash
+$ ls -l
+drwxr-xr-x. 2 myuser myuser 40 May 19 10:52 existing-dir
+```
+
+
+| **What is**       | **Explanation**                                                                                                                                                                               |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Permissions**   | `drwxr-xr-x`<br>**d**: Directory indicator<br>**rwx**: Owner permissions (read, write, execute)<br>**r-x**: Group permissions (read, execute)<br>**r-x**: Others' permissions (read, execute) |
+| **Links**         | `2`<br>Number of links to this directory, including `.` and entries for subdirectories.                                                                                                       |
+| **Owner**         | `myuser`<br>User who owns this directory.                                                                                                                                                     |
+| **Group**         | `myuser`<br>Group associated with this directory.                                                                                                                                             |
+| **Size**          | `40`<br>Directory size in bytes (40 bytes for small directories due to metadata).                                                                                                             |
+| **Date Modified** | `May 19 10:52`<br>Date and time when the directory was last modified.                                                                                                                         |
+| **Name**          | `existing-dir`<br>Name of the directory.                                                                                                                                                      |

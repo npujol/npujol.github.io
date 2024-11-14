@@ -19,3 +19,7 @@ tags:
 - [ ] traefik
 - [ ] helm
 - [ ] Kubernetes
+
+## Related
+
+- [https://kubebyexample.com/learning-paths/command-line-essentials/introduction](https://kubebyexample.com/learning-paths/command-line-essentials/introduction)
