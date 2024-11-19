@@ -29,3 +29,4 @@ Volumes provide directories accessible to containers running in a pod and can be
 - [officialPersistent Volumes Documentation](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [videoThe basics of stateful applications in Kubernetes](https://www.youtube.com/watch?v=GieXzb91I40)
 - [feedExplore top posts about Storage](https://app.daily.dev/tags/storage?ref=roadmapsh)
+- https://kubebyexample.com/learning-paths/kubernetes-fundamentals/what-volume

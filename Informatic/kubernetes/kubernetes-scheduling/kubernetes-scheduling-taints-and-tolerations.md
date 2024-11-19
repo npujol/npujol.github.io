@@ -22,3 +22,4 @@ __Taints__ and __tolerations__ are used in Kubernetes to restrict or allow pods 
 
 * [@official@Taints and Tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
 * [@video@Kubernetes For Beginners: Taints & Tolerations](https://www.youtube.com/watch?v=mo2UrkjA7FE)
+* https://kubebyexample.com/learning-paths/kubernetes-fundamentals/what-taint

@@ -52,3 +52,7 @@ In Kubernetes, a pod is the __smallest deployable unit__ that represents a singl
 - Pods may never be referenced directly by the name or IP address.
 - A [service](http://kubernetes.io/docs/user-guide/services/) selects a set of pods that match specific criterion and exposes them through a well-defined endpoint.
 - Any request targeting the pod(s) goes through the Service, that routes the traffic to one of the pods.
+
+## Ref
+
+- https://kubebyexample.com/learning-paths/kubernetes-fundamentals/liveness-and-readiness-probes

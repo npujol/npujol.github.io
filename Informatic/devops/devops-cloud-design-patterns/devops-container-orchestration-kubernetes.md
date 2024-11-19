@@ -25,3 +25,11 @@ Visit the following resources to learn more:
 * [@article@Kubernetes: An Overview](https://thenewstack.io/kubernetes-an-overview/)
 * [@video@ Complete Kubernetes Course - From BEGINNER to PRO](https://www.youtube.com/watch?v=2T86xAtR6Fo)
 * [@feed@Explore top posts about Kubernetes](https://app.daily.dev/tags/kubernetes?ref=roadmapsh)
+* https://kubebyexample.com/learning-paths/container-fundamentals/introduction-containers/orchestration
+
+- Application Definitions - YAML and JSON files can be passed between developers or from developers to operators to run fully-functioning, multi-container applications
+- Easy Application Instances - Run many versions of the same application in different namespaces
+- Multi-Node Scheduling - controllers built into Kubernetes manage 10 or 10,000 container hosts with no extra complexity
+- Powerful API - Developers, Cluster Admins, and Automation alike can define application state, tenancy, and with OpenShift 4, even cluster node states
+- Operational Automation - [Kubernetes Operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) can be thought of as a robot systems administrator deployed side by side with applications managing mundane and complex tasks for the application (backups, restores, etc)
+- Higher Level Frameworks - Once you adopt Kubernetes orchestration, you gain access to an innovative ecosystem of tools like Istio, Knative, and the previously mentioned Operator Framework
