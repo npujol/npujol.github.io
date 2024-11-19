@@ -25,3 +25,4 @@ Learn more from the following resources:
 
 * [@official@Rolling Back a Deployment - Docs](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment)
 * [@video@Kubernetes Rolling Update | Rollback Deployment](https://www.youtube.com/watch?v=xRifmrap7S8)
+- https://kubebyexample.com/learning-paths/kubernetes-fundamentals/rolling-updates

@@ -42,6 +42,10 @@ To install and configure a Kubernetes cluster on CentOS 7 or Ubuntu, you would n
 | __Minikube__    | Flexible use cases     | VM & container support, UI, dashboard            | Feature-rich, broad compatibility          | Slow startup                       |
 | __MicroK8s__    | Local with feature set | CLI, metrics, version selector                   | Suitable for Ubuntu users, rich features   | Slowest startup time               |
 
+### MInikube
+
+- [tutorial](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-3)
+
 ## K3s
 
 [Documentation](https://docs.k3s.io/quick-start)
