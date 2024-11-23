@@ -140,7 +140,6 @@ tags: obsidian-auto-glossary
 - [[c11-trennbare-und-untrennbare-verben]]
 - [[c11-über-ziele-zu-sprechen]]
 - [[c11]]
-- [[deutsch]]
 - [[grammatik-artikelwörter]]
 - [[grammatik-nomen-verb-verbindungen]]
 - [[grammatik-verben-trennbaren]]
