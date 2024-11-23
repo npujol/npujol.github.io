@@ -23,3 +23,14 @@ Visit the following resources to learn more:
 * [@official@Grafana Webinars and Videos](https://grafana.com/videos/)
 * [@video@Server Monitoring // Prometheus and Grafana Tutorial](https://www.youtube.com/watch?v=9TJx7QTrTyo)
 * [@feed@Explore top posts about Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)
+
+
+## Tutorial
+
+https://jfrog.com/help/r/artifactory-configure-prometheus-with-grafana-using-helm-charts-for-artifactory/installing-prometheus-loki-and-grafana-on-kubernetes
+
+https://grafana.com/docs/loki/latest/setup/install/helm/install-microservices/
+
+```bash
+kubectl create namespace monitoring
+```

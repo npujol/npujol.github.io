@@ -49,3 +49,41 @@ Visit the following resources to learn more:
 * __Self-hosted solutions__ offer more __control, customization__, and potentially __lower cost__ for small setups, but require manual scaling and management.
 
 * __Cloud-based solutions__ provide __automatic scaling, high availability, and security__, but can become expensive at scale and offer limited customization over algorithms and infrastructure control.
+
+## Traefik
+
+- Traefik Hub API Gateway
+- Traefik Hub API Management
+
+### References
+
+- [Code](https://github.com/traefik/traefik)
+- [Doc traefik-hub](https://doc.traefik.io/traefik-hub/)
+
+
+```mermaid
+flowchart TD
+    A[Application Proxy] --> B[Service Discovery]
+    A --> C[Traffic Routing]
+    A --> D[Load Balancing]
+    C --> F[Microservices]
+    C --> G[APIs]
+```
+
+- [ ] Configure in Kaos
+
+https://doc.traefik.io/traefik/getting-started/quick-start-with-kubernetes/
+
+https://doc.traefik.io/traefik/providers/kubernetes-crd/
+
+```bash
+# Install Traefik Resource Definitions:
+kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v3.2/docs/content/reference/dynamic-configuration/kubernetes-crd-definition-v1.yml
+
+# Install RBAC for Traefik:
+kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v3.2/docs/content/reference/dynamic-configuration/kubernetes-crd-rbac.yml
+```
+
+https://k3d.io/v5.7.4/usage/exposing_services/#2-via-nodeport
+https://doc.traefik.io/traefik/providers/kubernetes-ingress/
+https://media.ccc.de/v/nixcon-2023-35290-nix-and-kubernetes-deployments-done-right#t=214

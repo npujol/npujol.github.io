@@ -22,3 +22,7 @@ GitOps is a set of practices for managing infrastructure and applications using 
 * [@video@DevOps and GitOps for Kubernetes](https://www.youtube.com/watch?v=PFLimPh5-wo)
 * [@article@Using GitOps with a Kubernetes cluster](https://docs.gitlab.com/ee/user/clusters/agent/gitops.html)
 * [@feed@Explore top posts about GitOps](https://app.daily.dev/tags/gitops?ref=roadmapsh)
+
+## fluxcd
+
+- https://fluxcd.io/flux/concepts/
