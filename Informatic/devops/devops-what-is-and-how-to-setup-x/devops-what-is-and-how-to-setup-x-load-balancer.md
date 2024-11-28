@@ -52,25 +52,24 @@ Visit the following resources to learn more:
 
 ## Traefik
 
-- Traefik Hub API Gateway
-- Traefik Hub API Management
+* Traefik Hub API Gateway
+* Traefik Hub API Management
 
 ### References
 
-- [Code](https://github.com/traefik/traefik)
-- [Doc traefik-hub](https://doc.traefik.io/traefik-hub/)
-
+* [Code](https://github.com/traefik/traefik)
+* [Doc traefik-hub](https://doc.traefik.io/traefik-hub/)
 
 ```mermaid
 flowchart TD
-    A[Application Proxy] --> B[Service Discovery]
-    A --> C[Traffic Routing]
-    A --> D[Load Balancing]
-    C --> F[Microservices]
-    C --> G[APIs]
+A[Application Proxy] --> B[Service Discovery]
+A --> C[Traffic Routing]
+A --> D[Load Balancing]
+C --> F[Microservices]
+C --> G[APIs]
 ```
 
-- [ ] Configure in Kaos
+* [ ] Configure in Kaos
 
 https://doc.traefik.io/traefik/getting-started/quick-start-with-kubernetes/
 
@@ -84,6 +83,8 @@ kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v3.2/docs/con
 kubectl apply -f https://raw.githubusercontent.com/traefik/traefik/v3.2/docs/content/reference/dynamic-configuration/kubernetes-crd-rbac.yml
 ```
 
-https://k3d.io/v5.7.4/usage/exposing_services/#2-via-nodeport
-https://doc.traefik.io/traefik/providers/kubernetes-ingress/
-https://media.ccc.de/v/nixcon-2023-35290-nix-and-kubernetes-deployments-done-right#t=214
+## References
+
+* https://k3d.io/v5.7.4/usage/exposing_services/#2-via-nodeport
+* https://doc.traefik.io/traefik/providers/kubernetes-ingress/
+* https://media.ccc.de/v/nixcon-2023-35290-nix-and-kubernetes-deployments-done-right#t=214

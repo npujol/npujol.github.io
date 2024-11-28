@@ -44,7 +44,7 @@ To install and configure a Kubernetes cluster on CentOS 7 or Ubuntu, you would n
 
 ### MInikube
 
-- [tutorial](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-3)
+* [tutorial](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-3)
 
 ## K3s
 
@@ -166,7 +166,7 @@ helm upgrade --install kubernetes-dashboard kubernetes-dashboard/kubernetes-dash
 
 Step 3. __Set Up Access Permissions__
 
-Create and apply a `ServiceAccount` and `ClusterRoleBinding` for admin access:
+Create and apply a `ServiceAccount` and `ClusterRoleBinding` for admin access. This file is in `https://github.com/npujol/kaos/blob/main/deploy/k3d/dashboard-adminuser.yaml`:
 
 * Copy the following YAML into a new file, such as `dashboard-adminuser.yaml`:
 
@@ -184,13 +184,11 @@ subjects:
   name: admin-user
   namespace: kubernetes-dashboard
 
-
 apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: admin-user
   namespace: kubernetes-dashboard
-
 
 apiVersion: v1
 kind: Secret
@@ -204,19 +202,11 @@ type: kubernetes.io/service-account-token
 
 * Apply the file:
 
-  ```shell
-  kubectl apply -f dashboard-adminuser.yaml
-  ```
-
-Step 4. __Access the Dashboard__
-
-* Retrieve the access token for the `admin-user` account:
-
 ```shell
-kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d
+kubectl apply -f https://raw.githubusercontent.com/npujol/kaos/refs/heads/main/deploy/k3d/dashboard-adminuser.yaml
 ```
 
-* Go to the [Kubernetes Dashboard](https://localhost:8443/#/workloads?namespace=default) and enter the token when prompted for authentication.
+Step 4. Forward the Dashboard Port
 
 > Note: You may need to set up port forwarding or use `kubectl proxy` to access the dashboard locally.
 
@@ -224,8 +214,63 @@ kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"
 kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy 8443:443
 ```
 
+Step 5. __Access the Dashboard__
+
+* Retrieve the access token for the `admin-user` account:
+
+```shell
+kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d
+```
+
+Go to the [Kubernetes Dashboard](https://localhost:8443/#/workloads?namespace=default) and enter the token when prompted for authentication.
+
 This configuration provides an accessible dashboard to monitor and manage workloads in your K3D cluster.
 
 ### Related projects
 
-- [https://github.com/npujol/kaos](https://github.com/npujol/kaos) Follow k3d Readme Instructions.
+Here is django-example-app configuration
+
+* [https://github.com/npujol/kaos](https://github.com/npujol/kaos) Follow [k3d Readme](https://github.com/npujol/kaos/blob/main/deploy/k3d/README.md) Instructions.
+
+## Monitoring tutorial
+
+Step 1: Create monitoring namespace
+
+```bash
+kubectl create namespace monitoring
+```
+
+Step 2: Install Prometheus
+
+```bash
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts -n monitoring
+```
+
+```bash
+helm install "prometheus" prometheus-community/kube-prometheus-stack -n monitoring
+```
+
+Step 3: Install Grafana
+
+TODO: Fix the url when the content is merged in the repo
+
+```bash
+helm install --values deploy/k3d/monitoring/loki.yaml loki grafana/loki -n monitoring
+```
+
+Step 4: Forward port
+
+```bash
+kubectl port-forward service/prometheus-grafana 3000:80 -n monitoring
+```
+
+Access to [Grafana dashboard](http://localhost:3000/)
+
+
+Step 5: Forward Prometheus port
+
+```bash
+ kubectl port-forward service/prometheus-operated 9090:9090 -n monitoring
+ ```
+
+Access to [Prometheus dashboard](http://localhost:9090)
