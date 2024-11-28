@@ -24,13 +24,58 @@ Visit the following resources to learn more:
 * [@video@Server Monitoring // Prometheus and Grafana Tutorial](https://www.youtube.com/watch?v=9TJx7QTrTyo)
 * [@feed@Explore top posts about Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)
 
-
 ## Tutorial
 
-https://jfrog.com/help/r/artifactory-configure-prometheus-with-grafana-using-helm-charts-for-artifactory/installing-prometheus-loki-and-grafana-on-kubernetes
+- [installing-prometheus-loki-and-grafana-on-kubernetes](https://jfrog.com/help/r/artifactory-configure-prometheus-with-grafana-using-helm-charts-for-artifactory/installing-prometheus-loki-and-grafana-on-kubernetes)
+- [install-microservices](https://grafana.com/docs/loki/latest/setup/install/helm/install-microservices/)
 
-https://grafana.com/docs/loki/latest/setup/install/helm/install-microservices/
 
-```bash
-kubectl create namespace monitoring
-```
+## From killercoda
+- Use Grafana Alloy to send logs to Loki
+
+
+- [Tutorial setup](https://grafana.com/tutorials/grafana-fundamentals/)
+
+### Concepts
+
+O11y ? Observability
+
+
+### Topics
+
+- Explore metrics and logs
+- Build dashboards
+- Annotate dashboards
+Annotate events
+
+When things go bad, it often helps if you understand the context in which the failure occurred. Time of last deploy, system changes, or database migration can offer insight into what might have caused an outage. Annotations allow you to represent such events directly on your graphs.
+
+- Set up alert rules
+
+A Contact point - A Contact point defines how Grafana delivers an alert instance. When the conditions of an alert rule are met, Grafana notifies the contact points, or channels, configured for that alert rule.
+
+
+MLTP ? Metrics, Logs, Traces and Profiles
+
+
+### Introduction to Metrics, Logs, Traces and Profiles in Grafana
+
+- [Introduction to Metrics, Logs, Traces and Profiles in Grafana](https://github.com/grafana/intro-to-mltp/blob/main/README.md)
+
+
+
+- Docker Compose manifest for easy setup.
+- Four-service application:
+ - A service requesting data from a REST API server.
+ - A REST API server that receives requests and utilises a Database for storing/retrieving data for those requests.
+ - A recorder service for storing messages to an AMQP bus.
+ - A Postgres Database for storing/retrieving data from.
+- k6 service running a load test against the above application.
+- Tempo service for storing and querying trace information.
+- Loki service for storing and querying log information.
+- Mimir service for storing and querying metric information.
+- Pyroscope service for storing and querying profiling information.
+- Beyla services for watching the four-service application and automatically generating signals.
+- Grafana service for visualising observability data.
+- Grafana Alloy service for receiving traces and producing metrics and logs based on these traces.
+- A Node Exporter service to retrieve resource metrics from the local host.

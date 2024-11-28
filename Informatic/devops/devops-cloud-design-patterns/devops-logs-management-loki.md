@@ -24,10 +24,6 @@ Visit the following resources to learn more:
 * [@video@Meet Grafana LOKI, a Log Aggregation System for EVERYTHING](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
 * [@feed@Explore top posts about Grafana](https://app.daily.dev/tags/grafana?ref=roadmapsh)
 
-## Notes
-
-When you are using loki through `helm install --values deploy/k3d/solution/loki.yaml loki grafana/loki -n monitoring` you should map the port to another one, because in k3d Traefik uses 80 and 443
-
-
 ## Tutorial
 
+When you are using loki through `helm install --values deploy/k3d/solution/loki.yaml loki grafana/loki -n monitoring` you should map the port to another one, because in k3d Traefik uses 80 and 443

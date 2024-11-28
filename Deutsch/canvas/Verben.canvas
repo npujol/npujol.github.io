@@ -3,14 +3,12 @@
 		{"id":"63b6eff02c19b87d","type":"text","text":"Zeiten","x":300,"y":-180,"width":120,"height":60},
 		{"id":"b393b7d396ce0831","type":"text","text":"Futur I","x":640,"y":-150,"width":125,"height":50},
 		{"id":"37825ef7443350ef","type":"text","text":"Plusquamperfekt","x":640,"y":220,"width":200,"height":60},
-		{"id":"32e3e2a36399b10a","type":"text","text":"Nomen-Verb-Verbindungen","x":-508,"y":-477,"width":277,"height":52},
 		{"id":"62c93d4866e030cc","type":"text","text":"Verben mit Präpositionen","x":-605,"y":-370,"width":260,"height":50},
 		{"id":"648da2043b616c09","type":"text","text":"Infinitiv mit zu","x":-506,"y":-290,"width":182,"height":60},
 		{"id":"ca7c8b67e12dbc38","type":"text","text":"Vorgangspassiv","x":-930,"y":-210,"width":201,"height":60},
 		{"id":"6bf99c7384964000","type":"text","text":"Zustandspassiv","x":-993,"y":-120,"width":205,"height":50},
 		{"id":"493c9ea571d7f7d6","type":"text","text":"Passiversatzformen","x":-949,"y":-35,"width":220,"height":50},
 		{"id":"5a69083d8b69226e","type":"text","text":"Passiv mit Modalverben","x":-930,"y":60,"width":250,"height":60},
-		{"id":"5aee6eca2fc21c22","type":"text","text":"Passiv","x":-480,"y":-175,"width":130,"height":60},
 		{"id":"43113f5189527e33","type":"text","text":"Konjunktiv","x":-324,"y":-35,"width":155,"height":50},
 		{"id":"5af62ec651aa6f1d","type":"text","text":"reflexibe Verben","x":-102,"y":-65,"width":200,"height":55},
 		{"id":"571a7d9681dfc3bc","type":"text","text":"sich","x":-55,"y":60,"width":107,"height":50},
@@ -18,7 +16,6 @@
 		{"id":"b80a9942ee37ea62","type":"text","text":"trennbare Verben","x":548,"y":-340,"width":205,"height":60},
 		{"id":"7c746ecc6e5b10ff","type":"text","text":"unregelmäßige Verben","x":503,"y":-425,"width":250,"height":60},
 		{"id":"3e6dbfa5516c3e17","type":"text","text":"regelmäßige Verben","x":544,"y":-511,"width":221,"height":60},
-		{"id":"72306c7f8ee9aae8","type":"text","text":"Modalverben","x":137,"y":108,"width":163,"height":60},
 		{"id":"981d0a1ec87c01f4","type":"text","text":"können","x":-13,"y":280,"width":131,"height":50},
 		{"id":"6d219ba98acf942f","type":"text","text":"sollen","x":-95,"y":205,"width":125,"height":50},
 		{"id":"cf8f3fb15686de4f","type":"text","text":"Präsens","x":640,"y":-65,"width":125,"height":55},
@@ -40,9 +37,18 @@
 		{"id":"6ed0b10327c9f119","type":"text","text":"nicht dürfen: Verbot","x":-47,"y":528,"width":216,"height":50},
 		{"id":"b3784ee7bf15001b","type":"text","text":"mögen","x":169,"y":330,"width":121,"height":50},
 		{"id":"21d0c4c9b62cdf26","type":"text","text":"Wunsch/Lust","x":169,"y":444,"width":163,"height":60},
-		{"id":"26c2da523531b1c0","x":953,"y":-710,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-trennbaren.md"},
-		{"id":"4770e5bb426f4baf","x":953,"y":-237,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-untrennbaren.md"},
-		{"id":"5dc195fbd8b13604","type":"text","text":"Konjugation","x":255,"y":-310,"width":155,"height":50}
+		{"id":"26c2da523531b1c0","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-trennbaren.md","x":953,"y":-710,"width":400,"height":400},
+		{"id":"4770e5bb426f4baf","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-untrennbaren.md","x":953,"y":-237,"width":400,"height":400},
+		{"id":"5dc195fbd8b13604","type":"text","text":"Konjugation","x":255,"y":-310,"width":155,"height":50},
+		{"id":"f56035055f8ebefd","x":-1560,"y":178,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-passiversatzformen.md"},
+		{"id":"7a1b920e3bbdd6a1","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-vorgangspassiv.md","x":-1660,"y":-745,"width":400,"height":400},
+		{"id":"e1c59d34a7eae56c","x":-1600,"y":660,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-passiv-mit-modalverben.md"},
+		{"id":"c3821d078f2c3cc6","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-zustandspassiv.md","x":-1600,"y":-295,"width":400,"height":400},
+		{"id":"72306c7f8ee9aae8","type":"text","text":"Modalverben","x":137,"y":106,"width":163,"height":60},
+		{"id":"a60aa9036ec22681","x":-1080,"y":-825,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-verben-mit-präpositionen.md"},
+		{"id":"32e3e2a36399b10a","type":"text","text":"Nomen-Verb-Verbindungen","x":-573,"y":-477,"width":277,"height":52},
+		{"id":"ec94744d9a6a05fa","x":-573,"y":-960,"width":400,"height":400,"type":"file","file":"languages/deutsch/c11/c11-nomen-verb-verbindungen.md"},
+		{"id":"5aee6eca2fc21c22","type":"text","text":" Passiv","x":-454,"y":-180,"width":130,"height":60}
 	],
 	"edges":[
 		{"id":"b3e6783f2760739b","fromNode":"305e875f2d9ea336","fromSide":"right","toNode":"5dc195fbd8b13604","toSide":"left"},
@@ -86,6 +92,12 @@
 		{"id":"68e63c7bfaa54dc4","fromNode":"72306c7f8ee9aae8","fromSide":"bottom","toNode":"b3784ee7bf15001b","toSide":"top"},
 		{"id":"9dc5293b5629aee0","fromNode":"b3784ee7bf15001b","fromSide":"bottom","toNode":"21d0c4c9b62cdf26","toSide":"top"},
 		{"id":"5ad3b23e786e7ca6","fromNode":"b80a9942ee37ea62","fromSide":"right","toNode":"26c2da523531b1c0","toSide":"left"},
-		{"id":"ed4c5cedcae4753e","fromNode":"26c6e083b758d74b","fromSide":"right","toNode":"4770e5bb426f4baf","toSide":"left"}
+		{"id":"ed4c5cedcae4753e","fromNode":"26c6e083b758d74b","fromSide":"right","toNode":"4770e5bb426f4baf","toSide":"left"},
+		{"id":"906592c086752370","fromNode":"ca7c8b67e12dbc38","fromSide":"left","toNode":"7a1b920e3bbdd6a1","toSide":"right"},
+		{"id":"e6d4d0b25ab45a6f","fromNode":"6bf99c7384964000","fromSide":"left","toNode":"c3821d078f2c3cc6","toSide":"right"},
+		{"id":"7aed8b0c4f3f5201","fromNode":"493c9ea571d7f7d6","fromSide":"left","toNode":"f56035055f8ebefd","toSide":"right"},
+		{"id":"36a43595bbbd8d96","fromNode":"5a69083d8b69226e","fromSide":"left","toNode":"e1c59d34a7eae56c","toSide":"right"},
+		{"id":"daa19043c7cfa923","fromNode":"32e3e2a36399b10a","fromSide":"top","toNode":"ec94744d9a6a05fa","toSide":"bottom"},
+		{"id":"d2500e07884ee4d4","fromNode":"62c93d4866e030cc","fromSide":"left","toNode":"a60aa9036ec22681","toSide":"bottom"}
 	]
 }
