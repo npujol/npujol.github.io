@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"53c8b21d4e3a9f4d","type":"text","text":"Deutsch-C1","x":-140,"y":-260,"width":165,"height":50,"color":"5"},
+		{"id":"f3350379eaa219d7","type":"file","file":"files/DE_C1_Aspekte_neu_AB.pdf","x":-580,"y":-800,"width":400,"height":400},
+		{"id":"b7cdb945fa112f41","type":"file","file":"files/DE_C1_Aspekte_neu_LB.pdf","x":80,"y":-800,"width":400,"height":400},
+		{"id":"e6e97b5b646011e0","type":"file","file":"languages/deutsch/canvas/Telc-C1-Prüfung.canvas","x":-540,"y":-60,"width":400,"height":400},
+		{"id":"6abca5a7530ef71d","x":25,"y":-60,"width":400,"height":400,"type":"file","file":"languages/deutsch/canvas/Grammatik.canvas"}
+	],
+	"edges":[
+		{"id":"df301ccdef97f990","fromNode":"53c8b21d4e3a9f4d","fromSide":"top","toNode":"f3350379eaa219d7","toSide":"bottom"},
+		{"id":"6be73524948f4c4a","fromNode":"53c8b21d4e3a9f4d","fromSide":"top","toNode":"b7cdb945fa112f41","toSide":"bottom"},
+		{"id":"101394302fd625ef","fromNode":"53c8b21d4e3a9f4d","fromSide":"bottom","toNode":"e6e97b5b646011e0","toSide":"top"},
+		{"id":"c30a1a330631d74c","fromNode":"53c8b21d4e3a9f4d","fromSide":"bottom","toNode":"6abca5a7530ef71d","toSide":"top"}
+	]
+}

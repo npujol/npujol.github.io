@@ -51,3 +51,15 @@ tags:
     };
 }
 ```
+
+## Missing  `libstdc++.so.6`
+
+Export the `LD_PRELOAD` in the shell.
+
+```nix
+export LD_PRELOAD="$LD_PRELOAD:${pkgs.stdenv.cc.cc.lib}/lib/libstdc++.so.6"
+```
+
+Example of usage:
+
+* tts_stories: flake.nix
