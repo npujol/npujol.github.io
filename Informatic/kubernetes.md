@@ -12,13 +12,13 @@ tags:
 
 [[kubernetes_Index]]
 
-## TODO
+## Doing
 
-- [ ] fluxcd
-- [ ] kustomize
-- [ ] traefik
-- [ ] helm
-- [ ] Kubernetes
+- [ ] fluxcd: [[devops-gitops-fluxcd]]
+- [ ] kustomize: missing
+- [ ] traefik: missing
+- [ ] helm: [[kubernetes-patterns-helm-charts]]
+- [ ] Kubernetes: [[kubernetes]]
 
 ## Related
 

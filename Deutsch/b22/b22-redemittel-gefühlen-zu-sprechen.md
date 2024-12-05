@@ -66,3 +66,85 @@ tags:
 - __spüren + Nomen__  
   „Ich __spüre__ den Stress.“  
   „Er __spürt__ eine Wärme.“
+
+## Gefühle
+
+### 1. Primäre Emotionen
+
+- Aggression
+- Ärger
+- Eifersucht
+- Ekel
+- Freude
+- Glück
+- Hass
+- Liebe (z. B. Zärtlichkeit, Leidenschaft)
+- Traurigkeit
+- Überraschung
+- Wut
+- Zorn
+
+### 2. Sekundäre oder komplexe Emotionen
+
+#### Positiv
+
+- Behaglichkeit
+- Dank / Dankbarkeit
+- Empathie
+- Euphorie
+- Geborgenheit
+- Gemeinschaftsgefühl
+- Heiterkeit
+- Hoffnung
+- Mut
+- Sehnsucht
+- Staunen
+- Sympathie
+- Vorfreude
+- Zufriedenheit
+
+#### Negativ
+
+- Ambivalenz
+- Antipathie
+- Aversion
+- Beklemmung
+- Betroffenheit
+- Bitterkeit
+- Desillusion
+- Ehrgeiz
+- Enttäuschung
+- Fanatismus
+- Fernweh
+- Gelassenheit
+- Hilflosigkeit
+- Kleinmut
+- Melancholie
+- Missgunst
+- Neid
+- Nostalgie
+- Not
+- Ohnmacht
+- Pein
+- Reue
+- Scham
+- Schuld
+- Selbstmitleid
+- Sorge
+- Süffisanz
+- Traurigkeit
+- Ungemach
+- Unglück
+- Verachtung
+- Verlassenheit
+- Verzweiflung
+- Wehmut
+- Zweifel
+
+## Hausaufgabe
+
+- Seine Worte vermittelten dem gesamten Team _Geborgenheit_ und _Gelassenheit_.
+- Ich habe _Sehnsucht_ nach dir.
+- Seine Haltung anderen gegenüber war von _Missgunst_ geprägt.
+- Diesen _Ehrgeiz_ weiß er gut zu verstecken.
+- Diese _Ohnmacht_ macht die Situation für viele Menschen nur noch schlimmer.
