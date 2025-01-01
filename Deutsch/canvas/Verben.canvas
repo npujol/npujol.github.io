@@ -42,7 +42,7 @@
 		{"id":"5dc195fbd8b13604","type":"text","text":"Konjugation","x":255,"y":-310,"width":155,"height":50},
 		{"id":"f56035055f8ebefd","x":-1560,"y":178,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-passiversatzformen.md"},
 		{"id":"7a1b920e3bbdd6a1","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-vorgangspassiv.md","x":-1660,"y":-745,"width":400,"height":400},
-		{"id":"e1c59d34a7eae56c","x":-1600,"y":660,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-passiv-mit-modalverben.md"},
+		{"id":"e1c59d34a7eae56c","x":-1600,"y":660,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-verben-modalverben.md"},
 		{"id":"c3821d078f2c3cc6","type":"file","file":"languages/deutsch/grammatik/grammatik-verben-zustandspassiv.md","x":-1600,"y":-295,"width":400,"height":400},
 		{"id":"72306c7f8ee9aae8","type":"text","text":"Modalverben","x":137,"y":106,"width":163,"height":60},
 		{"id":"a60aa9036ec22681","x":-1080,"y":-825,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-verben-mit-präpositionen.md"},

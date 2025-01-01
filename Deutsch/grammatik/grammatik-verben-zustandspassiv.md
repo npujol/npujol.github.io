@@ -4,10 +4,9 @@ tags:
 - ready
 - online
 - grammatik
-- artikel
-- artikelwörter
+- verben
+- zustandspassiv
 ---
-
 
 # Grammatik: Zustandspassiv
 

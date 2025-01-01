@@ -6,7 +6,8 @@
 		{"id":"bf39dc91466185dc","type":"text","text":"Mit Genitiv","x":248,"y":72,"width":152,"height":50},
 		{"id":"639101bf217c9be5","type":"text","text":"Wechselpräpositionen","x":-462,"y":220,"width":250,"height":60},
 		{"id":"fec5444bcc3b313f","type":"text","text":"Verben mit Präpositionen","x":-540,"y":-154,"width":277,"height":52},
-		{"id":"b9fefdb45ce01871","type":"text","text":"lokale Präpositionen","x":-518,"y":-5,"width":234,"height":50}
+		{"id":"b9fefdb45ce01871","type":"text","text":"lokale Präpositionen","x":-518,"y":-5,"width":234,"height":50},
+		{"id":"1c3c2dc080cb389a","x":-587,"y":-656,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-verben-mit-präpositionen.md"}
 	],
 	"edges":[
 		{"id":"6121f9ccc64e6666","fromNode":"dc62fefb5a4dd99d","fromSide":"right","toNode":"631c7d6cd11dbd7d","toSide":"left"},
@@ -14,6 +15,7 @@
 		{"id":"cd14caf7a7ce1a54","fromNode":"dc62fefb5a4dd99d","fromSide":"right","toNode":"bf39dc91466185dc","toSide":"left"},
 		{"id":"df418fdab981a6a3","fromNode":"dc62fefb5a4dd99d","fromSide":"left","toNode":"fec5444bcc3b313f","toSide":"right"},
 		{"id":"c01431b672b89dda","fromNode":"dc62fefb5a4dd99d","fromSide":"left","toNode":"b9fefdb45ce01871","toSide":"right"},
-		{"id":"de51337aa0c51f43","fromNode":"b9fefdb45ce01871","fromSide":"bottom","toNode":"639101bf217c9be5","toSide":"top"}
+		{"id":"de51337aa0c51f43","fromNode":"b9fefdb45ce01871","fromSide":"bottom","toNode":"639101bf217c9be5","toSide":"top"},
+		{"id":"91059ec2c251e36f","fromNode":"fec5444bcc3b313f","fromSide":"top","toNode":"1c3c2dc080cb389a","toSide":"bottom"}
 	]
 }

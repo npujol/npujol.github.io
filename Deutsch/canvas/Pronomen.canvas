@@ -14,7 +14,8 @@
 		{"id":"c92aef2f84399c47","type":"text","text":"etwas/nicht","x":280,"y":259,"width":155,"height":50},
 		{"id":"b126f9a6a4901a4a","type":"text","text":"beton: der/die","x":310,"y":-320,"width":190,"height":60},
 		{"id":"99cb0d5560584bd2","type":"text","text":"unbeton: er/sie","x":358,"y":-171,"width":190,"height":55},
-		{"id":"ef70b8e7f266408f","type":"text","text":"als Repräsentant für einen Nebensatz oder Infinitivsatz","x":-1080,"y":-12,"width":250,"height":60}
+		{"id":"ef70b8e7f266408f","type":"text","text":"als Repräsentant für einen Nebensatz oder Infinitivsatz","x":-1080,"y":-12,"width":250,"height":60},
+		{"id":"18cd86631df5f277","x":-1660,"y":-478,"width":400,"height":400,"type":"file","file":"languages/deutsch/alt/alt-es-bei-unpersönlichen-verben.md"}
 	],
 	"edges":[
 		{"id":"704f42a352cc6e55","fromNode":"b2be7cc0e1ef396e","fromSide":"right","toNode":"5cd1602e1123859f","toSide":"left"},
@@ -30,6 +31,7 @@
 		{"id":"99fb2a968ca8cc0e","fromNode":"c635cc8e2ecf745c","fromSide":"left","toNode":"60809573ee8f9b22","toSide":"right"},
 		{"id":"3d76d06ad54b1f00","fromNode":"c635cc8e2ecf745c","fromSide":"left","toNode":"ef70b8e7f266408f","toSide":"right"},
 		{"id":"5d5c746664af9944","fromNode":"c635cc8e2ecf745c","fromSide":"left","toNode":"d5c95a3818845a97","toSide":"right"},
-		{"id":"4e327d1420432ed4","fromNode":"c635cc8e2ecf745c","fromSide":"left","toNode":"dad493acfb7350dc","toSide":"right"}
+		{"id":"4e327d1420432ed4","fromNode":"c635cc8e2ecf745c","fromSide":"left","toNode":"dad493acfb7350dc","toSide":"right"},
+		{"id":"a5fe2876f8a61052","fromNode":"60809573ee8f9b22","fromSide":"left","toNode":"18cd86631df5f277","toSide":"right"}
 	]
 }

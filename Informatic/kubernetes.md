@@ -24,7 +24,7 @@ tags:
 
 - [https://kubebyexample.com/learning-paths/command-line-essentials/introduction](https://kubebyexample.com/learning-paths/command-line-essentials/introduction)
 
-- https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-1
+- [Running Containerized Applications](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-1)
 
 |                                | **Big Scale**                                  | **Small Scale**                                    |
 |--------------------------------|-----------------------------------------------|--------------------------------------------------|

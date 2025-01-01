@@ -43,3 +43,8 @@ Learn more about pyenv by exploring the following resources:
 | __Learning Curve__     | Slightly higher due to its dual role, but provides significant automation and simplification once mastered. | Moderate; understanding how to manage Python versions and integrate with other tools is key. | Lower, but requires understanding of manual environment activation and management. |
 | __Example Usage__      | ```shell<br>pipenv install requests<br>pipenv shell<br>``` | ```shell<br>pyenv install 3.9.1<br>pyenv global 3.9.1<br>``` | ```shell<br>virtualenv venv<br>source venv/bin/activate<br>``` |
 | __Limitations__        | Can be slower due to the overhead of managing environments and dependencies, less flexible with complex requirements. | Does not handle dependency or environment management; only Python versions. | Requires manual management of environments and does not handle dependency resolution or locking. |
+
+## devenv
+
+- [Documentation](https://devenv.sh/integrations/github-actions/#run-multiple-commands)
+- [Usage examples](https://github.com/npujol/tts_stories)
