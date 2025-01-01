@@ -6,15 +6,19 @@ tags:
   - grammatik
   - artikel
   - verben
+  - verbindung
+  - nomen-verb-verbindungen
 ---
 
 
 # Grammatik: Nomen-Verb-Verbindungen
 
 ## in Betracht ziehen – etwas überlegen, berücksichtigen
+
 Beispiel: „Wir sollten alle Optionen in Betracht ziehen.“
 
 Hausaufgabe:
+
 - Die Nutzung unnötiger Medikamente wurde in Betracht gezogen, wenn der neue Arzt den Patienten untersuchte.
 
 ## zur Verfügung stehen / stellen – verfügbar sein oder machen
@@ -22,6 +26,7 @@ Hausaufgabe:
 Beispiel: „Die Ressourcen stehen Ihnen zur Verfügung.“ / „Wir stellen Ihnen das Material zur Verfügung.“
 
 Hausaufgabe:
+
 - Wenn Sie mehr über die Nebenwirkungen der Medikamente erfahren möchten, stehen in der Bibliothek  Bücher zur Verfügung.
 
 ## eine Entscheidung treffen – sich entscheiden
@@ -29,13 +34,14 @@ Hausaufgabe:
 Beispiel: „Lassen Sie uns eine Entscheidung treffen.“
 
 Hausaufgabe:
+
 - Nach mehreren Reden innerhalb der Behandlung haben wir eine Entscheidung über die Therapie getroffen.
 
 ## in Frage kommen – möglich sein
 
 Beispiel: „Diese Option kommt für uns nicht in Frage.“
 
-Hausaufgabe: 
+Hausaufgabe:
 
 - Jedes Mal, dass ich eine Erkältung habe, kommt für mich in Frage, eine Wärmedecke zu kaufen.
 
@@ -65,6 +71,7 @@ Bitte, nimm Rücksicht auf die Nebenwirkungen dieser Medikamente
 Beispiel: „Das spielt hier eine große Rolle.“
 
 Hausaufgabe:
+
 - Die Nebenwirkungen von Medikamenten **spielen eine wichtige Rolle** bei der Entscheidung für oder gegen ein bestimmtes Präparat
 
 ## in Kauf nehmen – etwas akzeptieren, obwohl es Nachteile hat
@@ -72,6 +79,7 @@ Hausaufgabe:
 Beispiel: „Man muss einige Risiken in Kauf nehmen.“
 
 Hausaufgabe:
+
 - Manche Patienten **nehmen die Nebenwirkungen in Kauf**, um von der Wirkung des Medikaments zu profitieren.
 
 ## Maßnahmen ergreifen – handeln, aktiv werden
@@ -79,6 +87,7 @@ Hausaufgabe:
 Beispiel: „Wir müssen Maßnahmen ergreifen, um das Problem zu lösen.“
 
 Hausaufgabe:
+
 - Um die Sicherheit der Patienten zu gewährleisten, **ergreifen** Ärzte und Apotheker **Maßnahmen**, um Wechselwirkungen zwischen verschiedenen Medikamenten zu vermeiden.
 
 ## zur Verfügung stehen / zur Verfügung stellen – verfügbar sein/machen
@@ -86,6 +95,7 @@ Hausaufgabe:
 Beispiel: „Der Service steht rund um die Uhr zur Verfügung.“
 
 Hausaufgabe:
+
 - Die Krankenkassen **stellen** wichtige Informationen zu den Kosten und der Verfügbarkeit von Medikamenten **zur Verfügung**.
 
 ## im Griff haben – kontrollieren
@@ -93,7 +103,7 @@ Hausaufgabe:
 Beispiel: „Die Situation ist im Griff.“
 
 Hausaufgabe:
-Dank der regelmäßigen Einnahme ihrer Medikamente **hat** die Patientin ihre Krankheit **im Griff**.
+Dank der regelmäßigen Einnahme ihrer Medikamente **hat** die Patientin ihre Krankheit **im Griff*.
 
 ## Abschied nehmen von – sich verabschieden
 
@@ -108,6 +118,7 @@ Hausaufgabe:
 Beispiel: „Wir sollten die Planung in Gang setzen.“
 
 Hausaufgabe:
+
 - Die neue Behandlungsmethode wurde von den Ärzten erfolgreich in Gang gesetzt, um den Heilungsprozess der Patienten zu beschleunigen.
 
 ## in Betracht kommen – möglich sein
@@ -117,6 +128,7 @@ Beispiel: „Nur ausgewählte Optionen kommen in Betracht.“
 Hausaufgabe:
 
 - Bei der Wahl des richtigen Medikaments kommen mehrere Optionen in Betracht, die je nach Krankheitsbild und individuellen Bedürfnissen des Patienten angepasst werden.
+
 ## Related
 
 - [[c11-nomen-verb-verbindungen]]
