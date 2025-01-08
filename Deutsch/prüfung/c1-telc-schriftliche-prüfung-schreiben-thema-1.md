@@ -48,7 +48,7 @@ Schuluniformen können nützlich sein, sie können ein Gefühl der Einheit vermi
 **Nachteil1:** Schuluniformen die individuelle Freiheit und den persönlichen Ausdruck der Schüler einschränken.  
 **Nachteil2:** zusätzliche Kosten für Schulen und Eltern verursachen können.  
 **Nachteil3:** dass Schüler zu einer geringeren Akzeptanz der Schule führen könnten.
-**Nachteil4:** weil soziale Unterschiede durch andere Statussymbole anstatt der Kleidung bestehen können   
+**Nachteil4:** weil soziale Unterschiede durch andere Statussymbole anstatt der Kleidung bestehen können
 
 **Vorschlag/Kompromiss:** Die Schüler sollten Mitspracherecht bei der Gestaltung der Uniformen haben, und es sollten finanzielle Unterstützungsprogramme für Familien mit geringem Einkommen angeboten werden, um die Einführung sozial gerecht zu gestalten.
 
