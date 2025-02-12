@@ -10,6 +10,7 @@ tags:
 
 # kubernetes-topics-custom-controllers
 
+- [Doc-Ref](https://github.com/kubernetes-sigs/kustomize)
 ## Contents
 
 I'll help you understand the different approaches to handling variables in Kubernetes manifests using Kustomize.
@@ -240,4 +241,126 @@ patchesStrategicMerge:
     name: my-app
   spec:
     replicas: 3
+```
+
+Here are the Kustomize best practices with simple explanations and practical examples:
+
+1. Base and Overlays
+   - What: Split your config into a base (common stuff) and overlays (environment-specific changes)
+   - Example:
+   ```yaml
+   # Project structure
+   base/
+     kustomization.yaml    # Common config
+     deployment.yaml
+   overlays/
+     dev/
+       kustomization.yaml  # Dev-specific changes
+     prod/
+       kustomization.yaml  # Prod-specific changes
+   ```
+
+2. Unique Names
+   - What: Add prefixes/suffixes to avoid name conflicts
+   - Example:
+   ```yaml
+   # kustomization.yaml
+   namePrefix: dev-
+   nameSuffix: -v1
+   resources:
+   - deployment.yaml
+   ```
+
+3. Common Labels
+   - What: Use consistent labels to organize resources
+   - Example:
+   ```yaml
+   # kustomization.yaml
+   commonLabels:
+     app: myapp
+     env: prod
+     team: frontend
+   ```
+
+4. ConfigMap Generation
+   - What: Generate ConfigMaps from files instead of writing them manually
+   - Example:
+   ```yaml
+   # kustomization.yaml
+   configMapGenerator:
+   - name: app-config
+     files:
+     - config.properties
+     - settings.json
+   ```
+
+5. Resource Management
+   - What: Keep related resources together in folders
+   - Example:
+   ```yaml
+   # Project structure
+   base/
+     frontend/
+       deployment.yaml
+       service.yaml
+     backend/
+       deployment.yaml
+       service.yaml
+   ```
+
+6. Resource Limits
+   - What: Always set CPU and memory limits
+   - Example:
+   ```yaml
+   # deployment.yaml
+   resources:
+     limits:
+       memory: "256Mi"
+       cpu: "500m"
+     requests:
+       memory: "128Mi"
+       cpu: "250m"
+   ```
+
+7. Image Management
+   - What: Control image versions centrally
+   - Example:
+   ```yaml
+   # kustomization.yaml
+   images:
+   - name: nginx
+     newName: my-registry/nginx
+     newTag: v1.2.3
+   ```
+
+8. Environment Variables
+   - What: Use ConfigMaps for env vars instead of hardcoding
+   - Example:
+   ```yaml
+   # deployment.yaml
+   envFrom:
+   - configMapRef:
+       name: app-config
+   ```
+
+9. Patches
+
+- What: Use patches to modify specific parts of resources
+- Example:
+```yaml
+# kustomization.yaml
+patchesStrategicMerge:
+- update-memory.yaml  # Only changes memory settings
+```
+
+10. Documentation
+
+- What: Add README files to explain your setup
+- Example:
+```markdown
+# dev/README.md
+This overlay contains development-specific settings:
+- Lower resource limits
+- Debug mode enabled
+- Local database connection
 ```
