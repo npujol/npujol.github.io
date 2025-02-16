@@ -31,3 +31,7 @@ tags:
 | **Self-Managed - Local**       | --                                            | minikube, CodeReady Containers, Microk8s, Docker Kubernetes |
 | **Self-Managed - On Premises / Hybrid** | Red Hat OpenShift, VMWare Tanzu, Rancher | --                                               |
 | **Kubernetes-as-a-Service - On Cloud**  | OpenShift Dedicated, Google Container Engine, Amazon EKS | Developer Sandbox                                |
+
+##  Certified Kubernetes Administrator (CKA) Course
+
+[GitHub](https://github.com/kodekloudhub/certified-kubernetes-administrator-course)
