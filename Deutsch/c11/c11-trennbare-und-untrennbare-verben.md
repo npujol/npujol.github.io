@@ -670,3 +670,7 @@ __Trennbar__:
 __Bedeutung__: Zurückholen.
 
 - Ich hole wieder; er hat seine Bücher wiedergeholt; aber wieder holen (nochmals holen)
+
+## Ref 
+
+Die deutsche Grammatik(Pons): Seite 51

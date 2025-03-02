@@ -16,7 +16,8 @@
 		{"id":"c691088332975556","type":"file","file":"languages/deutsch/canvas/Präpositionen.canvas","x":-1100,"y":-223,"width":400,"height":400},
 		{"id":"569c35746ac2e38b","type":"text","text":"Adjektive und Adverbien","x":285,"y":620,"width":253,"height":60},
 		{"id":"f475f0426b24b1e7","type":"file","file":"languages/deutsch/canvas/Satzbau.canvas","x":-663,"y":560,"width":400,"height":400},
-		{"id":"587211ecd0cfca12","x":-1200,"y":262,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-konnektoren.md"}
+		{"id":"587211ecd0cfca12","type":"file","file":"languages/deutsch/grammatik/grammatik-konnektoren.md","x":-1200,"y":262,"width":400,"height":400},
+		{"id":"1ed78bd84a910571","x":-340,"y":-800,"width":479,"height":472,"type":"file","file":"languages/deutsch/grammatik/grammatik-die-bausteine-der-sprache.md"}
 	],
 	"edges":[
 		{"id":"25a4e14657a85f45","fromNode":"1a2cc0ce7359fe52","fromSide":"right","toNode":"5f1264ad343b7a17","toSide":"left"},
@@ -34,6 +35,7 @@
 		{"id":"81cf9f6cf39ec91f","fromNode":"a3a366c15c1de795","fromSide":"left","toNode":"c691088332975556","toSide":"right"},
 		{"id":"a23bc713690be458","fromNode":"36b3561b34bf31dd","fromSide":"bottom","toNode":"f475f0426b24b1e7","toSide":"top"},
 		{"id":"fc6f3e777cb39175","fromNode":"569c35746ac2e38b","fromSide":"right","toNode":"655f30e740258d81","toSide":"left"},
-		{"id":"7a90b3b4c10021f5","fromNode":"3a8eeb0dba0dd5a5","fromSide":"left","toNode":"587211ecd0cfca12","toSide":"right"}
+		{"id":"7a90b3b4c10021f5","fromNode":"3a8eeb0dba0dd5a5","fromSide":"left","toNode":"587211ecd0cfca12","toSide":"right"},
+		{"id":"fbae8d9663efcbb9","fromNode":"1a2cc0ce7359fe52","fromSide":"top","toNode":"1ed78bd84a910571","toSide":"bottom"}
 	]
 }

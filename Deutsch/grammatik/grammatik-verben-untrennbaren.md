@@ -9,7 +9,8 @@ tags:
 
 
 # Grammatik: Untrennbaren Verben
-
+ 
+ __Die nicht trennbaren Wortbestandteile sind fast immer unbetont__
 
 | Präfix         | Beispiel                                         | Bedeutung                                                                |
 | -------------- | ------------------------------------------------ | ------------------------------------------------------------------------ |
