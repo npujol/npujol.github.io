@@ -17,6 +17,7 @@ tags: obsidian-auto-glossary
 - [[python-decorators]]
 - [[python-documentation]]
 - [[python-environments]]
+- [[python-event-pyconweb]]
 - [[python-formatting]]
 - [[python-frameworks-asynchronous]]
 - [[python-frameworks-django]]
@@ -53,3 +54,4 @@ tags: obsidian-auto-glossary
 - [[python-topics]]
 - [[python-unittest-pyunit]]
 - [[python]]
+- [[python_Index]]

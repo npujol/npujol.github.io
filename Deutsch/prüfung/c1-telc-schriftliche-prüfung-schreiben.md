@@ -137,4 +137,3 @@ Führen Sie Argumente an, legen Sie Vor- und Nachteile dar und begründen Sie am
 „Eine Erhöhung der Studiengebühren verschärft die soziale Ungleichheit im Bildungswesen.“
 
 [[c1-telc-schriftliche-prüfung-schreiben-thema-6]]
-

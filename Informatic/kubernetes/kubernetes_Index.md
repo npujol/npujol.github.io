@@ -61,6 +61,7 @@ tags: obsidian-auto-glossary
 - [[kubernetes-topics-custom-controllers]]
 - [[kubernetes-topics-custom-resource-definitions]]
 - [[kubernetes-topics-custom-schedulers-extenders]]
+- [[kubernetes-topics-handling-variables]]
 - [[kubernetes-topics-kubernetes-extensions-and-apis]]
 - [[kubernetes-topics-managing-worker-nodes]]
 - [[kubernetes-topics-multi-cluster-management]]
@@ -70,3 +71,5 @@ tags: obsidian-auto-glossary
 - [[kubernetes-volumes-stateful-applications]]
 - [[kubernetes-volumes]]
 - [[kubernetes]]
+- [[kubernetes.sync-conflict-20250302-113147-C66P2VF]]
+- [[kubernetes_Index]]

@@ -71,3 +71,4 @@ tags: obsidian-auto-glossary
 - [[go-zero]]
 - [[go-zerolog]]
 - [[golang]]
+- [[golang_Index]]
