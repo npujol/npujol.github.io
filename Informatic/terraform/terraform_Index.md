@@ -3,6 +3,7 @@ tags: obsidian-auto-glossary
 ---
 ## Index
 - [[terraform]]
+- [[terraform_Index]]
 - [[tf-Basic-Syntax]]
 - [[tf-Best-Practices-for-State]]
 - [[tf-CaC-vs-IaC]]
@@ -74,11 +75,11 @@ tags: obsidian-auto-glossary
 - [[tf-show]]
 - [[tf-Splitting-Large-State]]
 - [[tf-Splitting-State-Files]]
-- [[tf-State]]
 - [[tf-state-force-unlock]]
 - [[tf-State-Locking]]
 - [[tf-state-pull-push]]
 - [[tf-state-replace-provider]]
+- [[tf-State]]
 - [[tf-Template-Files]]
 - [[tf-terraform-apply]]
 - [[tf-terraform-destroy]]

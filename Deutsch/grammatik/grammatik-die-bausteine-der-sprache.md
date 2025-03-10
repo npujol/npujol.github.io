@@ -31,3 +31,35 @@ flowchart TD
     
 
 ```
+
+## Die Silbe
+
+```mermaid
+flowchart TD
+    A[Silbe]
+	A --> A1[Art]
+    A1 --> B[Offene Silben]
+    B --> B1[Endung mit Vokal, Umlaut oder Diphthong]
+    A1 --> C[Geschlossene Silben]
+    C --> C1[Konsonante]
+	
+	A --> A2[Zahl]
+	A2 --> D[Einsilbig]
+    A2 --> E[Mehrsilbig]
+```
+
+
+## Wortbausteine
+
+Morpheme: bedeutungstragenden Wortbausteine
+- mit inhaltlicher Bedeutung
+- mit grammatischer Funktion
+
+Sprechsilben != Sprachsilben
+
+Lexeme: selbstständigen Wort
+
+Wortstämme: Kern eines Wortes
+
+Präfixe: Vorsilben
+Suffixe: Endungen

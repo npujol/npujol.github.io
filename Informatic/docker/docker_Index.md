@@ -52,3 +52,4 @@ tags: obsidian-auto-glossary
 - [[docker-technologies-union-filesystems]]
 - [[docker-technologies]]
 - [[docker]]
+- [[docker_Index]]
