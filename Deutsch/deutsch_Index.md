@@ -150,8 +150,6 @@ tags: obsidian-auto-glossary
 - [[c11-über-ziele-zu-sprechen]]
 - [[c11]]
 - [[c11_Index]]
-- [[canvas_Index]]
-- [[deutsch]]
 - [[deutsch_Index]]
 - [[grammatik-artikelwörter]]
 - [[grammatik-die-bausteine-der-sprache]]

@@ -82,3 +82,7 @@ HCP Run Tasks, a feature of Terraform Cloud, allow for the integration of extern
 - [officialRun Tasks](https://developer.hashicorp.com/terraform/cloud-docs/workspaces/settings/run-tasks)
 - [officialTerraform Registry - Run Tasks](https://registry.terraform.io/browse/run-tasks)
 - [officialRun Tasks API](https://developer.hashicorp.com/terraform/cloud-docs/api-docs/run-tasks/run-tasks)
+
+## Alternative
+
+- [ ] Check [Opentofu](https://github.com/opentofu)

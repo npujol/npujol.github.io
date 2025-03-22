@@ -94,3 +94,36 @@ ansible-playbook -i <path/to/inventory> create_vm_with_postgres.yml
 ```
 
 Replace `<path/to/inventory>` with the path to your Ansible inventory file.
+
+## Inventory
+
+```mermaid
+graph TD
+A[Ansible Inventory] 
+
+B[Local Inventory] 
+C[Facts collected from host/device facts modules]
+D[Built using local system information]
+
+E[Remote Inventory] 
+F[Came from connecting to other hosts via SSH/Telnet/VPN]
+G[Shared across multiple environments e.g., development, production]
+
+A --> B
+B --> C
+B --> D
+A --> E
+E --> F
+E --> G
+```
+
+### When to Use Inventory
+
+```mermaid
+mindmap
+When to Use Inventory
+  Complex systems with multiple hosts and network devices
+  Simplified management of infrastructure changes without downtime
+  Enhanced troubleshooting capabilities
+  Avoid repetitive manual tasks through automation
+```
