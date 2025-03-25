@@ -2,7 +2,7 @@
 tags: obsidian-auto-glossary
 ---
 ## Index
-- [[alt-es-bei-unpersönlichen-verben]]
+- [[grammatik-pronomen-es]]
 - [[alt-fortbildung-oder-weiterbildung]]
 - [[alt-futur-1]]
 - [[alt-indirekte-fragen]]
