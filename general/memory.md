@@ -20,3 +20,15 @@ __Ref__: <https://nautil.us/what-makes-a-memory-real-787268/>
   - __Imagination__: The process begins in higher-order brain areas, with additional involvement of the __frontal cortex__, which helps with cognitive control.
 - __Anterior Medial Prefrontal Cortex__: This region is crucial for distinguishing real memories from imagined ones, playing a key role in attention, working memory, and long-term memory.
 - > We rely on our memory to understand the reality we live in.
+
+
+```mermaid
+mindmap
+Memory
+  perceptions
+    eyes - visual cortex - higher-order
+  imagination
+    higher-order - visual cortex
+```
+```
+```
