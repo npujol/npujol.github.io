@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 4. **Authentication, Authorization & Security**
+# 4. Authentication, Authorization & Security

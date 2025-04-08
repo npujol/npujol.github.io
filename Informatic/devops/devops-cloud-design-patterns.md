@@ -34,4 +34,4 @@ Free Resources
 
 ## Flashcards
 
-CQRS:::stands for **Command and Query Responsibility Segregation**
+CQRS:::stands for Command and Query Responsibility Segregation

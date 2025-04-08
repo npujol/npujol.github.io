@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 7. **CI/CD Pipelines**
+# 7. CI/CD Pipelines

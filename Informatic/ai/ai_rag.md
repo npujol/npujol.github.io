@@ -1,17 +1,16 @@
 # AI Study Case: Chat in own story contents
 
-
-### Architecture Solutions for Building a RAG-Based Story Analysis Chat
+## Architecture Solutions for Building a RAG-Based Story Analysis Chat
 
 Below is a comparison of different architectural approaches, their complexity, learning time, and pros/cons:
 
-| **Architecture**               | **Complexity** | **Learning Time** | **Advantages**                                                                 | **Disadvantages**                                                                 |
+| Architecture               | Complexity | Learning Time | Advantages                                                                 | Disadvantages                                                                 |
 |---------------------------------|----------------|-------------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Basic RAG with Vector DB**    | Low            | 1-2 days          | Quick setup, minimal dependencies, Python-friendly.                           | Limited scalability, basic retrieval, no advanced NLP features.                   |
-| **Advanced RAG (LangChain/LlamaIndex)** | Medium       | 3-7 days          | Modular workflows, multi-doc support, better prompt engineering.              | Requires learning LangChain/LlamaIndex APIs.                                      |
-| **NLP-Enhanced RAG**            | Medium-High    | 1-2 weeks         | Adds entity recognition, summarization, and topic modeling.                   | Requires NLP expertise (e.g., spaCy, NLTK).                                      |
-| **Cloud-Based RAG (AWS/GCP)**   | High           | 1-3 weeks         | Scalable, managed services, serverless options.                               | Costly for large datasets, vendor lock-in, cloud-specific learning.               |
-| **Real-Time RAG with Streaming**| High           | 2-4 weeks         | Real-time updates (e.g., new story content).                                  | Complex setup (e.g., Kafka/Spark), overkill for static datasets.                  |
+| Basic RAG with Vector DB    | Low            | 1-2 days          | Quick setup, minimal dependencies, Python-friendly.                           | Limited scalability, basic retrieval, no advanced NLP features.                   |
+| Advanced RAG (LangChain/LlamaIndex) | Medium       | 3-7 days          | Modular workflows, multi-doc support, better prompt engineering.              | Requires learning LangChain/LlamaIndex APIs.                                      |
+| NLP-Enhanced RAG            | Medium-High    | 1-2 weeks         | Adds entity recognition, summarization, and topic modeling.                   | Requires NLP expertise (e.g., spaCy, NLTK).                                      |
+| Cloud-Based RAG (AWS/GCP)   | High           | 1-3 weeks         | Scalable, managed services, serverless options.                               | Costly for large datasets, vendor lock-in, cloud-specific learning.               |
+| Real-Time RAG with Streaming| High           | 2-4 weeks         | Real-time updates (e.g., new story content).                                  | Complex setup (e.g., Kafka/Spark), overkill for static datasets.                  |
 
 ---
 
@@ -68,31 +67,33 @@ graph LR
 
 ### Tool Selection Guide (Python-Centric)
 
-#### Core Components:
-| **Component**          | **Tools**                                                                 |
+#### Core Components
+
+| Component          | Tools                                                                 |
 |-------------------------|---------------------------------------------------------------------------|
-| **Vector Database**     | FAISS (local), Chroma (local), Pinecone (cloud)                          |
-| **LLM Integration**     | Hugging Face Transformers, OpenAI API, Llama.cpp (local LLMs)            |
-| **RAG Framework**       | LangChain, LlamaIndex, Haystack                                           |
-| **NLP Preprocessing**   | spaCy, NLTK, Gensim                                                      |
-| **Cloud Services**      | AWS Bedrock, Google Vertex AI, Azure AI                                  |
-| **Streaming**           | Apache Kafka (with `kafka-python`), RabbitMQ                              |
-| **APIs/Deployment**     | FastAPI, Flask, Docker                                                   |
+| Vector Database     | FAISS (local), Chroma (local), Pinecone (cloud)                          |
+| LLM Integration     | Hugging Face Transformers, OpenAI API, Llama.cpp (local LLMs)            |
+| RAG Framework       | LangChain, LlamaIndex, Haystack                                           |
+| NLP Preprocessing   | spaCy, NLTK, Gensim                                                      |
+| Cloud Services      | AWS Bedrock, Google Vertex AI, Azure AI                                  |
+| Streaming           | Apache Kafka (with `kafka-python`), RabbitMQ                              |
+| APIs/Deployment     | FastAPI, Flask, Docker                                                   |
 
-#### Recommended Stack for a Writer:
-1. **Start Simple**:  
-   - **Vector DB**: FAISS (easy Python integration).  
-   - **LLM**: Hugging Face’s `flan-t5` or GPT-3.5-turbo.  
-   - **Framework**: LangChain (simplifies RAG pipelines).  
-   - **NLP**: spaCy for entity extraction.  
+#### Recommended Stack for a Writer
 
-2. **Scale Up (if needed)**:  
-   - Use **LlamaIndex** for document structuring or **Pinecone** for scalable vector search.  
-   - Deploy with **FastAPI** + **Docker** for a web interface.  
+1. Start Simple:  
+   - Vector DB: FAISS (easy Python integration).  
+   - LLM: Hugging Face’s `flan-t5` or GPT-3.5-turbo.  
+   - Framework: LangChain (simplifies RAG pipelines).  
+   - NLP: spaCy for entity extraction.  
 
-3. **Python Libraries to Prioritize**:  
+2. Scale Up (if needed):  
+   - Use LlamaIndex for document structuring or Pinecone for scalable vector search.  
+   - Deploy with FastAPI + Docker for a web interface.  
+
+3. Python Libraries to Prioritize:  
+
    ```python
    # Pip install example
    pip install langchain faiss-cpu transformers spacy sentence-transformers fastapi
    ```
-

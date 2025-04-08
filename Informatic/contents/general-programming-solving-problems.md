@@ -1,18 +1,20 @@
 ---
+id: general-programming-solving-problems
+aliases: []
 tags:
-- informatic
-- contents
-- general
-- programming
-- solving
-- problems
-- programming-solving-problems
-- sliding-window
-- two-pointer
-- fast-slow
-- merge-intervals
-- cyclic-sort
-- in-place-reversal-linked-list
+  - informatic
+  - contents
+  - general
+  - programming
+  - solving
+  - problems
+  - programming-solving-problems
+  - sliding-window
+  - two-pointer
+  - fast-slow
+  - merge-intervals
+  - cyclic-sort
+  - in-place-reversal-linked-list
 ---
 
 # General Programming Solving Problems
@@ -21,10 +23,10 @@ tags:
 
 Used to track a subset of data that shifts over time, often in arrays or strings.
 
-- **Use Cases:**
-  - **Finding maximum/minimum sum of subarrays:** E.g., maximum sum of a subarray of size \(K\).
-  - **Checking if a string has a permutation of another:** Useful in substring anagram problems.
-  - **Finding the longest substring with at most \(K\) distinct characters:** Common in string processing problems.
+- Use Cases:
+  - Finding maximum/minimum sum of subarrays: E.g., maximum sum of a subarray of size \(K\).
+  - Checking if a string has a permutation of another: Useful in substring anagram problems.
+  - Finding the longest substring with at most \(K\) distinct characters: Common in string processing problems.
 
 ### Go Example
 
@@ -64,10 +66,10 @@ def max_sub_array_sum(arr, k):
 
 Two pointers work from different ends of an array to find a solution.
 
-- **Use Cases:**
-  - **Finding pairs in a sorted array that sum up to a target:** E.g., finding two numbers that add up to a given number.
-  - **Removing duplicates from a sorted array:** Useful for simplifying arrays.
-  - **Finding palindromic substrings:** Helpful for detecting symmetric sequences in strings.
+- Use Cases:
+  - Finding pairs in a sorted array that sum up to a target: E.g., finding two numbers that add up to a given number.
+  - Removing duplicates from a sorted array: Useful for simplifying arrays.
+  - Finding palindromic substrings: Helpful for detecting symmetric sequences in strings.
 
 ### Go Example
 
@@ -110,10 +112,10 @@ def two_sum(arr, target):
 
 Two pointers move at different speeds to detect cycles.
 
-- **Use Cases:**
-  - **Detecting cycles in linked lists:** Ensures there are no infinite loops.
-  - **Finding the middle of a linked list:** Useful in splitting or dividing linked lists.
-  - **Detecting cycles in arrays:** Applied to circular arrays to identify repeated patterns.
+- Use Cases:
+  - Detecting cycles in linked lists: Ensures there are no infinite loops.
+  - Finding the middle of a linked list: Useful in splitting or dividing linked lists.
+  - Detecting cycles in arrays: Applied to circular arrays to identify repeated patterns.
 
 ### Go Example
 
@@ -160,10 +162,10 @@ def has_cycle(head):
 
 Merges overlapping intervals.
 
-- **Use Cases:**
-  - **Scheduling meeting times:** Avoids conflicts by merging overlapping times.
-  - **Range-based data compression:** Compresses data ranges for efficient storage.
-  - **Finding gaps in ranges:** Useful for identifying missing ranges.
+- Use Cases:
+  - Scheduling meeting times: Avoids conflicts by merging overlapping times.
+  - Range-based data compression: Compresses data ranges for efficient storage.
+  - Finding gaps in ranges: Useful for identifying missing ranges.
 
 ### Go Example
 
@@ -215,10 +217,10 @@ def merge_intervals(intervals):
 
 Used when sorting numbers within a range efficiently.
 
-- **Use Cases:**
-  - **Finding missing numbers in a consecutive range:** Identifies gaps in series.
-  - **Sorting arrays with a known limited range:** Efficiently sorts arrays within a range.
-  - **Detecting duplicate numbers:** Useful in finding repetitive entries.
+- Use Cases:
+  - Finding missing numbers in a consecutive range: Identifies gaps in series.
+  - Sorting arrays with a known limited range: Efficiently sorts arrays within a range.
+  - Detecting duplicate numbers: Useful in finding repetitive entries.
 
 ### Go Example
 
@@ -255,10 +257,10 @@ def cyclic_sort(nums):
 
 Reverse a linked list without additional memory allocation.
 
-- **Use Cases:**
-  - **Reversing an entire linked list:** Useful for reversing sequences in data.
-  - **Reversing a portion of a linked list:** Applied in partial data modifications.
-  - **Solving palindrome problems:** Helps identify palindromic sequences.
+- Use Cases:
+  - Reversing an entire linked list: Useful for reversing sequences in data.
+  - Reversing a portion of a linked list: Applied in partial data modifications.
+  - Solving palindrome problems: Helps identify palindromic sequences.
 
 ### Go Example
 

@@ -127,3 +127,7 @@ When to Use Inventory
   Enhanced troubleshooting capabilities
   Avoid repetitive manual tasks through automation
 ```
+
+### AWX
+
+* [ref](https://github.com/ansible/awx)

@@ -3,7 +3,6 @@ tags:
   - language
   - grammatik
   - deutsch
-  - reviewed
   - b22
   - ready
 ---

@@ -14,7 +14,7 @@ tags:
 
 | Präfix       | Beispiel                            | Bedeutung |
 | ------------ | ----------------------------------- | --------- |
-| **Trennbar** |                                     |           |
+| Trennbar |                                     |           |
 | ab-          | Ich schalte den Fernseher ab.       | Ende      |
 |              | Wir fahren um 9.00 Uhr ab.          | weg       |
 | an-          | Ich schalte den Fernseher an.       | Beginn    |

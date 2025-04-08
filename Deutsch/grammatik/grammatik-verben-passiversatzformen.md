@@ -8,8 +8,8 @@ tags:
 - artikelwörter
 ---
 
-
 # Grammatik: Passiversatzformen
+
 
 ## Unpersönliches Passiv
 
@@ -18,6 +18,13 @@ In Passivsätzen ohne Subjekt steht das Pronomen es als stellvertretendes Subjek
 Es wurde eingebrochen. -> In viele Wohnungen wurde eingebrochen.
 Es wurde ermittelt. -> In diesem Fall wurde ermittelt.
 
-es steht nur im Hauptsatz,nicht im Nebensatz.
+Es steht nur im Hauptsatz,nicht im Nebensatz.
 
 Es wurde eingebrochen. -> Die Nachbarn sahen,dass eingebrochen wurde.
+
+
+## Nicht alle Verben können Passivformen bilden
+
+- Intransitives Verb
+- Reflexives Verb
+- Intransitives Verb, Perfekt mit sein

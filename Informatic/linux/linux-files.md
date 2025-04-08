@@ -35,23 +35,23 @@ nano filename
 
 This command will open the file `filename` in the `nano` editor. Once open, you can make changes to the file, save, and exit it. Other editors like `vi/vim` and `emacs` have their own specific commands for editing, saving and exiting files. It's essential to learn the basic commands of your chosen editor to efficiently work with files in Linux.
 
-
 ## Ref
 
-- https://kubebyexample.com/learning-paths/linux-essentials/file-management-linux
+- <https://kubebyexample.com/learning-paths/linux-essentials/file-management-linux>
 
-| **File Type**         | **Description**                                                                 | **Example**                     |
+| File Type         | Description                                                                 | Example                     |
 | --------------------- | ------------------------------------------------------------------------------- | ------------------------------- |
-| **Regular File (-)**  | Stores data, text, or program information. May contain readable or binary data. | `file1`, `file2`                |
-| **Directory (d)**     | A special file that contains a list of files and subdirectories.                | `dirA`, `dirB`                  |
-| **Symbolic Link (l)** | A pointer to another file or directory.                                         | `myprogram.2` (→ `myprogram.1`) |
-| **Executable File**   | A regular file that can be executed as a program.                               | `myprogram.1`                   |
-| **Special Files**     | Devices or processes like block, character devices, or pipes. Not shown here.   | `/dev/sda` (block device)       |
-| **Socket (s)**        | A file for inter-process communication.                                         | Typically in `/var/run/`        |
-| **Named Pipe (p)**    | A file for communication between processes.                                     | `mkfifo` created files          |
-- https://kubebyexample.com/learning-paths/linux-essentials/file-management-linux
+| Regular File (-)  | Stores data, text, or program information. May contain readable or binary data. | `file1`, `file2`                |
+| Directory (d)     | A special file that contains a list of files and subdirectories.                | `dirA`, `dirB`                  |
+| Symbolic Link (l) | A pointer to another file or directory.                                         | `myprogram.2` (→ `myprogram.1`) |
+| Executable File   | A regular file that can be executed as a program.                               | `myprogram.1`                   |
+| Special Files     | Devices or processes like block, character devices, or pipes. Not shown here.   | `/dev/sda` (block device)       |
+| Socket (s)        | A file for inter-process communication.                                         | Typically in `/var/run/`        |
+| Named Pipe (p)    | A file for communication between processes.                                     | `mkfifo` created files          |
 
-| **Directory** | **Purpose**                                                                                   | **Examples of Contents**                                                                 |
+- <https://kubebyexample.com/learning-paths/linux-essentials/file-management-linux>
+
+| Directory | Purpose                                                                                   | Examples of Contents                                                                 |
 |---------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | `/`           | The root directory. The starting point of the file system hierarchy.                         | Subdirectories like `/bin`, `/etc`, `/home`, etc.                                       |
 | `/bin`        | Essential user command binaries needed for system operation, available to all users.          | Commands like `ls`, `cp`, `mv`, `cat`, `bash`.                                          |
@@ -72,4 +72,3 @@ This command will open the file `filename` in the `nano` editor. Once open, 
 | `/mnt`        | Temporary mount points for manually mounted filesystems.                                      | Used by administrators for mounting disks.                                             |
 | `/srv`        | Data served by the system, such as websites or FTP files.                                     | Files for web servers (`/srv/http/`) or FTP services.                                   |
 | `/run`        | Runtime data for processes since the last boot, such as PID files or sockets.                 | `/run/lock/`, `/run/user/`.                                                            |
-

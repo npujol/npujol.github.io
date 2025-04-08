@@ -26,12 +26,12 @@ tags:
 
 - [Running Containerized Applications](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-1)
 
-|                                | **Big Scale**                                  | **Small Scale**                                    |
+|                                | Big Scale                                  | Small Scale                                    |
 |--------------------------------|-----------------------------------------------|--------------------------------------------------|
-| **Self-Managed - Local**       | --                                            | minikube, CodeReady Containers, Microk8s, Docker Kubernetes |
-| **Self-Managed - On Premises / Hybrid** | Red Hat OpenShift, VMWare Tanzu, Rancher | --                                               |
-| **Kubernetes-as-a-Service - On Cloud**  | OpenShift Dedicated, Google Container Engine, Amazon EKS | Developer Sandbox                                |
+| Self-Managed - Local       | --                                            | minikube, CodeReady Containers, Microk8s, Docker Kubernetes |
+| Self-Managed - On Premises / Hybrid | Red Hat OpenShift, VMWare Tanzu, Rancher | --                                               |
+| Kubernetes-as-a-Service - On Cloud  | OpenShift Dedicated, Google Container Engine, Amazon EKS | Developer Sandbox                                |
 
-##  Certified Kubernetes Administrator (CKA) Course
+## Certified Kubernetes Administrator (CKA) Course
 
 [GitHub](https://github.com/kodekloudhub/certified-kubernetes-administrator-course)
