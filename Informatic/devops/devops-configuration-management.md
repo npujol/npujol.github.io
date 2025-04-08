@@ -10,7 +10,9 @@ tags:
 # devops-configuration-management
 
 ## Contents
+
 ??
+
 - [[devops-configuration-management-ansible]]
 - [[devops-configuration-management-chef]]
 - [[devops-configuration-management-puppet]]
@@ -20,11 +22,12 @@ __Roadmap info from [roadmap website](https://roadmap.sh/devops/configuration-ma
 
 Automation can help enterprises reduce costs, complexity, and manual errors in a variety of IT use cases:
 
-- **Infrastructure automation:** configure and manage server infrastructure to enforce consistency and eliminate configuration drift.
-- **Cloud automation:** configure and manage cloud resources including operating systems, security groups, load balancers, and virtual private clouds. 
-- **Network automation:** configure and manage network devices such routers and switches. 
-- **Security automation:** configure and manage security devices such as firewalls and intrusion detection systems— and apply consistent network access policies. 
-- **Edge automation:** configure and manage remote infrastructure systems including network, security, IoT devices, and server equipment.
+- Infrastructure automation: configure and manage server infrastructure to enforce consistency and eliminate configuration drift.
+- Cloud automation: configure and manage cloud resources including operating systems, security groups, load balancers, and virtual private clouds.
+- Network automation: configure and manage network devices such routers and switches.
+- Security automation: configure and manage security devices such as firewalls and intrusion detection systems— and apply consistent network access policies.
+- Edge automation: configure and manage remote infrastructure systems including network, security, IoT devices, and server equipment.
+
 ## Comparison
 
 - Ansible is known for its ease of use, agentless architecture, and declarative syntax.

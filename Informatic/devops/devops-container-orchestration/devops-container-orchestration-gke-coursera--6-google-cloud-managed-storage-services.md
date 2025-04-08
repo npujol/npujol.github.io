@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 6. **Google Cloud Managed Storage Services**
+# 6. Google Cloud Managed Storage Services

@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 2. **Pod & Cluster Networking**
+# 2. Pod & Cluster Networking

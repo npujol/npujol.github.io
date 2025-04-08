@@ -338,7 +338,6 @@ tags: obsidian-auto-glossary
 - [[kubernetes-volumes-stateful-applications]]
 - [[kubernetes-volumes]]
 - [[kubernetes]]
-- [[kubernetes.sync-conflict-20250302-113147-C66P2VF]]
 - [[kubernetes_Index]]
 - [[linux-basic-commands]]
 - [[linux-basics-command-help]]

@@ -1,17 +1,28 @@
 ---
+id: b22-redemittel-ein-referat-oder-vortrag-halten
+aliases: 
 tags:
-- language
-- deutsch
-- redemittel
-- b22
-- ready
-- online
-- c11
-- vortrag
-- referat
+  - language
+  - deutsch
+  - redemittel
+  - b22
+  - ready
+  - online
+  - vortrag
+  - referat
 ---
 
 # B22: Ein Referat/einen Vortrag halten
+
+## Strategie
+
+Ein Vortrag sollte einen klaren Aufbau haben:
+
+- Begrüßung der Zuhörer
+- Benennung des Themas und Ziel des Vortrags
+- Vorstellen der Gliederung
+- Hauptteil mit Bearbeitung des Themas
+- Abschluss und ggf. Fazit
 
 ## Einleitung
 

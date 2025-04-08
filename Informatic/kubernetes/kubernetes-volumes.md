@@ -29,8 +29,7 @@ Volumes provide directories accessible to containers running in a pod and can be
 - [officialPersistent Volumes Documentation](https://kubernetes.io/docs/concepts/storage/persistent-volumes/)
 - [videoThe basics of stateful applications in Kubernetes](https://www.youtube.com/watch?v=GieXzb91I40)
 - [feedExplore top posts about Storage](https://app.daily.dev/tags/storage?ref=roadmapsh)
-- https://kubebyexample.com/learning-paths/kubernetes-fundamentals/what-volume
-
+- <https://kubebyexample.com/learning-paths/kubernetes-fundamentals/what-volume>
 
 ## Kubernetes Shared Volume Options Comparison
 
@@ -53,21 +52,25 @@ Volumes provide directories accessible to containers running in a pod and can be
 ## Key Characteristics
 
 ### Access Modes
-- **ReadWriteOnce (RWO)**: Volume can be mounted as read-write by a single node
-- **ReadWriteMany (RWX)**: Volume can be mounted as read-write by many nodes
-- **ReadOnlyMany (ROX)**: Volume can be mounted as read-only by many nodes
+
+- ReadWriteOnce (RWO): Volume can be mounted as read-write by a single node
+- ReadWriteMany (RWX): Volume can be mounted as read-write by many nodes
+- ReadOnlyMany (ROX): Volume can be mounted as read-only by many nodes
 
 ### Performance Considerations
-- **Network Latency**: Network-based solutions (NFS, cloud file systems) add latency
-- **Caching**: Some solutions offer caching to improve performance
-- **Throughput vs. IOPS**: Different workloads need different performance profiles
+
+- Network Latency: Network-based solutions (NFS, cloud file systems) add latency
+- Caching: Some solutions offer caching to improve performance
+- Throughput vs. IOPS: Different workloads need different performance profiles
 
 ### Data Safety
-- **Replication**: How data is protected against node failures
-- **Backup Integration**: Ease of backing up the shared data
-- **Disaster Recovery**: Geographic redundancy options
+
+- Replication: How data is protected against node failures
+- Backup Integration: Ease of backing up the shared data
+- Disaster Recovery: Geographic redundancy options
 
 ### Management Overhead
-- **Maintenance**: Required ongoing maintenance
-- **Monitoring**: Available metrics and monitoring tools
-- **Scaling**: Ability to grow with your application needs
+
+- Maintenance: Required ongoing maintenance
+- Monitoring: Available metrics and monitoring tools
+- Scaling: Ability to grow with your application needs

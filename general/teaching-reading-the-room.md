@@ -1,3 +1,9 @@
+---
+id: teaching-reading-the-room
+aliases: []
+tags: []
+---
+
 
 # Teaching: Reading the room: Adapting Teaching in Action
 

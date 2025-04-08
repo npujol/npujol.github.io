@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 5. **Monitoring & Observability**
+# 5. Monitoring & Observability

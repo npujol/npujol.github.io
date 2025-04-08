@@ -1,7 +1,11 @@
 ---
-tags: obsidian-auto-glossary
+id: contents_Index
+aliases: []
+tags:
+  - obsidian-auto-glossary
 ---
 ## Index
+
 - [[contents]]
 - [[contents_Index]]
 - [[general-helpers]]

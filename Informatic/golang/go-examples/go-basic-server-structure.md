@@ -10,9 +10,9 @@ tags:
 
 ## Project Structure
 
-- **Internal Packages**: Encapsulate the logic and data specific to your module, keeping it private and modular.
-- **Utils Package**: Provides a centralized place for shared utility functions that multiple internal packages can use.
-- **Public Package**: Exposes a clean interface for starting the application, while keeping the internal details hidden.
+- Internal Packages: Encapsulate the logic and data specific to your module, keeping it private and modular.
+- Utils Package: Provides a centralized place for shared utility functions that multiple internal packages can use.
+- Public Package: Exposes a clean interface for starting the application, while keeping the internal details hidden.
 
 ```plain
 myapp/
@@ -32,7 +32,7 @@ myapp/
     └── api.go
 ```
 
-### 1. **Internal Packages**
+### 1. Internal Packages
 
 #### `internal/model/user.go`
 
@@ -127,11 +127,11 @@ func MaskEmail(email string) string {
     if len(parts) != 2 {
         return email
     }
-    return parts[0] + "@****.com"
+    return parts[0] + "@.com"
 }
 ```
 
-### 2. **Public Package**
+### 2. Public Package
 
 #### `public/api.go`
 
@@ -161,7 +161,7 @@ func StartServer() {
 }
 ```
 
-### 3. **Main Application File**
+### 3. Main Application File
 
 #### `main.go`
 

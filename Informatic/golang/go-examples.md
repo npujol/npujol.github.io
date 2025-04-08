@@ -14,7 +14,7 @@ tags:
 
 ## Go concurrency patterns
 
-https://go.dev/blog/pipelines
+<https://go.dev/blog/pipelines>
 
 I'll explain Go's concurrency patterns and their design philosophy. Note that while I'll reference sources, you should verify them as I don't have direct access to real-time sources.
 
@@ -22,77 +22,78 @@ The key concurrency patterns in Go were primarily influenced by Tony Hoare's Com
 
 Let's break down the main patterns:
 
-1. **Goroutines and Channels Pattern**
+1. Goroutines and Channels Pattern
 
 This is the fundamental pattern in Go, following the CSP principle "Don't communicate by sharing memory; share memory by communicating."
 
 Let's analyze why Go chose these patterns:
 
-1. **Goroutines over Threads**
-   - **Why**: Traditional threads have high overhead (1MB+ stack size)
-   - **Go's Solution**: Goroutines start with small stack (2KB) that can grow
-   - **Source**: [Go FAQ](https://golang.org/doc/faq#goroutines)
+1. Goroutines over Threads
+   - Why: Traditional threads have high overhead (1MB+ stack size)
+   - Go's Solution: Goroutines start with small stack (2KB) that can grow
+   - Source: [Go FAQ](https://golang.org/doc/faq#goroutines)
 
-2. **Channels over Shared Memory**
-   - **Why**: Shared memory leads to race conditions and complex locking
-   - **Go's Solution**: Channels provide synchronized communication
-   - **Source**: Pike, Rob. "Go Concurrency Patterns" (Google I/O 2012)
+2. Channels over Shared Memory
+   - Why: Shared memory leads to race conditions and complex locking
+   - Go's Solution: Channels provide synchronized communication
+   - Source: Pike, Rob. "Go Concurrency Patterns" (Google I/O 2012)
 
-3. **Select Pattern**
-   - **Why**: Need to handle multiple concurrent operations
-   - **Go's Solution**: Select provides a way to choose between multiple channel operations
-   - **Source**: Effective Go documentation
+3. Select Pattern
+   - Why: Need to handle multiple concurrent operations
+   - Go's Solution: Select provides a way to choose between multiple channel operations
+   - Source: Effective Go documentation
 
-4. **Context Package**
-   - **Why**: Need for cancellation and deadline propagation across API boundaries
-   - **Go's Solution**: Context package provides a standard way to handle cancellation
-   - **Source**: Sameer Ajmani's "Go Concurrency Patterns: Context" blog post
+4. Context Package
+   - Why: Need for cancellation and deadline propagation across API boundaries
+   - Go's Solution: Context package provides a standard way to handle cancellation
+   - Source: Sameer Ajmani's "Go Concurrency Patterns: Context" blog post
 
 Design Decisions:
 
-1. **Simplicity**
+1. Simplicity
    - Go's concurrency model is designed to be simple and understandable
    - No complex abstractions like promises or futures
    - Based on few, well-understood primitives
 
-2. **CSP Influence**
+2. CSP Influence
    - Directly inspired by Hoare's CSP paper
    - Channels as the primary means of synchronization
    - Goroutines as lightweight processes
 
-3. **Built-in Support**
+3. Built-in Support
    - Concurrency is built into the language, not a library
    - Keywords: `go`, `chan`, `select`
    - Compiler and runtime support for efficient scheduling
 
-4. **Memory Model**
+4. Memory Model
    - Clear memory model specification
    - Helps prevent data races
    - Makes concurrent programming more predictable
 
 Common Use Cases and Patterns:
 
-1. **Pipeline Pattern**
+1. Pipeline Pattern
    - For data processing stages
    - Each stage connected by channels
    - Easy to add/remove stages
 
-2. **Fan-Out/Fan-In**
+2. Fan-Out/Fan-In
    - Distribute work across multiple goroutines
    - Collect results back into single channel
    - Useful for parallel processing
 
-3. **Pub/Sub Pattern**
+3. Pub/Sub Pattern
    - One publisher, multiple subscribers
    - Non-blocking message distribution
    - Event-driven architectures
 
-4. **Rate Limiting**
+4. Rate Limiting
    - Control resource usage
    - Prevent system overload
    - Time-based operations management
 
 References (Please verify these):
+
 1. Pike, Rob. "Go Concurrency Patterns" (Google I/O 2012)
 2. Hoare, C.A.R. "Communicating Sequential Processes" (1978)
 3. Go Blog: "Share Memory By Communicating"

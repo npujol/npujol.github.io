@@ -11,4 +11,4 @@ tags:
 - course
 ---
 
-# 3. **Storage Abstractions**
+# 3. Storage Abstractions
