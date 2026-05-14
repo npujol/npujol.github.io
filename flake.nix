@@ -22,7 +22,10 @@
           sites."default" = {
             layers = [{ path = ./.; pathString = "."; }];
             # port = 8080;
-            baseUrl = "/"; # Change to "/" (or remove it entirely) if using CNAME
+            # baseUrl is now set via extraConfig instead:
+            # extraConfig = {
+            #   page.siteUrl = "https://npujol.github.io";
+            # };
             # prettyUrls = true;
           };
         };
