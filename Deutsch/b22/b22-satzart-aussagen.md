@@ -1,20 +1,22 @@
----
-tags:
-- satzart
-- grammatik
-- deutsch
-- b22
-- aussagen
-- language
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-satzart-aussagen
+aliases: [ ]
+tags:
+\- satzart
+\- grammatik
+\- deutsch
+\- b22
+\- language
+\- --
+
+```
 # B22: Aussagen
 
 ## Was bedeutet eine Aussage
 
 Eine Aussage ist eine sprachliche Äußerung, die eine Information vermittelt oder einen Sachverhalt beschreibt. Sie ist in der Regel entweder wahr oder falsch und dient dazu, Fakten, Gedanken oder Meinungen zu kommunizieren. Aussagen sind grundlegende Bestandteile von Gesprächen und Texten und spielen eine zentrale Rolle in der Kommunikation, da sie die Grundlage für Argumentationen und Diskussionen bilden.
+```
 
 ## Wann sollte man Aussagen nutzen
 
@@ -27,11 +29,11 @@ Aussagen sollten genutzt werden, wenn man:
 
 ## Beispiele
 
-__Beispiel 1:__ "Der Himmel ist heute blau."__
+__Beispiel 1:__ "Der Himmel ist heute blau."\_\_
 
 - Diese Aussage beschreibt einen sichtbaren Zustand und kann durch Beobachtung überprüft werden.
 
-__Beispiel 2:__ "Ich habe gestern ein Buch gelesen."__
+__Beispiel 2:__ "Ich habe gestern ein Buch gelesen."\_\_
 
 - Diese Aussage gibt Informationen über eine Handlung oder eine Erfahrung der sprechenden Person.
 
@@ -39,10 +41,10 @@ Aussagen sind also ein wesentlicher Bestandteil der schriftlichen und mündliche
 
 ## Partikel
 
-- [[b22-partikel-aber]]
-- [[b22-partikel-doch]]
-- [[b22-partikel-ja]]
-- [[b22-partikel-mal]]
+- \[[b22-partikel-aber]\]
+- \[[b22-partikel-doch]\]
+- \[[b22-partikel-ja]\]
+- \[[b22-partikel-mal]\]
 
 ### Aussage mit „aber“
 

@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - kubernetes
 - kubernetes-logging
@@ -9,13 +11,14 @@ tags:
 - Zipkin
 - OpenTracing
 - OpenCensus
----
+
+______________________________________________________________________
 
 # kubernetes-logging-traces
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/monitoring-and-logging/traces)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/monitoring-and-logging/traces>) \_\_
 
 ## Traces
 
@@ -23,5 +26,5 @@ Tracing in Kubernetes involves monitoring the flow of requests through different
 
 ## Resources
 
-* [@official@Traces For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-traces/)
-* [@video@Introduction to Tracing](https://www.youtube.com/watch?v=idDu_jXqf4E)
+- [@official@Traces For Kubernetes System Components](https://kubernetes.io/docs/concepts/cluster-administration/system-traces/)
+- [@video@Introduction to Tracing](https://www.youtube.com/watch?v=idDu_jXqf4E)

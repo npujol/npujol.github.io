@@ -1,19 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- einigen
----
+______________________________________________________________________
 
+id: b22-redemittel-sich-einigen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Sich einigen
 
 ## Wie wäre es mit einem Kompromiss: [...]
 
 __Person A:__ __Wie wäre es mit einem Kompromiss:__ Wir führen die neuen Maßnahmen schrittweise ein, um den Übergang für alle Beteiligten zu erleichtern.
+```
 
 __Person B:__ __Wie wäre es mit einem Kompromiss:__ Wir teilen die Kosten hälftig auf, um die finanzielle Belastung gleichmäßig zu verteilen.
 

@@ -1,13 +1,16 @@
----
-id: contents_Index
-aliases: []
-tags:
-  - obsidian-auto-glossary
----
-## Index
+______________________________________________________________________
 
-- [[contents]]
-- [[contents_Index]]
-- [[general-helpers]]
-- [[general-nixcon-2024-berlin]]
-- [[general-programming-solving-problems]]
+id: contents_Index
+aliases: [ ]
+tags:
+\- obsidian-auto-glossary
+\- --
+\## Index
+
+```
+- [ [ contents ] ]
+- [ [ contents_Index ] ]
+- [ [ general-helpers ] ]
+- [ [ general-nixcon-2024-berlin ] ]
+- [ [ general-programming-solving-problems ] ]
+```

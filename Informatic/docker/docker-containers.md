@@ -1,29 +1,46 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - output
-  - docker
-  - ready
-  - online
----
+
+- roadmap
+- output
+- docker
+- ready
+- online
+
+______________________________________________________________________
 
 # docker-containers
 
 ## Contents
 
-- [[docker-containers-docker-run]]
-- [[docker-containers-docker-compose]]
-- [[docker-containers-runtime-config-options]]
-- [[docker-containers-paas-options]]
-- [[docker-containers-kubernetes]]
-- [[docker-containers-docker-swarm]]
-- [[docker-containers-nomad]]
+- \[ [ docker-containers-docker-run ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/containers)__
+- \[ [ docker-containers-docker-compose ] \]
 
-## Running Containers
+- \[ [ docker-containers-runtime-config-options ] \]
 
-To start a new container, we use the `docker run` command followed by the image name. The basic syntax is as follows:
+- \[ [ docker-containers-paas-options ] \]
+
+- \[ [ docker-containers-kubernetes ] \]
+
+- \[ [ docker-containers-docker-swarm ] \]
+
+- \[ [ docker-containers-nomad ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/containers>)
+  \_\_
+
+  ## Running Containers
+
+  To
+  start
+  a
+  new
+  container, we use the `docker run` command followed by the image name. The basic syntax is as follows:
 
 ```bash
 docker run [options] IMAGE [COMMAND] [ARG...]
@@ -118,25 +135,25 @@ Deploying containers with Docker allows you to improve application consistency, 
 
 ## Comparative table between __Nomad__, __Kubernetes__, and __Docker Swarm__
 
-| __Category__            | __Nomad__                                       | __Kubernetes__                                  | __Docker Swarm__                               |
+| __Category__ | __Nomad__ | __Kubernetes__ | __Docker Swarm__ |
 |-------------------------|-------------------------------------------------|-------------------------------------------------|------------------------------------------------|
-| __Orchestration Type__   | General-purpose orchestrator (supports containers, VMs, and non-containerized workloads) | Container orchestration platform               | Native Docker container orchestration         |
-| __Ease of Setup__        | Simple to set up with minimal dependencies      | Complex setup, requires extensive configuration | Easy to set up and integrates with Docker      |
-| __Supported Workloads__  | Containers, VMs, Java apps, binaries, batch jobs | Containerized workloads (mainly Docker)         | Docker containers only                         |
-| __Scheduler__            | Optimized for high flexibility and multi-cloud environments | Advanced, highly customizable, with support for different scheduling policies | Simple scheduling with Docker engine           |
-| __Scalability__          | Highly scalable with multi-datacenter support   | Extremely scalable (used by large enterprises)  | Scales to small to medium-sized clusters       |
-| __Networking__           | Requires manual setup for advanced networking options | Advanced, supports service discovery, load balancing, and network policies | Simplified networking with built-in service discovery |
-| __State Management__     | Single binary with client/server architecture, minimal overhead | Requires etcd for state persistence and control plane | Built-in state management via Raft consensus algorithm |
-| __Service Discovery__    | Simple, integrated DNS-based discovery          | Robust service discovery and DNS integration    | Simple service discovery with built-in DNS     |
-| __Storage Support__      | Basic volume management                         | Advanced storage management with CSI support    | Limited, but supports Docker volumes           |
+| __Orchestration Type__ | General-purpose orchestrator (supports containers, VMs, and non-containerized workloads) | Container orchestration platform | Native Docker container orchestration |
+| __Ease of Setup__ | Simple to set up with minimal dependencies | Complex setup, requires extensive configuration | Easy to set up and integrates with Docker |
+| __Supported Workloads__ | Containers, VMs, Java apps, binaries, batch jobs | Containerized workloads (mainly Docker) | Docker containers only |
+| __Scheduler__ | Optimized for high flexibility and multi-cloud environments | Advanced, highly customizable, with support for different scheduling policies | Simple scheduling with Docker engine |
+| __Scalability__ | Highly scalable with multi-datacenter support | Extremely scalable (used by large enterprises) | Scales to small to medium-sized clusters |
+| __Networking__ | Requires manual setup for advanced networking options | Advanced, supports service discovery, load balancing, and network policies | Simplified networking with built-in service discovery |
+| __State Management__ | Single binary with client/server architecture, minimal overhead | Requires etcd for state persistence and control plane | Built-in state management via Raft consensus algorithm |
+| __Service Discovery__ | Simple, integrated DNS-based discovery | Robust service discovery and DNS integration | Simple service discovery with built-in DNS |
+| __Storage Support__ | Basic volume management | Advanced storage management with CSI support | Limited, but supports Docker volumes |
 | __Deployment Complexity__| Lower complexity, can run with minimal infrastructure | High complexity, needs multiple components (API server, etcd, scheduler) | Lower complexity, deeply integrated into Docker |
-| __Extensibility__        | Can be extended via plugins, integrates with Consul, Vault | Highly extensible with many APIs and plugins    | Less extensible, focused on simplicity         |
-| __Learning Curve__       | Low to medium                                   | Steep learning curve due to the complexity and ecosystem | Low learning curve, very Docker-native         |
-| __Community & Ecosystem__| Smaller community, mainly supported by HashiCorp | Large, active open-source community with many tools and integrations | Smaller community, mostly Docker-focused       |
-| __Multi-cloud Support__  | Built-in multi-cloud support, works across different infrastructures | Good support for multi-cloud, but more complex to manage | Limited multi-cloud support                    |
-| __Security__             | Integrates with HashiCorp Vault for secrets management | Robust security model with Role-Based Access Control (RBAC), secrets, and policies | Basic security, with simpler RBAC              |
-| __Use Cases__            | Mixed workloads, multi-datacenter, hybrid cloud | Large-scale, complex, and enterprise container orchestration | Simple container deployments for small to medium-sized clusters |
-| __Popular Use Cases__    | Batch processing, multi-cloud, dynamic infrastructure | Microservices, large-scale app deployments, hybrid and cloud-native apps | Small to medium-sized Docker-only environments |
+| __Extensibility__ | Can be extended via plugins, integrates with Consul, Vault | Highly extensible with many APIs and plugins | Less extensible, focused on simplicity |
+| __Learning Curve__ | Low to medium | Steep learning curve due to the complexity and ecosystem | Low learning curve, very Docker-native |
+| __Community & Ecosystem__| Smaller community, mainly supported by HashiCorp | Large, active open-source community with many tools and integrations | Smaller community, mostly Docker-focused |
+| __Multi-cloud Support__ | Built-in multi-cloud support, works across different infrastructures | Good support for multi-cloud, but more complex to manage | Limited multi-cloud support |
+| __Security__ | Integrates with HashiCorp Vault for secrets management | Robust security model with Role-Based Access Control (RBAC), secrets, and policies | Basic security, with simpler RBAC |
+| __Use Cases__ | Mixed workloads, multi-datacenter, hybrid cloud | Large-scale, complex, and enterprise container orchestration | Simple container deployments for small to medium-sized clusters |
+| __Popular Use Cases__ | Batch processing, multi-cloud, dynamic infrastructure | Microservices, large-scale app deployments, hybrid and cloud-native apps | Small to medium-sized Docker-only environments |
 
 ### Summary
 

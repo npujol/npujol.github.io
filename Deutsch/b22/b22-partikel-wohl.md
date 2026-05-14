@@ -1,19 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-wohl
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel wohl
 
 ## Nutzung
 
-### Vermutung  
+### Vermutung
 
-Beispiele:  
+Beispiele:
 
-- "Rafael hat __wohl__ Urlaub. Ich habe ihn heute noch nicht gesehen."  
+  - "Rafael hat __wohl__ Urlaub. Ich habe ihn heute noch nicht gesehen."
+```

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,27 +8,43 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # networking
 
 ## Contents
 
-- [[linux-networking-tcp-ip]]
-- [[linux-networking-subnetting]]
-- [[linux-networking-ethernet-arp-rarp]]
-- [[linux-networking-dhcp]]
-- [[linux-networking-ip-routing]]
-- [[linux-networking-dns-resolution]]
-- [[linux-networking-netfilter]]
-- [[linux-networking-ssh]]
-- [[linux-networking-file-transfer]]
+- \[ [ linux-networking-tcp-ip ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/networking)__
+- \[ [ linux-networking-subnetting ] \]
 
-## Networking
+- \[ [ linux-networking-ethernet-arp-rarp ] \]
 
-Networking is a crucial aspect in the Linux environment. It enables Linux systems to connect, interact, and share resources with other systems, be it Linux, Windows, macOS or any other operating system. Linux provides a wealth of tools and commands to manage network interfaces, view their configuration details, troubleshoot issues and automate tasks, demonstrating its robustness and versatility. The Linux networking stack is well-regarded for its performance, its ability to run large-scale and exhaustive configurations, and its support for a wide variety of network protocols.
+- \[ [ linux-networking-dhcp ] \]
+
+- \[ [ linux-networking-ip-routing ] \]
+
+- \[ [ linux-networking-dns-resolution ] \]
+
+- \[ [ linux-networking-netfilter ] \]
+
+- \[ [ linux-networking-ssh ] \]
+
+- \[ [ linux-networking-file-transfer ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/linux/networking>)
+  \_\_
+
+  ## Networking
+
+  Networking
+  is
+  a
+  crucial
+  aspect in the Linux environment. It enables Linux systems to connect, interact, and share resources with other systems, be it Linux, Windows, macOS or any other operating system. Linux provides a wealth of tools and commands to manage network interfaces, view their configuration details, troubleshoot issues and automate tasks, demonstrating its robustness and versatility. The Linux networking stack is well-regarded for its performance, its ability to run large-scale and exhaustive configurations, and its support for a wide variety of network protocols.
 
 Linux adopts a file-based approach for network configuration, storing network-related settings and configurations in standard files, such as `/etc/network/interfaces` or `/etc/sysconfig/network-scripts/`, depending on the Linux distribution.
 

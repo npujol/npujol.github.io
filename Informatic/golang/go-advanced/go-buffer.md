@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -8,17 +10,27 @@ tags:
 - advanced
 - packages
 - go
----
+
+______________________________________________________________________
 
 # buffer
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/buffer)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/buffer>) \_\_
 
 ## Buffer
 
-The `buffer` belongs to the byte package of the Go language, and we can use these package to manipulate the byte of the string.
+The `buffer`
+belongs
+to
+the
+byte
+package
+of
+the
+Go
+language, and we can use these package to manipulate the byte of the string.
 
 Visit the following resources to learn more:
 

@@ -1,17 +1,17 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-auf-kritik-reagieren
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - kritik
-  - reagieren
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
 
-
+```
 # C11: auf Kritik reagieren
 
 ## Redemittel für Entschuldigung, Verständnis und Reaktionen auf Vorwürfe
@@ -19,6 +19,8 @@ tags:
 ### Tut mir leid, das ist mir gar nicht aufgefallen
 
 - __Beispiel:__ __Tut mir leid, das ist mir gar nicht aufgefallen__, dass der Bericht noch nicht aktualisiert wurde.
+```
+
 - __Beispiel:__ __Tut mir leid, das ist mir gar nicht aufgefallen__, dass die E-Mail nicht verschickt wurde.
 
 ### Ich kann dich schon verstehen, aber [...]

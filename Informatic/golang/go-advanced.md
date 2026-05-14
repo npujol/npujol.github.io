@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -12,31 +14,48 @@ tags:
 - goroutines
 - go
 - data-transference
----
+
+______________________________________________________________________
 
 # advanced
 
 ## Contents
 
-- [[go-interfaces]]
-- [[go-types-and-type-assertions]]
-- [[go-goroutines]]
-- [[go-channels]]
-- [[go-buffer]]
-- [[go-select]]
-- [[go-scheduler]]
-- [[go-modules]]
-- [[go-working-with-json]]
-- [[go-context]]
-- [[go-mutex]]
-- [[go-generics]]
-- [[go-pointers]]
+- \[ [ go-interfaces ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/advanced)__
+- \[ [ go-types-and-type-assertions ] \]
 
-## Compilling Optimizations
+- \[ [ go-goroutines ] \]
 
-Basic optimizations: `go build -a -gcflags=all="-l -B" -ldflags="-w -s" -o myapp main.go`
+- \[ [ go-channels ] \]
+
+- \[ [ go-buffer ] \]
+
+- \[ [ go-select ] \]
+
+- \[ [ go-scheduler ] \]
+
+- \[ [ go-modules ] \]
+
+- \[ [ go-working-with-json ] \]
+
+- \[ [ go-context ] \]
+
+- \[ [ go-mutex ] \]
+
+- \[ [ go-generics ] \]
+
+- \[ [ go-pointers ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/golang/advanced>)
+  \_\_
+
+  ## Compilling Optimizations
+
+  Basic optimizations: `go build - a - gcflags=all="-l -B" -ldflags="-w -s" -o myapp main.go`
 
 Other Optimizations: `RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -gcflags=all="-l -B" -ldflags="-w -s" -v -o /usr/local/bin/app ./...`
 

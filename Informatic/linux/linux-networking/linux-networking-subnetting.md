@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,22 +8,27 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
+
 # subnetting
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/subnetting)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/networking/subnetting>) \_\_
 
 ## Subnetting
 
-Subnetting is a critical process in Linux networking. This practice involves dividing a network into two or more networks, known as subnets. Subnetting helps improve network performance and security. In Linux, subnetting can be managed within the context of the Internet Protocol (IP) addressing scheme, where it's crucial in organizing and managing IP addresses within a network, preventing IP conflicts and efficiently utilizing IP address ranges. This technique is invaluable in large complex Linux networking environments where IP address management can become overwhelmingly intricate.
+Subnetting
+is
+a
+critical
+process in Linux networking. This practice involves dividing a network into two or more networks, known as subnets. Subnetting helps improve network performance and security. In Linux, subnetting can be managed within the context of the Internet Protocol (IP) addressing scheme, where it's crucial in organizing and managing IP addresses within a network, preventing IP conflicts and efficiently utilizing IP address ranges. This technique is invaluable in large complex Linux networking environments where IP address management can become overwhelmingly intricate.
 
 Generally, the following commands are used in Linux for subnetting:
 
 ```
 # Display current routing table
-$ route -n 
+$ route -n
 
 # Add a new subnet
 $ route add -net xxx.xxx.xxx.x/xx gw yyy.yyy.yyy.y

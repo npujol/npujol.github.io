@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -7,17 +9,25 @@ tags:
 - informatic
 - frameworks
 - go
----
+
+______________________________________________________________________
 
 # gin
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-web-frameworks/gin)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-web-frameworks/gin>) \_\_
 
 ## Gin
 
-Gin is a high-performance HTTP web framework written in Golang (Go). Gin has a martini-like API and claims to be up to 40 times faster. Gin allows you to build web applications and microservices in Go.
+Gin
+is
+a
+high-performance
+HTTP
+web
+framework
+written in Golang (Go). Gin has a martini-like API and claims to be up to 40 times faster. Gin allows you to build web applications and microservices in Go.
 
 Visit the following resources to learn more:
 

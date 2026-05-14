@@ -1,77 +1,137 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-eine-buch-oder-Filmbesprechung-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - besprechung
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
 
-
+```
 # C11: eine Buch- oder Filmbesprechung schreiben
 
 ## Rubrik / Genre nennen
 
 ### Man kann das Werk folgender Rubrik zuordnen
 
-__Beispiel:__ Man kann das Werk folgender Rubrik zuordnen: Thriller.
+__Beispiel:__ Man kann das Werk folgender Rubrik zuordnen: Thriller.### Das Buch / Der Film gehört zum Genre [...]
 
-### Das Buch / Der Film gehört zum Genre [...]
+__Beispiel:__ Das Buch
+  gehö
+  rt
+  zum
+  Genre
+  historische
+  Romane.### Es / Er ist ein Krimi / ein klassisches Familiendrama/ [...]
 
-__Beispiel:__ Das Buch gehört zum Genre historische Romane.
+  __Beispiel:__ Es
+  ist
+  ein
+  klassisches
+  Familiendrama.### Der Film „[...]“ ist eine moderne Komödie / ein Spielfilm/ [...]
 
-### Es / Er ist ein Krimi / ein klassisches Familiendrama/ [...]
+  __Beispiel:__ Der
+  Film „
+  Lachen
+  ist
+  gesund“
+  ist
+  eine
+  moderne
+  Komö
+  die.### Die Regisseurin / Autorin ist [...]
 
-__Beispiel:__ Es ist ein klassisches Familiendrama.
+  __Beispiel:__ Die
+  Regisseurin
+  ist
+  Julia
+  Meyer.### Den Regisseur / Autor kennt man bereits von [...]
 
-### Der Film „[...]“ ist eine moderne Komödie / ein Spielfilm/ [...]
+  __Beispiel:__ Den
+  Regisseur
+  kennt
+  man
+  bereits
+  von „
+  Der
+  letzte
+  Mohikaner“.## Eine positive / negative Bewertung abgeben
 
-__Beispiel:__ Der Film „Lachen ist gesund“ ist eine moderne Komödie.
+  ### Das Buch liest sich / Der Film ist spannend / kurzweilig / unterhaltsam/ [...]
 
-### Die Regisseurin / Autorin ist [...]
+  __Beispiel:__ Der
+  Film
+  ist
+  spannend
+  und
+  unterhaltsam.### Ich halte [...] für ein sehr lesenswertes / überbewertetes/ [...] Buch
 
-__Beispiel:__ Die Regisseurin ist Julia Meyer.
+  __Beispiel:__ Ich
+  halte „
+  Das
+  verlorene
+  Paradies“
+  fü
+  r
+  ein
+  sehr
+  lesenswertes
+  Buch.### Die Geschichte ist tiefsinnig / gut durchdacht/ [...]
 
-### Den Regisseur / Autor kennt man bereits von [...]
+  __Beispiel:__ Die
+  Geschichte
+  ist
+  tiefsinnig
+  und
+  gut
+  durchdacht.### Auf mich wirkt die Handlung oberflächlich / unrealistisch / nicht schlüssig/ [...]
 
-__Beispiel:__ Den Regisseur kennt man bereits von „Der letzte Mohikaner“.
+  __Beispiel:__ Auf
+  mich
+  wirkt
+  die
+  Handlung
+  etwas
+  unrealistisch.### Man kann sich auf gute Unterhaltung / Spannung freuen
 
-## Eine positive / negative Bewertung abgeben
+  __Beispiel:__ Man
+  kann
+  sich
+  auf
+  gute
+  Unterhaltung
+  freuen.### Die Vielfalt und Verschiedenartigkeit der Einfälle von [...] sind immer wieder überraschend
 
-### Das Buch liest sich / Der Film ist spannend / kurzweilig / unterhaltsam/ [...]
+  __Beispiel:__ Die
+  Vielfalt
+  und
+  Verschiedenartigkeit
+  der
+  Einfä
+  lle
+  von „
+  Der
+  unendliche
+  Spaß“
+  sind
+  immer
+  wieder ü
+  berraschend.### Besonders die Schauspieler sind überzeugend / hervorragend/ [...]
 
-__Beispiel:__ Der Film ist spannend und unterhaltsam.
+  __Beispiel:__ Besonders
+  die
+  Schauspieler
+  sind
+  hervorragend.### Man sieht deutlich, dass [...]
 
-### Ich halte [...] für ein sehr lesenswertes / überbewertetes/ [...] Buch
-
-__Beispiel:__ Ich halte „Das verlorene Paradies“ für ein sehr lesenswertes Buch.
-
-### Die Geschichte ist tiefsinnig / gut durchdacht/ [...]
-
-__Beispiel:__ Die Geschichte ist tiefsinnig und gut durchdacht.
-
-### Auf mich wirkt die Handlung oberflächlich / unrealistisch / nicht schlüssig/ [...]
-
-__Beispiel:__ Auf mich wirkt die Handlung etwas unrealistisch.
-
-### Man kann sich auf gute Unterhaltung / Spannung freuen
-
-__Beispiel:__ Man kann sich auf gute Unterhaltung freuen.
-
-### Die Vielfalt und Verschiedenartigkeit der Einfälle von [...] sind immer wieder überraschend
-
-__Beispiel:__ Die Vielfalt und Verschiedenartigkeit der Einfälle von „Der unendliche Spaß“ sind immer wieder überraschend.
-
-### Besonders die Schauspieler sind überzeugend / hervorragend/ [...]
-
-__Beispiel:__ Besonders die Schauspieler sind hervorragend.
-
-### Man sieht deutlich, dass [...]
-
-__Beispiel:__ Man sieht deutlich, dass der Regisseur viel Wert auf Detailtreue gelegt hat.
+  __Beispiel:__ Man
+  sieht
+  deutlich, dass der Regisseur viel Wert auf Detailtreue gelegt hat.
+```
 
 ### [...] stört nicht, denn [...]
 

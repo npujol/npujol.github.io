@@ -1,14 +1,17 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # state pull / push
 
 ## Contents
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/state> pull / push@wSh7bbPswcFAzOicX8VPx)__
+__Roadmap info from [ roadmap website ] (\<<https://roadmap.sh/terraform/state> > pull / push@wSh7bbPswcFAzOicX8VPx)__

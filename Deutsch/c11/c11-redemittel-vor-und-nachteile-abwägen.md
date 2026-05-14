@@ -1,16 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - vorteile
-  - nachteile
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-vor-und-nachteile-abwägen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Vor- und Nachteile abwägen
 
 ## Redemittel für das Abwägen von Argumenten und eine Schlussfolgerung
@@ -18,6 +19,8 @@ tags:
 ### Insgesamt wiegen die Argumente dafür/dagegen schwerer, deshalb [...]
 
 - __Beispiel:__ Insgesamt wiegen die Argumente dafür schwerer, deshalb werde ich die neue Strategie unterstützen.
+```
+
 - __Beispiel:__ Insgesamt wiegen die Argumente dagegen schwerer, deshalb lehne ich den Vorschlag ab.
 
 ### [...] hat zu viele Nachteile, deshalb ziehe ich [...] vor

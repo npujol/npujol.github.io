@@ -1,44 +1,40 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- doch
-- freundlichkeit
-- empörung
-- vorschlag
-- ermunterung
-- aussagen
-- ausrufe
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-doch
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel Doch
 
 ## Nutzung
 
-### Vorwurf  
+### Vorwurf
 
 Beispiele:
 
-- "Ich habe dir __doch__ gesagt, dass der Kopierer kaputt ist."  
-  
-### etwas ist bekannt/sollte bekannt sein  
+  - "Ich habe dir __doch__ gesagt, dass der Kopierer kaputt ist."
 
-Beispiele:
+    ### etwas ist bekannt/sollte bekannt sein
 
-- "Es ist __doch__ klar, dass es heute wieder regnet."  
-  
-### freundliche Bitte  
+    Beispiele:
 
-Beispiele:
+      - "Es ist __doch__ klar, dass es heute wieder regnet."
 
-- "Komm __doch__ heute Abend mit ins Kino."  
-  
-### Unsicherheit  
+        ### freundliche Bitte
 
-Beispiele:
+        Beispiele:
 
-- "Du kommst __doch__ mit auf Dienstreise, oder?"
+          - "Komm __doch__ heute Abend mit ins Kino."
+
+            ### Unsicherheit
+
+            Beispiele:
+
+              - "Du kommst __doch__ mit auf Dienstreise, oder?"
+```

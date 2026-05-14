@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,16 +8,42 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
+
 # pipe
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/pipe)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/pipe>) \_\_
 
 ## Pipe Commands
 
-The pipe (`|`) is a powerful feature in Linux used to connect two or more commands together. This mechanism allows output of one command to be “piped” as input to another. With regards to text processing, using pipe is especially helpful since it allows you to manipulate, analyze, and transform text data without the need to create intermediary files or programs.
+The
+pipe
+(`|`) is a powerful feature in
+Linux
+used
+to
+connect two or more
+commands
+together.This
+mechanism
+allows
+output
+of
+one
+command
+to
+be “
+piped”
+as
+input
+to
+another.With
+regards
+to
+text
+processing, using pipe is especially helpful since it allows you to manipulate, analyze, and transform text data without the need to create intermediary files or programs.
 
 Here is a simple example of piping two commands, `ls` and `grep`, to list all the text files in the current directory:
 

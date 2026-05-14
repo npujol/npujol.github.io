@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,13 +8,13 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # management-permissions
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/user-management/permissions)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/user-management/permissions>) \_\_
 
 ## Linux: Permissions Under User Management
 
@@ -22,14 +23,14 @@ Linux, like all Unix-like systems, is a multi-user system, meaning it can be use
 Permissions are categorized into three types:
 
 1. __Read permission__: Users with read permissions can view the contents of the file.
-2. __Write permission__: Users with write permissions can modify the contents of the file or directory.
-3. __Execute permission__: Users with execute permissions can run a file or traverse a directory.
+1. __Write permission__: Users with write permissions can modify the contents of the file or directory.
+1. __Execute permission__: Users with execute permissions can run a file or traverse a directory.
 
 These permissions can be set for three kinds of entities:
 
 1. __User__: The owner of the file or directory.
-2. __Group__: The user group that owns the file or directory.
-3. __Others__: Other users who are neither the owner of the file, nor belong to the group that owns the file.
+1. __Group__: The user group that owns the file or directory.
+1. __Others__: Other users who are neither the owner of the file, nor belong to the group that owns the file.
 
 To set these permissions, Linux uses a system of permission bits. This information can be viewed and manipulated using commands such as `chmod`, `chown`, and `chgrp`.
 

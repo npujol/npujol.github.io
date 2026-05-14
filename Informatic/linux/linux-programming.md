@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,16 +9,24 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # programming
 
 ## Contents
 
-- [[linux-programming-debugging]]
-- [[linux-programming-conditionals]]
-- [[linux-programming-loops]]
-- [[linux-programming-literals]]
-- [[linux-programming-variables]]
+- \[ [ linux-programming-debugging ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/programming)__
+- \[ [ linux-programming-conditionals ] \]
+
+- \[ [ linux-programming-loops ] \]
+
+- \[ [ linux-programming-literals ] \]
+
+- \[ [ linux-programming-variables ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/linux/programming>)
+  \_\_

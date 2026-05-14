@@ -1,28 +1,41 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
+
 - online
+
 - reviewed
 
 - go
+
 - summary
+
 - informatic
+
 - data-structure
+
 - data-representation
+
 - advanced
+
 - interface
+
 - methods
----
+
+______________________________________________________________________
 
 # interfaces
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/interfaces)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/interfaces>) \_\_
 
 ## Interfaces
 
-An interface in Go, is a type that defines a set of methods. If we have a type (e.g. struct) that implements that set of methods, then we have a type that implements this interface.
+An
+interface in Go, is a type that defines a set of methods. If we have a type (e.g. struct) that implements that set of methods, then we have a type that implements this interface.
 
 Visit the following resources to learn more:
 
@@ -60,7 +73,7 @@ __Example__:
 
 ```go
 type Reader interface {
-    Read(p []byte) (n int, err error)
+Read(p []byte) (n int, err error)
 }
 ```
 
@@ -74,11 +87,11 @@ __Example__:
 
 ```go
 type Closer interface {
-    Close() error
+Close() error
 }
 
 type Writer interface {
-    Write(p []byte) (n int, err error)
+Write(p []byte) (n int, err error)
 }
 ```
 
@@ -94,8 +107,8 @@ __Example__:
 type File struct {}
 
 func (f *File) Read(p []byte) (n int, err error) {
-    // Implementation here
-    return 0, nil
+// Implementation here
+return 0, nil
 }
 
 // File implicitly implements the Reader interface.
@@ -109,8 +122,8 @@ __Example__:
 
 ```go
 func process(r io.Reader) error {
-    // Function works with any type that implements io.Reader
-    return nil
+// Function works with any type that implements io.Reader
+return nil
 }
 ```
 
@@ -122,7 +135,7 @@ __Example__:
 
 ```go
 func NewFile(name string) *File {
-    return &File{name: name}
+return &File{name: name}
 }
 ```
 
@@ -134,11 +147,11 @@ __Example__:
 
 ```go
 type Counter struct {
-    count int
+count int
 }
 
 func (c *Counter) Increment() {
-    c.count++
+c.count++
 }
 
 // Counter's zero value is ready to use without initialization.
@@ -152,7 +165,7 @@ __Example__:
 
 ```go
 type Database interface {
-    Query(query string) ([]Result, error)
+Query(query string) ([]Result, error)
 }
 
 // If there's only one type implementing Database, the interface might be unnecessary.
@@ -166,16 +179,16 @@ __Example__:
 
 ```go
 type Reader interface {
-    Read(p []byte) (n int, err error)
+Read(p []byte) (n int, err error)
 }
 
 type Writer interface {
-    Write(p []byte) (n int, err error)
+Write(p []byte) (n int, err error)
 }
 
 type ReadWriter interface {
-    Reader
-    Writer
+Reader
+Writer
 }
 ```
 
@@ -187,11 +200,11 @@ __Example__:
 
 ```go
 type Storage interface {
-    // Save persists the data and returns an error if the operation fails.
-    Save(data []byte) error
+// Save persists the data and returns an error if the operation fails.
+Save(data []byte) error
 
-    // Load retrieves data based on the key and returns an error if not found.
-    Load(key string) ([]byte, error)
+// Load retrieves data based on the key and returns an error if not found.
+Load(key string) ([]byte, error)
 }
 ```
 
@@ -203,25 +216,25 @@ __Example__:
 
 ```go
 type EmailSender interface {
-    Send(to string, body string) error
+Send(to string, body string) error
 }
 
 // Production implementation
 type SMTPSender struct {}
 
 func (s *SMTPSender) Send(to string, body string) error {
-    // Actual sending logic
-    return nil
+// Actual sending logic
+return nil
 }
 
 // Test implementation
 type MockSender struct {
-    SentMessages []string
+SentMessages []string
 }
 
 func (m *MockSender) Send(to string, body string) error {
-    m.SentMessages = append(m.SentMessages, body)
-    return nil
+m.SentMessages = append(m.SentMessages, body)
+return nil
 }
 ```
 
@@ -234,7 +247,7 @@ __Example__:
 ```go
 // unexported interface
 type sorter interface {
-    Sort([]int)
+Sort([]int)
 }
 ```
 
@@ -247,9 +260,9 @@ __Example__:
 ```go
 // Bad practice: too many methods in one interface
 type Everything interface {
-    Read(p []byte) (n int, err error)
-    Write(p []byte) (n int, err error)
-    Close() error
-    Seek(offset int64, whence int) (int64, error)
+Read(p []byte) (n int, err error)
+Write(p []byte) (n int, err error)
+Close() error
+Seek(offset int64, whence int) (int64, error)
 }
 ```

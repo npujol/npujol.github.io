@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - output
 - docker
@@ -7,21 +9,37 @@ tags:
 - online
 - linux
 - cgroups
----
+
+______________________________________________________________________
 
 # docker-technologies
 
 ## Contents
 
-- [[docker-technologies-namespaces]]
-- [[docker-technologies-cgroups]]
-- [[docker-technologies-union-filesystems]]
+- \[ [ docker-technologies-namespaces ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/technologies)__
+- \[ [ docker-technologies-cgroups ] \]
 
-## Underlying Technologies
+- \[ [ docker-technologies-union-filesystems ] \]
 
-Understanding the core technologies that power Docker will provide you with a deeper insight into how Docker works and will help you use the platform more effectively.
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/technologies>)
+  \_\_
+
+  ## Underlying Technologies
+
+  Understanding
+  the
+  core
+  technologies
+  that
+  power
+  Docker
+  will
+  provide
+  you with a deeper insight into how Docker works and will help you use the platform more effectively.
 
 ## Linux Containers (LXC)
 
@@ -29,7 +47,7 @@ Linux Containers (LXC) enables running multiple independent Linux systems on a s
 
 ## Control Groups (cgroups)
 
-Control Groups ([[linux-containerization-cgroups]]) is a Linux kernel feature that allows the allocation and management of resources like CPU, memory, and I/O to a set of processes. Docker leverages cgroups to limit the resources used by containers and ensure that one container does not monopolize the resources of the host system.
+Control Groups (\[[linux-containerization-cgroups]\]) is a Linux kernel feature that allows the allocation and management of resources like CPU, memory, and I/O to a set of processes. Docker leverages cgroups to limit the resources used by containers and ensure that one container does not monopolize the resources of the host system.
 
 ## Union File Systems (UnionFS)
 

@@ -1,20 +1,23 @@
----
-tags:
-- satzart
-- grammatik
-- deutsch
-- b22
-- fragen
-- language
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-satzart-fragen
+aliases: [ ]
+tags:
+\- satzart
+\- grammatik
+\- deutsch
+\- b22
+\- fragen
+\- language
+\- --
+
+```
 # B22: Fragen
 
 ## Was bedeutet eine Frage
 
 Eine Frage ist eine sprachliche Äußerung, die darauf abzielt, Informationen zu erlangen, Klarheit zu schaffen oder eine Reaktion von jemandem zu erhalten. Fragen sind entscheidend für den Informationsaustausch und das Verständnis und erfordern in der Regel eine Antwort oder eine Stellungnahme. Sie sind häufig durch Fragewörter wie "wer", "was", "wann", "wo", "warum" oder "wie" sowie durch ein Fragezeichen (?) am Ende gekennzeichnet.
+```
 
 ## Wann sollte man Fragen nutzen
 
@@ -27,11 +30,11 @@ Fragen sollten genutzt werden, wenn man:
 
 ## Beispiele
 
-__Beispiel 1:__ "Wann beginnt das Meeting?"__
+__Beispiel 1:__ "Wann beginnt das Meeting?"\_\_
 
 - Diese Frage zielt darauf ab, Informationen über den Beginn eines Meetings zu erhalten.
 
-__Beispiel 2:__ "Warum hast du diese Entscheidung getroffen?"__
+__Beispiel 2:__ "Warum hast du diese Entscheidung getroffen?"\_\_
 
 - Hier wird nach der Begründung für eine getroffene Entscheidung gefragt, um die Hintergründe besser zu verstehen.
 
@@ -39,8 +42,8 @@ Fragen sind somit ein wesentliches Mittel, um Informationen zu sammeln, Diskussi
 
 ## Partikel
 
-- [[b22-partikel-denn]]
-- [[b22-partikel-mal]]
+- \[[b22-partikel-denn]\]
+- \[[b22-partikel-mal]\]
 
 ### Frage mit „denn“
 

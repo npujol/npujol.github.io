@@ -1,9 +1,12 @@
----
+______________________________________________________________________
+
 tags:
-  - informatic
-  - php
-  - ddev    
----
+
+- informatic
+- php
+- ddev
+
+______________________________________________________________________
 
 # DDev
 
@@ -34,43 +37,44 @@ Here's a detailed table of DDEV's main characteristics:
 
 ```mermaid
 flowchart TD
-    A[Project Directory] -->|ddev config| B[Initialize DDEV]
-    B --> C[Create .ddev directory]
-    C --> D[Generate config.yaml]
-    D --> E{Start Environment}
-    E -->|ddev start| F[Pull Docker Images]
-    F --> G[Create Containers]
-    G --> H[Configure Services]
-    H --> I[Start Services]
-    I --> J[Running Environment]
-    
-    J -->|ddev ssh| K[Access Container Shell]
-    J -->|ddev import-db| L[Import Database]
-    J -->|ddev composer| M[Run Composer]
-    J -->|ddev stop| N[Stop Environment]
-    
-    subgraph "Container Services"
-    O[Web Server]
-    P[Database]
-    Q[PHP-FPM]
-    R[MailHog]
-    end
-    
-    I --> O
-    I --> P
-    I --> Q
-    I --> R
+A[Project Directory] -->|ddev config| B[Initialize DDEV]
+B --> C[Create .ddev directory]
+C --> D[Generate config.yaml]
+D --> E{Start Environment}
+E -->|ddev start| F[Pull Docker Images]
+F --> G[Create Containers]
+G --> H[Configure Services]
+H --> I[Start Services]
+I --> J[Running Environment]
+
+J -->|ddev ssh| K[Access Container Shell]
+J -->|ddev import-db| L[Import Database]
+J -->|ddev composer| M[Run Composer]
+J -->|ddev stop| N[Stop Environment]
+
+subgraph "Container Services"
+O[Web Server]
+P[Database]
+Q[PHP-FPM]
+R[MailHog]
+end
+
+I --> O
+I --> P
+I --> Q
+I --> R
 ```
 
 This diagram shows the main workflow of DDEV, from project initialization to running various services. Let me explain the key steps:
 
 1. The process begins in your project directory where you initialize DDEV using `ddev config`
-2. DDEV creates a `.ddev` directory and generates the configuration files
-3. When you start the environment (`ddev start`), DDEV:
-   - Downloads necessary Docker images
-   - Creates containers for each service
-   - Configures the services based on your settings
-   - Starts all services in the correct order
+1. DDEV creates a `.ddev` directory and generates the configuration files
+1. When you start the environment (`ddev start`), DDEV:
+
+- Downloads necessary Docker images
+- Creates containers for each service
+- Configures the services based on your settings
+- Starts all services in the correct order
 
 The running environment then provides several key services (web server, database, PHP-FPM, and MailHog) and allows you to interact with them through various commands like `ddev ssh` for shell access or `ddev import-db` for database operations.
 

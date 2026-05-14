@@ -1,14 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-über-interkulturelle-missverständnisse-berichten
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: über interkulturelle Missverständnisse berichten
 
 ## Redemittel für kulturelle Missverständnisse, Höflichkeitsregeln und Anekdoten
@@ -16,6 +19,8 @@ tags:
 ### In [...] gilt es als sehr unhöflich, wenn [...]
 
 - __Beispiel:__ In Japan gilt es als sehr unhöflich, wenn man Trinkgeld gibt.
+```
+
 - __Beispiel:__ In Italien gilt es als sehr unhöflich, wenn man während des Essens telefoniert.
 
 ### Wir konnten nicht verstehen, warum/dass [...]

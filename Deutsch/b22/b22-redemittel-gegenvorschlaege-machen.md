@@ -1,21 +1,29 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- gegenvorschläge
----
+______________________________________________________________________
 
+id: b22-redemittel-gegenvorschlaege-machen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- gegenvorschläge
+\- --
+
+```
 # B22: Gegenvorschläge machen
 
 ## Es wäre bestimmt viel besser, wenn wir [...]
 
-__Person A:__ Wir könnten das Projekt morgen abschließen.
-
-__Person B:__ __Es wäre bestimmt viel besser, wenn wir__ noch eine zusätzliche Überprüfung einplanen, um sicherzustellen, dass alles korrekt ist.
+__Person A:__ Wir könnten das Projekt morgen abschließ
+  en.__Person B:__
+  __Es
+  wä
+  re
+  bestimmt
+  viel
+  besser, wenn wir__ noch eine zusätzliche Überprüfung einplanen, um sicherzustellen, dass alles korrekt ist.
+```
 
 ## Meinst du nicht, wir sollten lieber [...]
 

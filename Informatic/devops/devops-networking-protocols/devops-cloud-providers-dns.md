@@ -1,25 +1,32 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - devops
-  - devops-cloud-providers
-  - ready
-  - online
----
+
+- roadmap
+- devops
+- devops-cloud-providers
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-cloud-providers-dns
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/dns@Vu955vdsYerCG8G6suqml)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/dns@Vu955vdsYerCG8G6suqml>) \_\_
 
 ## DNS
 
-DNS (Domain Name System) is a hierarchical, decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It translates human-readable domain names (like [www.example.com](http://www.example.com)) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. DNS serves as the internet’s phone book, enabling users to access websites using easy-to-remember names instead of numerical IP addresses. The system comprises DNS servers, resolvers, and records (like A, CNAME, MX), working together to route internet traffic efficiently. DNS is crucial for internet functionality, affecting everything from web browsing and email to load balancing and service discovery in modern cloud architectures.
+DNS
+(Domain Name System)
+is
+a
+hierarchical, decentralized naming system for computers, services, or other resources connected to the Internet or a private network. It translates human-readable domain names (like [www.example.com](http://www.example.com)) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network. DNS serves as the internet’s phone book, enabling users to access websites using easy-to-remember names instead of numerical IP addresses. The system comprises DNS servers, resolvers, and records (like A, CNAME, MX), working together to route internet traffic efficiently. DNS is crucial for internet functionality, affecting everything from web browsing and email to load balancing and service discovery in modern cloud architectures.
 
 Visit the following resources to learn more:
 
-* [@article@What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
-* [@article@HOw DNS works (comic)](https://howdns.works/)
-* [@video@DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
-* [@feed@Explore top posts about DNS](https://app.daily.dev/tags/dns?ref=roadmapsh)
+- [@article@What is DNS?](https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/)
+- [@article@HOw DNS works (comic)](https://howdns.works/)
+- [@video@DNS and How does it Work?](https://www.youtube.com/watch?v=Wj0od2ag5sk)
+- [@feed@Explore top posts about DNS](https://app.daily.dev/tags/dns?ref=roadmapsh)

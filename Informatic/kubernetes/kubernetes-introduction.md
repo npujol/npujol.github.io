@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - Informatic
 - kubernetes
@@ -9,22 +11,26 @@ tags:
 - containerized
 - orchestration
 - online
----
+
+______________________________________________________________________
 
 # kubernetes-introduction
 
 ## Contents
 
-- [[kubernetes-introduction-kubernetes-overview]]
-- [[kubernetes-introduction-why-kubernetes]]
-- [[kubernetes-introduction-key-concepts-terminologies]]
-- [[kubernetes-introduction-kubernetes-alternatives]]
+- \[ [ kubernetes-introduction-kubernetes-overview ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/introduction)__
+- \[ [ kubernetes-introduction-why-kubernetes ] \]
 
-## Kubernetes Introduction
+- \[ [ kubernetes-introduction-key-concepts-terminologies ] \]
 
-Kubernetes, also known as __k8s__, is an open-source container __orchestration__ platform that automates the deployment, scaling, and management of __containerized applications__. It provides a way to abstract the underlying infrastructure and __manage applications at scale__, while also offering __flexibility__, __portability__, and a rich feature set. Kubernetes has become the de facto standard for container orchestration due to its widespread adoption, active community, and ability to handle complex, multi-tiered applications.
+- \[ [ kubernetes-introduction-kubernetes-alternatives ] \]
+
+- \*Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/introduction>) * \*
+
+  ## Kubernetes Introduction
+
+  Kubernetes, also known as **k8s**, is an open-source container **orchestration** platform that automates the deployment, scaling, and management of **containerized applications**. It provides a way to abstract the underlying infrastructure and **manage applications at scale**, while also offering **flexibility**, **portability**, and a rich feature set. Kubernetes has become the de facto standard for container orchestration due to its widespread adoption, active community, and ability to handle complex, multi-tiered applications.
 
 ### Free Resources
 
@@ -64,15 +70,15 @@ Learn more from the following resources:
 - [articleChoosing a Managed Kubernetes Provider](https://containerjournal.com/features/choosing-a-managed-kubernetes-provider/)
 
 ```markdown
-| Key Consideration                    | Description                                                                 |
-|--------------------------------------|-----------------------------------------------------------------------------|
-| __Ease of Use__                      | Providers offer varying degrees of automation and support; ease of deployment matters. |
-| __Multi-Cloud and Hybrid Support__   | Some providers offer better multi-cloud or hybrid deployment options than others. |
-| __Integration with Native Services__ | The ability to seamlessly integrate with native cloud services is crucial for complex workloads. |
-| __Cost Considerations__              | Pricing models vary significantly, so cost transparency and predictability are key. |
-| __Security Features__                | Built-in security measures and compliance support vary by provider.         |
-| __Support and SLAs__                 | Availability of support and service-level agreements (SLAs) affect reliability and operational confidence. |
-| __Scalability and Performance__      | Different providers offer varying capabilities for scaling workloads efficiently. |
+| Key Consideration                    | Description                                                                                                |
+| ------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Ease of Use**                      | Providers offer varying degrees of automation and support; ease of deployment matters.                     |
+| **Multi-Cloud and Hybrid Support**   | Some providers offer better multi-cloud or hybrid deployment options than others.                          |
+| **Integration with Native Services** | The ability to seamlessly integrate with native cloud services is crucial for complex workloads.           |
+| **Cost Considerations**              | Pricing models vary significantly, so cost transparency and predictability are key.                        |
+| **Security Features**                | Built-in security measures and compliance support vary by provider.                                        |
+| **Support and SLAs**                 | Availability of support and service-level agreements (SLAs) affect reliability and operational confidence. |
+| **Scalability and Performance**      | Different providers offer varying capabilities for scaling workloads efficiently.                          |
 ```
 
 - [articleAmazon Web Services Gears Elastic Kubernetes Service for Batch Work](https://thenewstack.io/amazon-web-services-gears-elastic-kubernetes-service-for-batch-jobs/)
@@ -80,12 +86,12 @@ Learn more from the following resources:
 
 ### Compare Kubernetes providers
 
-| Provider           | Ease of Use              | Multi-Cloud/Hybrid | Integration with Native Services | Cost                  | Security Features        | Support and SLAs      | Scalability and Performance |
-|--------------------|--------------------------|--------------------|----------------------------------|-----------------------|--------------------------|------------------------|-----------------------------|
-| __AWS EKS__        | Moderate                 | Strong hybrid (Outposts) | Excellent (AWS services)         | Pay-as-you-go, complex | Advanced security options | Robust SLAs and support | High scalability            |
-| __GKE__            | Easy (strong automation) | Multi-cloud support (Anthos) | Excellent (Google Cloud services) | Transparent pricing    | Strong security built-in  | Good support              | High performance and scale  |
-| __Azure AKS__      | Easy (integrated with Azure tools) | Hybrid support (Azure Stack) | Excellent (Azure services)       | Competitive pricing    | Comprehensive security    | Good support              | High scalability            |
-| __IBM Cloud__      | Moderate                 | Hybrid support (Red Hat OpenShift) | Decent integrations             | Competitive pricing    | Enterprise-grade security | Strong enterprise support | Solid scalability           |
+| Provider | Ease of Use | Multi-Cloud/Hybrid | Integration with Native Services | Cost | Security Features | Support and SLAs | Scalability and Performance |
+| ------------- | ---------------------------------- | ---------------------------------- | --------------------------------- | ---------------------- | ------------------------- | ------------------------- | --------------------------- |
+| **AWS EKS** | Moderate | Strong hybrid (Outposts) | Excellent (AWS services) | Pay-as-you-go, complex | Advanced security options | Robust SLAs and support | High scalability |
+| **GKE** | Easy (strong automation) | Multi-cloud support (Anthos) | Excellent (Google Cloud services) | Transparent pricing | Strong security built-in | Good support | High performance and scale |
+| **Azure AKS** | Easy (integrated with Azure tools) | Hybrid support (Azure Stack) | Excellent (Azure services) | Competitive pricing | Comprehensive security | Good support | High scalability |
+| **IBM Cloud** | Moderate | Hybrid support (Red Hat OpenShift) | Decent integrations | Competitive pricing | Enterprise-grade security | Strong enterprise support | Solid scalability |
 
 ## Deploying your First Application
 
@@ -101,31 +107,31 @@ To deploy your first application in Kubernetes, you need to create a deployment 
 
 ### How Does `kubectl` Work?
 
-`kubectl` communicates directly with the Kubernetes __API server__ that manages the cluster’s control plane. When you issue a command, `kubectl` interacts with the __Kubernetes API__ to retrieve information or make changes to the state of the cluster.
+`kubectl` communicates directly with the Kubernetes **API server** that manages the cluster’s control plane. When you issue a command, `kubectl` interacts with the **Kubernetes API** to retrieve information or make changes to the state of the cluster.
 
 ### Why is `kubectl` Important?
 
-- __Cluster Management__: It simplifies managing Kubernetes resources such as Pods, services, and deployments by converting command-line inputs into API calls that are sent to the Kube API server.
-- __Automation__: `kubectl` allows for automation of tasks, such as scaling applications or managing configurations, which are crucial for maintaining cluster reliability and performance.
-- __Troubleshooting__: It provides the ability to introspect and troubleshoot running Kubernetes workloads by retrieving logs, monitoring events, and inspecting the status of various components.
+- **Cluster Management**: It simplifies managing Kubernetes resources such as Pods, services, and deployments by converting command-line inputs into API calls that are sent to the Kube API server.
+- **Automation**: `kubectl` allows for automation of tasks, such as scaling applications or managing configurations, which are crucial for maintaining cluster reliability and performance.
+- **Troubleshooting**: It provides the ability to introspect and troubleshoot running Kubernetes workloads by retrieving logs, monitoring events, and inspecting the status of various components.
 
 ### How `kubectl` Works
 
-`kubectl` communicates with the __Kube API server__ over HTTPS. The process can be broken down as follows:
+`kubectl` communicates with the **Kube API server** over HTTPS. The process can be broken down as follows:
 
 1. The user issues a `kubectl` command (e.g., `kubectl get pod`).
-2. `kubectl` transforms the command into an API request and sends it to the __Kube API server__ over HTTPS.
-3. The __Kube API server__ processes the request by querying __etcd__, the cluster's database.
-4. The __Kube API server__ sends the response back to `kubectl`.
-5. `kubectl` interprets the API response and displays it in a readable format for the user.
+1. `kubectl` transforms the command into an API request and sends it to the **Kube API server** over HTTPS.
+1. The **Kube API server** processes the request by querying **etcd**, the cluster's database.
+1. The **Kube API server** sends the response back to `kubectl`.
+1. `kubectl` interprets the API response and displays it in a readable format for the user.
 
 ### `kubectl` Configuration
 
 To use `kubectl`, it must first be configured with the location and credentials of a Kubernetes cluster. Configuration details are stored in the user's home directory, specifically in `~/.kube/config`. This file contains information about:
 
-- __Clusters__: List of available Kubernetes clusters.
-- __Contexts__: Specific combinations of clusters, namespaces, and user credentials.
-- __Credentials__: User authentication information.
+- **Clusters**: List of available Kubernetes clusters.
+- **Contexts**: Specific combinations of clusters, namespaces, and user credentials.
+- **Credentials**: User authentication information.
 
 #### Viewing Configuration
 
@@ -145,64 +151,64 @@ This command displays the configuration of the `kubectl` tool itself, while othe
 kubectl [command] [TYPE] [NAME] [flags]
 ```
 
-- __Command__: The action to be performed, such as `get`, `describe`, `apply`, `delete`, or `logs`.
-- __TYPE__: The type of Kubernetes object, such as `pod`, `service`, `deployment`, or `node`.
-- __NAME__: The name of the specific object (optional, especially for listing commands).
-- __Flags__: Optional arguments to modify the command output or behavior, such as `-o=yaml` for YAML output or `--context` to specify a different cluster context.
+- **Command**: The action to be performed, such as `get`, `describe`, `apply`, `delete`, or `logs`.
+- **TYPE**: The type of Kubernetes object, such as `pod`, `service`, `deployment`, or `node`.
+- **NAME**: The name of the specific object (optional, especially for listing commands).
+- **Flags**: Optional arguments to modify the command output or behavior, such as `-o=yaml` for YAML output or `--context` to specify a different cluster context.
 
 #### Example Commands
 
-- __List all Pods__:
+- **List all Pods**:
 
-  ```bash
-  kubectl get pods
-  ```
+```bash
+kubectl get pods
+```
 
-- __Get information on a specific Pod__:
+- **Get information on a specific Pod**:
 
-  ```bash
-  kubectl get pod my-test-app
-  ```
+```bash
+kubectl get pod my-test-app
+```
 
-- __Show detailed information about a Pod__:
+- **Show detailed information about a Pod**:
 
-  ```bash
-  kubectl describe pod my-test-app
-  ```
+```bash
+kubectl describe pod my-test-app
+```
 
-- __View Pod details in YAML format__:
+- **View Pod details in YAML format**:
 
-  ```bash
-  kubectl get pod my-test-app -o=yaml
-  ```
+```bash
+kubectl get pod my-test-app -o=yaml
+```
 
-- __Get Pods with additional node information__:
+- **Get Pods with additional node information**:
 
-  ```bash
-  kubectl get pods -o=wide
-  ```
+```bash
+kubectl get pods -o=wide
+```
 
 ### Practical Uses of `kubectl`
 
-- __Creating Kubernetes Objects__: Apply configurations via manifest files (YAML/JSON) to create Pods, services, and other Kubernetes objects.
+- **Creating Kubernetes Objects**: Apply configurations via manifest files (YAML/JSON) to create Pods, services, and other Kubernetes objects.
 
-  ```bash
-  kubectl apply -f [manifest_file.yaml]
-  ```
+```bash
+kubectl apply -f [manifest_file.yaml]
+```
 
-- __Viewing and Deleting Objects__: Inspect the state of resources and delete them when necessary.
+- **Viewing and Deleting Objects**: Inspect the state of resources and delete them when necessary.
 
-  ```bash
-  kubectl delete pod [POD_NAME]
-  ```
+```bash
+kubectl delete pod [POD_NAME]
+```
 
-- __Viewing Logs__: Retrieve logs from running Pods for troubleshooting.
+- **Viewing Logs**: Retrieve logs from running Pods for troubleshooting.
 
-  ```bash
-  kubectl logs [POD_NAME]
-  ```
+```bash
+kubectl logs [POD_NAME]
+```
 
-- __Exporting Configurations__: Use `-o=yaml` to export configuration details for recreating or troubleshooting in another cluster.
+- **Exporting Configurations**: Use `-o=yaml` to export configuration details for recreating or troubleshooting in another cluster.
 
 ### Introspection in Kubernetes with `kubectl`
 
@@ -210,49 +216,53 @@ Introspection is the process of gathering information about the state of your ap
 
 ### Key `kubectl` Commands for Introspection
 
-1. __Get Pods__
-   - Command: `kubectl get pods`
-   - This command lists all the Pods in the current namespace, showing their status, which can be one of the following:
-     - __Pending__: The Pod is accepted but not yet scheduled.
-     - __Running__: The Pod is successfully attached to a node and is running its containers.
-     - __Succeeded__: All containers in the Pod have terminated successfully and will not restart.
-     - __Failed__: One or more containers in the Pod terminated with a failure and will not restart.
-     - __Unknown__: The state of the Pod cannot be determined due to communication issues.
-     - __CrashLoopBackOff__: The Pod's container is crashing repeatedly.
+1. **Get Pods**
 
-2. __Describe Pod__
-   - Command: `kubectl describe pod [POD_NAME]`
-   - This command provides detailed information about a specific Pod, including:
-     - Pod status
-     - Node name
-     - Labels
-     - Container states (waiting, running, or terminated)
-     - Resource requirements
-     - IP addresses
-     - Events related to the Pod (e.g., failed scheduling or image pull errors)
+- Command: `kubectl get pods`
+- This command lists all the Pods in the current namespace, showing their status, which can be one of the following:
+- **Pending**: The Pod is accepted but not yet scheduled.
+- **Running**: The Pod is successfully attached to a node and is running its containers.
+- **Succeeded**: All containers in the Pod have terminated successfully and will not restart.
+- **Failed**: One or more containers in the Pod terminated with a failure and will not restart.
+- **Unknown**: The state of the Pod cannot be determined due to communication issues.
+- **CrashLoopBackOff**: The Pod's container is crashing repeatedly.
 
-3. __Execute Command in a Container__
-   - Command: `kubectl exec [POD_NAME] -- [COMMAND]`
-   - Use this command to run a single command inside a container. This is useful for executing diagnostic commands like `ping` or `curl`.
-   - __Interactive Shell__: For an interactive shell session, use the `-it` switch:
+1. **Describe Pod**
 
-     ```bash
-     kubectl exec -it [POD_NAME] -- /bin/bash
-     ```
+- Command: `kubectl describe pod [POD_NAME]`
+- This command provides detailed information about a specific Pod, including:
+- Pod status
+- Node name
+- Labels
+- Container states (waiting, running, or terminated)
+- Resource requirements
+- IP addresses
+- Events related to the Pod (e.g., failed scheduling or image pull errors)
 
-   - Here, `-i` enables interactive mode and `-t` allocates a TTY.
+1. **Execute Command in a Container**
 
-4. __View Logs__
-   - Command: `kubectl logs [POD_NAME]`
-   - This command retrieves the logs from the specified Pod, providing insights into what is happening inside the application.
-   - If the Pod contains multiple containers, specify which container to get logs from using the `-c` flag:
+- Command: `kubectl exec [POD_NAME] -- [COMMAND]`
+- Use this command to run a single command inside a container. This is useful for executing diagnostic commands like `ping` or `curl`.
+- **Interactive Shell**: For an interactive shell session, use the `-it` switch:
 
-     ```bash
-     kubectl logs [POD_NAME] -c [CONTAINER_NAME]
-     ```
+```bash
+kubectl exec -it [POD_NAME] -- /bin/bash
+```
+
+- Here, `-i` enables interactive mode and `-t` allocates a TTY.
+
+1. **View Logs**
+
+- Command: `kubectl logs [POD_NAME]`
+- This command retrieves the logs from the specified Pod, providing insights into what is happening inside the application.
+- If the Pod contains multiple containers, specify which container to get logs from using the `-c` flag:
+
+```bash
+kubectl logs [POD_NAME] -c [CONTAINER_NAME]
+```
 
 ### Best Practices for Debugging
 
-- __Avoid Directly Installing Software in Containers__: While you can use `kubectl exec` to install tools for debugging, it's not recommended. Changes made this way are ephemeral and will be lost when the container restarts.
-- __Build Custom Container Images__: Instead of making temporary fixes, create new container images that include the necessary tools or configurations, and then redeploy them.
-- __Integrate Findings__: Use the insights gained from introspection to make informed changes to your container images and application configurations.
+- **Avoid Directly Installing Software in Containers**: While you can use `kubectl exec` to install tools for debugging, it's not recommended. Changes made this way are ephemeral and will be lost when the container restarts.
+- **Build Custom Container Images**: Instead of making temporary fixes, create new container images that include the necessary tools or configurations, and then redeploy them.
+- **Integrate Findings**: Use the insights gained from introspection to make informed changes to your container images and application configurations.

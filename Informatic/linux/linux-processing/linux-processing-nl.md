@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # nl
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/nl)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/nl>) \_\_
 
 ## Introduction to NL (Number Lines)
 
-`nl` command in Linux is a utility for numbering lines in a text file. Also known as `number lines`, it can be handy when you need an overview where certain lines in a file are located. By default, nl number the non-empty lines only, but this behavior can be modified based on user's needs.
+`nl`
+command in Linux is a utility for numbering lines in a text file. Also known as `number lines`, it can be handy when you need an overview where certain lines in a file are located. By default, nl number the non-empty lines only, but this behavior can be modified based on user's needs.
 
 It follows a syntax like this:
 

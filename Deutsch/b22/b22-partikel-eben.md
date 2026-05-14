@@ -1,19 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-eben
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel eben
 
 ## Nutzung
 
-### Resignation  
+### Resignation
 
-Beispiele:  
+Beispiele:
 
-- "Heute muss ich länger arbeiten. Das ist __eben__ so."  
+  - "Heute muss ich länger arbeiten. Das ist __eben__ so."
+```

@@ -1,18 +1,20 @@
----
-tags:
-- language
-- deutsch
-- c11
-- verben
-- ready
-- online
-- trennbare
-- untrennbare
----
+______________________________________________________________________
 
+id: c11-trennbare-und-untrennbare-verben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- verben
+\- grammatik
+\- --
+
+```
 # C11: Trennbare und untrennbare Verben
 
 Die Vorsilben durch-, über-, um-, unter-, wider- und wieder- und können __trennbar oder untrennbar__ sein.
+```
 
 Die Betonung der Vorsilbe kann eine Verstehenshilfe sein:
 
@@ -92,85 +94,85 @@ Die Betonung der Vorsilbe kann eine Verstehenshilfe sein:
 
 ## Trennbare und Untrennbare Verben mit durch
 
-### durchbrechen  
+### durchbrechen
 
-__Trennbar__ (physisch durch etwas brechen, aktiv)  
+__Trennbar__ (physisch durch etwas brechen, aktiv)
 
 - Bedeutung: Etwas physisch in zwei Teile brechen oder durchbrechen.
 - Beispiel: Der Sturm war so stark, dass er das Fenster durchgebrochen hat.
 
-__Untrennbar__ (eine Barriere überwinden, metaphorisch)  
+__Untrennbar__ (eine Barriere überwinden, metaphorisch)
 
 - Bedeutung: Eine Barriere oder Regel symbolisch überwinden.
 - Beispiel: Die Reformen haben alte gesellschaftliche Strukturen durchbrochen.
 
 ### durchdenken
 
-__Untrennbar__ (gründlich über etwas nachdenken)  
+__Untrennbar__ (gründlich über etwas nachdenken)
 
 - Bedeutung: Etwas in allen Details durchdenken.
 - Beispiel: Er hat den Plan bis ins kleinste Detail durchdacht.
 
-__Trennbar__:  
+__Trennbar__:
 
 - Diese Form wird nicht verwendet, da das Verb "durchdenken" in dieser Bedeutung nur untrennbar ist.
 
 ### durchdringen
 
-__Trennbar__ (physisch durch etwas dringen)  
+__Trennbar__ (physisch durch etwas dringen)
 
 - Bedeutung: Sich physisch durch etwas hindurchbewegen.
 - Beispiel: Die Sonne drang durch die Wolken durch.
 
-__Untrennbar__ (metaphorisch, etwas tief erfassen oder beeinflussen)  
+__Untrennbar__ (metaphorisch, etwas tief erfassen oder beeinflussen)
 
 - Bedeutung: Etwas vollständig verstehen oder durch Einfluss durchdringen.
 - Beispiel: Seine Worte haben die Zuhörer tief durchdrungen.
 
 ### durchfahren
 
-__Trennbar__ (physisch durchfahren, eine Strecke zurücklegen)  
+__Trennbar__ (physisch durchfahren, eine Strecke zurücklegen)
 
 - Bedeutung: Etwas auf einer Strecke durchfahren.
 - Beispiel: Wir haben den Tunnel in wenigen Minuten durchfahren.
 
-__Untrennbar__ (plötzlich emotional von etwas durchfahren werden)  
+__Untrennbar__ (plötzlich emotional von etwas durchfahren werden)
 
 - Bedeutung: Von einem plötzlichen Gefühl ergriffen werden.
 - Beispiel: Ein Schauer durchfuhr sie, als sie die Nachricht hörte.
 
 ### durchlaufen
 
-__Trennbar__ (schnell durch einen Ort laufen)  
+__Trennbar__ (schnell durch einen Ort laufen)
 
 - Bedeutung: Durch einen Ort hindurchlaufen.
 - Beispiel: Sie ist durch den Park durchgelaufen.
 
-__Untrennbar__ (einen Prozess oder eine Phase durchmachen)  
+__Untrennbar__ (einen Prozess oder eine Phase durchmachen)
 
 - Bedeutung: Etwas wie einen Prozess oder eine Ausbildung durchlaufen.
 - Beispiel: Er hat eine intensive Schulung durchlaufen.
 
 ### durchschauen
 
-__Trennbar__ (physisch durch etwas hindurchsehen)  
+__Trennbar__ (physisch durch etwas hindurchsehen)
 
 - Bedeutung: Durch etwas physisch hindurchsehen.
 - Beispiel: Sie konnte durch das Fenster durchschauen.
 
-__Untrennbar__ (jemandes wahre Absichten erkennen)  
+__Untrennbar__ (jemandes wahre Absichten erkennen)
 
 - Bedeutung: Jemanden oder etwas durchschauen, im Sinne von durchschauen, was wirklich los ist.
 - Beispiel: Er hat ihre Lügen sofort durchschaut.
 
 ### durchsetzen
 
-__Untrennbar__ (eine Idee oder einen Plan erfolgreich durchsetzen)  
+__Untrennbar__ (eine Idee oder einen Plan erfolgreich durchsetzen)
 
 - Bedeutung: Eine Idee oder einen Plan erfolgreich realisieren.
 - Beispiel: Sie hat ihre Pläne im Unternehmen durchgesetzt.
 
-__Trennbar__ (etwas physisch durch eine Menge bewegen)  
+__Trennbar__ (etwas physisch durch eine Menge bewegen)
 
 - Bedeutung: Sich durch eine Menge hindurchbewegen.
 - Beispiel: Er hat sich durch die Menge durchgesetzt.
@@ -265,7 +267,7 @@ __Bedeutung__: Etwas stärker darstellen, als es in Wirklichkeit ist.
 
 Trennbare und Untrennbare Verben mit über
 
-### übergehen  
+### übergehen
 
 __Trennbar__ (zu einem anderen Thema oder Zustand wechseln)
 __Bedeutung__: Von einem Zustand oder Thema zum nächsten übergehen.
@@ -285,7 +287,7 @@ __Untrennbar__ (eine Sprache in eine andere übertragen)
 __Bedeutung__: Einen Text oder eine Rede von einer Sprache in eine andere übertragen.
 __Beispiel__: Sie hat den Roman aus dem Französischen ins Deutsche übersetzt.
 
-### überstehen  
+### überstehen
 
 __Trennbar__ (physisch über etwas hinausragen)
 __Bedeutung__: Über einen Rand oder eine Kante hinausragen.
@@ -560,7 +562,7 @@ __Bedeutung__: Eine Annahme oder Vermutung anstellen.
 - Er hat unterstellt, dass ich die Informationen bereits wusste, obwohl ich es nicht tat.
 - Man kann nicht einfach unterstellen, dass jemand immer lügt.
 
-__Untrennbar (to put under, to subordinate)
+\_\_Untrennbar (to put under, to subordinate)
 
 __Bedeutung__: Jemanden oder etwas in eine niedrigere Position oder unter eine andere Autorität stellen.
 
@@ -576,7 +578,7 @@ __Bedeutung__: Etwas einer Prüfung, Analyse oder Behandlung unterziehen.
 - Alle Teilnehmer müssen sich einer medizinischen Untersuchung unterziehen.
 - Der Bewerber wurde einem strengen Auswahlprozess unterzogen.
 
-__Trennbar__:  
+__Trennbar__:
 
 - Dieses Verb wird nur in der untrennbaren Form verwendet.
 
@@ -671,6 +673,6 @@ __Bedeutung__: Zurückholen.
 
 - Ich hole wieder; er hat seine Bücher wiedergeholt; aber wieder holen (nochmals holen)
 
-## Ref 
+## Ref
 
 Die deutsche Grammatik(Pons): Seite 51

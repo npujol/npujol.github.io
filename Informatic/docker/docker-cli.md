@@ -1,26 +1,48 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - output
 - docker
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-cli
 
 ## Contents
 
-- [[docker-cli-images]]
-- [[docker-cli-containers]]
-- [[docker-cli-volumes]]
-- [[docker-cli-networks]]
+- \[ [ docker-cli-images ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/cli)__
+- \[ [ docker-cli-containers ] \]
 
-## Docker CLI
+- \[ [ docker-cli-volumes ] \]
 
-The Docker CLI (Command Line Interface) is a powerful tool that allows you to interact with and manage Docker containers, images, volumes, and networks. It provides a wide range of commands for users to create, run, and manage Docker containers and other Docker resources in their development and production workflows.
+- \[ [ docker-cli-networks ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/cli>)
+  \_\_
+
+  ## Docker CLI
+
+  The
+  Docker
+  CLI
+  (Command Line Interface)
+  is
+  a
+  powerful
+  tool
+  that
+  allows
+  you
+  to
+  interact with and manage Docker containers, images, volumes, and networks. It provides a wide range of commands for users to create, run, and manage Docker containers and other Docker resources in their development and production workflows.
 
 In this topic, we’ll dive into some key aspects of Docker CLI, covering the following:
 
@@ -91,14 +113,14 @@ Install Docker Compose using the official [installation guide](https://docs.dock
 ```bash
 version: '3'
 services:
-  web:
-    image: webapp-image
-    ports:
-      - "80:80"
-  database:
-    image: mysql
-    environment:
-      - MYSQL_ROOT_PASSWORD=my-secret-pw
+web:
+image: webapp-image
+ports:
+- "80:80"
+database:
+image: mysql
+environment:
+- MYSQL_ROOT_PASSWORD=my-secret-pw
 ```
 
 Run the application using the command:
@@ -109,25 +131,25 @@ docker-compose up
 
 In conclusion, the Docker CLI is a robust and versatile tool for managing all aspects of Docker containers and resources. Once familiar with its commands and capabilities, you’ll be well-equipped to develop, maintain and deploy applications using Docker with ease.
 
-
 ## Cases
 
 ### Docker Compose wait for container X before starting Y
-Ref: https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y
-Ref: https://docs.docker.com/reference/compose-file/services/#depends_on
+
+Ref: <https://stackoverflow.com/questions/31746182/docker-compose-wait-for-container-x-before-starting-y>
+Ref: <https://docs.docker.com/reference/compose-file/services/#depends_on>
 
 ```yaml
 services:
-  web:
-    build: .
-    depends_on:
-      db:
-        condition: service_healthy
-        restart: true
-      redis:
-        condition: service_started
-  redis:
-    image: redis
-  db:
-    image: postgres
+web:
+build: .
+depends_on:
+db:
+condition: service_healthy
+restart: true
+redis:
+condition: service_started
+redis:
+image: redis
+db:
+image: postgres
 ```

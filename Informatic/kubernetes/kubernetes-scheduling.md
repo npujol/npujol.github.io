@@ -1,28 +1,39 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - Informatic
 - kubernetes
 - ready
 - online
 - scheduling
----
+
+______________________________________________________________________
 
 # kubernetes-scheduling
 
 ## Contents
 
-- [[kubernetes-scheduling-scheduling-basics]]
-- [[kubernetes-scheduling-taints-and-tolerations]]
-- [[kubernetes-scheduling-topology-spread-constraints]]
-- [[kubernetes-scheduling-pod-priorities]]
-- [[kubernetes-scheduling-evictions]]
+- \[ [ kubernetes-scheduling-scheduling-basics ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/scheduling)__
+- \[ [ kubernetes-scheduling-taints-and-tolerations ] \]
 
-## Scheduling
+- \[ [ kubernetes-scheduling-topology-spread-constraints ] \]
 
-Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.
+- \[ [ kubernetes-scheduling-pod-priorities ] \]
+
+- \[ [ kubernetes-scheduling-evictions ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/kubernetes/scheduling>)
+  \_\_
+
+  ## Scheduling
+
+  Scheduling in Kubernetes refers to the process of assigning workloads to specific nodes in a cluster. The Kubernetes scheduler makes scheduling decisions based on factors such as resource availability, node suitability, and workload priorities. It balances workloads across the cluster to ensure efficient resource utilization and avoid overloading nodes. Scheduling takes into account factors such as geographic location, hardware requirements, and application-specific needs.
 
 ## Resources
 

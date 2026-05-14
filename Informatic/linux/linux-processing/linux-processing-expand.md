@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,21 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # expand
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/expand)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/expand>) \_\_
 
 ## Expand in Text Processing
 
-Expand is a command-line utility in Unix and Unix-like operating systems that converts tabs into spaces. It can be an essential tool while working with file outputs where the formatting can get disturbed due to tabs. This can be especially useful when working with Linux shell scripts, where the tab space might differ on different systems or text editors, resulting in inconsistent formatting. Consistent indentation using space can greatly enhance code readability.
+Expand
+is
+a
+command-line
+utility in Unix and Unix-like operating systems that converts tabs into spaces. It can be an essential tool while working with file outputs where the formatting can get disturbed due to tabs. This can be especially useful when working with Linux shell scripts, where the tab space might differ on different systems or text editors, resulting in inconsistent formatting. Consistent indentation using space can greatly enhance code readability.
 
 The `expand` command by default converts tabs into 8 spaces. Here is an example usage:
 

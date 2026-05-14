@@ -1,19 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- vorschläge
----
+______________________________________________________________________
 
+id: b22-redemittel-vorschläge-machen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Vorschläge machen
 
 ## Ich würde vorschlagen, dass [...]
 
 __Person A:__ __Ich würde vorschlagen, dass__ wir die Meeting-Zeiten anpassen, um die unterschiedlichen Zeitzonen der Teammitglieder zu berücksichtigen.
+```
 
 __Person B:__ __Ich würde vorschlagen, dass__ wir einen regelmäßigen Austausch einplanen, um den Fortschritt des Projekts zu besprechen.
 

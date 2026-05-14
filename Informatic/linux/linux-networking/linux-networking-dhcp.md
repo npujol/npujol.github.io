@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,31 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # dhcp
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/dhcp)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/networking/dhcp>) \_\_
 
 ## DHCP
 
-The Dynamic Host Configuration Protocol (DHCP) is a critical component of any network. In Linux networking, it is used for allocating IP addresses dynamically within a network.
+The
+Dynamic
+Host
+Configuration
+Protocol
+(DHCP)
+is
+a
+critical
+component
+of
+any
+network.In
+Linux
+networking, it is used for allocating IP addresses dynamically within a network.
 
 The DHCP server effectively manages the IP addresses and information related to them, making sure that each client machine gets a unique IP and all the correct network information.
 

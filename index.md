@@ -1,13 +1,6 @@
----
-page:
-  description: |
-    Personal website of Nainai.
-template:
-  name: /templates/layouts/home
-  layout:
-    base:
-      bodyClass: overflow-y-scroll bg-gray-100
----
+______________________________________________________________________
+
+## page: description: | Personal website of Nainai.template: name: /templates/layouts/home layout: base: bodyClass: overflow-y-scroll bg-gray-100
 
 # ✨ Hi there ✨
 

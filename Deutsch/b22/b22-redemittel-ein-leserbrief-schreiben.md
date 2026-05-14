@@ -1,23 +1,51 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- leserbrief
----
+______________________________________________________________________
 
+id: b22-redemittel-ein-leserbrief-schreiben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- schreiben
+\- --
+
+```
 # B22: Einen Leserbrief schreiben
 
 ## Eine Reaktion einleiten
 
 ### Mit großem Interesse habe ich Ihren Artikel [...] gelesen
 
-__Person A:__ __Mit großem Interesse habe ich Ihren Artikel__ Die Zukunft der erneuerbaren Energien __gelesen__ und fand die detaillierte Analyse der verschiedenen Technologien sehr aufschlussreich.
-
-__Person B:__ __Mit großem Interesse habe ich Ihren Artikel__ Die Auswirkungen der Digitalisierung auf den Arbeitsmarkt __gelesen__ und war beeindruckt von den klaren und prägnanten Beispielen, die Sie verwendet haben.
+__Person A:__ __Mit großem Interesse habe ich Ihren Artikel__ Die Zukunft der erneuerbaren Energien __gelesen__ und fand die detaillierte Analyse der verschiedenen Technologien sehr
+  aufschlussreich.__Person B:__
+  __Mit
+  groß
+  em
+  Interesse
+  habe
+  ich
+  Ihren
+  Artikel__
+  Die
+  Auswirkungen
+  der
+  Digitalisierung
+  auf
+  den
+  Arbeitsmarkt
+  __gelesen__
+  und
+  war
+  beeindruckt
+  von
+  den
+  klaren
+  und
+  prä
+  gnanten
+  Beispielen, die Sie verwendet haben.
+```
 
 ### Ihr Artikel [...] spricht ein interessantes/wichtiges Thema an
 

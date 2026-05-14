@@ -1,19 +1,24 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-jemanden-überreden
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11:  Jemanden überreden
 
 ## 1. __Ich würde vorschlagen, dass du [...]__
 
 - __Ich würde vorschlagen, dass du__ heute Abend mit uns ins Kino gehst.
+```
+
 - __Ich würde vorschlagen, dass du__ das neue Restaurant ausprobierst.
 
 ## 2. __Wie wäre es, wenn du mal [...]?__
@@ -39,4 +44,4 @@ tags:
 ## 6. __Hättest du nicht mal Lust, [...]?__
 
 - __Hättest du nicht mal Lust,__ eine Fahrradtour zu machen?
--__Hättest du nicht mal Lust,__ einen Tanzkurs zu besuchen?
+  -__Hättest du nicht mal Lust,__ einen Tanzkurs zu besuchen?

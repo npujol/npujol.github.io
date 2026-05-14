@@ -1,27 +1,48 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - vergleichen
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-etwas-vergleichen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: etwas vergleichen
 
 ## Redemittel für den Vergleich von Verhaltensweisen und Situationen
 
 ### Im Gegensatz zu [...] mache ich immer [...]
 
-- __Beispiel:__ Im Gegensatz zu meinen Kollegen mache ich immer eine Mittagspause.
-- __Beispiel:__ Im Gegensatz zu anderen Ländern mache ich immer meinen Urlaub im Inland.
+- __Beispiel:__ Im Gegensatz zu meinen Kollegen mache ich immer eine
+  Mittagspause.- __Beispiel:__ Im
+  Gegensatz
+  zu
+  anderen
+  Lä
+  ndern
+  mache
+  ich
+  immer
+  meinen
+  Urlaub
+  im
+  Inland.### Während [...] mache ich [...]
 
-### Während [...] mache ich [...]
+  - __Beispiel:__ Wä
+  hrend
+  die
+  meisten
+  Menschen
+  morgens
+  Kaffee
+  trinken, mache ich mir immer Tee.
+```
 
-- __Beispiel:__ Während die meisten Menschen morgens Kaffee trinken, mache ich mir immer Tee.
 - __Beispiel:__ Während der Feiertage bleibe ich zu Hause, um mich zu entspannen.
 
 ### In meinem Land ist die Situation ähnlich / ganz anders / nicht zu vergleichen, denn [...]

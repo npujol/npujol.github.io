@@ -1,14 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-von-erinnerungen-berichten
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Von Erinnerungen berichten
 
 ## Erinnerungen beschreiben
@@ -16,6 +19,7 @@ tags:
 ### Ich erinnere mich noch genau, wie [...]
 
 __Beispiel:__ Ich erinnere mich noch genau, wie wir an einem Sommerabend am See saßen und den Sonnenuntergang beobachteten.
+```
 
 ### Mir kommt es vor, als wenn es gestern gewesen wäre
 

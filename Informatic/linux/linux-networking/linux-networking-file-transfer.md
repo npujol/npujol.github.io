@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,16 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
+
 # file-transfer
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/file-transfer)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/networking/file-transfer>) \_\_
 
 ## Linux File Transfer under Networking
 
-In Linux, file transfer is an act of copying or moving a file from one computer to another over a network connection. This concept is essential for system administrators and end-users who require the ability to share files between systems or networks.
+In
+Linux, file transfer is an act of copying or moving a file from one computer to another over a network connection. This concept is essential for system administrators and end-users who require the ability to share files between systems or networks.
 
 Linux provides several command-line tools and applications for network-based file transfers. These tools support various standard protocols such as FTP, HTTP, SCP, SFTP, and NFS. Some of the most well-known commands for file transfer include `scp`, `rsync`, and `wget`.
 

@@ -1,23 +1,26 @@
----
-tags:
-- language
-- grammatik
-- deutsch
-- c11
-- Konsekutivsätze
-- ready
-- online
----
+______________________________________________________________________
 
+id: c11-negative-konsekutivsätze
+aliases: [ ]
+tags:
+\- language
+\- grammatik
+\- deutsch
+\- c11
+\- satzart
+\- --
+
+```
 # C11: Negative Konsekutivsätze
 
-Konsekutivsätze mit *zu …*, *um zu* und *zu …*, *als dass* drücken eine negative Folge aus. Sie bestehen aus zwei Teilen: *zu* steht im Hauptsatz vor einem Adjektiv oder Partizip, *um zu* und *als dass* leiten den Nebensatz ein. Nach *um zu* steht der Infinitiv, nach *als dass* steht das Verb im Konjunktiv II.
+Konsekutivsätze mit * zu … * , * um zu * und * zu … * , * als dass * drücken eine negative Folge aus.Sie bestehen aus zwei Teilen: *zu * steht im Hauptsatz vor einem Adjektiv oder Partizip, *um zu* und *als dass* leiten den Nebensatz ein. Nach *um zu* steht der Infinitiv, nach *als dass* steht das Verb im Konjunktiv II.
+```
 
-| Konsekutivsatz mit *zu …*, *als dass* + Konjunktiv II               | Konsekutivsatz mit *so …, dass* + Negation                 |
+| Konsekutivsatz mit *zu …*, *als dass* + Konjunktiv II | Konsekutivsatz mit *so …, dass* + Negation |
 | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Hinsichtlich der Datensicherheit wurde schon *zu* oft gelogen, *als dass* man den Betreibern von Netzwerken *glauben könnte*. | Hinsichtlich der Datensicherheit wurde schon *so* oft gelogen, *dass* man den Betreibern von Netzwerken *nicht glauben kann*. |
 
-| Konsekutivsatz mit *zu …, um zu …*                                  | Konsekutivsatz mit *so …, dass* + Negation                 |
+| Konsekutivsatz mit *zu …, um zu …* | Konsekutivsatz mit *so …, dass* + Negation |
 | ------------------------------------------------------------------- | ---------------------------------------------------------- |
 | Persönliche Daten sind *zu* wertvoll, *um* sie *bedenkenlos ins Netz zu stellen*. | Persönliche Daten sind *so* wichtig, *dass* man sie *nicht bedenkenlos ins Netz stellt*. |
 

@@ -1,25 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- mal
-- aufforderung
-- befehl
-- ermunterung
-- aussagen
-- fragen
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-mal
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel Mal
 
 ## Nutzung
 
-### freundliche Frage oder Bitte  
+### freundliche Frage oder Bitte
 
-Beispiel:  
+Beispiel:
 
-- "Könnten Sie bitte __mal__ das Fenster schließen."  
+  - "Könnten Sie bitte __mal__ das Fenster schließen."
+```

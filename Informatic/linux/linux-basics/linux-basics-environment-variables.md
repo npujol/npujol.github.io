@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,17 +9,19 @@ tags:
 - linux
 - operative-system
 - environment-variables
----
+
+______________________________________________________________________
 
 # environment-variables
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/shell-basics/environment-variables)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/shell-basics/environment-variables>) \_\_
 
 ## Environment Variables Under Shell Basics
 
-In Linux, environment variables are dynamic named values that can affect the behavior of running processes in a shell. They exist in every shell session. A shell session's environment includes, but is not limited to, the users home directory, command search path, terminal type, and program preferences.
+In
+Linux, environment variables are dynamic named values that can affect the behavior of running processes in a shell. They exist in every shell session. A shell session's environment includes, but is not limited to, the users home directory, command search path, terminal type, and program preferences.
 
 Environment variables help to contribute to the fantastic and customizable flexibility you see in Unix systems. They provide a simple way to share configuration settings between multiple applications and processes in Linux.
 

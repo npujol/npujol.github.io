@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,17 +9,21 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # uptime-load
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/server-review/uptime-load)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/server-review/uptime-load>) \_\_
 
 ## Uptime Load
 
-When managing a Linux server, one critical metric deserving close scrutiny is the “uptime”. The `uptime` command in Linux gives information about how long the system has been running without shutting down or restarting, and the system load average.
+When
+managing
+a
+Linux
+server, one critical metric deserving close scrutiny is the “uptime”. The `uptime` command in Linux gives information about how long the system has been running without shutting down or restarting, and the system load average.
 
 The system load average is an important indicator that illustrates the amount of computational work that a computer system performs. It's a reflection of how many processes are waiting in line to get CPU time. The system load average is typically shown for 1, 5, and 15 minutes durations.
 
@@ -28,7 +33,7 @@ Here is an example of the `uptime` command and its output:
 
 ```bash
 $ uptime
- 10:58:35 up 2 days, 20 min,  1 user,  load average: 0.00, 0.01, 0.05
+10:58:35 up 2 days, 20 min,  1 user,  load average: 0.00, 0.01, 0.05
 
 ```
 

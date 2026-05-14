@@ -1,33 +1,46 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-einen-kommentar-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - kommentar
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- unterricht_inhalte
+\- schreiben
+\- --
 
-
+```
 # C11: einen Kommentar schreiben
 
 ## Einen Kommentar einleiten
 
 ### Mein Kommentar bezieht sich auf [...]
 
-__Beispiel:__ Mein Kommentar bezieht sich auf den Artikel über die neuesten Entwicklungen im Bereich erneuerbare Energien.
+__Beispiel:__ Mein Kommentar bezieht sich auf den Artikel über die neuesten Entwicklungen im Bereich erneuerbare
+  Energien.### Die Meldung / Der Text [...] behandelt das Thema [...]
 
-### Die Meldung / Der Text [...] behandelt das Thema [...]
+  __Beispiel:__ Die
+  Meldung ü
+  ber
+  die
+  geplanten
+  Gesetzesä
+  nderungen
+  behandelt
+  das
+  Thema
+  der
+  Arbeitszeiterfassung.## Die eigene Ansicht argumentierend darlegen
 
-__Beispiel:__ Die Meldung über die geplanten Gesetzesänderungen behandelt das Thema der Arbeitszeiterfassung.
+  ### Ich bin der Meinung / Ansicht / Auffassung, dass [...]
 
-## Die eigene Ansicht argumentierend darlegen
-
-### Ich bin der Meinung / Ansicht / Auffassung, dass [...]
-
-__Beispiel:__ Ich bin der Meinung, dass flexible Arbeitszeiten die Produktivität der Mitarbeiter steigern können.
+  __Beispiel:__ Ich
+  bin
+  der
+  Meinung, dass flexible Arbeitszeiten die Produktivität der Mitarbeiter steigern können.
+```
 
 ### Ich halte diese Idee für [...], weil [...]
 

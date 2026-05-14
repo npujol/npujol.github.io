@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # install-remove-upgrade-packages
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/package-management/install-remove-ugprade-packages)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/package-management/install-remove-ugprade-packages>) \_\_
 
 ## Installation, Removal, and Upgrade of Packages
 
-Managing packages in a Linux system is one of the critical tasks that every Linux user and system administrator must be familiar with. Packages in Linux are pre-compiled software modules that include executables and files required to run and use the software. Linux distributions use different package managers such as `apt` for Debian/Ubuntu based distributions, `yum` and `dnf` for Fedora/RHEL/CentOS, and `zypper` for SUSE.
+Managing
+packages in a Linux system is one of the critical tasks that every Linux user and system administrator must be familiar with. Packages in Linux are pre-compiled software modules that include executables and files required to run and use the software. Linux distributions use different package managers such as `apt` for Debian/Ubuntu based distributions, `yum` and `dnf` for Fedora/RHEL/CentOS, and `zypper` for SUSE.
 
 Managing packages includes tasks like installing new software packages, removing unused packages, and upgrading existing packages to newer versions. All these tasks can be performed using command-line instructions specific to each package manager.
 

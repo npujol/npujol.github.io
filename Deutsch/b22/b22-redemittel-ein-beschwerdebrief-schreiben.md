@@ -1,14 +1,16 @@
----
-tags:
-  - language
-  - ready
-  - online
-  - redemittel
-  - b22
-  - deutsch
-  - beschwerdebrief
----
+______________________________________________________________________
 
+id: b22-redemittel-ein-beschwerdebrief-schreiben
+aliases: [ ]
+tags:
+\- language
+\- redemittel
+\- b22
+\- deutsch
+\- schreiben
+\- --
+
+```
 # B22: Einen Beschwerdebrief schreiben
 
 ## Probleme schildern
@@ -16,6 +18,7 @@ tags:
 ### Leider musste ich feststellen, dass [...]
 
 __Person A:__ __Leider musste ich feststellen, dass__ die versprochenen Verbesserungen im Kundenservice nicht umgesetzt wurden, was die Zufriedenheit beeinträchtigt.
+```
 
 __Person B:__ __Leider musste ich feststellen, dass__ viele der neuen Bildungsinitiativen nicht die erhofften Ergebnisse geliefert haben und die Schülerleistungen nicht verbessert wurden.
 

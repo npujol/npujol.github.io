@@ -1,17 +1,23 @@
----
-tags:
-  - online
-  - ready
-  - c11
-  - unterricht_inhalte
-  - deutsch
-  - subjekt
-  - objekt
----
+______________________________________________________________________
 
+id: c11-subjekt-und-objektsätze
+aliases: [ ]
+tags:
+\- c11
+\- unterricht_inhalte
+\- deutsch
+\- subjekt
+\- objekt
+\- satzbau
+\- satzart
+\- --
+
+```
 # C11: Subjekt- und Objektsätze
 
 __Subjekte und Akkusativobjekte__ können zu __dass-Sätzen erweitert werden__,indem das __Nomen verbalisiert__ wird. Dann entstehen Subjekt- bzw. Objektsätze.
+```
+
 Anstelle eines dass- Satzes kann auch ein Infinitivsatz benutzt werden,wenn das __Subjekt des Nebensatzes mit einer Ergänzung im Hauptsatz identisch__ ist oder das __Subjekt des Nebensatzes das Indefinitpronomen man__ ist. Manchmal muss man den __dass-Satz ins Passiv setzen__,um einen __Infinitivsatz zu bilden__.
 
 ## Subjektsatz
@@ -24,6 +30,6 @@ Anstelle eines dass- Satzes kann auch ein Infinitivsatz benutzt werden,wenn das 
 
 - Viele Bewerber fürchten __die Kritik des Personalchefs an ihrem bunten Lebenslauf.__
 - Viele Bewerber fürchten, ...
-  - __dass der Personalchef ihren bunten Lebenslauf kritisiert . (Aktiv)__
-  - __dass sie vom Personalchef für ihren bunten Lebenslauf kritisiert werden. (Passiv)__
+- __dass der Personalchef ihren bunten Lebenslauf kritisiert . (Aktiv)__
+- __dass sie vom Personalchef für ihren bunten Lebenslauf kritisiert werden. (Passiv)__
 - Viele Bewerber fürchten, __vom Personalchef für ihren bunten Lebenslauf kritisiert zu werden.__

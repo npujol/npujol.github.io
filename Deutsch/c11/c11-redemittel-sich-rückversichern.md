@@ -1,15 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - rüchversichern
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-sich-rückversichern
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: sich rückversichern
 
 ## Redemittel für Nachfragen und Unklarheiten
@@ -17,6 +19,8 @@ tags:
 ### Dazu wüsste ich noch gerne,[...]
 
 - __Beispiel:__ Dazu wüsste ich noch gerne, wie lange das Projekt voraussichtlich dauern wird.
+```
+
 - __Beispiel:__ Dazu wüsste ich noch gerne, wer für die Koordination zuständig ist.
 
 ### Was machst du, wenn [...]?

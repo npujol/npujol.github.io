@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -8,17 +10,75 @@ tags:
 - informatic
 - types
 - packages
----
+
+______________________________________________________________________
 
 # packages
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/packages)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/packages>) \_\_
 
 ## Packages
 
-Packages are the most powerful part of the Go language. The purpose of a package is to design and maintain a large number of programs by grouping related features together into single units so that they can be easy to maintain and understand and independent of the other package programs. This modularity allows them to share and reuse. In Go language, every package is defined with a different name and that name is close to their functionality like “strings” package and it contains methods and functions that only related to strings.
+Packages
+are
+the
+most
+powerful
+part
+of
+the
+Go
+language.The
+purpose
+of
+a
+package
+is
+to
+design
+and
+maintain
+a
+large
+number
+of
+programs
+by
+grouping
+related
+features
+together
+into
+single
+units
+so
+that
+they
+can
+be
+easy
+to
+maintain
+and
+understand
+and
+independent
+of
+the
+other
+package
+programs.This
+modularity
+allows
+them
+to
+share
+and
+reuse.In
+Go
+language, every package is defined with a different name and that name is close to their functionality like “strings” package and it contains methods and functions that only related to strings.
 
 - [@article@How to create a package in Go](https://www.golang-book.com/books/intro/11)
 - [@official@How to manage external dependencies in Go](https://go.dev/doc/modules/managing-dependencies)
@@ -28,7 +88,7 @@ Packages are the most powerful part of the Go language. The purpose of a package
 
 ### Best Practices
 
-Check [[go-basic-server-structure]].
+Check \[[go-basic-server-structure]\].
 
 ### 1. Organize Your Code into Packages
 
@@ -46,16 +106,18 @@ myapp/
 │   ├── auth.go
 │   └── profile.go
 └── utils/
-    └── hash.go
+└── hash.go
 ```
 
 ### 2. Use Descriptive Package Names
 
 - Package names should be short, lowercase, and descriptive of the package’s functionality.
+
 - Avoid names like `utils` or `common` unless absolutely necessary, as they are often too generic.
-`helpers`
+  `helpers`
 
 - Avoid: `helpers`
+
 - Alternative: `httphelpers` (for HTTP-related utility functions), `fileutils` (for file operations)
 
 ```plain
@@ -64,7 +126,7 @@ myapp/
 ├── emailservice/
 │   └── email.go
 └── paymentservice/
-    └── payment.go
+└── payment.go
 ```
 
 ### 3. Keep Package Names Singular
@@ -117,9 +179,9 @@ myapp/
 #### Best Practices for Using `init()`
 
 1. Keep Initialization Simple: Use `init()` functions for simple, necessary initialization that are integral to the package's operation. Avoid complex or time-consuming operations in `init()` functions.
-2. Limit Use: Minimize the use of `init()` functions. Prefer using explicit initialization functions that can be called in a controlled manner from `main()` or test setups.
-3. Avoid Side Effects: Avoid putting logic in `init()` functions that has side effects, such as network calls, file I/O, or complex computations.
-4. Document `init()` Functions: Clearly document the purpose of `init()` functions so that their role in the package is understandable.
+1. Limit Use: Minimize the use of `init()` functions. Prefer using explicit initialization functions that can be called in a controlled manner from `main()` or test setups.
+1. Avoid Side Effects: Avoid putting logic in `init()` functions that has side effects, such as network calls, file I/O, or complex computations.
+1. Document `init()` Functions: Clearly document the purpose of `init()` functions so that their role in the package is understandable.
 
 ### 14. Avoid Circular Dependencies
 
@@ -132,10 +194,10 @@ myapp/
 ### 16. Structure Your Repository for Scalability
 
 - Use the standard Go project layout when possible:
-  - `cmd/` for command-line applications
-  - `pkg/` for library code that can be imported by other projects
-  - `internal/` for private application and library code
-  - `api/` for API definitions and related files
+- `cmd/` for command-line applications
+- `pkg/` for library code that can be imported by other projects
+- `internal/` for private application and library code
+- `api/` for API definitions and related files
 
 ### 17. Use `.go` File Naming Conventions
 

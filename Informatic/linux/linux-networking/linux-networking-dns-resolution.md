@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,31 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # dns-resolution
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/networking/dns-resolution)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/networking/dns-resolution>) \_\_
 
 ## DNS Resolution in Networking on Linux
 
-Domain Name System (DNS) is a decentralized system used for converting hostnames into IP addresses, making it easier for users to access websites without having to remember specific numeric IP addresses. DNS resolution, therefore, is a critical aspect of networking in Linux.
+Domain
+Name
+System
+(DNS)
+is
+a
+decentralized
+system
+used
+for
+converting
+hostnames
+into
+IP
+addresses, making it easier for users to access websites without having to remember specific numeric IP addresses. DNS resolution, therefore, is a critical aspect of networking in Linux.
 
 On Linux systems, when an application needs to connect to a certain URL, it consults the DNS resolver. This resolver, using the file `/etc/resolv.conf`, communicates with the DNS server, which then converts the URL into an IP address to establish a network connection.
 

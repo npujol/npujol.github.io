@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -10,17 +12,24 @@ tags:
 - graphql
 - go
 - clients
----
+
+______________________________________________________________________
 
 # graphql
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-api-clients/graphql)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-api-clients/graphql>) \_\_
 
 ## Graphql
 
-`GraphQL` is a query language for [APIs](https://developer.mozilla.org/en-US/docs/Glossary/API), it offers a service that prioritizes giving just the data that the client requested and no more.
+`GraphQL`
+is
+a
+query
+language
+for [ APIs ]
+(<https://developer.mozilla.org/en-US/docs/Glossary/API>), it offers a service that prioritizes giving just the data that the client requested and no more.
 
 Besides, you don’t need to be worried about breaking changes, versioning and backwards compatibility like REST APIs. Therefore you can implement your version and auto-document your API just by using `GraphQL`.
 

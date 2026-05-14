@@ -1,11 +1,14 @@
----
+______________________________________________________________________
+
 tags:
-  - genral
-  - ready
-  - online
-  - index
----
+
+- genral
+- ready
+- online
+- index
+
+______________________________________________________________________
 
 # General 🦾
 
-The folder contents are in the following file [[general_Index]]
+The folder contents are in the following file \[[general_Index]\]

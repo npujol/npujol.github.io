@@ -1,23 +1,30 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- präsentation
----
+______________________________________________________________________
 
+id: b22-redemittel-ein-thema-präsentieren
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- präsentation
+\- --
+
+```
 # B22: Ein Thema präsentieren
 
 ## Sport-/Musikveranstaltung
 
 ### Die Veranstaltung war letzten Sommer/letztes Wochenende/[...] im[...]/in der[...]/[...]
 
-__Person A:__ __Die Veranstaltung war letzten Sommer im__ Stadtpark. Es war ein großartiges Open-Air-Konzert mit Tausenden von Menschen.
-
-__Person B:__ __Die Veranstaltung war letztes Wochenende in der__ Arena. Wir haben ein spannendes Basketballspiel gesehen.
+__Person A:__ __Die Veranstaltung war letzten Sommer im__ Stadtpark.Es war ein großartiges Open-Air-Konzert mit Tausenden von
+  Menschen.__Person B:__
+  __Die
+  Veranstaltung
+  war
+  letztes
+  Wochenende in der__ Arena. Wir haben ein spannendes Basketballspiel gesehen.
+```
 
 ### Der FC [...] hat gegen [...] gespielt
 

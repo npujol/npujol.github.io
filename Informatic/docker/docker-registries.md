@@ -1,25 +1,55 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - output
-  - docker
-  - ready
-  - online
----
+
+- roadmap
+- output
+- docker
+- ready
+- online
+
+______________________________________________________________________
 
 # docker-registries
 
 ## Contents
 
-- [[docker-registries-dockerhub]]
-- [[docker-registries-dockerhub-alt]]
-- [[docker-registries-image-tagging-best-practices]]
+- \[ [ docker-registries-dockerhub ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/registries)__
+- \[ [ docker-registries-dockerhub-alt ] \]
 
-## Container Registries
+- \[ [ docker-registries-image-tagging-best-practices ] \]
 
-A __Container Registry__ is a centralized storage and distribution system for Docker container images. It allows developers to easily share and deploy applications in the form of these images. Container registries play a crucial role in the deployment of containerized applications, as they provide a fast, reliable, and secure way to distribute container images across various production environments.
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/registries>)
+  \_\_
+
+  ## Container Registries
+
+  A
+  __Container
+  Registry__
+  is
+  a
+  centralized
+  storage
+  and
+  distribution
+  system
+  for
+  Docker
+  container
+  images.It
+  allows
+  developers
+  to
+  easily
+  share
+  and
+  deploy
+  applications in the form of these images. Container registries play a crucial role in the deployment of containerized applications, as they provide a fast, reliable, and secure way to distribute container images across various production environments.
 
 Below is a list of popular container registries available today:
 

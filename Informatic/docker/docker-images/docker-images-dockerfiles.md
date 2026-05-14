@@ -1,21 +1,45 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - docker
-  - docker-images
-  - ready
-  - online
----
+
+- roadmap
+- docker
+- docker-images
+- ready
+- online
+
+______________________________________________________________________
 
 # docker-images-dockerfiles
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/building-container-images/dockerfiles)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/building-container-images/dockerfiles>) \_\_
 
 ## Dockerfile
 
-A Dockerfile is a text document that contains a list of instructions used by the Docker engine to build an image. Each instruction in the Dockerfile adds a new layer to the image. Docker will build the image based on these instructions, and then you can run containers from the image. Dockerfiles are one of the main elements of *infrastructure as code*.
+A
+Dockerfile
+is
+a
+text
+document
+that
+contains
+a
+list
+of
+instructions
+used
+by
+the
+Docker
+engine
+to
+build
+an
+image.Each
+instruction in the Dockerfile adds a new layer to the image. Docker will build the image based on these instructions, and then you can run containers from the image. Dockerfiles are one of the main elements of *infrastructure as code*.
 
 ## Structure of a Dockerfile
 
@@ -56,15 +80,15 @@ CMD ["python", "app.py"]
 
 Here’s a list of some common Dockerfile instructions and their purpose:
 
-* `FROM`: Sets the base image to begin with. It is mandatory to have `FROM` as the first instruction in the Dockerfile.
-* `WORKDIR`: Sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` or `ADD` instructions. If the directory does not exist, it will be created automatically.
-* `COPY`: Copies files or directories from the host into the container’s file system.
-* `ADD`: Similar to `COPY`, but can also handle remote URLs and automatically unpack archives.
-* `RUN`: Executes a command within the image as a new layer.
-* `CMD`: Defines the default command to execute when running a container from the image.
-* `ENTRYPOINT`: Similar to `CMD`, but it’s designed to allow a container as an executable with its own parameters.
-* `EXPOSE`: Informs Docker that the container will listen on the specified network ports at runtime.
-* `ENV`: Sets environment variables for the container.
+- `FROM`: Sets the base image to begin with. It is mandatory to have `FROM` as the first instruction in the Dockerfile.
+- `WORKDIR`: Sets the working directory for any `RUN`, `CMD`, `ENTRYPOINT`, `COPY` or `ADD` instructions. If the directory does not exist, it will be created automatically.
+- `COPY`: Copies files or directories from the host into the container’s file system.
+- `ADD`: Similar to `COPY`, but can also handle remote URLs and automatically unpack archives.
+- `RUN`: Executes a command within the image as a new layer.
+- `CMD`: Defines the default command to execute when running a container from the image.
+- `ENTRYPOINT`: Similar to `CMD`, but it’s designed to allow a container as an executable with its own parameters.
+- `EXPOSE`: Informs Docker that the container will listen on the specified network ports at runtime.
+- `ENV`: Sets environment variables for the container.
 
 ## Building an Image from a Dockerfile
 

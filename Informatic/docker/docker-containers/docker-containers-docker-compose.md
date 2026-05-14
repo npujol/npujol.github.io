@@ -1,27 +1,45 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-containers
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-containers-docker-compose
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/running-containers/docker-compose)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/running-containers/docker-compose>) \_\_
 
 ## Docker Compose
 
-Docker Compose is a tool for defining and running multi-container Docker applications. It allows you to create, manage, and run your applications using a simple YAML file called `docker-compose.yml`. This file describes your application’s services, networks, and volumes, allowing you to easily run and manage your containers using just a single command.
+Docker
+Compose
+is
+a
+tool
+for
+defining
+and
+running
+multi-container
+Docker
+applications.It
+allows
+you
+to
+create, manage, and run your applications using a simple YAML file called `docker-compose.yml`. This file describes your application’s services, networks, and volumes, allowing you to easily run and manage your containers using just a single command.
 
 Some of the benefits of using Docker Compose include:
 
-* __Simplified Container Management:__ Docker Compose allows you to define and configure all your services, networks, and volumes in one place, making it easy to manage and maintain.
-* __Reproducible Builds:__ Share your `docker-compose.yml` file with others to make sure they have the same environment and services running as you do.
-* __Versioning Support:__ Docker Compose files can be versioned for easier compatibility across different versions of the Docker Compose tool itself.
+- __Simplified Container Management:__ Docker Compose allows you to define and configure all your services, networks, and volumes in one place, making it easy to manage and maintain.
+- __Reproducible Builds:__ Share your `docker-compose.yml` file with others to make sure they have the same environment and services running as you do.
+- __Versioning Support:__ Docker Compose files can be versioned for easier compatibility across different versions of the Docker Compose tool itself.
 
 ## Creating a Docker Compose File
 
@@ -30,16 +48,16 @@ To create a `docker-compose.yml` file, start by specifying the version of Docker
 ```bash
 version: "3.9"
 services:
-  web:
-    image: nginx:latest
-    ports:
-      - "80:80"
-    depends_on:
-      - db
-  db:
-    image: mysql:latest
-    environment:
-      MYSQL_ROOT_PASSWORD: mysecretpassword
+web:
+image: nginx:latest
+ports:
+- "80:80"
+depends_on:
+- db
+db:
+image: mysql:latest
+environment:
+MYSQL_ROOT_PASSWORD: mysecretpassword
 
 ```
 
@@ -58,9 +76,9 @@ Docker Compose will read the file and start the defined services in the specifie
 
 ## Other Useful Commands
 
-* `docker-compose down`: Stops and removes all running containers, networks, and volumes defined in the `docker-compose.yml` file.
-* `docker-compose ps`: Lists the status of all containers defined in the `docker-compose.yml` file.
-* `docker-compose logs`: Displays the logs of all containers defined in the `docker-compose.yml` file.
-* `docker-compose build`: Builds all images defined in the `docker-compose.yml` file.
+- `docker-compose down`: Stops and removes all running containers, networks, and volumes defined in the `docker-compose.yml` file.
+- `docker-compose ps`: Lists the status of all containers defined in the `docker-compose.yml` file.
+- `docker-compose logs`: Displays the logs of all containers defined in the `docker-compose.yml` file.
+- `docker-compose build`: Builds all images defined in the `docker-compose.yml` file.
 
 That’s a brief introduction to Docker Compose! For more information, check out the official [Docker Compose documentation](https://docs.docker.com/compose/).

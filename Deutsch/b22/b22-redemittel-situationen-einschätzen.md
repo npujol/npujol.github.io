@@ -1,18 +1,21 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- einschätzen
----
-# B22: Situationen einschätzen
+______________________________________________________________________
 
+id: b22-redemittel-situationen-einschätzen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- einschätzen
+\- --
+\# B22: Situationen einschätzen
+
+```
 ## Was sagt [...] zu [...]
 
 __Person A:__ __Was sagt__ dein Chef __zu__ den neuen Vorschlägen, die du gemacht hast?
+```
 
 __Person B:__ __Was sagt__ die Studie __zu__ den langfristigen Auswirkungen der Technologie auf die Arbeitswelt?
 

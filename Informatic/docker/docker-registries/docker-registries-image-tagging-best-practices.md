@@ -1,21 +1,38 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-registries
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-registries-image-tagging-best-practices
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/container-registries/image-tagging-best-practices)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/container-registries/image-tagging-best-practices>) \_\_
 
 ## Image Tagging Best Practices
 
-Properly tagging your Docker images is crucial for efficient container management and deployment. In this section, we will discuss some best practices for image tagging.
+Properly
+tagging
+your
+Docker
+images
+is
+crucial
+for
+efficient
+container
+management
+and
+deployment.In
+this
+section, we will discuss some best practices for image tagging.
 
 ## Use Semantic Versioning
 

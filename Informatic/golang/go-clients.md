@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -11,13 +13,19 @@ tags:
 - graphql
 - clients
 - go
----
+
+______________________________________________________________________
 
 # clients
 
 ## Contents
 
-- [[go-rest]]
-- [[go-graphql]]
+- \[ [ go-rest ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/clients)__
+- \[ [ go-graphql ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/golang/clients>)
+  \_\_

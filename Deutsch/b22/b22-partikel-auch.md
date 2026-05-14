@@ -1,19 +1,21 @@
----
+______________________________________________________________________
+
 tags:
+
 - partikel
 - grammatik
 - deutsch
+- sprache-deutsch
 - b22
-- ready
-- online
----
+
+______________________________________________________________________
 
 # B22: Partikel auch
 
 ## Nutzung
 
-### Überraschung  
+### Überraschung
 
-Beispiele:  
+Beispiele:
 
-- "Du arbeitest __auch__ hier in der Firma."  
+- "Du arbeitest __auch__ hier in der Firma."

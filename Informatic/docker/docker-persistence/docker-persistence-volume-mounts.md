@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-persistence
@@ -7,17 +9,48 @@ tags:
 - online
 - data-persistence
 - volume
----
+
+______________________________________________________________________
 
 # docker-persistence-volume-mounts
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/data-persistence/volume-mounts)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/data-persistence/volume-mounts>) \_\_
 
 ## Volume Mounts
 
-Volume mounts are a way to map a folder or file on the host system to a folder or file inside a container. This allows the data to persist outside the container even when the container is removed. Additionally, multiple containers can share the same volume, making data sharing between containers easy.
+Volume
+mounts
+are
+a
+way
+to
+map
+a folder or file
+on
+the
+host
+system
+to
+a folder or file
+inside
+a
+container.This
+allows
+the
+data
+to
+persist
+outside
+the
+container
+even
+when
+the
+container
+is
+removed.Additionally, multiple containers can share the same volume, making data sharing between containers easy.
 
 ## Creating a Volume
 
@@ -80,4 +113,4 @@ docker volume rm my-volume
 
 That’s it! Now you have a basic understanding of volume mounts in Docker. You can use them to persist and share data between your containers efficiently and securely.
 
-* [@article@Docker Volumes](https://docs.docker.com/storage/volumes/).
+- [@article@Docker Volumes](https://docs.docker.com/storage/volumes/).

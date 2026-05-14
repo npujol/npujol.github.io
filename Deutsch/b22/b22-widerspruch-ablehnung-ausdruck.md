@@ -1,20 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- widerspruch
-- ablehnung
----
+______________________________________________________________________
 
+id: b22-widerspruch-ablehnung-ausdruck
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Widerspruch/Ablehnung ausdrücken
 
 ## Das ist nicht richtig
 
 __Person A:__ __Das ist nicht richtig.__ Die Daten, die du genannt hast, stammen aus einer veralteten Studie und spiegeln nicht die aktuellen Verhältnisse wider.
+```
 
 __Person B:__ __Das ist nicht richtig.__ Unsere Kundenfeedbacks zeigen, dass es gerade bei diesem Punkt erhebliche Beschwerden gibt.
 

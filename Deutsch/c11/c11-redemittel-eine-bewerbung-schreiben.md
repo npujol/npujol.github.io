@@ -1,27 +1,35 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-eine-bewerbung-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - bewerbung
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
 
-
+```
 # C11: eine Bewerbung schreiben
 
 ## Einleitung
 
 ### In Ihrer oben genannten Anzeige [...]
 
-__Beispiel:__ In Ihrer oben genannten Anzeige für die Position als Marketingmanager habe ich großes Interesse gefunden.
+__Beispiel:__ In Ihrer oben genannten Anzeige für die Position als Marketingmanager habe ich großes Interesse
+  gefunden.### Da ich mich beruflich verändern möchte, [...]
 
-### Da ich mich beruflich verändern möchte, [...]
-
-__Beispiel:__ Da ich mich beruflich verändern möchte, sehe ich diese Stelle als ideale Gelegenheit, meine Fähigkeiten in einem neuen Umfeld einzusetzen.
+  __Beispiel:__ Da
+  ich
+  mich
+  beruflich
+  verä
+  ndern
+  mö
+  chte, sehe ich diese Stelle als ideale Gelegenheit, meine Fähigkeiten in einem neuen Umfeld einzusetzen.
+```
 
 ### Vielen Dank für das informative und freundliche Telefonat
 

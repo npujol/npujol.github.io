@@ -1,14 +1,28 @@
----
+______________________________________________________________________
 
+id: c1-telc-prüfung-learnplan
+aliases: [ ]
+tags:
+\- default
 kanban-plugin: board
+\- --
 
----
+```
+    ## Woche 1-2: Grundlagen und Prüfungsstruktur kennenlernen
 
-## Woche 1-2: Grundlagen und Prüfungsstruktur kennenlernen
+    - [ ] Lesen: Aufgaben der ersten Probeprüfung
+      ([ Mock-Prüfung 1 ] (https://telc.hu/wp-content/uploads/2021/11/DE_C1_Mock_1.pdf)).- [ ] Hö
+      ren
+      Nachrichten
+      oder
+      Podcasts
+      auf
+      Deutsch
+      hö
+      ren
+      (z.B.Tagesschau).- [ ] Schreiben: Zwei Texte (350 Wörter) über ein gesellschaftliches Thema.
+```
 
-- [ ] Lesen: Aufgaben der ersten Probeprüfung ([Mock-Prüfung 1](https://telc.hu/wp-content/uploads/2021/11/DE_C1_Mock_1.pdf)).
-- [ ] Hören Nachrichten oder Podcasts auf Deutsch hören (z. B. Tagesschau).
-- [ ] Schreiben: Zwei Texte (350 Wörter) über ein gesellschaftliches Thema.
 - [ ] Sprechen:: Diskussion zu komplexen Themen, wie Technologie oder Umwelt (15 Minuten).
 
 ## Woche 3-4: Hör- und Leseverstehen intensivieren

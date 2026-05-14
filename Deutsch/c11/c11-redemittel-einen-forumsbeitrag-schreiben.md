@@ -1,16 +1,17 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-einen-forumsbeitrag-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - forumsbeitrag
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- unterricht_inhalte
+\- schreiben
+\- --
 
-
+```
 # C11: einen Forumsbeitrag schreiben
 
 ## Verständnis zeigen
@@ -18,6 +19,7 @@ tags:
 ### Ich habe auch schon mal erlebt, dass / wie [...]
 
 __Beispiel:__ Ich habe auch schon mal erlebt, dass es schwierig ist, sich in einem neuen Umfeld zurechtzufinden.
+```
 
 ### Es ist nicht ungewöhnlich, wenn [...]
 

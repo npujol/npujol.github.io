@@ -1,15 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - argumente
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-argumente-verbinden
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Argumente verbinden
 
 ## Redemittel für das Strukturieren von Argumenten
@@ -17,6 +19,8 @@ tags:
 ### Zunächst einmal denke ich, dass [...]
 
 - __Beispiel:__ __Zunächst einmal denke ich, dass__ das Team sehr gut zusammenarbeitet.
+```
+
 - __Beispiel:__ __Zunächst einmal denke ich, dass__ wir den Zeitplan realistisch anpassen sollten.
 
 ### Außerdem/Weiterhin ist für mich wichtig, dass [...]

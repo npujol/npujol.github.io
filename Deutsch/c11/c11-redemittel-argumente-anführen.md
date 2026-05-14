@@ -1,20 +1,26 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - argumente
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-argumente-anführen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- argumente
+\- satzart
+\- --
+
+```
 # C11: Argumente anführen
 
 ## Das Besondere daran ist, dass man [...]
 
 - __Das Besondere daran ist, dass man__ seine eigenen Projekte verwirklichen kann.
+```
+
 - __Das Besondere daran ist, dass man__ viele neue Menschen kennenlernen kann.
 
 ## Beim/Im … kannst du viele interessante/lustige/… Dinge lernen/machen

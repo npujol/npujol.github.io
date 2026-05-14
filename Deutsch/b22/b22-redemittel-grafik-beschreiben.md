@@ -1,13 +1,16 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
----
+______________________________________________________________________
 
+id: b22-redemittel-grafik-beschreiben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- beschreiben
+\- --
+
+```
 # B22: Grafik beschreiben
 
 ## Einleitung
@@ -15,6 +18,7 @@ tags:
 ### Die Grafik zeigt [...]
 
 __Person A:__ __Die Grafik zeigt__ die Entwicklung der CO2-Emissionen in verschiedenen Ländern über die letzten zehn Jahre.
+```
 
 __Person B:__ __Die Grafik zeigt,__ wie sich die Nutzung erneuerbarer Energien in Europa von 2010 bis 2023 verändert hat.
 
@@ -44,9 +48,9 @@ __Person B:__ __Die Grafik stammt von__ der Internationalen Energieagentur __aus
 
 ### In der Grafik wird/werden [...] verglichen/unterschieden
 
-__Person A:__ __In der Grafik werden__ die jährlichen Ausgaben für Forschung und Entwicklung in verschiedenen Branchen__ verglichen.
+__Person A:__ __In der Grafik werden__ die jährlichen Ausgaben für Forschung und Entwicklung in verschiedenen Branchen\_\_ verglichen.
 
-__Person B:__ __In der Grafik wird__ die Entwicklung der Anzahl von Arbeitsplätzen__in verschiedenen Sektoren__ unterschieden.
+__Person B:__ __In der Grafik wird__ die Entwicklung der Anzahl von Arbeitsplätzen\_\_in verschiedenen Sektoren\_\_ unterschieden.
 
 ## Hauptpunkte beschreiben
 
@@ -88,15 +92,15 @@ __Person B:__ __Über die Hälfte der__ Unternehmen __haben__ ihre Investitionen
 
 ### Prozent finden/sagen/meinen [...]
 
-__Person A:__ __40 Prozent finden,__ dass__ Homeoffice ihre Produktivität steigert.
+__Person A:__ __40 Prozent finden,__ dass\_\_ Homeoffice ihre Produktivität steigert.
 
-__Person B:__ __Etwa 60 Prozent sagen,__ dass__ sie regelmäßig an Weiterbildungsmaßnahmen teilnehmen.
+__Person B:__ __Etwa 60 Prozent sagen,__ dass\_\_ sie regelmäßig an Weiterbildungsmaßnahmen teilnehmen.
 
 ### Am wichtigsten/unwichtigsten [...]
 
 __Person A:__ __Am wichtigsten ist__ der Zugang zu Bildung für eine erfolgreiche Karriereentwicklung.
 
-__Person B:__ __Am unwichtigsten__ scheint__ der Standort des Unternehmens zu sein, wenn es um die Wahl des Arbeitsplatzes geht.
+__Person B:__ __Am unwichtigsten__ scheint\_\_ der Standort des Unternehmens zu sein, wenn es um die Wahl des Arbeitsplatzes geht.
 
 ### Im Vergleich zu [...] / Verglichen mit
 

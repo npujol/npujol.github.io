@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,28 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # sort
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/sort)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/sort>) \_\_
 
 ## Sort
 
-Linux provides a variety of tools for processing and manipulating text files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).
+Linux
+provides
+a
+variety
+of
+tools
+for
+processing
+and
+manipulating
+text
+files, one of which is the sort command. The `sort` command in Linux is used to sort the contents of a text file, line by line. The command uses ASCII values to sort files. You can use this command to sort the data in a file in a number of different ways such as alphabetically, numerically, reverse order, or even monthly. The sort command takes a file as input and prints the sorted content on the standard output (screen).
 
 Here is a basic usage of the `sort` command:
 

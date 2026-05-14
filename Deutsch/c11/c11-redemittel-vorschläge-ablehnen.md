@@ -1,24 +1,27 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-vorschläge-ablehnen
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - voschläge
-  - ablehnen
-  - online
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
 language: German
----
+\- --
 
-# C11: Vorschläge ablehnen
+```
+  # C11: Vorschläge ablehnen
 
-## Redemittel für Ablehnung und kritische Rückmeldungen
+  ## Redemittel für Ablehnung und kritische Rückmeldungen
 
-### Das halte ich für keine gute Idee, weil [...]
+  ### Das halte ich für keine gute Idee, weil [...]
 
-- __Beispiel:__ Das halte ich für keine gute Idee, weil die Umsetzung zu teuer wäre.
+  - __Beispiel:__ Das halte ich für keine gute Idee, weil die Umsetzung zu teuer wäre.
+```
+
 - __Beispiel:__ Das halte ich für keine gute Idee, weil die Risiken zu hoch sind.
 
 ### Wie soll das funktionieren?

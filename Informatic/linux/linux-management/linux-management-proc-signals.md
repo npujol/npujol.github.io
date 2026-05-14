@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # proc-signals
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/process-management/proc-signals)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/process-management/proc-signals>) \_\_
 
 ## Proc Signals under Process Management
 
-In Linux, process management is a fundamental part of the system which involves creating, scheduling, terminating and coordinating the execution of processes. One crucial aspect of this is proc signals or process signals.
+In
+Linux, process management is a fundamental part of the system which involves creating, scheduling, terminating and coordinating the execution of processes. One crucial aspect of this is proc signals or process signals.
 
 Process signals are a form of communication mechanism in Unix and Linux systems. They provide a means to notify a process of synchronous or asynchronous events. There are a variety of signals like SIGINT, SIGSTOP, SIGKILL, etc. available which can be sent to a running process to interrupt, pause or terminate it.
 

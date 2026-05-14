@@ -1,19 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-halt
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel halt
 
 ## Nutzung
 
-### Resignation  
+### Resignation
 
-Beispiele:  
+Beispiele:
 
-- "Heute muss ich länger arbeiten. Das ist __halt__ so."  
+  - "Heute muss ich länger arbeiten. Das ist __halt__ so."
+```

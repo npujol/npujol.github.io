@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - devops-container-orchestration-gke-coursera
 - gke
 - google
@@ -9,6 +11,7 @@ tags:
 - online
 - coursera
 - course
----
+
+______________________________________________________________________
 
 # 6. Google Cloud Managed Storage Services

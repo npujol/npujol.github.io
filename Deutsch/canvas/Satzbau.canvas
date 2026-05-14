@@ -9,7 +9,12 @@
 		{"id":"3fa9d9fb7e9706c2","type":"text","text":"Konjunktionen","x":-640,"y":-157,"width":186,"height":50},
 		{"id":"2d09f29b6e54d7e6","type":"text","text":"nicht","x":-424,"y":-55,"width":106,"height":50},
 		{"id":"a08678e264700554","type":"text","text":"Kausalsätze","x":-454,"y":32,"width":156,"height":50},
-		{"id":"10d077c7d08b51b9","type":"text","text":"Relativsätze","x":-552,"y":119,"width":176,"height":51}
+		{"id":"10d077c7d08b51b9","type":"text","text":"Relativsätze","x":-552,"y":119,"width":176,"height":51},
+		{"id":"17cfb989a6e8eff6","x":-640,"y":-532,"width":400,"height":323,"type":"file","file":"languages/deutsch/c11/c11-nominalisiereung-und-verbalisierung-von-kausalsätzen.md"},
+		{"id":"86564ff9cf3d8f7e","x":-272,"y":180,"width":400,"height":400,"type":"file","file":"languages/deutsch/c11/c11-konditionale-konnektoren.md"},
+		{"id":"2d7e82649ec6c86f","x":10,"y":-880,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-satzarte-indirekte-fragen.md"},
+		{"id":"92fec58ec4fadea2","x":444,"y":-557,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-satzart-fragen.md"},
+		{"id":"c641f4bc76601ec5","x":700,"y":-30,"width":400,"height":400,"type":"file","file":"languages/deutsch/canvas/Nebensätze.canvas"}
 	],
 	"edges":[
 		{"id":"b76ca676cd44c63f","fromNode":"e72b3ef49907e075","fromSide":"right","toNode":"b48a0a4c7e05e874","toSide":"left"},

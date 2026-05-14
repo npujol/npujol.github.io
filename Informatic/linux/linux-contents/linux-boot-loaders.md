@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,22 +8,27 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # boot-loaders
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/booting-linux/boot-loaders)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/booting-linux/boot-loaders>) \_\_
 
 ## Boot Loaders
 
-Boot Loaders play an integral role in booting up any Linux-based system. When the system is switched on, it's the Boot Loader that takes charge and loads the kernel of the OS into the system's memory. The kernel then initializes the hardware components and loads necessary drivers, after which it starts the scheduler and executes the init process.
+Boot
+Loaders
+play
+an
+integral
+role in booting up any Linux-based system. When the system is switched on, it's the Boot Loader that takes charge and loads the kernel of the OS into the system's memory. The kernel then initializes the hardware components and loads necessary drivers, after which it starts the scheduler and executes the init process.
 
 Typically, the two most commonly used boot loaders in Linux are LILO (Linux Loader) and `GRUB` (GRand Unified Bootloader). GRUB sets the standard for modern day Linux booting, providing rich features like a graphical interface, scripting, and debugging capabilities. LILO, on the other hand, is older and does not have as many features, but runs on a broader range of hardware platforms.
 
 ```bash
-# This command updates the GRUB bootloader 
+# This command updates the GRUB bootloader
 sudo update-grub
 ```
 

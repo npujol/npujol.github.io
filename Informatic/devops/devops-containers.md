@@ -1,24 +1,34 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - Informatic
-  - devops
-  - ready
-  - online
----
+
+- roadmap
+- Informatic
+- devops
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-containers
 
 ## Contents
 
-- [[devops-containers-docker]]
-- [[devops-containers-lxc]]
+- \[ [ devops-containers-docker ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/containers@2Wd9SlWGg6QtxgiUVLyZL)__
+- \[ [ devops-containers-lxc ] \]
 
-## Containers
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/devops/containers@2Wd9SlWGg6QtxgiUVLyZL>)
+  \_\_
 
-Containers are lightweight, portable, and isolated environments that package applications and their dependencies, enabling consistent deployment across different computing environments. They encapsulate software code, runtime, system tools, libraries, and settings, ensuring that the application runs the same regardless of where it’s deployed. Containers share the host operating system’s kernel, making them more efficient than traditional virtual machines. Popular containerization platforms like Docker provide tools for creating, distributing, and running containers. This technology supports microservices architectures, simplifies application deployment, improves scalability, and enhances DevOps practices by streamlining the development-to-production pipeline and enabling more efficient resource utilization.
+  ## Containers
+
+  Containers
+  are
+  lightweight, portable, and isolated environments that package applications and their dependencies, enabling consistent deployment across different computing environments. They encapsulate software code, runtime, system tools, libraries, and settings, ensuring that the application runs the same regardless of where it’s deployed. Containers share the host operating system’s kernel, making them more efficient than traditional virtual machines. Popular containerization platforms like Docker provide tools for creating, distributing, and running containers. This technology supports microservices architectures, simplifies application deployment, improves scalability, and enhances DevOps practices by streamlining the development-to-production pipeline and enabling more efficient resource utilization.
 
 Visit the following resources to learn more:
 
@@ -28,7 +38,7 @@ Visit the following resources to learn more:
 - [videoWhat are Containers?](https://www.youtube.com/playlist?list=PLawsLZMfND4nz-WDBZIj8-nbzGFD4S9oz)
 - [feedExplore top posts about Containers](https://app.daily.dev/tags/containers?ref=roadmapsh)
 
-Ref: [[linux-containerization]], [[docker-containers]]
+Ref: \[[linux-containerization]\], \[[docker-containers]\]
 
 ### Summary: What is a Container?
 
@@ -57,15 +67,15 @@ __Containers__ solve many of these problems by abstracting the application and i
 ### Benefits of Containers for Developers
 
 1. __Code-Centric__: Containers offer a developer-friendly, efficient way to deploy high-performance, scalable applications.
-2. __Consistency__: They ensure reliable performance across environments, thanks to their Linux kernel base, eliminating "it works on my machine" issues.
-3. __Microservices Architecture__: Containers support a modular, microservices design, allowing easy scaling and updates to individual components without affecting the entire system.
+1. __Consistency__: They ensure reliable performance across environments, thanks to their Linux kernel base, eliminating "it works on my machine" issues.
+1. __Microservices Architecture__: Containers support a modular, microservices design, allowing easy scaling and updates to individual components without affecting the entire system.
 
 ### Linux Technologies Behind Containers
 
 1. __Linux Processes__: Each process in Linux has isolated memory, making it ideal for quickly creating and destroying containers.
-2. __Namespaces__: Containers use Linux namespaces to limit what an application can access (e.g., process IDs, directories, etc.).
-3. __Cgroups__: Control the resources (CPU, memory, I/O) an application can consume, ensuring isolation and fairness.
-4. __Union File Systems__: Bundle everything required into minimal layers, creating lightweight container images.
+1. __Namespaces__: Containers use Linux namespaces to limit what an application can access (e.g., process IDs, directories, etc.).
+1. __Cgroups__: Control the resources (CPU, memory, I/O) an application can consume, ensuring isolation and fairness.
+1. __Union File Systems__: Bundle everything required into minimal layers, creating lightweight container images.
 
 ### Container Layers and Dockerfiles
 

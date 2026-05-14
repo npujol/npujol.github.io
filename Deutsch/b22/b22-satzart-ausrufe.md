@@ -1,20 +1,22 @@
----
-tags:
-- satzart
-- grammatik
-- deutsch
-- b22
-- ausrufe
-- language
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-satzart-ausrufe
+aliases: [ ]
+tags:
+\- satzart
+\- grammatik
+\- deutsch
+\- b22
+\- language
+\- --
+
+```
 # B22: Ausrufe
 
 ## Was bedeutet ein Ausruf
 
 Ein Ausruf ist eine sprachliche Äußerung, die starke Emotionen, Überraschung oder Begeisterung ausdrückt. Im Gegensatz zu Aussagen, die informativ oder beschreibend sind, dienen Ausrufe dazu, Gefühle oder intensive Reaktionen zu kommunizieren. Sie sind oft durch spezielle Satzzeichen wie das Ausrufezeichen (!) gekennzeichnet.
+```
 
 ## Wann sollte man Ausrufe nutzen
 
@@ -26,21 +28,21 @@ Ausrufe sollten genutzt werden, wenn man:
 
 ## Beispiele
 
-__Beispiel 1:__ "Wow, das ist unglaublich!"__
-  
+__Beispiel 1:__ "Wow, das ist unglaublich!"\_\_
+
 - Dieser Ausruf drückt Überraschung und Begeisterung aus.
 
-__Beispiel 2:__ "Oh nein, ich habe den Schlüssel vergessen!"__
-  
+__Beispiel 2:__ "Oh nein, ich habe den Schlüssel vergessen!"\_\_
+
 - Hier wird Frustration oder Ärger über eine vergessene Kleinigkeit deutlich.
 
 Ausrufe sind daher eine kraftvolle Möglichkeit, Emotionen zu vermitteln und die Aufmerksamkeit zu lenken.
 
 ## Partikel
 
-- [[b22-partikel-aber]]
-- [[b22-partikel-doch]]
-- [[b22-partikel-ja]]
+- \[[b22-partikel-aber]\]
+- \[[b22-partikel-doch]\]
+- \[[b22-partikel-ja]\]
 
 ### Aufforderung mit „aber“
 

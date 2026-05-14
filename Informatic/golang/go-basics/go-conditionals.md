@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -7,17 +9,25 @@ tags:
 - summary
 - informatic
 - conditionals
----
+
+______________________________________________________________________
 
 # go-conditionals
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/conditionals)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/conditionals>) \_\_
 
 ## Conditional Statements
 
-Conditional statements are used to run code only if a certain condition is true; go supports :
+Conditional
+statements
+are
+used
+to
+run
+code
+only if a certain condition is true; go supports :
 
 - `if` statements
 - `if / else` statements

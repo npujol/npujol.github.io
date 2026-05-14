@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # uniq
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/uniq)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/uniq>) \_\_
 
 ## Uniq
 
-In Linux, `uniq` is an extremely useful command-line program for text processing. It aids in the examination and manipulation of text files by comparing or filtering out repeated lines that are adjacent. Whether you're dealing with a list of data or a large text document, the `uniq` command allows you to find and filter out duplicate lines, or even provide a count of each unique line in a file. It's important to remember that `uniq` only removes duplicates that are next to each other, so to get the most out of this command, data is often sorted using the `sort` command first.
+In
+Linux, `uniq` is an extremely useful command-line program for text processing. It aids in the examination and manipulation of text files by comparing or filtering out repeated lines that are adjacent. Whether you're dealing with a list of data or a large text document, the `uniq` command allows you to find and filter out duplicate lines, or even provide a count of each unique line in a file. It's important to remember that `uniq` only removes duplicates that are next to each other, so to get the most out of this command, data is often sorted using the `sort` command first.
 
 An example of using `uniq` would be:
 

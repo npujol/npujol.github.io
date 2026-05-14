@@ -1,22 +1,26 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - frameworks
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- frameworks
+- ready
+
+______________________________________________________________________
 
 # synchronous
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-frameworks/synchronous)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-frameworks/synchronous>) \_\_
 
 ## Synchronous Frameworks
 
-Synchronous frameworks in python handle the flow of data in a synchronous manner. On a s̲y̲n̲c̲h̲r̲o̲n̲o̲u̲s̲ request, you make the request and stop executing your program until you get a response from the HTTP server (or an error if the server can’t be reached, or a timeout if the sever is taking way, way too long to reply) The interpreter is blocked until the request is completed (until you got a definitive answer of what happened with the request: did it go well? was there an error? a timeout?… ).
+Synchronous
+frameworks in python handle the flow of data in a synchronous manner. On a s̲y̲n̲c̲h̲r̲o̲n̲o̲u̲s̲ request, you make the request and stop executing your program until you get a response from the HTTP server (or an error if the server can’t be reached, or a timeout if the sever is taking way, way too long to reply) The interpreter is blocked until the request is completed (until you got a definitive answer of what happened with the request: did it go well? was there an error? a timeout?… ).
 
 Visit the following resources to learn more:
 
@@ -38,7 +42,7 @@ Plotly Dash is the most downloaded, trusted Python framework for building ML & d
 
 ### streamlit
 
-Streamlit turns data scripts into shareable web apps in minutes.  
+Streamlit turns data scripts into shareable web apps in minutes.
 All in pure Python. No front‑end experience required.
 
 - <https://streamlit.io/>

@@ -1,16 +1,18 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - überraschung
-  - erstaunen
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-erstaunen-oder-überraschung-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- überraschung
+\- --
+
+```
 # C11: Erstaunen / Überraschung ausdrücken
 
 ## Redemittel für Überraschung, Erstaunen und Neuigkeiten
@@ -18,6 +20,8 @@ tags:
 ### Mich hat total überrascht, dass [...]
 
 - __Beispiel:__ Mich hat total überrascht, dass das Projekt schon so schnell abgeschlossen wurde.
+```
+
 - __Beispiel:__ Mich hat total überrascht, dass wir so positive Rückmeldungen bekommen haben.
 
 ### Erstaunlich / Besonders interessant finde ich [...]

@@ -50,4 +50,3 @@ js:
       mermaid.initialize(myMermaidConfig);
       mermaid.init(myMermaidConfig, document.querySelectorAll(".mermaid"));
     </script>
-

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,20 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # kill-processes
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/process-management/kill-processes)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/process-management/kill-processes>) \_\_
 
 ## Kill Processes
 
-On any Linux system, whether you're on a server or a desktop system, processes are consistently running. Sometimes, these processes may not behave as expected due to certain reasons like system bugs, unexpected system behavior, or accidental initiation and may require termination. This is where the concept of killing processes in Linux comes to picture under the area of process management.
+On
+any
+Linux
+system, whether you're on a server or a desktop system, processes are consistently running. Sometimes, these processes may not behave as expected due to certain reasons like system bugs, unexpected system behavior, or accidental initiation and may require termination. This is where the concept of killing processes in Linux comes to picture under the area of process management.
 
 `Kill` in Linux is a built-in command that is used to terminate processes manually. You can use the `kill` command to send a specific signal to a process. When we use the `kill` command, we basically request a process to stop, pause, or terminate.
 

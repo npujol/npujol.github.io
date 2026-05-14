@@ -1,25 +1,27 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-wünsche-ziele-und-pläne-ausdrücken
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - wunsche
-  - ziele
-  - pläne
-  - online
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
 language: German
----
+\- --
 
-# C11: Wünsche, Ziele und Pläne ausdrücken
+```
+  # C11: Wünsche, Ziele und Pläne ausdrücken
 
-## Redemittel für persönliche Wünsche und Pläne
+  ## Redemittel für persönliche Wünsche und Pläne
 
-### Ich hätte Lust/Spaß daran, [...]
+  ### Ich hätte Lust/Spaß daran, [...]
 
-- __Beispiel:__ Ich hätte Lust daran, an dem neuen Workshop teilzunehmen.
+  - __Beispiel:__ Ich hätte Lust daran, an dem neuen Workshop teilzunehmen.
+```
+
 - __Beispiel:__ Ich hätte Spaß daran, die neue Software auszuprobieren.
 
 ### Ich habe vor, [...]

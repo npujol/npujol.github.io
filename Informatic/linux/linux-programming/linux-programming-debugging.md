@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,17 +9,37 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # debugging
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/shell-programming/debugging)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/shell-programming/debugging>) \_\_
 
 ## Debugging in Shell Programming Under Linux
 
-Linux is a robust and flexible operating system that many developers and systems administrators prefer for its versatility and power. In particular, shell programming in Linux allows you to automate tasks and manage systems with high efficiency. However, given the intricate nature of shell scripts, debugging is an essential skill to handle errors and improve code performance.
+Linux
+is
+a
+robust
+and
+flexible
+operating
+system
+that
+many
+developers
+and
+systems
+administrators
+prefer
+for
+its
+versatility
+and
+power.In
+particular, shell programming in Linux allows you to automate tasks and manage systems with high efficiency. However, given the intricate nature of shell scripts, debugging is an essential skill to handle errors and improve code performance.
 
 When encountering an issue in a shell script, you have several debugging tools at your disposal in a Linux environment. These aid in detecting, tracing, and fixing errors or bugs in your shell scripts. Some of these debugging tools include the bash shell's `-x` (or `-v`) options, which allow for execution traces. Other tools like `trap`, `set` command, or even leveraging external debugging tools such as `shellcheck` can also be highly effective.
 

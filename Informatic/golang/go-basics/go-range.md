@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,17 +11,20 @@ tags:
 - data-structure
 - data-representation
 - loop
----
+
+______________________________________________________________________
 
 # range
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/range)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/range>) \_\_
 
 ## Range
 
-`Range` is used with `For Loops` to iterate over each element in arrays, strings and other data structures .
+`Range`
+is
+used with `For Loops` to iterate over each element in arrays, strings and other data structures .
 
 - [@official@Go Ranges](https://go.dev/tour/moretypes/16)
 - [@article@Go by Example: Range](https://gobyexample.com/range)
@@ -30,7 +35,7 @@ __Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/range)
 ```go
 a := []string{"Foo", "Bar"}
 for i, s := range a {
- fmt.Println(i, s)
+fmt.Println(i, s)
 }
 ```
 
@@ -50,7 +55,7 @@ For strings, the range loop iterates over [Unicode code points](https://yourbasi
 
 ```go
 for i, ch := range "日本語" {
- fmt.Printf("%#U starts at byte position %d\n", ch, i)
+fmt.Printf("%#U starts at byte position %d\n", ch, i)
 }
 ```
 
@@ -80,12 +85,12 @@ The iteration order over [maps](https://yourbasic.org/golang/maps-explained/) is
 
 ```go
 m := map[string]int{
- "one":   1,
- "two":   2,
- "three": 3,
+"one":   1,
+"two":   2,
+"three": 3,
 }
 for k, v := range m {
- fmt.Println(k, v)
+fmt.Println(k, v)
 }
 ```
 
@@ -106,13 +111,13 @@ For [channels](https://yourbasic.org/golang/channels-explained/), the iteration 
 ```go
 ch := make(chan int)
 go func() {
- ch <- 1
- ch <- 2
- ch <- 3
- close(ch)
+ch <- 1
+ch <- 2
+ch <- 3
+close(ch)
 }()
 for n := range ch {
- fmt.Println(n)
+fmt.Println(n)
 }
 ```
 

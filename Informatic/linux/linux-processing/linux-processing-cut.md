@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,35 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # cut
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/cut)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/cut>) \_\_
 
 ## Cut Command
 
-The `cut` command is a text processing utility that allows you to cut out sections of each line from a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.
+The `cut`
+command
+is
+a
+text
+processing
+utility
+that
+allows
+you
+to
+cut
+out
+sections
+of
+each
+line
+from
+a file or output, and display it on the standard output (usually, the terminal). It's commonly used in scripts and pipelines, especially for file operations and text manipulation.
 
 This command is extremely helpful when you only need certain parts of the file, such as a column, a range of columns, or a specific field. For example, with Linux system logs or CSV files, you might only be interested in certain bits of information.
 

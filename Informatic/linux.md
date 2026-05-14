@@ -1,12 +1,15 @@
----
+______________________________________________________________________
+
 tags:
-  - informatic
-  - index
-  - ready
-  - online
-  - linux
----
+
+- informatic
+- index
+- ready
+- online
+- linux
+
+______________________________________________________________________
 
 # Linux 💻
 
-[[linux_Index]]
+\[ [ linux_Index ] \]

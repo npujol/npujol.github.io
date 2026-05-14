@@ -1,16 +1,21 @@
----
-tags:
-  - ready
-  - online
-  - unterricht_inhalte
-  - c11
-  - deutsch
-  - nebensätze
----
+______________________________________________________________________
 
+id: c11-redemittel-weiterfuhrende-nebensätze
+aliases: [ ]
+tags:
+\- unterricht_inhalte
+\- c11
+\- deutsch
+\- satzart
+\- satzbau
+\- language
+\- --
+
+```
 # C11: Weiterfuhren de Nebensätze
 
 Weiterführende Nebensätze beziehen sich auf die Gesamtaussage des Hauptsatzes, die so kommentiert oder weitergeführt wird. Die Nebensätze werden mit was, __wo(r ) + Präposition__ oder __weshalb /weswegen__ eingeleitet und stehen immer nach dem Hauptsatz.
+```
 
 - Der Mensch kann nicht erfolgreich mehrere Dinge auf einmal tun, __was Wissenschaftler in neuen Untersuchungen bestätigen.__
 

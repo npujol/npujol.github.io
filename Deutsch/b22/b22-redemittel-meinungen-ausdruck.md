@@ -1,19 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- meinungen
----
+______________________________________________________________________
 
+id: b22-redemittel-meinungen-ausdruck
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Meinungen ausdrücken
 
 ## Ich bin der Meinung/Ansicht/Auffassung, dass [...]
 
 __Person A:__ __Ich bin der Meinung, dass__ eine nachhaltige Energiepolitik langfristig sowohl ökologische als auch ökonomische Vorteile bringt.
+```
 
 __Person B:__ __Ich bin der Ansicht, dass__ mehr in Bildung investiert werden sollte, um die Zukunft unserer Gesellschaft zu sichern.
 

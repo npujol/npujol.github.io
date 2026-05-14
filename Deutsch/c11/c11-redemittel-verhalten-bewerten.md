@@ -1,16 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - bewerten
-  - verhalten
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-verhalten-bewerten
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Verhalten bewerten
 
 ## Redemittel für positive und negative Bewertungen
@@ -18,6 +19,8 @@ tags:
 ### Ich finde es anständig/lobenswert/anerkennenswert, dass [...]
 
 - __Beispiel:__ Ich finde es lobenswert, dass Sie immer pünktlich zu den Meetings erscheinen.
+```
+
 - __Beispiel:__ Ich finde es anerkennenswert, dass das Team so engagiert an der Lösung gearbeitet hat.
 
 ### Ich finde es falsch/nicht in Ordnung, dass [...]

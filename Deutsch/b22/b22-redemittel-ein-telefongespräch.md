@@ -1,14 +1,16 @@
----
-tags:
-- language
-- deutsch
-- redemittel
-- b22
-- ready
-- online
-- telefongespräch
----
+______________________________________________________________________
 
+id: b22-redemittel-ein-telefongespräch
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Ein Telefongespräch führen
 
 ## Sich vorstellen und begrüßen
@@ -16,6 +18,7 @@ tags:
 ### Ja, guten Tag, mein Name ist [...]
 
 __Person A:__ __Ja, guten Tag, mein Name ist__ Anna Müller. Ich rufe an, um einen Termin mit Herrn Schmidt zu vereinbaren.
+```
 
 __Person B:__ __Ja, guten Tag, mein Name ist__ Thomas Becker von der Firma XYZ. Ich hätte eine Frage zu Ihrer aktuellen Bestellung.
 

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,16 +8,23 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
+
 # join
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/join)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/join>) \_\_
 
 ## join Command in Text Processing on Linux
 
-`join` is a powerful text processing command in Linux. It lets you combine lines of two files on a common field, which works similar to the `Join` operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.
+`join`
+is
+a
+powerful
+text
+processing
+command in Linux. It lets you combine lines of two files on a common field, which works similar to the `Join` operation in SQL. It's particularly useful when you're dealing with large volumes of data. Specifically, `join` uses the lines from two files to form lines that contain pairs of lines related in a meaningful way.
 
 For instance, if you have two files that have a list of items, one with costs and the other with quantities, you can use `join` to combine these two files so each item has a cost and quantity on the same line.
 

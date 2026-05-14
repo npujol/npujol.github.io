@@ -1,20 +1,22 @@
----
-tags:
-- satzart
-- grammatik
-- deutsch
-- b22
-- aufforderung
-- language
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-satzart-aufforderung
+aliases: [ ]
+tags:
+\- satzart
+\- grammatik
+\- deutsch
+\- b22
+\- language
+\- --
+
+```
 # B22: Satzart Aufforderung
 
 ## Was bedeutet eine Aufforderung
 
 Eine Aufforderung ist eine sprachliche Äußerung, die darauf abzielt, eine bestimmte Handlung oder Reaktion von jemandem zu bewirken. Sie fordert den Adressaten auf, etwas zu tun oder zu unterlassen und hat oft einen imperativen Charakter. Aufforderungen können in verschiedenen Kontexten verwendet werden, um direktes Handeln oder eine Reaktion zu initiieren.
+```
 
 ## Wann sollte man Aufforderungen nutzen
 
@@ -26,11 +28,11 @@ Aufforderungen sollten genutzt werden, wenn man:
 
 ## Beispiele
 
-__Beispiel 1:__ "Bitte schließen Sie die Tür."__
+__Beispiel 1:__ "Bitte schließen Sie die Tür."\_\_
 
 - Diese Aufforderung bittet höflich darum, dass jemand eine bestimmte Handlung (die Tür schließen) ausführt.
 
-__Beispiel 2:__ "Rufen Sie mich sofort an!"__
+__Beispiel 2:__ "Rufen Sie mich sofort an!"\_\_
 
 - Hier wird eindringlich verlangt, dass der Angesprochene umgehend eine Handlung (das Telefonat) durchführt.
 
@@ -38,7 +40,7 @@ Aufforderungen sind daher ein effektives Mittel, um gezielte Handlungen oder Rea
 
 ## Partikel
 
-- [[b22-partikel-mal]]
+- \[[b22-partikel-mal]\]
 
 ### Aufforderung mit mal
 

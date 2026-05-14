@@ -1,18 +1,19 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- äußerungen
-- bewerten
----
+______________________________________________________________________
 
+id: b22-redemittel-außerungen-bewerten
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- --
+
+```
 # B22: Äußerungen bewerten
 
 Man kann die Äußerungen bewerten, positiv, negativ oder skeptisch.
+```
 
 ## positiv/negativ
 

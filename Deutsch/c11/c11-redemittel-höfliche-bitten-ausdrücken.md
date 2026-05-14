@@ -1,16 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - bitten
-  - höflich
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-höfliche-bitten-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: höfliche Bitten ausdrücken
 
 ## Redemittel für höfliche Anfragen und Bitten
@@ -38,6 +39,8 @@ tags:
 ### Ich würde Sie bitten, [...]
 
 - __Beispiel:__ Ich würde Sie bitten, mir die neuesten Informationen zu senden.
+```
+
 - __Beispiel:__ Ich würde Sie bitten, die Präsentation bis Freitag vorzubereiten.
 
 ### Ich bräuchte [...]

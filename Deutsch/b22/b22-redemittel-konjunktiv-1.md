@@ -1,19 +1,20 @@
----
-tags:
-- language
-- grammatik
-- deutsch
-- reviewed
-- konjunktiv
-- ready
-- online
-- indirekten-rede
-- TODO
----
+______________________________________________________________________
 
+id: b22-redemittel-konjunktiv-1
+aliases: [ ]
+tags:
+\- language
+\- grammatik
+\- deutsch
+\- konjunktiv
+\- indirekten-rede
+\- --
+
+```
 # B22: Konjunktiv I
 
 Der __Konjunktiv I__ wird hauptsächlich in der __indirekten Rede__ verwendet.
+```
 
 Für den __Konjunktiv I__ stehen daher nur drei Zeitformen zur Verfügung, die im Folgenden an Beispielen erklärt werden.
 
@@ -43,19 +44,21 @@ Tom berichtete, dass Daniel gleich in die Schule __gehen werde__. (indirekte Red
 Donald Trump sagt:
 
 - Mein Ohr __tut__ mir sehr weh.(direkte Rede)
+
 - Sein Ohr __tue__ ihm sehr weh.(indirekte Rede)
 
 - Meine Ohren __haben__ mir sehr wehgetan(direkte Rede)
+
 - Seine Ohren __habe__ ihm sehr wehgetan.(indirekte Rede)
 
 ## Wichtige Verben
 
-| __Pronomen__     | __Ich__             | __Du__          | __Er/Es/Sie__     | __Wir__                 | __Ihr__           | __Sie/sie__             |
+| __Pronomen__ | __Ich__ | __Du__ | __Er/Es/Sie__ | __Wir__ | __Ihr__ | __Sie/sie__ |
 | ---------------- | ------------------- | --------------- | ----------------- | ----------------------- | ----------------- | ----------------------- |
-| __Haben__        | habe / hätte         | habest          | habe               | haben / hätten          | habet             | haben / hätten          |
-| __Können__       | könne / könnte       | könnest         | könne              | können / könnten        | könnet            | können / könnten        |
-| __Sehen__        | sehe / würde sehen   | sehest          | sehe               | sehen / würden sehen     | sehet             | sehen / würden sehen     |
-| __Sein__         | sei                  | seist           | sei                | seien                   | seiet             | seien                   |
+| __Haben__ | habe / hätte | habest | habe | haben / hätten | habet | haben / hätten |
+| __Können__ | könne / könnte | könnest | könne | können / könnten | könnet | können / könnten |
+| __Sehen__ | sehe / würde sehen | sehest | sehe | sehen / würden sehen | sehet | sehen / würden sehen |
+| __Sein__ | sei | seist | sei | seien | seiet | seien |
 
 - Gegenwart: Infinitivstamm + Endung
 - Die Formen in der 2. Person sind sehr ungebräuchlich. Hier wird meist der Konjunktiv II verwendet.

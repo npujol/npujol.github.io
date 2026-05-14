@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,23 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # wc
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/wc)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/wc>) \_\_
 
 ## WC - Text Processing
 
-The `wc` command is a commonly used tool in Unix or Linux that allows users to count the number of bytes, characters, words, and lines in a file or in data piped from standard input. The name `wc` stands for `word count`, but it can do much more than just count words. Common usage of `wc` includes tracking program output, counting code lines, and more. It's an invaluable tool for analyzing text at both granular and larger scales.
+The `wc`
+command
+is
+a
+commonly
+used
+tool in Unix or Linux that allows users to count the number of bytes, characters, words, and lines in a file or in data piped from standard input. The name `wc` stands for `word count`, but it can do much more than just count words. Common usage of `wc` includes tracking program output, counting code lines, and more. It's an invaluable tool for analyzing text at both granular and larger scales.
 
 Below is a basic usage example for `wc` in Linux:
 

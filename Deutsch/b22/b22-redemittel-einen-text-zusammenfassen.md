@@ -1,29 +1,54 @@
----
+______________________________________________________________________
+
+id: b22-redemittel-einen-text-zusammenfassen
+aliases: [ ]
 tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- zusammenfassung
+\- --
 
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- zusammenfassung
-- diskutieren
----
-
+```
 # B22: Einen Text zusammenfassen und darüber diskutieren
 
 ## Zusammenfassung einleiten/Aussagen wiedergeben
 
 ### In dem/diesem Text geht es um[...]
 
-__Person A:__ __In diesem Text geht es um__ die Auswirkungen des Klimawandels auf die weltweiten Wetterphänomene und deren langfristige Folgen.
+__Person A:__ __In diesem Text geht es um__ die Auswirkungen des Klimawandels auf die weltweiten Wetterphänomene und deren langfristige
+  Folgen.__Person B:__
+  __In
+  dem
+  Artikel
+  geht
+  es
+  um__
+  die
+  Entwicklung
+  der
+  kü
+  nstlichen
+  Intelligenz
+  und
+  wie
+  sie
+  verschiedene
+  Industrien
+  revolutioniert.### Der Text/Artikel handelt von [...]
 
-__Person B:__ __In dem Artikel geht es um__ die Entwicklung der künstlichen Intelligenz und wie sie verschiedene Industrien revolutioniert.
-
-### Der Text/Artikel handelt von [...]
-
-__Person A:__ __Der Text handelt von__ den sozialen und wirtschaftlichen Herausforderungen, die durch die zunehmende Automatisierung entstehen.
+  __Person A:__
+  __Der
+  Text
+  handelt
+  von__
+  den
+  sozialen
+  und
+  wirtschaftlichen
+  Herausforderungen, die durch die zunehmende Automatisierung entstehen.
+```
 
 __Person B:__ __Der Artikel handelt von__ den neuesten medizinischen Fortschritten bei der Behandlung von Krebs.
 

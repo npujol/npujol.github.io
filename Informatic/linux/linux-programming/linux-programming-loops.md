@@ -1,20 +1,21 @@
----
+______________________________________________________________________
+
 tags:
 
- - ready
- - online
- - online
- - reviewed
- - linux
- - operative-system
+- ready
+- online
+- online
+- reviewed
+- linux
+- operative-system
 
----
+______________________________________________________________________
 
 # loops
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/shell-programming/loops)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/shell-programming/loops>) \_\_
 
 ## Loops
 
@@ -22,16 +23,16 @@ Loops in shell programming are a fundamental concept that allows a certain block
 
 In Linux, shell scripts commonly use three types of loops - for, while, and until.
 
-* `for` loop iterates over a list of items and performs actions on each of them.
-* `while` loop executes commands as long as the control condition remains true.
-* `until` loop runs commands until the control condition becomes true.
+- `for` loop iterates over a list of items and performs actions on each of them.
+- `while` loop executes commands as long as the control condition remains true.
+- `until` loop runs commands until the control condition becomes true.
 
 Here is a simple sample for loop in bash/shell:
 
 ```bash
 for i in 1 2 3
 do
-   echo "$i"
+echo "$i"
 done
 
 ```

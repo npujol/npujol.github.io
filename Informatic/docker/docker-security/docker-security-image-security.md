@@ -1,27 +1,39 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-security
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-security-image-security
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/container-security/image-security)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/container-security/image-security>) \_\_
 
 ## Image Security
 
-Image security is a crucial aspect of deploying Docker containers in your environment. Ensuring the images you use are secure, up to date, and free of vulnerabilities is essential. In this section, we will review best practices and tools for securing and managing your Docker images.
+Image
+security
+is
+a
+crucial
+aspect
+of
+deploying
+Docker
+containers in your environment. Ensuring the images you use are secure, up to date, and free of vulnerabilities is essential. In this section, we will review best practices and tools for securing and managing your Docker images.
 
 ## Use Trusted Image Sources
 
 When pulling images from public repositories, always use trusted, official images as a starting point for your containerized applications. Official images are vetted by Docker and are regularly updated with security fixes. You can find these images on the Docker Hub or other trusted registries.
 
-* Official Images: <https://hub.docker.com/explore/>
+- Official Images: <https://hub.docker.com/explore/>
 
 When downloading images from other users or creating your own, always verify the source, and inspect the Dockerfile and other provided files to ensure they follow best practices and don’t introduce vulnerabilities.
 
@@ -31,9 +43,9 @@ Continuously monitor your images and update them regularly. This helps to minimi
 
 You can use the following tools to scan and check for updates to your images:
 
-* Docker Hub: <https://hub.docker.com/>
-* Anchore: <https://anchore.com/>
-* Clair: <https://github.com/quay/clair>
+- Docker Hub: <https://hub.docker.com/>
+- Anchore: <https://anchore.com/>
+- Clair: <https://github.com/quay/clair>
 
 ## Use Minimal Base Images
 
@@ -41,7 +53,7 @@ A minimal base image contains only the bare essentials required to run a contain
 
 An example of a minimal base image is the Alpine Linux distribution, which is commonly used in Docker images due to its small footprint and security features.
 
-* Alpine Linux: <https://alpinelinux.org/>
+- Alpine Linux: <https://alpinelinux.org/>
 
 ## Scan Images for Vulnerabilities
 

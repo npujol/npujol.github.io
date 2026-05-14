@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,17 +11,22 @@ tags:
 - data-structure
 - data-representation
 - hash-map
----
+
+______________________________________________________________________
 
 # maps
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/maps)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/maps>) \_\_
 
 ## Maps
 
-Maps are the data structure in Go, where we use whenever we want to have mappings between __key:value pairs__. They have flexibility in terms of removing or adding elements into them. Maps do not allow duplicate entries while data are kept unordered.
+Maps
+are
+the
+data
+structure in Go, where we use whenever we want to have mappings between __key:value pairs__. They have flexibility in terms of removing or adding elements into them. Maps do not allow duplicate entries while data are kept unordered.
 
 - [@official@Go Maps](https://go.dev/tour/moretypes/19)
 - [@official@Effective Go: Maps](https://go.dev/doc/effective_go#maps)

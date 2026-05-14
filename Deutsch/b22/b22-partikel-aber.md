@@ -1,24 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- aber
-- aussagen
-- ausrufe
-- freundlichkeit
-- überraschung
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-aber
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel Aber
 
 ## Nutzung
 
-### Überraschung  
+### Überraschung
 
-Beispiele:  
+Beispiele:
 
-- "Das ist __aber__ schön, dass du auch da bist."  
+  - "Das ist __aber__ schön, dass du auch da bist."
+```

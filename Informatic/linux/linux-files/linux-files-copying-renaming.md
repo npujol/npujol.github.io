@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # copying-renaming
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/working-with-files/copying-renaming)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/working-with-files/copying-renaming>) \_\_
 
 ## Copying and Renaming Files
 
-In Linux, working with files is a daily operation. Whether you are a system administrator, a developer or a regular user, there are tasks where you need to copy, rename, or perform similar actions with files and directories.
+In
+Linux, working with files is a daily operation. Whether you are a system administrator, a developer or a regular user, there are tasks where you need to copy, rename, or perform similar actions with files and directories.
 
 To copy files, we utilize the `cp` command. It stands for “copy” and operates on two primary arguments: the file you want to copy and the location where you want it copied. For instance:
 

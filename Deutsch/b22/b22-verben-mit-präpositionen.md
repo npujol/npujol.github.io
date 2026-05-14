@@ -1,22 +1,25 @@
----
-tags:
-- language
-- grammatik
-- deutsch
-- verben
-- präpositionen
-- ready
-- online
-- b22
----
+______________________________________________________________________
 
+id: b22-verben-mit-präpositionen
+aliases: [ ]
+tags:
+\- language
+\- grammatik
+\- deutsch
+\- verben
+\- präpositionen
+\- b22
+\- --
+
+```
 # B22: Verben mit Präpositionen
 
 ## zur Diskussion stehen
 
 ### Bedeutung
 
-Die Redewendung __"zur Diskussion stehen"__ bedeutet, dass etwas debattiert, besprochen oder erörtert wird. Es impliziert, dass eine Entscheidung noch nicht getroffen wurde und dass verschiedene Meinungen oder Optionen betrachtet werden. Diese Phrase wird oft in formellen oder offiziellen Kontexten verwendet, besonders wenn es um wichtige Entscheidungen oder Veränderungen geht.
+Die Redewendung __ "zur Diskussion stehen" __ bedeutet, dass etwas debattiert, besprochen oder erörtert wird. Es impliziert, dass eine Entscheidung noch nicht getroffen wurde und dass verschiedene Meinungen oder Optionen betrachtet werden. Diese Phrase wird oft in formellen oder offiziellen Kontexten verwendet, besonders wenn es um wichtige Entscheidungen oder Veränderungen geht.
+```
 
 ### zur Diskussion stehen Beispiele
 

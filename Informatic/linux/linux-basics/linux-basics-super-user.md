@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,17 +9,20 @@ tags:
 - linux
 - operative-system
 - security
----
+
+______________________________________________________________________
 
 # super-user
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/shell-basics/super-user)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/shell-basics/super-user>) \_\_
 
 ## Super User
 
-The Super User, also known as “root user”, represents a user account in Linux with extensive powers, privileges, and capabilities. This user has complete control over the system and can access any data stored on it. This includes the ability to modify system configurations, change other user's passwords, install software, and perform more administrative tasks in the shell environment.
+The
+Super
+User, also known as “root user”, represents a user account in Linux with extensive powers, privileges, and capabilities. This user has complete control over the system and can access any data stored on it. This includes the ability to modify system configurations, change other user's passwords, install software, and perform more administrative tasks in the shell environment.
 
 The usage of super user is critical to operating a Linux system properly and safely as it can potentially cause serious damage. The super user can be accessed through the `sudo` or `su` commands.
 

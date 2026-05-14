@@ -1,26 +1,32 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - äußerung
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-sich-zu-einem-event-äußern
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: sich zu einem Event äußern
 
 ## Ein Event beschreiben
 
 ### Bei dem Event sollen alle [...]
 
-__Beispiel:__ Bei dem Event sollen alle gemeinsam an einem großen Kunstwerk arbeiten.
+__Beispiel:__ Bei dem Event sollen alle gemeinsam an einem großen Kunstwerk
+  arbeiten.### Man baut gemeinsam [...], um [...]
 
-### Man baut gemeinsam [...], um [...]
-
-__Beispiel:__ Man baut gemeinsam ein Teamprojekt, um die Zusammenarbeit zu stärken.
+  __Beispiel:__ Man
+  baut
+  gemeinsam
+  ein
+  Teamprojekt, um die Zusammenarbeit zu stärken.
+```
 
 ## Gefallen / Missfallen ausdrücken
 

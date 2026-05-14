@@ -1,10 +1,14 @@
----
+______________________________________________________________________
+
 tags:
-  - devops
-  - ready
-  - online
-  - devops-application-monitoring
----
+
+- devops
+- ready
+- online
+- devops-application-monitoring
+
+______________________________________________________________________
+
 # devops-application-monitoring-content
 
 ## Application Monitoring
@@ -15,7 +19,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [articleApplying Basic vs. Advanced Monitoring Techniques](https://thenewstack.io/applying-basic-vs-advanced-monitoring-techniques/)
 - [articleWhy Legacy Apps Need Your Monitoring Love, Too](https://thenewstack.io/why-legacy-apps-need-your-monitoring-love-too/)
@@ -30,7 +34,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialJaeger Website](https://www.jaegertracing.io/)
 - [OpenSourcejaegertracing/jaeger](https://github.com/jaegertracing/jaeger)
@@ -42,12 +46,11 @@ New Relic is a cloud-based observability platform that provides full-stack visib
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialNew Relic Website](https://newrelic.com/)
 - [videoNew Relic Platform Demo](https://www.youtube.com/watch?v=8kx7nRGVJRg)
 - [feedExplore top posts about DevOps](https://app.daily.dev/tags/devops?ref=roadmapsh)
-
 
 ## Datadog
 
@@ -57,7 +60,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialDatadog Website](https://www.datadoghq.com/)
 - [officialOfficial Documentation](https://docs.datadoghq.com/)
@@ -71,7 +74,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialPrometheus Website](https://prometheus.io/)
 - [officialOfficial Documentation](https://prometheus.io/docs/introduction/overview/)
@@ -86,7 +89,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialOpenTelemetry Website](https://opentelemetry.io/)
 - [officialOfficial Documentation](https://opentelemetry.io/docs/)

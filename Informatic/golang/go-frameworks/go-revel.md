@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -7,19 +9,48 @@ tags:
 - informatic
 - frameworks
 - go
----
+
+______________________________________________________________________
 
 # revel
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-web-frameworks/revel)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-web-frameworks/revel>) \_\_
 
 ## Revel
 
-Revel organizes endpoints into Controllers. They provide easy data binding and form validation. Revel makes Go Templates simple to use at scale. Register functionality to be called before or after actions.
+Revel
+organizes
+endpoints
+into
+Controllers.They
+provide
+easy
+data
+binding
+and
+form
+validation.Revel
+makes
+Go
+Templates
+simple
+to
+use
+at
+scale.Register
+functionality
+to
+be
+called before or after
+actions.Visit
+the
+following
+resources
+to
+learn more:
 
-Visit the following resources to learn more:
-
-- [@article@Revel](https://revel.github.io/tutorial/index.html)
-- [@article@Revel Packages](https://pkg.go.dev/github.com/revel/revel)
+- [
+  @article@Revel](https://revel.github.io/tutorial/index.html)
+  - [@article@Revel Packages](https://pkg.go.dev/github.com/revel/revel)

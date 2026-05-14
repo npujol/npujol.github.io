@@ -1,20 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- meinungen
-- ausdruck
----
+______________________________________________________________________
 
+id: b22-redemittel-zustimmung-ausdruck
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Meinungen ausdrücken
 
 ## Der Meinung/Ansicht bin ich auch
 
 __Person A:__ Ich denke, dass wir mehr in Weiterbildung investieren sollten.
+```
 
 __Person B:__ __Der Meinung bin ich auch.__ Weiterbildung ist entscheidend für die Mitarbeiterentwicklung.
 

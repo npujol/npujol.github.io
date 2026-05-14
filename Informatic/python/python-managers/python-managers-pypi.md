@@ -1,18 +1,21 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - packages
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- packages
+- ready
+
+______________________________________________________________________
 
 # pypi
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-package-managers/pypi)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-package-managers/pypi>) \_\_
 
 ## PyPI
 

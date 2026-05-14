@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -8,13 +10,19 @@ tags:
 - frameworks
 - cli
 - go
----
+
+______________________________________________________________________
 
 # clis
 
 ## Contents
 
-- [[go-cobra]]
-- [[go-urfave-cli]]
+- \[ [ go-cobra ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/clis)__
+- \[ [ go-urfave-cli ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/golang/clis>)
+  \_\_

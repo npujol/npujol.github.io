@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,26 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # awk
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/awk)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/awk>) \_\_
 
 ## awk - Text Processing
 
-awk is a powerful text-processing language that is widely used in Unix-like operating systems, including Linux. Named after its three original developers - Alfred Aho, Peter Weinberger, and Brian Kernighan, awk is adept at performing operations upon text files, such as sorting, filtering, and report generation.
+awk
+is
+a
+powerful
+text-processing
+language
+that
+is
+widely
+used in Unix-like operating systems, including Linux. Named after its three original developers - Alfred Aho, Peter Weinberger, and Brian Kernighan, awk is adept at performing operations upon text files, such as sorting, filtering, and report generation.
 
 The language comprises a set of commands within a script that define pattern-action pairs. Essentially, awk reads an input file line by line, identifies patterns that match what is specified in the script, and consequently executes actions upon those matches.
 
@@ -33,7 +43,7 @@ This would display the first and second field (typically separated by spaces) of
 
 Visit the following resources to learn more:
 
-* [@article@IBM.com: Awk by Example](https://developer.ibm.com/tutorials/l-awk1/)
-* [@article@Linux Handbook: Awk](https://linuxhandbook.com/awk-command-tutorial/)
-* [@video@YouTube](https://www.youtube.com/watch?v=9YOZmI-zWok)
-* [@feed@Explore top posts about Bash](https://app.daily.dev/tags/bash?ref=roadmapsh)
+- [@article@IBM.com: Awk by Example](https://developer.ibm.com/tutorials/l-awk1/)
+- [@article@Linux Handbook: Awk](https://linuxhandbook.com/awk-command-tutorial/)
+- [@video@YouTube](https://www.youtube.com/watch?v=9YOZmI-zWok)
+- [@feed@Explore top posts about Bash](https://app.daily.dev/tags/bash?ref=roadmapsh)

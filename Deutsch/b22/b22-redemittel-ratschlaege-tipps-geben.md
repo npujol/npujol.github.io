@@ -1,20 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- ratschläge
-- tipps
----
+______________________________________________________________________
 
+id: b22-redemittel-ratschlaege-tipps-geben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Ratschläge/Tipps geben
 
 ## Wie wäre es, wenn du [...]
 
 __Person A:__ __Wie wäre es, wenn du__ einen Plan erstellst, um deine Aufgaben besser zu organisieren?
+```
 
 __Person B:__ __Wie wäre es, wenn du__ dir eine Auszeit nimmst, um die Situation mit frischem Blick zu betrachten?
 

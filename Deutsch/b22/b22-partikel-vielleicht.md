@@ -1,19 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-vielleicht
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel vielleicht
 
 ## Nutzung
 
-### Verärgerung  
+### Verärgerung
 
-Beispiele:  
+Beispiele:
 
-- "Diese Aufgabe ist __vielleicht__ schwer."  
+  - "Diese Aufgabe ist __vielleicht__ schwer."
+```

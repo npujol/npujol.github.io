@@ -1,27 +1,35 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-images
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-images-interactive-test-environments
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/using-third-party-images/interactive-test-environments)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/using-third-party-images/interactive-test-environments>) \_\_
 
 ## Interactive Test Environments with Docker
 
-Docker allows you to create isolated, disposable environments that can be deleted once you’re done with testing. This makes it much easier to work with third party software, test different dependencies or versions, and quickly experiment without the risk of damaging your local setup.
+Docker
+allows
+you
+to
+create
+isolated, disposable environments that can be deleted once you’re done with testing. This makes it much easier to work with third party software, test different dependencies or versions, and quickly experiment without the risk of damaging your local setup.
 
 ## Creating an Interactive Test Environment with Docker
 
 To demonstrate how to setup an interactive test environment, let’s use the Python programming language as an example. We will use a public Python image available on [Docker Hub](https://hub.docker.com/_/python).
 
-* To start an interactive test environment using the Python image, simply run the following command:
+- To start an interactive test environment using the Python image, simply run the following command:
 
 ```bash
 docker run -it --rm python
@@ -30,34 +38,34 @@ docker run -it --rm python
 
 Here, `-it` flag ensures that you’re running the container in interactive mode with a tty, and `--rm` flag will remove the container once it is stopped.
 
-* You should now be inside an interactive Python shell within the container. You can execute any Python command or install additional packages using `pip` as you normally would.
+- You should now be inside an interactive Python shell within the container. You can execute any Python command or install additional packages using `pip` as you normally would.
 
 ```bash
 print("Hello, Docker!")
 
 ```
 
-* Once you are done with your interactive session, you can simply type `exit()` or press `CTRL+D` to exit the container. The container will be automatically removed as specified by the `--rm` flag.
+- Once you are done with your interactive session, you can simply type `exit()` or press `CTRL+D` to exit the container. The container will be automatically removed as specified by the `--rm` flag.
 
 ## More Examples of Interactive Test Environments
 
 You can use several third-party images available on Docker Hub and create various interactive environments such as:
 
-* __Node.js__: To start an interactive Node.js shell, you can use the following command:
+- __Node.js__: To start an interactive Node.js shell, you can use the following command:
 
 ```bash
 docker run -it --rm node
 
 ```
 
-* __Ruby__: To start an interactive Ruby shell, you can use the following command:
+- __Ruby__: To start an interactive Ruby shell, you can use the following command:
 
 ```bash
 docker run -it --rm ruby
 
 ```
 
-* __MySQL__: To start a temporary MySQL instance, you can use the following command:
+- __MySQL__: To start a temporary MySQL instance, you can use the following command:
 
 ```bash
 docker run -it --rm --name temp-mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=yes -p 3306:3306 mysql

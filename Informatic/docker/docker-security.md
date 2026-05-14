@@ -1,24 +1,50 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - output
-  - docker
-  - ready
-  - online
----
+
+- roadmap
+- output
+- docker
+- ready
+- online
+
+______________________________________________________________________
 
 # docker-security
 
 ## Contents
 
-- [[docker-security-image-security]]
-- [[docker-security-runtime-security]]
+- \[ [ docker-security-image-security ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/security)__
+- \[ [ docker-security-runtime-security ] \]
 
-## Container Security
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/security>)
+  \_\_
 
-Container security is a critical aspect of implementing and managing container technologies like Docker. It encompasses a set of practices, tools, and technologies designed to protect containerized applications and the infrastructure they run on. In this section, we’ll discuss some key container security considerations, best practices, and recommendations.
+  ## Container Security
+
+  Container
+  security
+  is
+  a
+  critical
+  aspect
+  of
+  implementing
+  and
+  managing
+  container
+  technologies
+  like
+  Docker.It
+  encompasses
+  a
+  set
+  of
+  practices, tools, and technologies designed to protect containerized applications and the infrastructure they run on. In this section, we’ll discuss some key container security considerations, best practices, and recommendations.
 
 ## Container Isolation
 
