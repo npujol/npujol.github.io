@@ -24,16 +24,6 @@ repos:
       - id: mixed-line-ending
         args: [--fix=lf]
 
-  # Markdown formatting with mdformat
-  - repo: local
-    hooks:
-      - id: mdformat
-        name: mdformat (markdown)
-        entry: nix run nixpkgs#mdformat --
-        language: system
-        types:
-          - markdown
-        files: \.md$
 
   # Markdown linting and fixing with markdownlint-cli2
   - repo: local
