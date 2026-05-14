@@ -9,7 +9,6 @@ page:
     <snippet var="js.mermaid" />
     <snippet var="js.mathjax" />
     <snippet var="js.prism" />
-    <snippet var="js.highlightjs" />
 
 template:
   name: /templates/layouts/layout
@@ -27,7 +26,6 @@ pandoc:
 js:
   # Diagrams using mermaid.js
   mermaid: |
-    <!-- mermaid.js -->
     <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
     <script>
       var myMermaidConfig = {
@@ -50,3 +48,15 @@ js:
       mermaid.initialize(myMermaidConfig);
       mermaid.init(myMermaidConfig, document.querySelectorAll(".mermaid"));
     </script>
+  # Syntax highlighting with Prism.js
+  prism: |
+    <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-twilight.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-go.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-typescript.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-docker.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-tfscript.min.js"></script>
