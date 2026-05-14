@@ -45,3 +45,4 @@ repos:
         types:
           - markdown
         files: \.md$
+        exclude: index.md,general.md
