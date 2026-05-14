@@ -1,16 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - ausdruck
-  - zweifel
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-starke-zweifel-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: (starke) Zweifel ausdrücken
 
 ## Redemittel für Zweifel und Unsicherheit
@@ -18,6 +19,7 @@ tags:
 ### Also, ich weiß nicht [...]
 
 - __Beispiel:__ Also, ich weiß nicht, ob wir das Projekt in der Zeit schaffen werden.
+```
 
 ### Ob das wirklich so ist?
 

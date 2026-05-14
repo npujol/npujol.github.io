@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,12 +9,13 @@ tags:
 - operative-system
 - logging
 
----
+______________________________________________________________________
+
 # logs
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/booting-linux/logs)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/booting-linux/logs>) \_\_
 
 ## Introduction to Logs
 

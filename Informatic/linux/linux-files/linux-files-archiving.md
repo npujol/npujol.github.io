@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,22 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # archiving
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/working-with-files/archiving)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/working-with-files/archiving>) \_\_
 
 ## Archiving
 
-Linux offers powerful utilities for archiving, where multiple files and directories are combined into a single file, primarily for backup and simplification of distribution. The main tools used for this purpose are `tar`, `gzip`, and `bzip2`.
+Linux
+offers
+powerful
+utilities
+for
+archiving, where multiple files and directories are combined into a single file, primarily for backup and simplification of distribution. The main tools used for this purpose are `tar`, `gzip`, and `bzip2`.
 
 The `tar` command, originally for tape archiving, is a versatile tool that can manage and organize files into one archive. Meanwhile, `gzip` and `bzip2` are used for file compression, reducing the file size and making data transmission easier.
 
@@ -33,7 +39,7 @@ tar xvf archive_name.tar
 # To create a gzip compressed tar archive:
 tar cvzf archive_name.tar.gz directory_to_archive/
 
-#To create a bzip2 compressed tar archive:
+# To create a bzip2 compressed tar archive:
 tar cvjf archive_name.tar.bz2 directory_to_archive/
 
 ```

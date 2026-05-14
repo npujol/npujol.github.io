@@ -1,24 +1,42 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - algorithms
-  - advanced
-  - list-comprehensions
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- algorithms
+- advanced
+- list-comprehensions
+- ready
+
+______________________________________________________________________
 
 # list-comprehensions
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-advanced-topics/list-comprehensions)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-advanced-topics/list-comprehensions>) \_\_
 
 ## List Comprehensions
 
-List comprehensions are a concise way to create a list using a single line of code in Python. They are a powerful tool for creating and manipulating lists, and they can be used to simplify and shorten code.
+List
+comprehensions
+are
+a
+concise
+way
+to
+create
+a
+list
+using
+a
+single
+line
+of
+code in Python. They are a powerful tool for creating and manipulating lists, and they can be used to simplify and shorten code.
 
 Visit the following resources to learn more:
 

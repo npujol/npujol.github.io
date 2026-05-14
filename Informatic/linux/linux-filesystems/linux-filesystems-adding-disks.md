@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,26 +9,28 @@ tags:
 - linux
 - operative-system
 - containerization
----
+
+______________________________________________________________________
 
 # adding-disks
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/disks-filesystems/adding-disks)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/disks-filesystems/adding-disks>) \_\_
 
 ## Adding Disks
 
-In Linux, hard disks and portable drives are managed and controlled through a series of directories and files, commonly referred to as the Linux Filesystem. When you add new disks in Linux, you need to prepare them before they can be used.
+In
+Linux, hard disks and portable drives are managed and controlled through a series of directories and files, commonly referred to as the Linux Filesystem. When you add new disks in Linux, you need to prepare them before they can be used.
 
 The process involves creating partitions on the disk, creating filesystem on the partitions, and then mounting the filesystems to directories in your system's directory tree. This becomes important especially when working with multiple disk drives or large data storage units in order to create a seamless user experience.
 
 The following are common commands to manage disks:
 
-* Use `lsblk` to list all block devices (disk and partitions).
-* Use `fdisk /dev/sdX` to create a new partition on a disk.
-* Use `mkfs.ext4 /dev/sdX1` to create a new filesystem on a partition.
-* Use `mount /dev/sdX1 /mount/point` to mount a filesystem to a directory.
+- Use `lsblk` to list all block devices (disk and partitions).
+- Use `fdisk /dev/sdX` to create a new partition on a disk.
+- Use `mkfs.ext4 /dev/sdX1` to create a new filesystem on a partition.
+- Use `mount /dev/sdX1 /mount/point` to mount a filesystem to a directory.
 
 ```bash
 # example commands to add new disk

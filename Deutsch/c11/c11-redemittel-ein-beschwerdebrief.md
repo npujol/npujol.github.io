@@ -1,19 +1,23 @@
----
-tags:
-  - language
-  - ready
-  - online
-  - redemittel
-  - c11
-  - deutsch
-  - beschwerdebrief
----
+______________________________________________________________________
 
+id: c11-redemittel-ein-beschwerdebrief
+aliases: [ ]
+tags:
+\- language
+\- redemittel
+\- c11
+\- deutsch
+\- schreiben
+\- --
+
+```
 # C11: Einen Beschwerdebrief schreiben Formell und Unformell
 
 ## Wir haben gemerkt, dass [...]/ Leider mussten wir feststellen, dass [...]
 
 - __Informell:__ __Wir haben gemerkt, dass__ der Wasserhahn tropft.
+```
+
 - __Formell:__ __Leider mussten wir feststellen, dass__ der Wasserhahn nicht ordnungsgemäß funktioniert.
 
 ## Keiner hat etwas getan./ Es wurde nichts unternommen

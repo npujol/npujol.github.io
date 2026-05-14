@@ -1,21 +1,25 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-eine-email-einleiten-oder-beenden
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: eine E-Mail einleiten / beenden
 
 ## Einleiten
 
 ### Danke für deine/ihre E-Mail
 
-__Beispiel:__ Danke für deine E-Mail. Es ist immer schön, von dir zu hören.
+__Beispiel:__ Danke für deine E-Mail.Es ist immer schön, von dir zu hören.
+```
 
 ### Schön, von dir/ihnen zu hören [...]
 

@@ -1,20 +1,22 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- argumente
-- gegenargumente
----
+______________________________________________________________________
 
+id: b22-redemittel-redemittel-argumente-gegenargumente-nennen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Argumente/Gegenargumente nennen
 
 ## Ich bin der Ansicht/Meinung, dass [...]
 
 __Person A:__ __Ich bin der Ansicht, dass__ die Einführung einer vier-Tage-Arbeitswoche die Produktivität steigern könnte, da Mitarbeiter ausgeruhter und motivierter sind.
+```
 
 __Person B:__ __Ich bin der Meinung, dass__ der Ausbau erneuerbarer Energien notwendig ist, um langfristig umweltfreundlicher und nachhaltiger zu leben.
 
@@ -22,7 +24,7 @@ __Person C:__ __Ich bin der Ansicht, dass__ mehr Investitionen in Bildung erford
 
 ## Ein großer/wichtiger Vorteil von [...] ist, dass [...]
 
-__Person A:__  __Ein großer Vorteil von__ Homeoffice __ist, dass__ Mitarbeiter ihre Arbeitszeit flexibler gestalten können und dadurch weniger Pendelstress haben.
+__Person A:__ __Ein großer Vorteil von__ Homeoffice __ist, dass__ Mitarbeiter ihre Arbeitszeit flexibler gestalten können und dadurch weniger Pendelstress haben.
 
 __Person B:__ __Ein wichtiger Vorteil von__ Elektroautos __ist, dass__ sie keine schädlichen Emissionen produzieren und somit zur Reduktion der Luftverschmutzung beitragen.
 

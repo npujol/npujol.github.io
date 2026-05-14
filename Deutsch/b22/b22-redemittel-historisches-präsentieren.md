@@ -1,14 +1,16 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- präsentation
----
+______________________________________________________________________
 
+id: b22-redemittel-historisches-präsentieren
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- präsentation
+\- --
+
+```
 # B22: Historisches präsentieren
 
 ## Präsentation einleiten
@@ -16,6 +18,7 @@ tags:
 ### Ich werde von [...] berichten
 
 __Person A:__ __Ich werde von__ der Entwicklung der erneuerbaren Energien in den letzten zwei Jahrzehnten __berichten__.
+```
 
 __Person B:__ __Ich werde von__ den neuesten Fortschritten in der Künstlichen Intelligenz __berichten__.
 
@@ -53,9 +56,9 @@ __Person B:__ __Dank__ der internationalen Hilfe __kam es nicht zu einer humanit
 
 ### Zunächst meldete [...] noch, dass [...], aber
 
-__Person A:__ __Zunächst meldete__ die Nachrichtenagentur __noch, dass__ die Verhandlungen gescheitert seien, __aber__ kurze Zeit später wurde ein neuer Kompromiss gefunden.__
+__Person A:__ __Zunächst meldete__ die Nachrichtenagentur __noch, dass__ die Verhandlungen gescheitert seien, __aber__ kurze Zeit später wurde ein neuer Kompromiss gefunden.\_\_
 
-__Person B:__ __Zunächst meldete__ die Presse __noch, dass__ der Vertrag nicht unterzeichnet wurde, __aber__ letztlich kam es zu einem erfolgreichen Abschluss der Verhandlungen.__
+__Person B:__ __Zunächst meldete__ die Presse __noch, dass__ der Vertrag nicht unterzeichnet wurde, __aber__ letztlich kam es zu einem erfolgreichen Abschluss der Verhandlungen.\_\_
 
 ### Damals war es so, dass[...]
 

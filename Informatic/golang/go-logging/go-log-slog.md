@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,17 +11,26 @@ tags:
 - packages
 - logging
 - go
----
+
+______________________________________________________________________
 
 # log-slog
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-logging/log-slog)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-logging/log-slog>) \_\_
 
 ## log/slog
 
-The `log` and `log/slog` (since go 1.21) packages are the standard logging packages in Go. These packages provides a simple logging API that can be used to log messages to the console or to a file.
+The `log`
+and `log/slog`
+(since go 1.21)
+packages
+are
+the
+standard
+logging
+packages in Go. These packages provides a simple logging API that can be used to log messages to the console or to a file.
 
 Visit the following resources to learn more:
 

@@ -1,28 +1,44 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - vorteile
-  - nachteile
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-vor-und-nachteile-nennen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Vor- und Nachteile nennen
 
 ## Redemittel für das Diskutieren von Vor- und Nachteilen
 
 ### [...] wird als sehr positiv/negativ angesehen
 
-- __Beispiel:__ Die flexible Arbeitszeit wird als sehr positiv angesehen.
-- __Beispiel:__ Die ständige Erreichbarkeit wird als sehr negativ angesehen.
+- __Beispiel:__ Die flexible Arbeitszeit wird als sehr positiv
+  angesehen.- __Beispiel:__ Die
+  stä
+  ndige
+  Erreichbarkeit
+  wird
+  als
+  sehr
+  negativ
+  angesehen.### Aus meiner Sicht ist es sehr nützlich/hilfreich, dass [...]
 
-### Aus meiner Sicht ist es sehr nützlich/hilfreich, dass [...]
+  - __Beispiel:__ Aus
+  meiner
+  Sicht
+  ist
+  es
+  sehr
+  nü
+  tzlich, dass wir jetzt digital arbeiten können.
+```
 
-- __Beispiel:__ Aus meiner Sicht ist es sehr nützlich, dass wir jetzt digital arbeiten können.
 - __Beispiel:__ Aus meiner Sicht ist es sehr hilfreich, dass alle Teammitglieder Zugang zu den gleichen Informationen haben.
 
 ### Man darf auch nicht vergessen, dass [...] hilfreich/problematisch sein kann

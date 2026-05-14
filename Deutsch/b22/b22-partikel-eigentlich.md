@@ -1,26 +1,29 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-eigentlich
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel eigentlich
 
 ## Nutzung
 
-### freundliche Frage und negative Überraschung  
+### freundliche Frage und negative Überraschung
 
-Beispiele:  
+Beispiele:
 
-- "Würden Sie __eigentlich__ gerne in einer anderen Abteilung arbeiten?"  
-- "Was machen Sie __eigentlich__ hier?"  
+- "Würden Sie __eigentlich__ gerne in einer anderen Abteilung arbeiten?"
+- "Was machen Sie __eigentlich__ hier?"
 
-### Kritik oder Erstaunen  
+  ### Kritik oder Erstaunen
 
-Beispiele:  
+  Beispiele:
 
-- "Er ist __eigentlich__ immer zuverlässig, deshalb verstehe ich nicht, was heute los ist."  
+    - "Er ist __eigentlich__ immer zuverlässig, deshalb verstehe ich nicht, was heute los ist."
+```

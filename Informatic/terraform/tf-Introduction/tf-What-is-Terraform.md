@@ -1,21 +1,30 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # What is Terraform?
 
 ## Contents
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/what> is terraform?@CU9V3iRdssamsG-xMouXT)__
+\_\_Roadmap info from [ roadmap website ] (\<<https://roadmap.sh/terraform/what> > is terraform?@CU9V3iRdssamsG-xMouXT) \_\_
 
 ## What is Infrastructure as Code?
 
-Infrastructure as Code (IaC) is a practice in DevOps and cloud computing that involves managing and provisioning computing infrastructure through machine-readable configuration files, rather than through physical hardware configuration or interactive configuration tools. This approach allows for version control, automation, and consistency in infrastructure deployment, making it easier to manage, scale, and replicate environments while reducing the risk of human error.
+Infrastructure
+as
+Code
+(IaC)
+is
+a
+practice in DevOps and cloud computing that involves managing and provisioning computing infrastructure through machine-readable configuration files, rather than through physical hardware configuration or interactive configuration tools. This approach allows for version control, automation, and consistency in infrastructure deployment, making it easier to manage, scale, and replicate environments while reducing the risk of human error.
 
 - [articleWhat Is It? Why Is It Important?](https://www.hashicorp.com/resources/what-is-infrastructure-as-code)
 - [articleWhat is Infrastructure as Code?](https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac)

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,13 +8,13 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # listing-installed-packages
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/package-management/listing-installed-packages)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/package-management/listing-installed-packages>) \_\_
 
 ## Listing Installed Packages
 

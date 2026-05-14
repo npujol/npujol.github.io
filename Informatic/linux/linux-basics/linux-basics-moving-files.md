@@ -1,22 +1,26 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
 - reviewed
 - linux
 - operative-system
----
+
+______________________________________________________________________
 
 # moving-files
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/navigation-basics/moving-files)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/navigation-basics/moving-files>) \_\_
 
 ## Moving Files
 
-In Linux, moving files is an essential task that you will need to perform quite frequently. The `mv` command, short for move, is used to move files and directories from one location to another. The `mv` command can also be used for renaming files in Linux.
+In
+Linux, moving files is an essential task that you will need to perform quite frequently. The `mv` command, short for move, is used to move files and directories from one location to another. The `mv` command can also be used for renaming files in Linux.
 
 The general syntax for the `mv` command is as follows:
 

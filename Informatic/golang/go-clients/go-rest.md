@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -10,17 +12,29 @@ tags:
 - rest
 - clients
 - go
----
+
+______________________________________________________________________
 
 # rest
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-api-clients/rest)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-api-clients/rest>) \_\_
 
 ## REST
 
-REST (Representational State Transfer) API (Application Programming Interface) is used to deliver user functionality when dealing with websites. HTTP requests are used to communicate with REST APIs so users can navigate a URL website. These URLs can return certain information that is stored as part of the API.
+REST
+(Representational State Transfer)
+API
+(Application Programming Interface)
+is
+used
+to
+deliver
+user
+functionality
+when
+dealing with websites. HTTP requests are used to communicate with REST APIs so users can navigate a URL website. These URLs can return certain information that is stored as part of the API.
 
 Visit the following resources to learn more:
 

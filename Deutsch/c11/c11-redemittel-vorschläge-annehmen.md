@@ -1,15 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - vorschläge
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-vorschläge-annehmen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Vorschläge annehmen
 
 ## Redemittel für Zustimmung und positive Rückmeldungen
@@ -17,6 +19,8 @@ tags:
 ### Warum eigentlich nicht?
 
 - __Beispiel:__ Warum eigentlich nicht, den Vorschlag einmal auszuprobieren?
+```
+
 - __Beispiel:__ Warum eigentlich nicht, die Idee zu testen?
 
 ### Das klingt gut/hört sich gut an

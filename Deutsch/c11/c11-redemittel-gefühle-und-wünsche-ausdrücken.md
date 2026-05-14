@@ -1,17 +1,17 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-gefühle-und-wünsche-ausdrücken
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - gefühle
-  - wünsche
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
 
-
+```
 # C11: Gefühle und Wünsche ausdrücken
 
 ## Redemittel für Wünsche, Gefühle und Enttäuschungen
@@ -19,6 +19,8 @@ tags:
 ### Ich würde mir wünschen, dass [...]
 
 - __Beispiel:__ Ich würde mir wünschen, dass wir eine frühzeitige Rückmeldung zum Projekt erhalten.
+```
+
 - __Beispiel:__ Ich würde mir wünschen, dass alle Teammitglieder an der Besprechung teilnehmen.
 
 ### Ich würde mich freuen, wenn [...]

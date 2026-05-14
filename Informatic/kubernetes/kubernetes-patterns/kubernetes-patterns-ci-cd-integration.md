@@ -1,17 +1,20 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - kubernetes
 - kubernetes-patterns
 - ready
 - online
----
+
+______________________________________________________________________
 
 # kubernetes-patterns-ci-cd-integration
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/deployment-patterns/ci-cd-integration)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/deployment-patterns/ci-cd-integration>) \_\_
 
 ## CI CD Integration
 
@@ -19,6 +22,6 @@ Integrating CI/CD with Kubernetes involves setting up a pipeline to build and de
 
 ## Resources
 
-* [@video@Deploy to Kubernetes Cluster | CI/CD Kubernetes](https://www.youtube.com/watch?v=naUhXrV_rRA)
-* [@article@Create A CI/CD Pipeline With Kubernetes](https://discuss.kubernetes.io/t/create-a-ci-cd-pipeline-with-kubernetes-and-jenkins/11043)
-* [@feed@Explore top posts about CI/CD](https://app.daily.dev/tags/cicd?ref=roadmapsh)
+- [@video@Deploy to Kubernetes Cluster | CI/CD Kubernetes](https://www.youtube.com/watch?v=naUhXrV_rRA)
+- [@article@Create A CI/CD Pipeline With Kubernetes](https://discuss.kubernetes.io/t/create-a-ci-cd-pipeline-with-kubernetes-and-jenkins/11043)
+- [@feed@Explore top posts about CI/CD](https://app.daily.dev/tags/cicd?ref=roadmapsh)

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,13 +9,13 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # netstat
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/troubleshooting/netstat)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/troubleshooting/netstat>) \_\_
 
 ## Netstat
 

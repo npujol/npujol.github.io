@@ -1,35 +1,48 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - Informatic
-  - devops
-  - ready
-  - online
-  - container
-  - docker
-  - devops-container-orchestration
----
+
+- roadmap
+- Informatic
+- devops
+- ready
+- online
+- container
+- docker
+- devops-container-orchestration
+
+______________________________________________________________________
 
 # devops-container-orchestration
 
 ## Contents
 
-- [[devops-container-orchestration-gke-eks-aks]]
-- [[devops-container-orchestration-aws-ecs-fargate]]
-- [[devops-container-orchestration-docker-swarm]]
-- [[devops-container-orchestration-kubernetes]]
+- \[ [ devops-container-orchestration-gke-eks-aks ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/container-orchestration@zuBAjrqQPjj-0DHGjCaqT)__
+- \[ [ devops-container-orchestration-aws-ecs-fargate ] \]
 
-## Containers
+- \[ [ devops-container-orchestration-docker-swarm ] \]
 
-Containers are a construct in which cgroups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines, These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.
+- \[ [ devops-container-orchestration-kubernetes ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/devops/container-orchestration@zuBAjrqQPjj-0DHGjCaqT>)
+  \_\_
+
+  ## Containers
+
+  Containers
+  are
+  a
+  construct in which cgroups, namespaces, and chroot are used to fully encapsulate and isolate a process. This encapsulated process, called a container image, shares the kernel of the host with other containers, allowing containers to be significantly smaller and faster than virtual machines, These images are designed for portability, allowing for full local testing of a static image, and easy deployment to a container management platform.
 
 Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [articleWhat are Containers?](https://cloud.google.com/learn/what-are-containers)
 - [articleWhat is a Container?](https://www.docker.com/resources/what-container/)
@@ -39,11 +52,11 @@ Free Resources
 
 ## Comparison
 
-| __Technology__                                      | __Description__                                                                                              | __Characteristics__                                                                                                                                                                   | __Use Cases__                                                                                                                                       | __Other Tech Affinity__                                                                                                          |
+| __Technology__ | __Description__ | __Characteristics__ | __Use Cases__ | __Other Tech Affinity__ |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| __GKE / EKS / AKS__                                 | Managed Kubernetes services provided by Google Cloud (GKE), Amazon Web Services (EKS), and Azure (AKS) for container orchestration.                | - Fully managed Kubernetes clusters <br> - Auto-scaling, load balancing, and self-healing <br> - Native integrations with cloud services (networking, storage, security).                | - Cloud-native applications with microservices architectures <br> - Enterprises needing scalability and availability <br> - Multi-cloud or hybrid cloud environments. | - Integrates with other cloud services (e.g., AWS IAM, Azure AD, GCP IAM) <br> - Works with CI/CD tools (Jenkins, GitLab CI) <br> - Helm for Kubernetes package management |
-| __AWS ECS / Fargate__                               | Amazon’s container orchestration service (ECS) and its serverless version (Fargate) for managing Docker containers in the cloud.                  | - ECS: Cluster-based orchestration <br> - Fargate: Serverless, no cluster management needed <br> - Deep AWS ecosystem integration <br> - Built-in security (IAM, VPC, etc.).             | - Simplified container management on AWS <br> - Serverless applications (Fargate) <br> - Managing containerized workloads without maintaining infrastructure.         | - Integrates with AWS services like CloudWatch, IAM, VPC, RDS <br> - Works well with CI/CD pipelines (AWS CodePipeline, GitHub Actions)                                   |
-| __Docker Swarm__                                    | Docker’s native clustering and orchestration tool for managing containers at scale, designed for simplicity and ease of use.                       | - Easy setup and use <br> - Native Docker support <br> - Less complex than Kubernetes <br> - Built-in load balancing and clustering <br> - Limited scalability compared to Kubernetes.   | - Smaller scale or simpler container orchestration needs <br> - Development environments <br> - Organizations looking for simpler orchestration than Kubernetes.     | - Works natively with Docker Compose <br> - Integrates with Docker Hub <br> - Can be extended with monitoring tools (e.g., Prometheus, Grafana)                           |
+| __GKE / EKS / AKS__ | Managed Kubernetes services provided by Google Cloud (GKE), Amazon Web Services (EKS), and Azure (AKS) for container orchestration. | - Fully managed Kubernetes clusters <br> - Auto-scaling, load balancing, and self-healing <br> - Native integrations with cloud services (networking, storage, security). | - Cloud-native applications with microservices architectures <br> - Enterprises needing scalability and availability <br> - Multi-cloud or hybrid cloud environments. | - Integrates with other cloud services (e.g., AWS IAM, Azure AD, GCP IAM) <br> - Works with CI/CD tools (Jenkins, GitLab CI) <br> - Helm for Kubernetes package management |
+| __AWS ECS / Fargate__ | Amazon’s container orchestration service (ECS) and its serverless version (Fargate) for managing Docker containers in the cloud. | - ECS: Cluster-based orchestration <br> - Fargate: Serverless, no cluster management needed <br> - Deep AWS ecosystem integration <br> - Built-in security (IAM, VPC, etc.). | - Simplified container management on AWS <br> - Serverless applications (Fargate) <br> - Managing containerized workloads without maintaining infrastructure. | - Integrates with AWS services like CloudWatch, IAM, VPC, RDS <br> - Works well with CI/CD pipelines (AWS CodePipeline, GitHub Actions) |
+| __Docker Swarm__ | Docker’s native clustering and orchestration tool for managing containers at scale, designed for simplicity and ease of use. | - Easy setup and use <br> - Native Docker support <br> - Less complex than Kubernetes <br> - Built-in load balancing and clustering <br> - Limited scalability compared to Kubernetes. | - Smaller scale or simpler container orchestration needs <br> - Development environments <br> - Organizations looking for simpler orchestration than Kubernetes. | - Works natively with Docker Compose <br> - Integrates with Docker Hub <br> - Can be extended with monitoring tools (e.g., Prometheus, Grafana) |
 
 ### Key Highlights
 
@@ -57,7 +70,7 @@ Free Resources
 
 ## Kubernetes
 
-[[kubernetes_Index]]
+\[[kubernetes_Index]\]
 
 Kubernetes is an open source container management platform, and the dominant product in this space. Using Kubernetes, teams can deploy images across multiple underlying hosts, defining their desired availability, deployment logic, and scaling logic in YAML. Kubernetes evolved from Borg, an internal Google platform used to provision and allocate compute resources (similar to the Autopilot and Aquaman systems of Microsoft Azure). The popularity of Kubernetes has made it an increasingly important skill for the DevOps Engineer and has triggered the creation of Platform teams across the industry. These Platform engineering teams often exist with the sole purpose of making Kubernetes approachable and usable for their product development colleagues.
 
@@ -65,7 +78,7 @@ Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [officialKubernetes Website](https://kubernetes.io/)
 - [OpenSourcekubernetes/kubernetes](https://github.com/kubernetes/kubernetes)

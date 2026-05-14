@@ -1,24 +1,32 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - algorithms
-  - advanced
-  - system-design
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- algorithms
+- advanced
+- system-design
+- ready
+
+______________________________________________________________________
 
 # paradigms
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-advanced-topics/paradigms)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-advanced-topics/paradigms>) \_\_
 
 ## Python Paradigms
 
-Python is a multi-paradigm programming language, which means that it supports several programming paradigms. Some of the main paradigms supported by Python are:
+Python
+is
+a
+multi-paradigm
+programming
+language, which means that it supports several programming paradigms. Some of the main paradigms supported by Python are:
 
 - Imperative programming: This paradigm focuses on telling the computer what to do, step by step. Python supports imperative programming with features such as variables, loops, and control structures.
 - Object-oriented programming (OOP): This paradigm is based on the idea of objects and their interactions. Python supports OOP with features such as classes, inheritance, and polymorphism.

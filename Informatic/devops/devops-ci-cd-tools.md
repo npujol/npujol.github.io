@@ -1,27 +1,31 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
+
+- roadmap
   - Informatic
   - devops
   - ready
   - online
   - ci-cd
----
+  ______________________________________________________________________
 
 # devops-ci-cd-tools
 
 ## Contents
-??
-- [[devops-ci-cd-tools-github-actions]]
-- [[devops-ci-cd-tools-gitlab-ci]]
-- [[devops-ci-cd-tools-jenkins]]
-- [[devops-ci-cd-tools-travis-ci]]
-- [[devops-ci-cd-tools-circle-ci]]
-- [[devops-ci-cd-tools-drone]]
-- [[devops-ci-cd-tools-teamcity]]
-<!--SR:!2024-10-16,3,250!2000-01-01,1,250-->
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/ci-cd-tools@hcrPpjFxPi_iLiMdLKJrO)__
+??
+
+- \[ [ devops-ci-cd-tools-github-actions ] \]
+  - \[ [ devops-ci-cd-tools-gitlab-ci ] \]
+  - \[ [ devops-ci-cd-tools-jenkins ] \]
+  - \[ [ devops-ci-cd-tools-travis-ci ] \]
+  - \[ [ devops-ci-cd-tools-circle-ci ] \]
+  - \[ [ devops-ci-cd-tools-drone ] \]
+  - \[ [ devops-ci-cd-tools-teamcity ] \]
+    < !--SR:!2024-10-16,3,250!2000-01-01,1,250-- >
+
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/ci-cd-tools@hcrPpjFxPi_iLiMdLKJrO>) \_\_
 
 ## Comparison
 
@@ -78,17 +82,17 @@ __Roadmap info from [roadmap website](https://roadmap.sh/devops/ci-cd-tools@hcrP
 
 - GitHub Actions and GitLab CI are specifically designed for their respective platforms (GitHub and GitLab), while Jenkins is a more general-purpose automation server.
 - Travis CI and CircleCI are hosted services that focus on testing and building open-source projects, whereas Drone is an open-source tool that focuses on simplicity and ease of use.
-- TeamCity is a commercial product with a focus on enterprise-level CI/CD  needs.
+- TeamCity is a commercial product with a focus on enterprise-level CI/CD needs.
 
 When choosing a CI/CD tool, consider factors like:
 
 1. Integration with your version control system (VCS) and issue tracking platform.
-2. The type of builds and tests you want to run (e.g., unit tests, integration tests, or full-scale deployments).
-3. The level of customization and flexibility you need for your workflows.
-4. Your team's size, skillset, and experience with CI/CD tools.
-
+1. The type of builds and tests you want to run (e.g., unit tests, integration tests, or full-scale deployments).
+1. The level of customization and flexibility you need for your workflows.
+1. Your team's size, skillset, and experience with CI/CD tools.
 
 ### Flashcards
 
 - site reliability engineering:::SRE
+
 <!--SR:!2000-01-01,1,250!2024-10-16,3,250-->

@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -11,19 +13,35 @@ tags:
 - concurrency
 - goroutines
 - go
----
+
+______________________________________________________________________
 
 # select
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/select)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/select>) \_\_
 
 ## Select
 
-The `select` statement lets a goroutine wait on multiple communication operations.
-
-A `select` blocks until one of its cases can run, then it executes that case. It chooses one at random if multiple are ready. The `select` statement is just like switch statement, but in the select statement, case statement refers to communication, i.e. sent or receive operation on the channel.
+The `select`
+statement
+lets
+a
+goroutine
+wait
+on
+multiple
+communication
+operations.A `select`
+blocks
+until
+one
+of
+its
+cases
+can
+run, then it executes that case. It chooses one at random if multiple are ready. The `select` statement is just like switch statement, but in the select statement, case statement refers to communication, i.e. sent or receive operation on the channel.
 
 Visit the following resources to learn more:
 
@@ -51,9 +69,9 @@ __Example__:
 ```go
 select {
 case msg := <-channel1:
-    fmt.Println("Received from channel1:", msg)
+fmt.Println("Received from channel1:", msg)
 case msg := <-channel2:
-    fmt.Println("Received from channel2:", msg)
+fmt.Println("Received from channel2:", msg)
 }
 ```
 
@@ -66,9 +84,9 @@ __Example__:
 ```go
 select {
 case msg := <-channel1:
-    fmt.Println("Received:", msg)
+fmt.Println("Received:", msg)
 default:
-    fmt.Println("No messages, moving on")
+fmt.Println("No messages, moving on")
 }
 ```
 
@@ -83,9 +101,9 @@ __Example__:
 ```go
 select {
 case msg := <-channel1:
-    fmt.Println("Received:", msg)
+fmt.Println("Received:", msg)
 case <-time.After(5 * time.Second):
-    fmt.Println("Timeout, no message received")
+fmt.Println("Timeout, no message received")
 }
 ```
 
@@ -98,9 +116,9 @@ __Example__:
 ```go
 select {
 case criticalMsg := <-criticalChannel:
-    // Handle critical message
+// Handle critical message
 case regularMsg := <-regularChannel:
-    // Handle regular message
+// Handle regular message
 }
 ```
 
@@ -127,7 +145,7 @@ close(done)
 
 select {
 case <-done:
-    fmt.Println("Channel closed")
+fmt.Println("Channel closed")
 }
 ```
 
@@ -141,17 +159,17 @@ __Example__:
 done := make(chan struct{})
 
 go func() {
-    select {
-    case <-done:
-        fmt.Println("Goroutine 1 done")
-    }
+select {
+case <-done:
+fmt.Println("Goroutine 1 done")
+}
 }()
 
 go func() {
-    select {
-    case <-done:
-        fmt.Println("Goroutine 2 done")
-    }
+select {
+case <-done:
+fmt.Println("Goroutine 2 done")
+}
 }()
 
 // Signal both goroutines to finish
@@ -170,9 +188,9 @@ ch <- 1
 
 select {
 case ch <- 2: // This will not block because of the buffer
-    fmt.Println("Sent 2")
+fmt.Println("Sent 2")
 default:
-    fmt.Println("Channel buffer full")
+fmt.Println("Channel buffer full")
 }
 ```
 
@@ -185,11 +203,11 @@ __Example__:
 ```go
 select {
 case msg := <-channel1:
-    // Handle message from channel1
-    // This case is prioritized because...
+// Handle message from channel1
+// This case is prioritized because...
 case <-time.After(5 * time.Second):
-    // Timeout to ensure the program does not block indefinitely
-    // Useful in case channel1 is unresponsive
+// Timeout to ensure the program does not block indefinitely
+// Useful in case channel1 is unresponsive
 }
 ```
 
@@ -201,12 +219,12 @@ __Example__:
 
 ```go
 for {
-    select {
-    case msg := <-chan1:
-        fmt.Println("Received from chan1:", msg)
-    case msg := <-chan2:
-        fmt.Println("Received from chan2:", msg)
-    }
+select {
+case msg := <-chan1:
+fmt.Println("Received from chan1:", msg)
+case msg := <-chan2:
+fmt.Println("Received from chan2:", msg)
+}
 }
 ```
 
@@ -216,11 +234,11 @@ __Example__:
 
 ```go
 for {
-    select {
-    case msg := <-inputChan:
-        go worker1(msg)
-    case msg := <-inputChan:
-        go worker2(msg)
-    }
+select {
+case msg := <-inputChan:
+go worker1(msg)
+case msg := <-inputChan:
+go worker2(msg)
+}
 }
 ```

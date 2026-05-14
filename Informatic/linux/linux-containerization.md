@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,22 +9,39 @@ tags:
 - linux
 - operative-system
 - containerization
----
+
+______________________________________________________________________
 
 # containerization
 
 ## Contents
 
-- [[linux-containerization-ulimits]]
-- [[linux-containerization-cgroups]]
-- [[linux-containerization-container-runtime]]
-- [[linux-containerization-docker]]
+- \[ [ linux-containerization-ulimits ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/containerization)__
+- \[ [ linux-containerization-cgroups ] \]
 
-## Containerization
+- \[ [ linux-containerization-container-runtime ] \]
 
-Containerization is a virtualization method that involves encapsulating an application in a container with its own isolated operating environment. This advanced method allows apps to run reliably and quickly when moved from one computing environment to another. In Linux, this technology can be utilized using various open-source platforms like Docker and Kubernetes.
+- \[ [ linux-containerization-docker ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/linux/containerization>)
+  \_\_
+
+  ## Containerization
+
+  Containerization
+  is
+  a
+  virtualization
+  method
+  that
+  involves
+  encapsulating
+  an
+  application in a container with its own isolated operating environment. This advanced method allows apps to run reliably and quickly when moved from one computing environment to another. In Linux, this technology can be utilized using various open-source platforms like Docker and Kubernetes.
 
 Containers are often compared with virtual machines (VMs). However, unlike VMs which need an entire operating system to run an application, a container shares the host system's user space. That's why they are lightweight and faster.
 

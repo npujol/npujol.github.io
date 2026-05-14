@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -7,17 +9,29 @@ tags:
 - summary
 - informatic
 - data-structure
----
+
+______________________________________________________________________
 
 # arrays
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/arrays)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/arrays>) \_\_
 
 ## Arrays
 
-In Go an `array` is a collection of elements of the same type with a __fixed__ size defined when the array is created.
+In
+Go
+an `array`
+is
+a
+collection
+of
+elements
+of
+the
+same
+type with a __fixed__ size defined when the array is created.
 
 - [@official@Go Arrays](https://go.dev/tour/moretypes/6)
 - [@official@Effective Go: Arrays](https://go.dev/doc/effective_go#arrays)

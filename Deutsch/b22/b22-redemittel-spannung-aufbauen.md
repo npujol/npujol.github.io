@@ -1,27 +1,36 @@
----
+______________________________________________________________________
+
+id: b22-redemittel-spannung-aufbauen
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - ready
-  - online
-  - redemittel
-  - b22
-  - spannung
-  - aufbauen
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
 language: German
----
+\- --
 
-# B22: Spannung aufbauen
+```
+  # B22: Spannung aufbauen
 
-## Was sollte er/sie jetzt nur machen
+  ## Was sollte er/sie jetzt nur machen
 
-__Person A:__ __Was sollte er jetzt nur machen?__ Der Weg zurück war versperrt und die Zeit lief ihm davon.
+  __Person A:__ __Was sollte er jetzt nur machen?__ Der Weg zurück war versperrt und die Zeit lief ihm
+    davon.__Person B:__
+    __Was
+    sollte
+    sie
+    nur
+    machen?__ Das Auto sprang nicht an und sie war weit entfernt von der nächsten
+    Werkstatt.## Schlagartig wurde ihm/ihr klar/bewusst, [...]
 
-__Person B:__ __Was sollte sie nur machen?__ Das Auto sprang nicht an und sie war weit entfernt von der nächsten Werkstatt.
-
-## Schlagartig wurde ihm/ihr klar/bewusst, [...]
-
-__Person A:__ __Schlagartig wurde ihm klar,__ dass er die wichtige Präsentation vergessen hatte, die in einer Stunde beginnen sollte.
+    __Person A:__
+    __Schlagartig
+    wurde
+    ihm
+    klar,__ dass er die wichtige Präsentation vergessen hatte, die in einer Stunde beginnen sollte.
+```
 
 __Person B:__ __Schlagartig wurde ihr bewusst,__ dass sie das geheime Dokument versehentlich an die falsche Person geschickt hatte.
 

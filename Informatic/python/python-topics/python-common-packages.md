@@ -1,18 +1,29 @@
----
+______________________________________________________________________
+
 tags:
-  - python
-  - programming-language
-  - ready
-  - online
----
+
+- python
+- programming-language
+- ready
+- online
+
+______________________________________________________________________
 
 # common-packages
 
 ## Common Packages and Modules
 
-Python has a rich ecosystem of packages and modules that can be used to get the most out of the language.
-
-Here are some common Python packages that are widely used in various domains:
+Python has a rich ecosystem of packages and modules that can be used to get the most out of the
+language.Here
+are
+some
+common
+Python
+packages
+that
+are
+widely
+used in various domains:
 
 - [articlerequests](https://docs.python-requests.org/en/latest/)
 - [articlepathlib](https://docs.python.org/3/library/pathlib.html)

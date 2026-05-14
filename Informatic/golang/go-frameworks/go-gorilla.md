@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -7,17 +9,30 @@ tags:
 - informatic
 - frameworks
 - go
----
+
+______________________________________________________________________
 
 # gorilla
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-web-frameworks/gorilla)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-web-frameworks/gorilla>) \_\_
 
 ## Gorilla
 
-Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
+Gorilla
+is
+a
+web
+toolkit
+for
+the
+Go
+programming
+language
+that
+provides
+useful, composable packages for writing HTTP-based applications.
 
 Visit the following resources to learn more:
 

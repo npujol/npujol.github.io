@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-technologies
@@ -7,17 +9,32 @@ tags:
 - online
 - linux
 - cgroups
----
+
+______________________________________________________________________
 
 # docker-technologies-cgroups
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/underlying-technologies/cgroups)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/underlying-technologies/cgroups>) \_\_
 
 ## cgroups
 
-__cgroups__ or __control groups__ is a Linux kernel feature that allows you to allocate and manage resources, such as CPU, memory, network bandwidth, and I/O, among groups of processes running on a system. It plays a crucial role in providing resource isolation and limiting the resources that a running container can use.
+__cgroups__ or __control
+groups__
+is
+a
+Linux
+kernel
+feature
+that
+allows
+you
+to
+allocate
+and
+manage
+resources, such as CPU, memory, network bandwidth, and I/O, among groups of processes running on a system. It plays a crucial role in providing resource isolation and limiting the resources that a running container can use.
 
 Docker utilizes cgroups to enforce resource constraints on containers, allowing them to have a consistent and predictable behavior. Below are some of the key features and benefits of cgroups in the context of Docker containers:
 

@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -12,17 +14,23 @@ tags:
 - goroutines
 - go
 
----
+______________________________________________________________________
 
 # goroutines
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/goroutines)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/goroutines>) \_\_
 
 ## Goroutines
 
-Goroutines allow us to write concurrent programs in Go. Things like web servers handling thousands of requests or a website rendering new pages while also concurrently making network requests are a few example of concurrency.
+Goroutines
+allow
+us
+to
+write
+concurrent
+programs in Go. Things like web servers handling thousands of requests or a website rendering new pages while also concurrently making network requests are a few example of concurrency.
 
 In Go, each of these concurrent tasks are called `Goroutines`.
 
@@ -55,33 +63,33 @@ __Example__: Use a worker pool pattern to limit the number of concurrent workers
 package main
 
 import (
-    "fmt"
-    "sync"
+"fmt"
+"sync"
 )
 
 func worker(id int, jobs <-chan int, wg *sync.WaitGroup) {
-    defer wg.Done()
-    for job := range jobs {
-        fmt.Printf("Worker %d processing job %d\n", id, job)
-    }
+defer wg.Done()
+for job := range jobs {
+fmt.Printf("Worker %d processing job %d\n", id, job)
+}
 }
 
 func main() {
-    const numWorkers = 3
-    jobs := make(chan int, 5)
-    var wg sync.WaitGroup
+const numWorkers = 3
+jobs := make(chan int, 5)
+var wg sync.WaitGroup
 
-    for i := 1; i <= numWorkers; i++ {
-        wg.Add(1)
-        go worker(i, jobs, &wg)
-    }
+for i := 1; i <= numWorkers; i++ {
+wg.Add(1)
+go worker(i, jobs, &wg)
+}
 
-    for j := 1; j <= 5; j++ {
-        jobs <- j
-    }
-    close(jobs)
+for j := 1; j <= 5; j++ {
+jobs <- j
+}
+close(jobs)
 
-    wg.Wait() // Wait for all workers to finish
+wg.Wait() // Wait for all workers to finish
 }
 ```
 
@@ -95,41 +103,41 @@ __Example__: Use channels to pass data between goroutines safely.
 package main
 
 import (
-    "fmt"
-    "sync"
+"fmt"
+"sync"
 )
 
 func sum(nums []int, ch chan<- int, wg *sync.WaitGroup) {
-    defer wg.Done()
-    total := 0
-    for _, num := range nums {
-        total += num
-    }
-    ch <- total
+defer wg.Done()
+total := 0
+for _, num := range nums {
+total += num
+}
+ch <- total
 }
 
 func main() {
-    nums := []int{1, 2, 3, 4, 5, 6}
-    ch := make(chan int)
-    var wg sync.WaitGroup
+nums := []int{1, 2, 3, 4, 5, 6}
+ch := make(chan int)
+var wg sync.WaitGroup
 
-    wg.Add(1)
-    go sum(nums[:len(nums)/2], ch, &wg)
+wg.Add(1)
+go sum(nums[:len(nums)/2], ch, &wg)
 
-    wg.Add(1)
-    go sum(nums[len(nums)/2:], ch, &wg)
+wg.Add(1)
+go sum(nums[len(nums)/2:], ch, &wg)
 
-    go func() {
-        wg.Wait()
-        close(ch)
-    }()
+go func() {
+wg.Wait()
+close(ch)
+}()
 
-    result := 0
-    for partial := range ch {
-        result += partial
-    }
+result := 0
+for partial := range ch {
+result += partial
+}
 
-    fmt.Println("Total sum:", result)
+fmt.Println("Total sum:", result)
 }
 ```
 
@@ -145,34 +153,34 @@ __Example__: Use context to cancel goroutines.
 package main
 
 import (
-    "context"
-    "fmt"
-    "time"
+"context"
+"fmt"
+"time"
 )
 
 func worker(ctx context.Context, id int) {
-    for {
-        select {
-        case <-ctx.Done():
-            fmt.Printf("Worker %d stopping\n", id)
-            return
-        default:
-            fmt.Printf("Worker %d working\n", id)
-            time.Sleep(500 * time.Millisecond)
-        }
-    }
+for {
+select {
+case <-ctx.Done():
+fmt.Printf("Worker %d stopping\n", id)
+return
+default:
+fmt.Printf("Worker %d working\n", id)
+time.Sleep(500 * time.Millisecond)
+}
+}
 }
 
 func main() {
-    ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
-    defer cancel()
+ctx, cancel := context.WithTimeout(context.Background(), 2*time.Second)
+defer cancel()
 
-    for i := 1; i <= 3; i++ {
-        go worker(ctx, i)
-    }
+for i := 1; i <= 3; i++ {
+go worker(ctx, i)
+}
 
-    time.Sleep(3 * time.Second)
-    fmt.Println("Main function done")
+time.Sleep(3 * time.Second)
+fmt.Println("Main function done")
 }
 ```
 
@@ -188,27 +196,27 @@ __Example__: Prevent leaks by ensuring proper channel closure.
 package main
 
 import (
-    "fmt"
-    "time"
+"fmt"
+"time"
 )
 
 func worker(ch <-chan int) {
-    for job := range ch {
-        fmt.Println("Processing job", job)
-    }
-    fmt.Println("Worker finished, channel closed")
+for job := range ch {
+fmt.Println("Processing job", job)
+}
+fmt.Println("Worker finished, channel closed")
 }
 
 func main() {
-    ch := make(chan int)
-    go worker(ch)
+ch := make(chan int)
+go worker(ch)
 
-    for i := 1; i <= 5; i++ {
-        ch <- i
-    }
-    close(ch) // Close the channel to signal completion
+for i := 1; i <= 5; i++ {
+ch <- i
+}
+close(ch) // Close the channel to signal completion
 
-    time.Sleep(1 * time.Second)
+time.Sleep(1 * time.Second)
 }
 ```
 
@@ -222,27 +230,27 @@ __Example__: Use `sync.WaitGroup` to wait for goroutines to finish.
 package main
 
 import (
-    "fmt"
-    "sync"
+"fmt"
+"sync"
 )
 
 func worker(id int, wg *sync.WaitGroup) {
-    defer wg.Done()
-    fmt.Printf("Worker %d starting\n", id)
-    // Simulate work
-    fmt.Printf("Worker %d done\n", id)
+defer wg.Done()
+fmt.Printf("Worker %d starting\n", id)
+// Simulate work
+fmt.Printf("Worker %d done\n", id)
 }
 
 func main() {
-    var wg sync.WaitGroup
+var wg sync.WaitGroup
 
-    for i := 1; i <= 3; i++ {
-        wg.Add(1)
-        go worker(i, &wg)
-    }
+for i := 1; i <= 3; i++ {
+wg.Add(1)
+go worker(i, &wg)
+}
 
-    wg.Wait() // Wait for all goroutines to finish
-    fmt.Println("All workers done")
+wg.Wait() // Wait for all goroutines to finish
+fmt.Println("All workers done")
 }
 ```
 
@@ -256,36 +264,36 @@ __Example__: Use `recover` to handle panics in goroutines.
 package main
 
 import (
-    "fmt"
-    "sync"
+"fmt"
+"sync"
 )
 
 func worker(id int, wg *sync.WaitGroup) {
-    defer wg.Done()
-    defer func() {
-        if r := recover(); r != nil {
-            fmt.Printf("Worker %d recovered from panic: %v\n", id, r)
-        }
-    }()
+defer wg.Done()
+defer func() {
+if r := recover(); r != nil {
+fmt.Printf("Worker %d recovered from panic: %v\n", id, r)
+}
+}()
 
-    fmt.Printf("Worker %d starting\n", id)
-    // Simulate a panic
-    if id == 2 {
-        panic("something went wrong")
-    }
-    fmt.Printf("Worker %d done\n", id)
+fmt.Printf("Worker %d starting\n", id)
+// Simulate a panic
+if id == 2 {
+panic("something went wrong")
+}
+fmt.Printf("Worker %d done\n", id)
 }
 
 func main() {
-    var wg sync.WaitGroup
+var wg sync.WaitGroup
 
-    for i := 1; i <= 3; i++ {
-        wg.Add(1)
-        go worker(i, &wg)
-    }
+for i := 1; i <= 3; i++ {
+wg.Add(1)
+go worker(i, &wg)
+}
 
-    wg.Wait()
-    fmt.Println("All workers done")
+wg.Wait()
+fmt.Println("All workers done")
 }
 ```
 

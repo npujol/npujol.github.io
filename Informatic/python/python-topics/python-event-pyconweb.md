@@ -1,19 +1,21 @@
----
+______________________________________________________________________
+
 tags:
-  - python
+
+- python
   - online
   - ready
   - programming-language
   - event
----
+  ______________________________________________________________________
 
 # Python Events: pyconweb
 
 ## Talk 1: Ines Montani > Spacy
 
-[description](https://www.pyconweb.com/activity/what-history-of-web-teach-about-future-of-ai)
+[ description ] (<https://www.pyconweb.com/activity/what-history-of-web-teach-about-future-of-ai>)
 
-- [ ] check [`prodigy`](https://prodi.gy/) from the same as spacy
+- [ ] check \[ `prodigy` \] (<https://prodi.gy/>) from the same as spacy
 
 ### S&P case studies
 
@@ -25,11 +27,17 @@ tags:
 
 ### Development workflow
 
-custom models (pytorch) > pretrained models (chatgpt) > custom models(spacy prodigy: distill models into smaller and private components)
+custom
+models
+(pytorch) > pretrained models (chatgpt) > custom models (spacy prodigy: distill models into smaller and private components)
 
-| human-facing system | machine-facing models |
+|
+human-facing
+system |
+machine-facing
+models |
 
-| -------------------- | ---------------------------- |
+| - ------------------- | ---------------------------- |
 
 | chatGPT Google | Chatgpt4 Gemini |
 

@@ -1,22 +1,32 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - syntax
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- syntax
+- ready
+
+______________________________________________________________________
 
 # python-basic-syntax
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-basics/basic-syntax)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-basics/basic-syntax>) \_\_
 
 ## Basic Syntax
 
-Setup the environment for python and get started with the basics.
+Setup
+the
+environment
+for
+python
+and
+get
+started with the basics.
 
 Visit the following resources to learn more:
 

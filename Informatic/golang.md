@@ -1,13 +1,18 @@
----
-tags:
-  - informatic
-  - index
-  - ready
-  - online
-  - go
-  - golang
----
+______________________________________________________________________
 
+id: golang
+aliases: [ ]
+tags:
+\- informatic
+\- index
+\- ready
+\- online
+\- go
+\- golang
+\- --
+
+```
 # Golang 💻
 
-[[golang_Index]]
+[ [ golang_Index ] ]
+```

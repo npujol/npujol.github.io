@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,28 +11,38 @@ tags:
 - errors
 - exceptions
 - error-handling
----
+
+______________________________________________________________________
 
 # errors-panic-recover
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/errors-panic-recover)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/errors-panic-recover>) \_\_
 
 ## Errors/Panic/Recover
 
-In lieu of adding exception handlers, the Go creators exploited Go’s ability to return multiple values. The most commonly used Go technique for issuing errors is to return the error as the last value in a return.
+In
+lieu
+of
+adding
+exception
+handlers, the Go creators exploited Go’s ability to return multiple values. The most commonly used Go technique for issuing errors is to return the error as the last value in a return.
 
 A panic typically means something went unexpectedly wrong. Mostly used to fail fast on errors that shouldn’t occur during normal operation, or that we aren’t prepared to handle gracefully.
 
 Panic recovery in Go depends on a feature of the language called deferred functions. Go has the ability to guarantee the execution of a function at the moment its parent function returns. This happens regardless of whether the reason for the parent function’s return is a return statement, the end of the function block, or a panic.
 
 - __Errors__: The idiomatic way to handle errors in Go is to return an `error` value and check it after the function call. This allows the caller to handle the error appropriately.
+
 - __Panic__: Used to stop the normal execution of a program when an unexpected error occurs. It should be used sparingly, typically for unrecoverable conditions.
+
 - __Recover__: Allows regaining control after a panic, but only within a deferred function. This can be useful to gracefully handle unexpected conditions without crashing the entire program.
 
 - [@official@Error handling and Go](https://go.dev/blog/error-handling-and-go)
+
 - [@official@Go Defer, Panic and Recover](https://go.dev/blog/defer-panic-and-recover)
+
 - [@article@Effective error handling in Go](https://earthly.dev/blog/golang-errors/)
 
 Error handling in Go is a critical aspect of writing robust and reliable programs. Go provides a straightforward approach to error handling using return values, along with mechanisms like `panic` and `recover` for handling unexpected conditions.
@@ -53,23 +65,23 @@ Panic is typically used to indicate a programmer error, such as accessing an out
 package main
 
 import (
-    "fmt"
+"fmt"
 )
 
 func causePanic() {
-    defer func() {
-        if r := recover(); r != nil {
-            fmt.Println("Recovered from panic:", r)
-        }
-    }()
-    panic("something went wrong")
-    fmt.Println("This line will not be executed")
+defer func() {
+if r := recover(); r != nil {
+fmt.Println("Recovered from panic:", r)
+}
+}()
+panic("something went wrong")
+fmt.Println("This line will not be executed")
 }
 
 func main() {
-    fmt.Println("Before panic")
-    causePanic()
-    fmt.Println("After panic")
+fmt.Println("Before panic")
+causePanic()
+fmt.Println("After panic")
 }
 
 ```

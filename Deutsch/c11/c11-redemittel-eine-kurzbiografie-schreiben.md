@@ -1,27 +1,36 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-eine-kurzbiografie-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - biographie
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- unterricht_inhalte
+\- schreiben
+\- --
 
-
+```
 # C11: eine Kurzbiografie schreiben
 
 ## Herkunft / Biografisches
 
 ### Ich möchte gern [...] vorstellen
 
-__Beispiel:__ Ich möchte gern Albert Einstein vorstellen.
+__Beispiel:__ Ich möchte gern Albert Einstein
+  vorstellen.### Er/Sie kommt aus [...] und wurde am [...] in [...] geboren
 
-### Er/Sie kommt aus [...] und wurde am [...] in [...] geboren
-
-__Beispiel:__ Er kam aus Ulm und wurde am 14. März 1879 in Ulm geboren.
+  __Beispiel:__ Er
+  kam
+  aus
+  Ulm
+  und
+  wurde
+  am 14.
+  Mä
+  rz 1879 in Ulm geboren.
+```
 
 ### Er/Sie entdeckte/erforschte/untersuchte / Er/Sie studierte / lebte in [...]
 

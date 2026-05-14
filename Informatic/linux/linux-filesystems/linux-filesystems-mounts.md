@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,17 +9,20 @@ tags:
 - linux
 - operative-system
 - containerization
----
+
+______________________________________________________________________
 
 # mounts
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/disks-filesystems/mounts)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/disks-filesystems/mounts>) \_\_
 
 ## Mounts
 
-In Linux environments, a very crucial concept related to disk management is the “mounting” of filesystems. Fundamentally, mounting in Linux refers to the process that allows the operating system to access data stored on underlying storage devices, such as hard drives or SSDs. This process attaches a filesystem (available on some storage medium) to a specific directory (also known as a mount point) in the Linux directory tree.
+In
+Linux
+environments, a very crucial concept related to disk management is the “mounting” of filesystems. Fundamentally, mounting in Linux refers to the process that allows the operating system to access data stored on underlying storage devices, such as hard drives or SSDs. This process attaches a filesystem (available on some storage medium) to a specific directory (also known as a mount point) in the Linux directory tree.
 
 The beauty of this approach lies in the unified and seamless manner in which Linux treats all files, irrespective of whether they reside on a local disk, network location, or any other kind of storage device.
 

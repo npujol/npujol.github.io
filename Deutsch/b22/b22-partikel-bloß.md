@@ -1,19 +1,22 @@
----
-tags:
-- partikel
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-partikel-bloß
+aliases: [ ]
+tags:
+\- partikel
+\- grammatik
+\- deutsch
+\- b22
+\- --
+
+```
 # B22: Partikel bloß
 
 ## Nutzung
 
-### Warnung  
+### Warnung
 
-Beispiele:  
+Beispiele:
 
-- "Lassen Sie Magda __bloß__ in Ruhe!"
+  - "Lassen Sie Magda __bloß__ in Ruhe!"
+```

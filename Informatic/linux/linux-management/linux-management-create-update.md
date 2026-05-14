@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,34 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # create-update
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/user-management/create-update)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/user-management/create-update>) \_\_
 
 ## User Management: Create and Update Users
 
-User management is an essential part of maintaining a Linux system. It consists of managing user accounts and groups, and setting permissions for them. Linux system administrators should be proficient in creating, updating and managing users to ensure system security as well as efficient use of system resources.
+User
+management
+is
+an
+essential
+part
+of
+maintaining
+a
+Linux
+system.It
+consists
+of
+managing
+user
+accounts
+and
+groups, and setting permissions for them. Linux system administrators should be proficient in creating, updating and managing users to ensure system security as well as efficient use of system resources.
 
 When creating a new user, we add a new record in the system files for that user along with other details like home directory, login shell, and password. We can create new users with `useradd` or `adduser` commands. For instance, to create a new user, you might use a command like:
 

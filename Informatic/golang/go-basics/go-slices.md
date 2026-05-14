@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -8,23 +10,38 @@ tags:
 - informatic
 - data-structure
 - data-representation
----
+
+______________________________________________________________________
 
 # slices
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/slices)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/slices>) \_\_
 
 ## Slices
 
-Slices are similar to arrays but are more powerful and flexible. Like arrays, slices are also used to store multiple values of the same type in a single variable. However, unlike arrays, the length of a slice can grow and shrink as you see fit.
+Slices
+are
+similar
+to
+arrays
+but
+are
+more
+powerful
+and
+flexible.Like
+arrays, slices are also used to store multiple values of the same type in a single variable. However, unlike arrays, the length of a slice can grow and shrink as you see fit.
 
 - Slices hold references to an underlying array, and if you assign one slice to another, both refer to the same array.
 
 - [@official@Go Slices](https://go.dev/tour/moretypes/7)
+
 - [@official@Effective Go: Slices](https://go.dev/doc/effective_go#slices)
+
 - [@article@Slices in Go](https://www.w3schools.com/go/go_slices.php)
+
 - [@video@Learn Go Programming - Slices (by freeCodeCamp on YouTube)](https://youtu.be/YS4e4q9oBaU?t=6473)
 
 ## Array vs Slice

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # creating-services
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/service-management/creating-services)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/service-management/creating-services>) \_\_
 
 ## Creating Services
 
-In Linux, service management refers to starting, stopping, enabling, and managing software services. Understanding how to control services is crucial for controlling a Linux server or desktop.
+In
+Linux, service management refers to starting, stopping, enabling, and managing software services. Understanding how to control services is crucial for controlling a Linux server or desktop.
 
 Typically, a service is an application that runs in the background waiting to be used, or carrying out essential tasks. Common kinds of services include web servers, database servers, and mail servers.
 

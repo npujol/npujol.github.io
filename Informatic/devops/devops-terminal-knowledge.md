@@ -1,29 +1,51 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - Informatic
-  - devops
-  - ready
-  - online
----
+
+- roadmap
+- Informatic
+- devops
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-terminal-knowledge
 
 ## Contents
 
-- [[devops-terminal-knowledge-process-monitoring]]
-- [[devops-terminal-knowledge-performance-monitoring]]
-- [[devops-terminal-knowledge-networking-tools]]
-- [[devops-terminal-knowledge-text-manipulation]]
-- [[devops-terminal-knowledge-bash]]
-- [[devops-terminal-knowledge-power-shell]]
-- [[devops-terminal-knowledge-vim-nano-emacs]]
+- \[ [ devops-terminal-knowledge-process-monitoring ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/terminal-knowledge@LvhFmlxz5uIy7k_nzx2Bv)__
+- \[ [ devops-terminal-knowledge-performance-monitoring ] \]
 
-## Live in terminal
+- \[ [ devops-terminal-knowledge-networking-tools ] \]
 
-A terminal is simply a text-based interface to the computer, it is used to interact with your computer system via CLI (command line interface)
+- \[ [ devops-terminal-knowledge-text-manipulation ] \]
+
+- \[ [ devops-terminal-knowledge-bash ] \]
+
+- \[ [ devops-terminal-knowledge-power-shell ] \]
+
+- \[ [ devops-terminal-knowledge-vim-nano-emacs ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/devops/terminal-knowledge@LvhFmlxz5uIy7k_nzx2Bv>)
+  \_\_
+
+  ## Live in terminal
+
+  A
+  terminal
+  is
+  simply
+  a
+  text-based
+  interface
+  to
+  the
+  computer, it is used to interact with your computer system via CLI (command line interface)
 
 Visit the following resources to learn more:
 

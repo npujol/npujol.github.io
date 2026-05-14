@@ -1,33 +1,75 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - output
 - docker
 - ready
 - online
 - dockerfile
----
+
+______________________________________________________________________
 
 # docker-images
 
 ## Contents
 
-- [[docker-images-databases]]
-- [[docker-images-interactive-test-environments]]
-- [[docker-images-command-line-utilities]]
-- [[docker-images-dockerfiles]]
-- [[docker-images-efficient-layer-caching]]
-- [[docker-images-image-size-and-security]]
+- \[ [ docker-images-databases ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/images)__
+- \[ [ docker-images-interactive-test-environments ] \]
 
-## Using Third Party Images
+- \[ [ docker-images-command-line-utilities ] \]
 
-Third-party images are pre-built Docker container images that are available on Docker Hub or other container registries. These images are created and maintained by individuals or organizations and can be used as a starting point for your containerized applications.
+- \[ [ docker-images-dockerfiles ] \]
 
-## Finding Third-Party Images
+- \[ [ docker-images-efficient-layer-caching ] \]
 
-[Docker Hub](https://hub.docker.com) is the largest and most popular container image registry containing both official and community-maintained images. You can search for images based on the name or the technology you want to use.
+- \[ [ docker-images-image-size-and-security ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/docker/images>)
+  \_\_
+
+  ## Using Third Party Images
+
+  Third-party
+  images
+  are
+  pre-built
+  Docker
+  container
+  images
+  that
+  are
+  available
+  on
+  Docker Hub or other
+  container
+  registries.These
+  images
+  are
+  created
+  and
+  maintained
+  by individuals or organizations
+  and
+  can
+  be
+  used
+  as
+  a
+  starting
+  point
+  for
+  your
+  containerized
+  applications.## Finding Third-Party Images
+
+  [Docker
+  Hub](https://hub.docker.com) is the largest and most popular container image registry containing both official and community-maintained images. You can search for images based on the name or the technology you want to use.
 
 For example: If you’re looking for a `Node.js` image, you can search for “node” on Docker Hub and you’ll find the official Node.js image along with many other community-maintained images.
 

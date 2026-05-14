@@ -1,24 +1,39 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - algorithms
-  - advanced
-  - regex
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- algorithms
+- advanced
+- regex
+- ready
+
+______________________________________________________________________
 
 # regular-expressions
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-advanced-topics/regular-expressions)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-advanced-topics/regular-expressions>) \_\_
 
 ## Regular Expressions
 
-A regular expression is a sequence of characters that specifies a search pattern in text. Usually such patterns are used by string-searching algorithms for “find” or “find and replace” operations on strings, or for input validation.
+A
+regular
+expression
+is
+a
+sequence
+of
+characters
+that
+specifies
+a
+search
+pattern in text. Usually such patterns are used by string-searching algorithms for “find” or “find and replace” operations on strings, or for input validation.
 
 Visit the following resources to learn more:
 
@@ -36,6 +51,6 @@ To transform the obsidian markdown link `[what-is-blockchain](./what-is-blockcha
 
 Explanation:
 
-`\[([^\]]+)\]`: Matches the text inside the square brackets `[ ]`. The ([^\]]+) captures the content between the brackets.
+`\[([^\]]+)\]`: Matches the text inside the square brackets `[ ]`. The ([^]\]+) captures the content between the brackets.
 
 `\(\./\1/\1\)`: Matches the link (./something/something) where something is the same text captured in the first part.

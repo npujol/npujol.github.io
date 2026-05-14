@@ -1,0 +1,47 @@
+# Pre-commit configuration for npujol.github.io
+# Requires `nix develop` to be in PATH for nixpkgs packages
+
+ci:
+  autofix_prs: true
+  autoupdate_schedule: monthly
+
+default_stages:
+  - pre-commit
+
+repos:
+  # General hooks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: \.gitignore
+      - id: end-of-file-fixer
+        exclude: \.gitignore
+      - id: check-yaml
+        args: [--allow-multiple-documents]
+      - id: check-json
+      - id: check-toml
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # Markdown formatting with mdformat
+  - repo: local
+    hooks:
+      - id: mdformat
+        name: mdformat (markdown)
+        entry: nix run nixpkgs#mdformat --
+        language: system
+        types:
+          - markdown
+        files: \.md$
+
+  # Markdown linting and fixing with markdownlint-cli2
+  - repo: local
+    hooks:
+      - id: markdownlint-cli2
+        name: markdownlint-cli2 (markdown)
+        entry: markdownlint-cli2 --fix
+        language: system
+        types:
+          - markdown
+        files: \.md$

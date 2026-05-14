@@ -1,28 +1,42 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - ausdruck
-  - online
-language: German
----
+______________________________________________________________________
 
+id: c11-redemittel-wichtigkeit-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Wichtigkeit ausdrücken
 
 ## Redemittel für Wichtigkeit und Prioritäten
 
 ### Bei [...] ist [...] am wichtigsten
 
-- __Beispiel:__ Bei der Projektplanung ist die Einhaltung der Fristen am wichtigsten.
-- __Beispiel:__ Bei der Zusammenarbeit ist eine klare Kommunikation am wichtigsten.
+- __Beispiel:__ Bei der Projektplanung ist die Einhaltung der Fristen am
+  wichtigsten.- __Beispiel:__ Bei
+  der
+  Zusammenarbeit
+  ist
+  eine
+  klare
+  Kommunikation
+  am
+  wichtigsten.### Für mich ist es wichtig, dass [...]
 
-### Für mich ist es wichtig, dass [...]
+  - __Beispiel:__ Fü
+  r
+  mich
+  ist
+  es
+  wichtig, dass das Team immer informiert bleibt.
+```
 
-- __Beispiel:__ Für mich ist es wichtig, dass das Team immer informiert bleibt.
 - __Beispiel:__ Für mich ist es wichtig, dass die Qualität der Arbeit konstant hoch ist.
 
 ### Entscheidend für [...] ist [...]

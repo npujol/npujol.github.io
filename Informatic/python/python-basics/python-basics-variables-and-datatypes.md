@@ -1,24 +1,37 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - syntax
-  - data-types
-  - variables
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- syntax
+- data-types
+- variables
+- ready
+
+______________________________________________________________________
 
 # variables-and-datatypes
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/python-basics/variables-and-datatypes)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/python/python-basics/variables-and-datatypes>) \_\_
 
 ### Variables
 
-Variables are used to store information to be referenced and manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
+Variables
+are
+used
+to
+store
+information
+to
+be
+referenced
+and
+manipulated in a computer program. They also provide a way of labeling data with a descriptive name, so our programs can be understood more clearly by the reader and ourselves. It is helpful to think of variables as containers that hold information. Their sole purpose is to label and store data in memory. This data can then be used throughout your program.
 
 Visit the following resources to learn more:
 

@@ -1,36 +1,71 @@
----
-id: b22-redemittel-ein-referat-oder-vortrag-halten
-aliases: 
-tags:
-  - language
-  - deutsch
-  - redemittel
-  - b22
-  - ready
-  - online
-  - vortrag
-  - referat
----
+______________________________________________________________________
 
+id: b22-redemittel-ein-referat-oder-vortrag-halten
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Ein Referat/einen Vortrag halten
 
 ## Strategie
 
 Ein Vortrag sollte einen klaren Aufbau haben:
 
-- Begrüßung der Zuhörer
-- Benennung des Themas und Ziel des Vortrags
-- Vorstellen der Gliederung
-- Hauptteil mit Bearbeitung des Themas
-- Abschluss und ggf. Fazit
+  - Begrüßung der Zuhörer
+  - Benennung des Themas und Ziel des Vortrags
+  - Vorstellen der Gliederung
+  - Hauptteil mit Bearbeitung des Themas
+  - Abschluss und ggf.Fazit
 
-## Einleitung
+    ## Einleitung
 
-### Das Thema meines Referats/Vortrags lautet/ist [...]
+    ### Das Thema meines Referats/Vortrags lautet/ist [...]
 
-__Person A:__ __Das Thema meines Referats lautet__ „Die Auswirkungen des Klimawandels auf die globale Landwirtschaft“ und ich werde die wichtigsten Herausforderungen und Lösungen vorstellen.
-
-__Person B:__ __Das Thema meines Vortrags ist__ „Die Entwicklung der künstlichen Intelligenz und ihre Anwendungen in der Medizin“ und ich werde auf die neuesten Fortschritte und deren Auswirkungen eingehen.
+    __Person A:__
+    __Das
+    Thema
+    meines
+    Referats
+    lautet__ „
+    Die
+    Auswirkungen
+    des
+    Klimawandels
+    auf
+    die
+    globale
+    Landwirtschaft“
+    und
+    ich
+    werde
+    die
+    wichtigsten
+    Herausforderungen
+    und
+    Lö
+    sungen
+    vorstellen.__Person B:__
+    __Das
+    Thema
+    meines
+    Vortrags
+    ist__ „
+    Die
+    Entwicklung
+    der
+    kü
+    nstlichen
+    Intelligenz
+    und
+    ihre
+    Anwendungen in der Medizin“ und ich werde auf die neuesten Fortschritte und deren Auswirkungen eingehen.
+```
 
 ### Ich spreche heute über das Thema [...]
 

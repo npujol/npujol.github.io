@@ -1,27 +1,52 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - devops
-  - devops-container-orchestration
-  - ready
-  - online
----
+
+- roadmap
+- devops
+- devops-container-orchestration
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-container-orchestration-aws-ecs-fargate
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/aws-ecs-fargate@FE2h-uQy6qli3rKERci1j)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/aws-ecs-fargate@FE2h-uQy6qli3rKERci1j>) \_\_
 
 ## ECS / Fargate
 
-ECS is a container orchestration service that allows you to run Docker containers on a cluster of EC2 instances. ECS is a good choice if you want to run Docker containers on EC2 instances and have full control over the underlying infrastructure. Fargate is a serverless container orchestration service that allows you to run Docker containers without having to manage servers, clusters, or any other infrastructure. Fargate is a good choice if you want to run Docker containers without having to manage servers or clusters.
+ECS
+is
+a
+container
+orchestration
+service
+that
+allows
+you
+to
+run
+Docker
+containers
+on
+a
+cluster
+of
+EC2
+instances.ECS
+is
+a
+good
+choice if you want to run Docker containers on EC2 instances and have full control over the underlying infrastructure. Fargate is a serverless container orchestration service that allows you to run Docker containers without having to manage servers, clusters, or any other infrastructure. Fargate is a good choice if you want to run Docker containers without having to manage servers or clusters.
 
 Visit the following resources to learn more:
 
 Free Resources
 
----
+______________________________________________________________________
 
 - [offcialAWS - ECS Docs](https://docs.aws.amazon.com/ecs/)
 - [officialAWS - Fargate Docs](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)

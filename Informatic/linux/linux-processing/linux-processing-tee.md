@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,22 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # tee
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/text-processing/tee)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/text-processing/tee>) \_\_
 
 ## Tee in Text Processing
 
-`tee` is a widely used command in Linux systems, falling under the category of text processing tools. It performs a dual function: the command reads from the standard input and writes to standard output and files. This operation gets its name from the T-splitter in plumbing, which splits the flow into two directions, paralleling the function of the `tee` command.
+`tee`
+is
+a
+widely
+used
+command in Linux systems, falling under the category of text processing tools. It performs a dual function: the command reads from the standard input and writes to standard output and files. This operation gets its name from the T-splitter in plumbing, which splits the flow into two directions, paralleling the function of the `tee` command.
 
 The basic syntax of `tee` under text processing in Linux is:
 

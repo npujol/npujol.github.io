@@ -1,17 +1,20 @@
----
-tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- argumente
----
+______________________________________________________________________
 
+id: b22-redemittel-redemittel-argumente-austauschen
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
+\- --
+
+```
 # B22: Argumente austauschen
 
 Argumente austauschen bedeutet, dass zwei oder mehr Personen ihre Meinungen, Ansichten oder Standpunkte zu einem bestimmten Thema miteinander teilen und diskutieren. Dabei wird nicht nur die eigene Sichtweise dargestellt, sondern auch auf die Argumente der anderen Personen eingegangen.
+```
 
 ## Das stimmt zwar, aber [...]
 

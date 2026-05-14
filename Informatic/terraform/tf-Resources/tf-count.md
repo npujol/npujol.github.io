@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,19 +8,21 @@ tags:
 - IaC
 - infrastructure
 
----
+______________________________________________________________________
 
 # count
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/terraform/count@kyScfijEntX9H1mp7tmej)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/terraform/count@kyScfijEntX9H1mp7tmej>) \_\_
 
 ## count
 
-The count meta-argument in Terraform allows you to specify the number of instances of a particular resource to create. By setting count to a numeric value, Terraform dynamically generates multiple instances of the resource, indexed from 0 to count-1. This is useful for managing infrastructure that requires multiple identical or similar resources, such as creating multiple virtual machines or storage buckets. Using count, you can conditionally create resources by setting the value based on variables or expressions, making your configurations more flexible and reducing redundancy. Each instance of the resource can be uniquely referenced using the count.index value, enabling more granular control and customization of each resource instance.
+The
+count
+meta-argument in Terraform allows you to specify the number of instances of a particular resource to create. By setting count to a numeric value, Terraform dynamically generates multiple instances of the resource, indexed from 0 to count-1. This is useful for managing infrastructure that requires multiple identical or similar resources, such as creating multiple virtual machines or storage buckets. Using count, you can conditionally create resources by setting the value based on variables or expressions, making your configurations more flexible and reducing redundancy. Each instance of the resource can be uniquely referenced using the count.index value, enabling more granular control and customization of each resource instance.
 
-Note: You cannot declare count and for\_each on the same resource.
+Note: You cannot declare count and for_each on the same resource.
 
 - [@official@Terraform Docs - count](https://developer.hashicorp.com/terraform/language/meta-arguments/count)
 - [@article@Terraform by Example - count](https://www.terraformbyexample.com/count)

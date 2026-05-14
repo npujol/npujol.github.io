@@ -1,26 +1,30 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
 - reviewed
 - linux
 - operative-system
----
+
+______________________________________________________________________
 
 # redirects
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/shell-basics/redirects)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/shell-basics/redirects>) \_\_
 
 ## Redirects In Shell Basics
 
-The shell in Linux provides a robust way of managing input and output streams of a command or program, this mechanism is known as Redirection. Linux being a multi-user and multi-tasking operating system, every process typically has 3 streams opened:
+The
+shell in Linux provides a robust way of managing input and output streams of a command or program, this mechanism is known as Redirection. Linux being a multi-user and multi-tasking operating system, every process typically has 3 streams opened:
 
-* Standard Input (stdin) - This is where the process reads its input from. The default is the keyboard.
-* Standard Output (stdout) - The process writes its output to stdout. By default, this means the terminal.
-* Standard Error (stderr) - The process writes error messages to stderr. This also goes to the terminal by default.
+- Standard Input (stdin) - This is where the process reads its input from. The default is the keyboard.
+- Standard Output (stdout) - The process writes its output to stdout. By default, this means the terminal.
+- Standard Error (stderr) - The process writes error messages to stderr. This also goes to the terminal by default.
 
 Redirection in Linux allows us to manipulate these streams, advancing the flexibility with which commands or programs are run. Besides the default devices (keyboard for input and terminal for output), the I/O streams can be redirected to files or other devices.
 

@@ -29,7 +29,7 @@
 		{"id":"2014fc5dea51e689","type":"text","text":"Maskulin","x":1277,"y":512,"width":138,"height":50},
 		{"id":"50afa89d2d338370","type":"text","text":"Neutral","x":1294,"y":582,"width":121,"height":58},
 		{"id":"b3236e28b62de915","type":"text","text":"Femenin","x":1301,"y":677,"width":146,"height":50},
-		{"id":"415cfce594c8cdfa","x":378,"y":546,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partizipien-als-adjektiv.md"}
+		{"id":"415cfce594c8cdfa","type":"file","file":"languages/deutsch/b22/b22-partizipien-als-adjektiv.md","x":140,"y":527,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"4e9c4f3f6c98dd84","fromNode":"c4c5bd099bb4ebb3","fromSide":"right","toNode":"9dbb8764c0a6b35f","toSide":"left"},

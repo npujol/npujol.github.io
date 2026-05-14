@@ -1,18 +1,21 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - devops
-  - devops-learn-a-programming-language
-  - ready
-  - online
----
+
+- roadmap
+- devops
+- devops-learn-a-programming-language
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-learn-a-programming-language-go
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/go@npnMwSDEK2aLGgnuZZ4dO)__
-Ref [[golang]]
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/go@npnMwSDEK2aLGgnuZZ4dO>) \_\_
+Ref \[ [ golang ] \]
 
 ## Go
 
@@ -20,10 +23,10 @@ Go, also known as Golang, is a statically typed, compiled programming language d
 
 Visit the following resources to learn more:
 
-* [@roadmap@Visit Dedicated Go Roadmap](https://roadmap.sh/golang)
-* [@official@A Tour of Go – Go Basics](https://go.dev/tour/welcome/1)
-* [@official@Go Reference Documentation](https://go.dev/doc/)
-* [@article@Go by Example - annotated example programs](https://gobyexample.com/)
-* [@article@Making a RESTful JSON API in Go](https://thenewstack.io/make-a-restful-json-api-go/)
-* [@video@Go in 100 Seconds](https://www.youtube.com/watch?v=446E-r0rXHI)
-* [@feed@Explore top posts about Golang](https://app.daily.dev/tags/golang?ref=roadmapsh)
+- [@roadmap@Visit Dedicated Go Roadmap](https://roadmap.sh/golang)
+- [@official@A Tour of Go – Go Basics](https://go.dev/tour/welcome/1)
+- [@official@Go Reference Documentation](https://go.dev/doc/)
+- [@article@Go by Example - annotated example programs](https://gobyexample.com/)
+- [@article@Making a RESTful JSON API in Go](https://thenewstack.io/make-a-restful-json-api-go/)
+- [@video@Go in 100 Seconds](https://www.youtube.com/watch?v=446E-r0rXHI)
+- [@feed@Explore top posts about Golang](https://app.daily.dev/tags/golang?ref=roadmapsh)

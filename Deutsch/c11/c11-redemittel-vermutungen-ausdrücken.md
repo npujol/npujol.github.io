@@ -1,28 +1,33 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - ausdruck
-  - vermutungen
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-vermutungen-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Vermutungen ausdrücken
 
 ## Redemittel für Sicherheit, Wahrscheinlichkeit und Möglichkeit
 
 ### Etwas ist sicher
 
-- __Beispiel:__ Etwas ist sicher: Wir müssen die Budgetplanung bis Ende des Monats abschließen.
-- __Beispiel:__ Etwas ist sicher: Die Deadline für das Projekt ist nicht verhandelbar.
+- __Beispiel:__ Etwas ist sicher: Wir müssen die Budgetplanung bis Ende des Monats abschließ
+  en.- __Beispiel:__ Etwas
+  ist sicher: Die Deadline für das Projekt ist nicht
+  verhandelbar.### Ich bin sicher, dass [...]
 
-### Ich bin sicher, dass [...]
+  - __Beispiel:__ Ich
+  bin
+  sicher, dass wir das Projekt rechtzeitig abschließen werden.
+```
 
-- __Beispiel:__ Ich bin sicher, dass wir das Projekt rechtzeitig abschließen werden.
 - __Beispiel:__ Ich bin sicher, dass das neue System unsere Prozesse verbessern wird.
 
 ### Ich bin überzeugt, dass [...]

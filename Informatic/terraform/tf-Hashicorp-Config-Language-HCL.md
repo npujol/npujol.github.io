@@ -1,21 +1,30 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # Hashicorp Config. Language (HCL)
 
 ## Contents
 
-- [[tf-What-is-Infrastructure-as-Code]]
-- [[tf-What-is-HCL]]
-- [[tf-Basic-Syntax]]
+- \[ [ tf-What-is-Infrastructure-as-Code ] \]
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/hashicorp> config. language (hcl)@BYydmFc2e-YPCC4MCWmh2)__
+- \[ [ tf-What-is-HCL ] \]
+
+- \[ [ tf-Basic-Syntax ] \]
+
+  __Roadmap
+  info
+  from [ roadmap website ]
+  (\<<https://roadmap.sh/terraform/hashicorp> > config.language (hcl)@
+  BYydmFc2e-YPCC4MCWmh2)__
 
 HashiCorp Configuration Language (HCL) is a configuration language built by HashiCorp that is used for configuring products in the HashiCorp ecosystem. With its human-readable style, HCL is designed to strike a balance between a generic configuration language like JSON or YAML and a high-level scripting language. In relation to the Terraform Roadmap, HCL is the primary language used for writing Terraform configuration files, thus making it a fundamental part of defining and providing data center infrastructure in a descriptive manner.
 

@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-technologies
@@ -7,17 +9,34 @@ tags:
 - online
 - linux
 - namespaces
----
+
+______________________________________________________________________
 
 # docker-technologies-namespaces
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/underlying-technologies/namespaces)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/underlying-technologies/namespaces>) \_\_
 
 ## Namespaces
 
-Namespaces are one of the core technologies that Docker uses to provide isolation between containers. In this section, we’ll briefly discuss what namespaces are and how they work.
+Namespaces
+are
+one
+of
+the
+core
+technologies
+that
+Docker
+uses
+to
+provide
+isolation
+between
+containers.In
+this
+section, we’ll briefly discuss what namespaces are and how they work.
 
 ### What are Namespaces?
 
@@ -25,12 +44,12 @@ In the Linux kernel, namespaces are a feature that allows the isolation of vario
 
 There are several types of namespaces in Linux, including:
 
-* __PID (Process IDs)__: Isolates the process ID number space, which means that processes within a container only see their own processes, not those on the host or in other containers.
-* __Network (NET)__: Provides each container with a separate view of the network stack, including its own network interfaces, routing tables, and firewall rules.
-* __Mount (MNT)__: Isolates the file system mount points in such a way that each container has its own root file system, and mounted resources appear only within that container.
-* __UTS (UNIX Time Sharing System)__: Allows each container to have its own hostname and domain name, separate from other containers and the host system.
-* __User (USER)__: Maps user and group identifiers between the container and the host, so different permissions can be set for resources within the container.
-* __IPC (Inter-Process Communication)__: Allows or restricts the communication between processes in different containers.
+- __PID (Process IDs)__: Isolates the process ID number space, which means that processes within a container only see their own processes, not those on the host or in other containers.
+- __Network (NET)__: Provides each container with a separate view of the network stack, including its own network interfaces, routing tables, and firewall rules.
+- __Mount (MNT)__: Isolates the file system mount points in such a way that each container has its own root file system, and mounted resources appear only within that container.
+- __UTS (UNIX Time Sharing System)__: Allows each container to have its own hostname and domain name, separate from other containers and the host system.
+- __User (USER)__: Maps user and group identifiers between the container and the host, so different permissions can be set for resources within the container.
+- __IPC (Inter-Process Communication)__: Allows or restricts the communication between processes in different containers.
 
 ### How Docker uses Namespaces
 

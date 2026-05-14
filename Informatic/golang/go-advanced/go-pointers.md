@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,17 +11,28 @@ tags:
 - advanced
 - go
 - variable
----
+
+______________________________________________________________________
 
 # pointers
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/pointers)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/pointers>) \_\_
 
 ## Go Pointers
 
-Go pointers are a powerful feature that allows you to work with memory addresses directly. They are used to store the memory address of a variable. This can be useful when you need to pass a large amount of data to a function or when you need to modify the value of a variable inside a function.
+Go
+pointers
+are
+a
+powerful
+feature
+that
+allows
+you
+to
+work with memory addresses directly. They are used to store the memory address of a variable. This can be useful when you need to pass a large amount of data to a function or when you need to modify the value of a variable inside a function.
 
 Visit the following resources to learn more:
 
@@ -51,7 +64,7 @@ __Example__:
 
 ```go
 func increment(value *int) {
-    *value++
+*value++
 }
 
 num := 5
@@ -69,11 +82,11 @@ __Example__:
 
 ```go
 func printName(name *string) {
-    if name == nil {
-        fmt.Println("No name provided")
-        return
-    }
-    fmt.Println(*name)
+if name == nil {
+fmt.Println("No name provided")
+return
+}
+fmt.Println(*name)
 }
 ```
 
@@ -87,12 +100,12 @@ __Example__:
 
 ```go
 type User struct {
-    ID   int
-    Name string
+ID   int
+Name string
 }
 
 func updateUser(user *User) {
-    user.Name = "New Name"
+user.Name = "New Name"
 }
 ```
 
@@ -104,17 +117,17 @@ __Example__:
 
 ```go
 type Counter struct {
-    value int
+value int
 }
 
 // Pointer receiver to modify state
 func (c *Counter) Increment() {
-    c.value++
+c.value++
 }
 
 // Value receiver for read-only method
 func (c Counter) Value() int {
-    return c.value
+return c.value
 }
 ```
 
@@ -126,8 +139,8 @@ __Example__ (bad practice):
 
 ```go
 func getPointer() *int {
-    x := 10
-    return &x // Dangerous: x is a local variable
+x := 10
+return &x // Dangerous: x is a local variable
 }
 ```
 
@@ -169,7 +182,7 @@ modify(arr)
 fmt.Println(arr) // Output: [10, 2, 3]
 
 func modify(arr []int) {
-    arr[0] = 10 // Modifies the original array
+arr[0] = 10 // Modifies the original array
 }
 ```
 
@@ -181,13 +194,13 @@ __Example__:
 
 ```go
 type Point struct {
-    X, Y int
+X, Y int
 }
 
 func move(p Point) Point {
-    p.X += 10
-    p.Y += 10
-    return p
+p.X += 10
+p.Y += 10
+return p
 }
 ```
 
@@ -199,11 +212,11 @@ __Example__:
 
 ```go
 func greet(name *string) {
-    if name == nil {
-        fmt.Println("Hello, Guest!")
-        return
-    }
-    fmt.Println("Hello,", *name)
+if name == nil {
+fmt.Println("Hello, Guest!")
+return
+}
+fmt.Println("Hello,", *name)
 }
 ```
 
@@ -215,10 +228,10 @@ __Example__:
 
 ```go
 type Processor interface {
-    Process()
+Process()
 }
 
 func doWork(p Processor) {
-    p.Process()
+p.Process()
 }
 ```

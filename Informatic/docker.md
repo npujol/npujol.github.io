@@ -1,12 +1,17 @@
----
-tags:
-  - informatic
-  - index
-  - ready
-  - online
-  - docker
----
+______________________________________________________________________
 
+id: docker
+aliases: [ ]
+tags:
+\- informatic
+\- index
+\- ready
+\- online
+\- docker
+\- --
+
+```
 # Docker 🛠
 
-[[docker_Index]]
+[ [ docker_Index ] ]
+```

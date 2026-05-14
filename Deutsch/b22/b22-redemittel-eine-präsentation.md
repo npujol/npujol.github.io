@@ -1,13 +1,16 @@
----
-tags:
-- language
-- grammatik
-- deutsch
-- b22
-- ready
-- online
----
+______________________________________________________________________
 
+id: b22-redemittel-eine-präsentation
+aliases: [ ]
+tags:
+\- language
+\- grammatik
+\- deutsch
+\- b22
+\- präsentation
+\- --
+
+```
 # B22: Eine Präsentation
 
 ## Schritts für eine Präsentation machen
@@ -15,7 +18,9 @@ tags:
 ### Von dem Unterricht
 
 __Thema/Title__
-__Die Einleitung/der Hintergrund__: der Haken, das Interesse wecken, warum mache ich das?, Anlass/Ursache (Fragen and Redemitteln)
+  __Die Einleitung/der Hintergrund__: der Haken, das Interesse wecken, warum mache ich das?, Anlass/Ursache (Fragen and Redemitteln)
+```
+
 __Der Hauptteil__: der Kontext, Beispiele, Erklärungen, Erfahrungen, Idee, Argumente, der Höhepunkte. (Nicht zu viele Daten)
 __Der Schluss__: Zusammenfassung, Fazit. (Der Kern)
 

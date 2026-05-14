@@ -1,19 +1,28 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # Best Practices for State
 
 ## Contents
 
-- [[tf-replace-option-in-apply]]
-- [[tf-show]]
-- [[tf-rm]]
-- [[tf-mv]]
+- \[ [ tf-replace-option-in-apply ] \]
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/best> practices for state@R2AORYmc1NgGTqLZY5Fu-)__
+- \[ [ tf-show ] \]
+
+- \[ [ tf-rm ] \]
+
+- \[ [ tf-mv ] \]
+
+  __Roadmap
+  info
+  from [ roadmap website ]
+  (\<<https://roadmap.sh/terraform/best> > practices for state@R2AORYmc1NgGTqLZY5Fu-)__

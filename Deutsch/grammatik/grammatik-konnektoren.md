@@ -1,26 +1,26 @@
----
+______________________________________________________________________
+
+id: grammatik-konnektoren
+aliases: [ ]
 tags:
-  - deutsch
-  - ready
-  - online
-  - grammatik
-  - konnektoren
----
+\- deutsch
+\- grammatik
+\- konnektoren
+\- --
 
-
+```
 # Grammatik: Konnektoren
-
----
 
 ## 1. Konnektoren
 
-Die folgenden Konnektoren leiten immer einen Hauptsatz ein. Sie machen Texte flüssiger und abwechslungsreicher.
+Die folgenden Konnektoren leiten immer einen Hauptsatz ein.Sie machen Texte flüssiger und
+  abwechslungsreicher.### Einschränkung
 
-### Einschränkung
-
-|Konnektor|Beispielsatz|
-|---|---|
-|allerdings|Ein Künstlerleben bedeutet finanzielle Unsicherheit. Allerdings will ich ohne dieses Kribbeln, wenn ich meine Ideen entwickle, nicht leben.|
+  |Konnektor|
+  Beispielsatz|
+| - --|---|
+|allerdings|Ein Künstlerleben bedeutet finanzielle Unsicherheit.Allerdings will ich ohne dieses Kribbeln, wenn ich meine Ideen entwickle, nicht leben.|
+```
 
 #### Gegensatz
 
@@ -41,3 +41,5 @@ Die folgenden Konnektoren leiten immer einen Hauptsatz ein. Sie machen Texte fl�
 |inzwischen|Wer sich der Kunst verschreibt, hat einen unsicheren Weg gewählt. Inzwischen setzen viele Schulen deshalb auf eine möglichst breite Ausbildung.|
 |mittlerweile|Manchmal frage ich mich, ob das der richtige Weg ist. Mittlerweile haben meine alten Freunde alle Karriere gemacht.|
 |währenddessen|Eine Ausbildung im Kunstbereich verlangt einem einiges ab. Währenddessen sollte man sich bereits ein breites Netzwerk aufbauen.|
+
+\[[c11-konditionale-konnektoren]\]

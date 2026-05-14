@@ -1,17 +1,20 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # What is HCL?
 
 ## Contents
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/what> is hcl?@Hma2IgatFME8STHPwpeMG)__
+\_\_Roadmap info from [ roadmap website ] (\<<https://roadmap.sh/terraform/what> > is hcl?@Hma2IgatFME8STHPwpeMG) \_\_
 
 ## What is HCL?
 

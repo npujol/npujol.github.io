@@ -1,20 +1,24 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
-# C11: gute Wünsche aussprechen / gratulieren
+______________________________________________________________________
 
+id: c11-redemittel-gute-wünsche-aussprechen-oder-gratulieren
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+\# C11: gute Wünsche aussprechen / gratulieren
+
+```
 ## Herzlichen Glückwunsch
 
 ### Herzlichen Glückwunsch
 
 __Beispiel:__ Herzlichen Glückwunsch zum neuen Job! Ich freue mich sehr für dich.
+```
 
 ### Ich wünsche [...] viel Glück
 

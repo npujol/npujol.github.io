@@ -1,22 +1,43 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-images
 - ready
 - online
 - cli
----
+
+______________________________________________________________________
 
 # docker-images-command-line-utilities
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/using-third-party-images/command-line-utilities)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/using-third-party-images/command-line-utilities>) \_\_
 
 ## Command Line Utilities
 
-Docker images can include command line utilities or standalone applications that we can run inside containers. This can be really useful when working with third-party images, as the tools we want to use are already packaged and available to be run without any installation or configuration.
+Docker
+images
+can
+include
+command
+line utilities or standalone
+applications
+that
+we
+can
+run
+inside
+containers.This
+can
+be
+really
+useful
+when
+working with third-party images, as the tools we want to use are already packaged and available to be run without any installation or configuration.
 
 ### BusyBox
 
@@ -46,9 +67,9 @@ In this example, the `--rm` flag is used to remove the container after the comma
 
 There are numerous command line utilities available in Docker images, including but not limited to:
 
-* `wget`: A free utility for non-interactive download of files from the Web.
-* `imagemagick`: A powerful software suite for image manipulation and conversion.
-* `jq`: A lightweight and flexible command-line JSON processor.
+- `wget`: A free utility for non-interactive download of files from the Web.
+- `imagemagick`: A powerful software suite for image manipulation and conversion.
+- `jq`: A lightweight and flexible command-line JSON processor.
 
 To use any of these tools, you can search for them on Docker Hub and follow the instructions provided in their respective repositories.
 

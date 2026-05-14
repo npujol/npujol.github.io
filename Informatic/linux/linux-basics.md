@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,27 +9,41 @@ tags:
 - linux
 - operative-system
 - basic
----
+
+______________________________________________________________________
 
 # linux-basics
 
 ## Contents
 
-- [[linux-basic-commands]]
-- [[linux-basics-moving-files]]
-- [[linux-basics-creating-files]]
-- [[linux-basics-directory-hierarchy]]
-- [[linux-basics-command-path]]
-- [[linux-basics-environment-variables]]
-- [[linux-basics-command-help]]
-- [[linux-basics-redirects]]
-- [[linux-basics-super-user]]
+- \[ [ linux-basic-commands ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/basics)__
+- \[ [ linux-basics-moving-files ] \]
 
-## Navigation Basics
+- \[ [ linux-basics-creating-files ] \]
 
-In Linux, navigation between directories and files is a fundamental, yet essential function that allows you to exploit the power of the command-line interface (CLI). Mastering the basic Linux navigation commands such as `cd`, `pwd`, `ls`, and `tree` enables you to flawlessly move from one point to another within the filesystem, display the list of files & directories, and understand your position relative to other system components. These commands are advantageous not just to system administrators but to anyone interacting with Linux environments, hence familiarizing yourself with them is a critical step in building Linux proficiency.
+- \[ [ linux-basics-directory-hierarchy ] \]
+
+- \[ [ linux-basics-command-path ] \]
+
+- \[ [ linux-basics-environment-variables ] \]
+
+- \[ [ linux-basics-command-help ] \]
+
+- \[ [ linux-basics-redirects ] \]
+
+- \[ [ linux-basics-super-user ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/linux/basics>)
+  \_\_
+
+  ## Navigation Basics
+
+  In
+  Linux, navigation between directories and files is a fundamental, yet essential function that allows you to exploit the power of the command-line interface (CLI). Mastering the basic Linux navigation commands such as `cd`, `pwd`, `ls`, and `tree` enables you to flawlessly move from one point to another within the filesystem, display the list of files & directories, and understand your position relative to other system components. These commands are advantageous not just to system administrators but to anyone interacting with Linux environments, hence familiarizing yourself with them is a critical step in building Linux proficiency.
 
 Here is how you use these commands:
 

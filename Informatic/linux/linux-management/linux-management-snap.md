@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,24 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # snap
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/package-management/snap)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/package-management/snap>) \_\_
 
 ## Snap
 
-Snap is a modern approach to package management in Linux systems promoted by Canonical (the company behind Ubuntu). Unlike traditional package management systems such as dpkg or RPM, Snap focuses on providing software as self-contained packages (known as `Snaps`) that include all of their dependencies. This ensures that a Snap application runs consistently across a variety of different Linux distributions.
+Snap
+is
+a
+modern
+approach
+to
+package
+management in Linux systems promoted by Canonical (the company behind Ubuntu). Unlike traditional package management systems such as dpkg or RPM, Snap focuses on providing software as self-contained packages (known as `Snaps`) that include all of their dependencies. This ensures that a Snap application runs consistently across a variety of different Linux distributions.
 
 Snaps are installed from a Snapcraft store and are automatically updated in the background. The Snap update process is transactional, meaning if something goes wrong during an update, Snap can automatically revert to the previous working version.
 

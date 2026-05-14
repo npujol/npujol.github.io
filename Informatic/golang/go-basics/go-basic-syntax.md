@@ -1,21 +1,30 @@
----
+______________________________________________________________________
+
 tags:
-  - ready
-  - online
-  - reviewed
-  - go
-  - syntax
----
+
+- ready
+- online
+- reviewed
+- go
+- syntax
+
+______________________________________________________________________
 
 # basic-syntax
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-basics/basic-syntax)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-basics/basic-syntax>) \_\_
 
 ## Basic Syntax
 
-Learn about the basic syntax of Go, such as how the go programs are executed, package imports, main function, and so on. Visit the resources listed below
+Learn
+about
+the
+basic
+syntax
+of
+Go, such as how the go programs are executed, package imports, main function, and so on. Visit the resources listed below
 
 Visit the following resources to learn more:
 
@@ -38,24 +47,24 @@ package main
 
 // Import packages
 import (
-    "fmt"
-    "math"
+"fmt"
+"math"
 )
 
 // Functions
 func main() {
-    // Statements and expressions
-    fmt.Println("Hello, World!")
+// Statements and expressions
+fmt.Println("Hello, World!")
 
-    result := add(10, 20)
-    fmt.Println("10 + 20 =", result)
+result := add(10, 20)
+fmt.Println("10 + 20 =", result)
 
-    squareRoot := math.Sqrt(16)
-    fmt.Println("Square root of 16 is", squareRoot)
+squareRoot := math.Sqrt(16)
+fmt.Println("Square root of 16 is", squareRoot)
 }
 
 func add(a int, b int) int {
-    // Statements and expressions
-    return a + b
+// Statements and expressions
+return a + b
 }
 ```

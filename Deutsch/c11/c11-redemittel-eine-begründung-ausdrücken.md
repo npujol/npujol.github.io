@@ -1,38 +1,49 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-eine-begründung-ausdrücken
+aliases: [ ]
 tags:
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- c11
-- begründung
-- ausdruck
----
+\- language
+\- deutsch
+\- redemittel
+\- c11
+\- reden
+\- --
 
-
+```
 # C11: eine Begründung ausdrücken
 
-## [[...] hat folgenden Grund / folgende Gründe:]
+## [...] hat folgenden Grund / folgende Gründe
 
-- __Beispiel:__ Die Verzögerung __hat folgenden Grund__: Der Techniker ist noch nicht eingetroffen.
-- __Beispiel:__ Die Entscheidung __hat folgende Gründe__: Wir wollen die Kosten senken und die Effizienz steigern.
+- __Beispiel:__ Die Verzögerung __hat folgenden Grund__: Der Techniker ist noch nicht
+  eingetroffen.- __Beispiel:__ Die
+  Entscheidung
+  __hat
+  folgende
+  Gründe__: Wir wollen die Kosten senken und die Effizienz
+  steigern.## Dazu möchte ich folgende Gründe anführen
 
-## Dazu möchte ich folgende Gründe anführen
+  - __Beispiel:__ __Dazu
+  mö
+  chte
+  ich
+  folgende
+  Grü
+  nde
+  anführen__: Erstens ist das Projekt nicht im Zeitplan, und zweitens fehlen uns die Ressourcen.
+```
 
-- __Beispiel:__ __Dazu möchte ich folgende Gründe anführen__: Erstens ist das Projekt nicht im Zeitplan, und zweitens fehlen uns die Ressourcen.
-
-## [[...] halte ich für positiv/interessant/[...], da [...]]
+## [...] halte ich für positiv/interessant/[...], da [...]
 
 - __Beispiel:__ Die neue Software __halte ich für sehr interessant__, da sie unsere Arbeitsabläufe erheblich beschleunigt.
 - __Beispiel:__ Diese Lösung __halte ich für positiv__, da sie weniger Kosten verursacht.
 
-## Ich [[...] nicht so gerne, weil [...]]
+## Ich [...] nicht so gerne, weil [...]
 
 - __Beispiel:__ __Ich__ gehe __nicht so gerne__ zu großen Meetings, __weil__ es dort oft chaotisch zugeht.
 - __Beispiel:__ __Ich__ übernehme diese Aufgabe __nicht so gerne, weil__ sie viel Zeit beansprucht.
 
-## Am wichtigsten ist für mich [[...], denn [...]]
+## Am wichtigsten ist für mich [...], denn [...]
 
 - __Beispiel:__ __Am wichtigsten ist für mich__ der Kundenservice, __denn__ nur zufriedene Kunden sorgen für langfristigen Erfolg.
 - __Beispiel:__ __Am wichtigsten ist für mich__ die Pünktlichkeit, __denn__ sie zeigt Verlässlichkeit.

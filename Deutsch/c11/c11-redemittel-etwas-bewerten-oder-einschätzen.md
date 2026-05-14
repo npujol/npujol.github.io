@@ -1,30 +1,47 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-etwas-bewerten-oder-einschätzen
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - einschätzen
-  - bewerten
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- einschätzen
+\- --
 
-
+```
 # C11: etwas bewerten /einschätzen
 
 ## Redemittel für Gewichtung und Prioritäten
 
 ### Bei uns wird auf [...] großen/wenig Wert gelegt
 
-- __Beispiel:__ Bei uns wird auf Pünktlichkeit großen Wert gelegt.
-- __Beispiel:__ Bei uns wird auf die genaue Dokumentation wenig Wert gelegt.
+- __Beispiel:__ Bei uns wird auf Pünktlichkeit großen Wert
+  gelegt.- __Beispiel:__ Bei
+  uns
+  wird
+  auf
+  die
+  genaue
+  Dokumentation
+  wenig
+  Wert
+  gelegt.### Besonders wichtig ist [...]
 
-### Besonders wichtig ist [...]
-
-- __Beispiel:__ Besonders wichtig ist die Zufriedenheit der Kunden.
-- __Beispiel:__ Besonders wichtig ist es, dass die Arbeit effizient erledigt wird.
+  - __Beispiel:__ Besonders
+  wichtig
+  ist
+  die
+  Zufriedenheit
+  der
+  Kunden.- __Beispiel:__ Besonders
+  wichtig
+  ist
+  es, dass die Arbeit effizient erledigt wird.
+```
 
 ### Ganz oben / An erster Stelle steht [...]
 

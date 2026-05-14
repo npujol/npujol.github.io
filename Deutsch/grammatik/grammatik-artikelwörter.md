@@ -1,85 +1,93 @@
----
+______________________________________________________________________
+
+id: grammatik-artikelwörter
+aliases: [ ]
 tags:
-- deutsch
-- ready
-- online
-- grammatik
-- artikel
-- artikelwörter
----
+\- deutsch
+\- grammatik
+\- artikel
+\- artikelwörter
+\- --
 
-
+```
 # Artikelwörter
 
 ## solche
 
-- **Solche** Probleme treten oft bei neuen Projekten auf.
-- **Solche** Menschen findet man selten.
+- __Solche__ Probleme treten oft bei neuen Projekten
+  auf.- __Solche__
+  Menschen
+  findet
+  man
+  selten.## genug
 
-## genug
+  - Er
+  hat
+  __genug__
+  Geld, um das Auto zu kaufen.
+```
 
-- Er hat **genug** Geld, um das Auto zu kaufen.
-- Ich habe **genug** von diesen ständigen Diskussionen.
+- Ich habe __genug__ von diesen ständigen Diskussionen.
 
 ## etwas
 
-- Ich brauche **etwas** Ruhe nach einem langen Tag.
-- Sie hat **etwas** Neues gelernt.
+- Ich brauche __etwas__ Ruhe nach einem langen Tag.
+- Sie hat __etwas__ Neues gelernt.
 
 ## weitere
 
-- **Weitere** Informationen finden Sie auf unserer Webseite.
-- Wir benötigen **weitere** Details, um die Aufgabe abzuschließen.
+- __Weitere__ Informationen finden Sie auf unserer Webseite.
+- Wir benötigen __weitere__ Details, um die Aufgabe abzuschließen.
 
 ## sonstige
 
-- Gibt es **sonstige** Fragen, die wir klären müssen?
-- **Sonstige** Bemerkungen bitte in das Kommentarfeld eintragen.
+- Gibt es __sonstige__ Fragen, die wir klären müssen?
+- __Sonstige__ Bemerkungen bitte in das Kommentarfeld eintragen.
 
 ## alle
 
-- **Alle** Mitarbeiter sind zur Besprechung eingeladen.
-- **Alle** haben ihre Arbeit rechtzeitig abgeschlossen.
+- __Alle__ Mitarbeiter sind zur Besprechung eingeladen.
+- __Alle__ haben ihre Arbeit rechtzeitig abgeschlossen.
 
 ## wenige
 
-- **Wenige** Menschen wissen über dieses Thema Bescheid.
-- Es gibt nur **wenige** Plätze für die Veranstaltung.
+- __Wenige__ Menschen wissen über dieses Thema Bescheid.
+- Es gibt nur __wenige__ Plätze für die Veranstaltung.
 
 ## ein paar
 
-- Ich habe **ein paar** neue Ideen für das Projekt.
-- Lass uns **ein paar** Minuten darüber sprechen.
+- Ich habe __ein paar__ neue Ideen für das Projekt.
+- Lass uns __ein paar__ Minuten darüber sprechen.
 
 ## manche
 
-- **Manche** Leute mögen keinen Kaffee.
-- **Manche** Entscheidungen fallen schwer.
+- __Manche__ Leute mögen keinen Kaffee.
+- __Manche__ Entscheidungen fallen schwer.
 
 ## verschiedene
 
-- Wir bieten **verschiedene** Kurse zur Auswahl an.
-- Er hat **verschiedene** Methoden ausprobiert, um das Problem zu lösen.
+- Wir bieten __verschiedene__ Kurse zur Auswahl an.
+- Er hat __verschiedene__ Methoden ausprobiert, um das Problem zu lösen.
 
 ## einige
 
-- **Einige** Kollegen sind bereits gegangen.
-- Ich habe **einige** Bücher über das Thema gelesen.
+- __Einige__ Kollegen sind bereits gegangen.
+- Ich habe __einige__ Bücher über das Thema gelesen.
 
 ## viele
 
-- **Viele** Menschen träumen von einer besseren Zukunft.
-- Wir haben **viele** Möglichkeiten, unser Ziel zu erreichen.
+- __Viele__ Menschen träumen von einer besseren Zukunft.
+- Wir haben __viele__ Möglichkeiten, unser Ziel zu erreichen.
 
 ## etliche
 
-- Es gibt **etliche** Gründe, warum das Projekt gescheitert ist.
-- **Etliche** Gäste kamen zur Feier.
+- Es gibt __etliche__ Gründe, warum das Projekt gescheitert ist.
+- __Etliche__ Gäste kamen zur Feier.
 
 ## sämtliche
 
-- **Sämtliche** Unterlagen müssen bis Freitag eingereicht werden.
-- **Sämtliche** Teilnehmer haben die Prüfung bestanden.
+- __Sämtliche__ Unterlagen müssen bis Freitag eingereicht werden.
+- __Sämtliche__ Teilnehmer haben die Prüfung bestanden.
 
 ## Ref
 

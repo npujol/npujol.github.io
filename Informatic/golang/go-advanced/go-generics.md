@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -11,17 +13,28 @@ tags:
 - goroutines
 - go
 - data-transference
----
+
+______________________________________________________________________
 
 # generics
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/generics)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/generics>) \_\_
 
 ## Go Generics
 
-Go Generics is a feature that allows you to write functions, data structures, and algorithms that can work with any type. This is a powerful feature that can help you write more flexible and reusable code.
+Go
+Generics
+is
+a
+feature
+that
+allows
+you
+to
+write
+functions, data structures, and algorithms that can work with any type. This is a powerful feature that can help you write more flexible and reusable code.
 
 Visit the following resources to learn more:
 

@@ -1,28 +1,43 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - kritik
-  - ausdruck
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-verärgerung-ausdrücken-oder-Kritik-üben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Verärgerung ausdrücken / Kritik üben
 
 ## Redemittel für Unzufriedenheit und Verständnisfragen
 
 ### Du könntest wenigstens mal [...]
 
-- __Beispiel:__ Du könntest wenigstens mal die Berichte pünktlich abgeben.
-- __Beispiel:__ Du könntest wenigstens mal deine Aufgaben rechtzeitig erledigen.
+- __Beispiel:__ Du könntest wenigstens mal die Berichte pünktlich
+  abgeben.- __Beispiel:__ Du
+  kö
+  nntest
+  wenigstens
+  mal
+  deine
+  Aufgaben
+  rechtzeitig
+  erledigen.### Für mich wäre es leichter, wenn [...]
 
-### Für mich wäre es leichter, wenn [...]
+  - __Beispiel:__ Fü
+  r
+  mich
+  wä
+  re
+  es
+  leichter, wenn wir klarere Anweisungen bekommen würden.
+```
 
-- __Beispiel:__ Für mich wäre es leichter, wenn wir klarere Anweisungen bekommen würden.
 - __Beispiel:__ Für mich wäre es leichter, wenn wir eine bessere Kommunikation im Team hätten.
 
 ### Ich verstehe nicht, wieso [...]

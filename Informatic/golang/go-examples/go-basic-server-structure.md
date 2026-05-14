@@ -1,10 +1,13 @@
----
+______________________________________________________________________
+
 tags:
-  - go
-  - ready
-  - golang
-  - online
----
+
+- go
+- ready
+- golang
+- online
+
+______________________________________________________________________
 
 # go-basic-server-structure
 
@@ -29,7 +32,7 @@ myapp/
 │   └── utils/ # Contains shared utility functions. In this case, a function to mask email addresses.
 │       └── string_utils.go
 └── public/ # Sets up and starts the Gin server, exposing the necessary public API to run the application.
-    └── api.go
+└── api.go
 ```
 
 ### 1. Internal Packages
@@ -43,9 +46,9 @@ package model
 
 // User represents a user in the system.
 type User struct {
-    ID    int    `json:"id"`
-    Name  string `json:"name"`
-    Email string `json:"email"`
+ID    int    `json:"id"`
+Name  string `json:"name"`
+Email string `json:"email"`
 }
 ```
 
@@ -60,22 +63,22 @@ import "myapp/internal/model"
 
 // UserService provides operations related to users.
 type UserService struct {
-    users []model.User
+users []model.User
 }
 
 // NewUserService creates a new UserService instance.
 func NewUserService() *UserService {
-    return &UserService{
-        users: []model.User{
-            {ID: 1, Name: "John Doe", Email: "john@example.com"},
-            {ID: 2, Name: "Jane Smith", Email: "jane@example.com"},
-        },
-    }
+return &UserService{
+users: []model.User{
+{ID: 1, Name: "John Doe", Email: "john@example.com"},
+{ID: 2, Name: "Jane Smith", Email: "jane@example.com"},
+},
+}
 }
 
 // GetAllUsers returns a list of users.
 func (s *UserService) GetAllUsers() []model.User {
-    return s.users
+return s.users
 }
 ```
 
@@ -87,29 +90,29 @@ Define the HTTP handlers for user-related routes.
 package controller
 
 import (
-    "net/http"
-    "myapp/internal/service"
-    "myapp/internal/utils"
-    "github.com/gin-gonic/gin"
+"net/http"
+"myapp/internal/service"
+"myapp/internal/utils"
+"github.com/gin-gonic/gin"
 )
 
 // UserController handles user-related HTTP requests.
 type UserController struct {
-    userService *service.UserService
+userService *service.UserService
 }
 
 // NewUserController creates a new UserController instance.
 func NewUserController(userService *service.UserService) *UserController {
-    return &UserController{userService: userService}
+return &UserController{userService: userService}
 }
 
 // GetUsers handles the GET /users request.
 func (uc *UserController) GetUsers(c *gin.Context) {
-    users := uc.userService.GetAllUsers()
-    for i := range users {
-        users[i].Email = utils.MaskEmail(users[i].Email) // Example usage of utility function
-    }
-    c.JSON(http.StatusOK, users)
+users := uc.userService.GetAllUsers()
+for i := range users {
+users[i].Email = utils.MaskEmail(users[i].Email) // Example usage of utility function
+}
+c.JSON(http.StatusOK, users)
 }
 ```
 
@@ -122,12 +125,12 @@ package utils
 
 // MaskEmail masks the domain part of the email address.
 func MaskEmail(email string) string {
-    // Simple example of masking the email domain
-    parts := strings.Split(email, "@")
-    if len(parts) != 2 {
-        return email
-    }
-    return parts[0] + "@.com"
+// Simple example of masking the email domain
+parts := strings.Split(email, "@")
+if len(parts) != 2 {
+return email
+}
+return parts[0] + "@.com"
 }
 ```
 
@@ -141,23 +144,23 @@ Set up the Gin server and route handlers.
 package public
 
 import (
-    "github.com/gin-gonic/gin"
-    "myapp/internal/controller"
-    "myapp/internal/service"
+"github.com/gin-gonic/gin"
+"myapp/internal/controller"
+"myapp/internal/service"
 )
 
 // StartServer initializes and starts the Gin server.
 func StartServer() {
-    router := gin.Default()
+router := gin.Default()
 
-    userService := service.NewUserService()
-    userController := controller.NewUserController(userService)
+userService := service.NewUserService()
+userController := controller.NewUserController(userService)
 
-    // Define routes
-    router.GET("/users", userController.GetUsers)
+// Define routes
+router.GET("/users", userController.GetUsers)
 
-    // Start the server
-    router.Run(":8080")
+// Start the server
+router.Run(":8080")
 }
 ```
 
@@ -173,7 +176,7 @@ package main
 import "myapp/public"
 
 func main() {
-    // Start the server
-    public.StartServer()
+// Start the server
+public.StartServer()
 }
 ```

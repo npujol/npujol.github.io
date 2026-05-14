@@ -1,21 +1,27 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-cli
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-cli-images
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/docker-cli/images)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/docker-cli/images>) \_\_
 
 ## Docker Images
 
-Docker images are lightweight, standalone, and executable packages that include everything needed to run an application. These images contain all necessary dependencies, libraries, runtime, system tools, and code to enable the application to run consistently across different environments.
+Docker
+images
+are
+lightweight, standalone, and executable packages that include everything needed to run an application. These images contain all necessary dependencies, libraries, runtime, system tools, and code to enable the application to run consistently across different environments.
 
 Docker images are built and managed using Dockerfiles. A Dockerfile is a script that consists of instructions to create a Docker image, providing a step-by-step guide for setting up the application environment.
 
@@ -23,11 +29,11 @@ Docker images are built and managed using Dockerfiles. A Dockerfile is a script 
 
 Docker CLI provides several commands to manage and work with Docker images. Some essential commands include:
 
-* `docker image ls`: List all available images on your local system.
-* `docker build`: Build an image from a Dockerfile.
-* `docker image rm`: Remove one or more images.
-* `docker pull`: Pull an image from a registry (e.g., Docker Hub) to your local system.
-* `docker push`: Push an image to a repository.
+- `docker image ls`: List all available images on your local system.
+- `docker build`: Build an image from a Dockerfile.
+- `docker image rm`: Remove one or more images.
+- `docker pull`: Pull an image from a registry (e.g., Docker Hub) to your local system.
+- `docker push`: Push an image to a repository.
 
 For example, to pull the official Ubuntu image from Docker Hub, you can run the following command:
 

@@ -1,21 +1,26 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - docker
 - docker-registries
 - ready
 - online
----
+
+______________________________________________________________________
 
 # docker-registries-dockerhub-alt
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/container-registries/dockerhub-alt)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/container-registries/dockerhub-alt>) \_\_
 
 ## DockerHub Alternatives
 
-In this section, we will discuss some popular alternatives to DockerHub. These alternatives provide a different set of features and functionalities that may suit your container registry needs. Knowing these options will enable you to make a more informed decision when selecting a container registry for your Docker images.
+In
+this
+section, we will discuss some popular alternatives to DockerHub. These alternatives provide a different set of features and functionalities that may suit your container registry needs. Knowing these options will enable you to make a more informed decision when selecting a container registry for your Docker images.
 
 ### Quay.io
 

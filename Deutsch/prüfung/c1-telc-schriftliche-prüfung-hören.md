@@ -1,23 +1,30 @@
----
-tags:
-- deutsch
-- prüfung
-- telc
-- schriftliche-prüfung
-- vorbereitung
-- hören
----
+______________________________________________________________________
 
+id: c1-telc-schriftliche-prüfung-hören
+aliases: [ ]
+tags:
+\- deutsch
+\- prüfung
+\- telc
+\- schriftliche-prüfung
+\- vorbereitung
+\- hören
+\- --
+
+```
 # C1: Telc - Schriftliche Prüfung - Hören
 
 Total Punkte: 48
-Dauer: ca. 40 Min.
+  Dauer: ca .40
+    Min.## Teile
 
-## Teile
+    - [[c1-telc-schriftliche-prü
+    fung-hö
+    ren-1]] 🌍
+```
 
-- [[c1-telc-schriftliche-prüfung-hören-1]]
-- [[c1-telc-schriftliche-prüfung-hören-2]]
-- [[c1-telc-schriftliche-prüfung-hören-3]]
+- \[[c1-telc-schriftliche-prüfung-hören-2]\] 📊
+- \[[c1-telc-schriftliche-prüfung-hören-3]\] 🌍 📊 📝
 
 ## Quelle
 

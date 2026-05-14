@@ -1,16 +1,17 @@
----
+______________________________________________________________________
+
+id: c11-redemittel-einen-aufsatz-schreiben
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - aufsatz
-  - online
----
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- unterricht_inhalte
+\- schreiben
+\- --
 
-
+```
 # C11: einen Aufsatz schreiben
 
 ## Einleitung
@@ -18,6 +19,7 @@ tags:
 ### Dieses Thema ist von besonderer Aktualität, weil [...]
 
 ____Beispiel:__ Dieses Thema ist von besonderer Aktualität, weil die Frage der Klimakrise immer dringlicher wird.
+```
 
 ### Eine heute viel diskutierte Frage ist [...]
 

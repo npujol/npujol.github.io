@@ -1,16 +1,22 @@
----
-tags:
-- deutsch
-- prüfung
-- telc
-- schriftliche-prüfung
-- vorbereitung
-- schrieben
----
+______________________________________________________________________
 
+id: c1-telc-schriftliche-prüfung-schreiben-thema-1
+aliases: [ ]
+tags:
+\- deutsch
+\- prüfung
+\- telc
+\- schriftliche-prüfung
+\- vorbereitung
+\- schreiben
+\- --
+
+```
 # C1: Telc - Schriftliche Prüfung - Schreiben - Thema 1
 
 In Ihrer Gemeinde wird diskutiert, ob das Tragen von Schuluniformen an allen Schulen eingeführt werden soll. Die lokale Bildungsbehörde lädt Eltern, Lehrer und Schüler ein, ihre Meinung zu diesem Thema zu äußern. Führen Sie Argumente an, legen Sie Vor- und Nachteile dar und begründen Sie am Schluss Ihre eigene Position. Die folgenden Aussagen geben Ihnen erste Ideen:
+```
+
 „Schuluniformen fördern das Gemeinschaftsgefühl und reduzieren soziale Ungleichheiten.“
 „Die individuelle Freiheit und der persönliche Ausdruck der Schüler werden durch Schuluniformen eingeschränkt.“
 
@@ -36,21 +42,21 @@ Schuluniformen können nützlich sein, sie können ein Gefühl der Einheit vermi
 
 ## Vom Beispieltext
 
-**X:** Die Einführung von Schuluniformen an allen Schulen in der Gemeinde.  
-**Y:** verpflichtende Schuluniformen  | Die Einführung von Schuluniformen
-**Kontext:** allen Schulen in der Gemeinde
+__X:__ Die Einführung von Schuluniformen an allen Schulen in der Gemeinde.
+__Y:__ verpflichtende Schuluniformen | Die Einführung von Schuluniformen
+__Kontext:__ allen Schulen in der Gemeinde
 
-**Vorteil1:** das Gemeinschaftsgefühl unter den Schülern fördern. | Die Förderung des Gemeinschaftsgefühls under den Schülern  
-**Vorteil2:** Reduktion sozialer Ungleichheiten, indem der wirtschaftliche Hintergrund der Schüler weniger sichtbar gemacht wird. 
-**Vorteil3:** den Fokus auf den Unterricht lenken und Ablenkungen durch modische Konkurrenz vermindern.  
-**Vorteil4:** langfristig die finanziellen Ausgaben der vielen Familien für Kleidung reduzieren
+__Vorteil1:__ das Gemeinschaftsgefühl unter den Schülern fördern. | Die Förderung des Gemeinschaftsgefühls under den Schülern
+__Vorteil2:__ Reduktion sozialer Ungleichheiten, indem der wirtschaftliche Hintergrund der Schüler weniger sichtbar gemacht wird.
+__Vorteil3:__ den Fokus auf den Unterricht lenken und Ablenkungen durch modische Konkurrenz vermindern.
+__Vorteil4:__ langfristig die finanziellen Ausgaben der vielen Familien für Kleidung reduzieren
 
-**Nachteil1:** Schuluniformen die individuelle Freiheit und den persönlichen Ausdruck der Schüler einschränken.  
-**Nachteil2:** zusätzliche Kosten für Schulen und Eltern verursachen können.  
-**Nachteil3:** dass Schüler zu einer geringeren Akzeptanz der Schule führen könnten.
-**Nachteil4:** weil soziale Unterschiede durch andere Statussymbole anstatt der Kleidung bestehen können
+__Nachteil1:__ Schuluniformen die individuelle Freiheit und den persönlichen Ausdruck der Schüler einschränken.
+__Nachteil2:__ zusätzliche Kosten für Schulen und Eltern verursachen können.
+__Nachteil3:__ dass Schüler zu einer geringeren Akzeptanz der Schule führen könnten.
+__Nachteil4:__ weil soziale Unterschiede durch andere Statussymbole anstatt der Kleidung bestehen können
 
-**Vorschlag/Kompromiss:** Die Schüler sollten Mitspracherecht bei der Gestaltung der Uniformen haben, und es sollten finanzielle Unterstützungsprogramme für Familien mit geringem Einkommen angeboten werden, um die Einführung sozial gerecht zu gestalten.
+__Vorschlag/Kompromiss:__ Die Schüler sollten Mitspracherecht bei der Gestaltung der Uniformen haben, und es sollten finanzielle Unterstützungsprogramme für Familien mit geringem Einkommen angeboten werden, um die Einführung sozial gerecht zu gestalten.
 
 ### Text
 

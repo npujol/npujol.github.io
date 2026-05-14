@@ -1,16 +1,16 @@
----
+______________________________________________________________________
+
+id: b22-redemittel-ein-bild-beschreiben
+aliases: [ ]
 tags:
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- beschreiben
+\- --
 
-- language
-- deutsch
-- ready
-- online
-- redemittel
-- b22
-- beschreiben
-- bild
----
-
+```
 # B22: Ein Bild beschreiben
 
 ## Lage im Bild
@@ -18,6 +18,7 @@ tags:
 ### Im Vordergrund/Hintergrund
 
 __Person A:__ __Im Vordergrund__ des Bildes sieht man eine Gruppe von Menschen, die an einem Tisch sitzen und eine Besprechung führen.
+```
 
 __Person B:__ __Im Hintergrund__ des Bildes ist eine Stadtlandschaft zu sehen, die die Umgebung der besprochenen Szene zeigt.
 

@@ -1,14 +1,18 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-probleme-beschreiben
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- beschreiben
+\- --
+
+```
 # C11: Probleme beschreiben
 
 ## Redemittel für das Ausdrücken von Problemen und Schwierigkeiten
@@ -16,6 +20,8 @@ tags:
 ### Für viele ist es problematisch, wenn [...]
 
 - __Beispiel:__ Für viele ist es problematisch, wenn sich die Anforderungen kurzfristig ändern.
+```
+
 - __Beispiel:__ Für viele ist es problematisch, wenn es keine klare Kommunikation gibt.
 
 ### [...] macht vielen (große) Schwierigkeiten

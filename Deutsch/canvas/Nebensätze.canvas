@@ -1,1 +1,7 @@
-{}
+{
+	"nodes":[
+		{"id":"2a3b8578b1d87753","x":-500,"y":-300,"width":400,"height":400,"type":"file","file":"languages/deutsch/grammatik/grammatik-satzart-temporale-nebensätze.md"},
+		{"id":"9563fb2b478e7b99","x":80,"y":-300,"width":400,"height":400,"type":"file","file":"languages/deutsch/c11/c11-redemittel-weiterfuhrende-nebensätze.md"}
+	],
+	"edges":[]
+}

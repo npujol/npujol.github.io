@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -13,17 +15,34 @@ tags:
 - go
 - data-transference
 - runtime
----
+
+______________________________________________________________________
 
 # scheduler
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/scheduler)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/scheduler>) \_\_
 
 ## Go Scheduler
 
-Go Scheduler allows us to understand more deeply about how Golang works internally. In terms of logical processors, cores, threads, pool cache, context switching etc. The Go scheduler is part of the Go runtime, and the Go runtime is built into your application
+Go
+Scheduler
+allows
+us
+to
+understand
+more
+deeply
+about
+how
+Golang
+works
+internally.In
+terms
+of
+logical
+processors, cores, threads, pool cache, context switching etc. The Go scheduler is part of the Go runtime, and the Go runtime is built into your application
 
 Visit the following resources to learn more:
 
@@ -57,10 +76,10 @@ ticker := time.NewTicker(1 * time.Minute)
 defer ticker.Stop()
 
 for {
-    select {
-    case <-ticker.C:
-        // Execute scheduled task
-    }
+select {
+case <-ticker.C:
+// Execute scheduled task
+}
 }
 ```
 
@@ -70,7 +89,7 @@ __Example__:
 
 ```go
 time.AfterFunc(10*time.Second, func() {
-    // Execute delayed task
+// Execute delayed task
 })
 ```
 
@@ -85,12 +104,12 @@ ticker := time.NewTicker(1 * time.Second)
 defer ticker.Stop()
 
 for {
-    select {
-    case <-ticker.C:
-        go func() {
-            // Execute task in a goroutine
-        }()
-    }
+select {
+case <-ticker.C:
+go func() {
+// Execute task in a goroutine
+}()
+}
 }
 ```
 
@@ -104,14 +123,14 @@ __Example__:
 type Job func()
 
 func startScheduler(jobs <-chan Job, done chan struct{}) {
-    for {
-        select {
-        case job := <-jobs:
-            go job()
-        case <-done:
-            return
-        }
-    }
+for {
+select {
+case job := <-jobs:
+go job()
+case <-done:
+return
+}
+}
 }
 ```
 
@@ -125,8 +144,8 @@ __Example__:
 import "github.com/robfig/cron/v3"
 
 c := cron.New()
-c.AddFunc("@every 1h", func() { 
-    // Execute hourly task 
+c.AddFunc("@every 1h", func() {
+// Execute hourly task
 })
 c.Start()
 defer c.Stop()
@@ -140,11 +159,11 @@ __Example__:
 
 ```go
 go func() {
-    err := performTask()
-    if err != nil {
-        log.Printf("Task failed: %v", err)
-        // Retry logic or other handling
-    }
+err := performTask()
+if err != nil {
+log.Printf("Task failed: %v", err)
+// Retry logic or other handling
+}
 }()
 ```
 
@@ -159,9 +178,9 @@ ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 defer cancel()
 
 go func() {
-    if err := taskWithContext(ctx); err != nil {
-        log.Printf("Task failed: %v", err)
-    }
+if err := taskWithContext(ctx); err != nil {
+log.Printf("Task failed: %v", err)
+}
 }()
 ```
 
@@ -175,10 +194,10 @@ __Example__:
 var sem = make(chan struct{}, 10) // Limit to 10 concurrent tasks
 
 go func() {
-    sem <- struct{}{} // Acquire semaphore
-    defer func() { <-sem }() // Release semaphore
+sem <- struct{}{} // Acquire semaphore
+defer func() { <-sem }() // Release semaphore
 
-    performTask()
+performTask()
 }()
 ```
 
@@ -190,16 +209,16 @@ __Example__:
 
 ```go
 type Job struct {
-    Priority int
-    Task     func()
+Priority int
+Task     func()
 }
 
 jobQueue := PriorityQueue{}
 
 func startPriorityScheduler(jobs <-chan Job) {
-    for job := range jobs {
-        go job.Task()
-    }
+for job := range jobs {
+go job.Task()
+}
 }
 ```
 
@@ -214,8 +233,8 @@ done := make(chan os.Signal, 1)
 signal.Notify(done, os.Interrupt, syscall.SIGTERM)
 
 go func() {
-    <-done
-    // Perform shutdown tasks
+<-done
+// Perform shutdown tasks
 }()
 ```
 

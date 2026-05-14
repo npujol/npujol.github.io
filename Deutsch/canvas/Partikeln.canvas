@@ -1,1 +1,21 @@
-{}
+{
+	"nodes":[
+		{"id":"caf781a511dbdf6c","type":"file","file":"languages/deutsch/b22/b22-partikel-mal.md","x":-760,"y":-260,"width":340,"height":320},
+		{"id":"ef11159ca195d517","type":"file","file":"languages/deutsch/b22/b22-partikel-nur.md","x":-340,"y":-414,"width":280,"height":214},
+		{"id":"92f02e39bb77b734","type":"file","file":"languages/deutsch/b22/b22-partikel-doch.md","x":0,"y":-408,"width":400,"height":203},
+		{"id":"a302519797907de9","x":577,"y":-140,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-vielleicht.md"},
+		{"id":"4fde7b4227d43ebb","x":-1200,"y":-340,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-ruhig.md"},
+		{"id":"fa17089280f95488","x":-856,"y":674,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-ruhig.md"},
+		{"id":"b95477d71938f201","x":-1220,"y":180,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-eigentlich.md"},
+		{"id":"676b7fde0276322a","x":520,"y":-660,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-schon.md"},
+		{"id":"0b2939259a09006f","type":"file","file":"languages/deutsch/b22/b22-partikel-ja.md","x":-760,"y":-680,"width":380,"height":340},
+		{"id":"4d10f10b7db58736","type":"file","file":"languages/deutsch/b22/b22-partikel-halt.md","x":-760,"y":230,"width":380,"height":350},
+		{"id":"8765c4248cfd7b6d","x":-340,"y":642,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-aber.md"},
+		{"id":"e42cc0a6db8c237f","x":177,"y":642,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-auch.md"},
+		{"id":"1c96c31ac3128a7d","type":"file","file":"languages/deutsch/b22/b22-partikel-eben.md","x":697,"y":320,"width":403,"height":420},
+		{"id":"15ea88fe68d60644","x":120,"y":180,"width":400,"height":400,"type":"file","file":"languages/deutsch/b22/b22-partikel-bloß.md"},
+		{"id":"be354a4210d00934","type":"file","file":"languages/deutsch/b22/b22-partikel-wohl.md","x":-380,"y":-140,"width":420,"height":370},
+		{"id":"3bba1bfb30ac88bc","x":120,"y":-140,"width":400,"height":280,"type":"file","file":"languages/deutsch/b22/b22-partikel-denn.md"}
+	],
+	"edges":[]
+}

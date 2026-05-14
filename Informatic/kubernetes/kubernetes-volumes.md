@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - Informatic
 - kubernetes
@@ -8,20 +10,32 @@ tags:
 - volumes
 - storage
 - kubernetes-volumes
----
+
+______________________________________________________________________
 
 # kubernetes-volumes
 
 ## Contents
 
-- [[kubernetes-volumes-stateful-applications]]
-- [[kubernetes-volumes-csi-drivers]]
+- \[ [ kubernetes-volumes-stateful-applications ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/volumes)__
+- \[ [ kubernetes-volumes-csi-drivers ] \]
 
-## Storage and Volumes
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/kubernetes/volumes>)
+  \_\_
 
-Volumes provide directories accessible to containers running in a pod and can be backed by various storage types. Persistent volumes are independent of pods and can be reused by multiple pods, while persistent volume claims request specific amounts of storage from persistent volumes. Storage classes allow administrators to define different storage types that can be dynamically provisioned.
+  ## Storage and Volumes
+
+  Volumes
+  provide
+  directories
+  accessible
+  to
+  containers
+  running in a pod and can be backed by various storage types. Persistent volumes are independent of pods and can be reused by multiple pods, while persistent volume claims request specific amounts of storage from persistent volumes. Storage classes allow administrators to define different storage types that can be dynamically provisioned.
 
 ## Resources
 

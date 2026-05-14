@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - kubernetes
 - kubernetes-applications
@@ -8,22 +10,38 @@ tags:
 - strategies
 - config
 - online
----
+
+______________________________________________________________________
+
 # kubernetes-applications-deployments
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/running-applications/deployments)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/running-applications/deployments>) \_\_
 
 ## Deployments
 
-A Deployment is a resource object for __managing Pods__ and __ReplicaSets__ via a __declarative configuration__, which define a desired state that describes the application __workload__ life cycle, number of pods, deployment strategies, container images, and more. The Deployment Controller works to ensure the actual state matches desired state, such as by replacing a failed pod. Out of the box, Deployments support several __deployment strategies__, like “recreate” and “rolling update”, however can be customized to support more advanced deployment strategies such as _blue/green_ or _canary_ deployments.
+A
+Deployment
+is
+a
+resource
+object
+for
+__managing
+Pods__
+and
+__ReplicaSets__
+via
+a
+__declarative
+configuration__, which define a desired state that describes the application __workload__ life cycle, number of pods, deployment strategies, container images, and more. The Deployment Controller works to ensure the actual state matches desired state, such as by replacing a failed pod. Out of the box, Deployments support several __deployment strategies__, like “recreate” and “rolling update”, however can be customized to support more advanced deployment strategies such as _blue/green_ or _canary_ deployments.
 
 Visit the following resources to learn more:
 
-* [@official@Deployments Documentation](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
-* [@video@Kubernetes Deployments | Deployment Strategies](https://youtu.be/lxc4EXZOOvE)
-* [@article@Kubernetes Deployment: From Basic Strategies to Progressive Delivery](https://codefresh.io/learn/kubernetes-deployment/)
+- [@official@Deployments Documentation](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+- [@video@Kubernetes Deployments | Deployment Strategies](https://youtu.be/lxc4EXZOOvE)
+- [@article@Kubernetes Deployment: From Basic Strategies to Progressive Delivery](https://codefresh.io/learn/kubernetes-deployment/)
 
 |Deployment|StatefulSet|
 |---|---|
@@ -35,53 +53,53 @@ Visit the following resources to learn more:
 
 ```mermaid
 flowchart TD
-    A[Deployment Specification File] --> B[Kubernetes Control Plane]
-    B --> C[Controller Created]
-    A --> D[Desired State]
-    C --> D
-    D --> E[Observed State]
+A[Deployment Specification File] --> B[Kubernetes Control Plane]
+B --> C[Controller Created]
+A --> D[Desired State]
+C --> D
+D --> E[Observed State]
 ```
 
 __Key Terminology:__
 
 1. __Pods__: The smallest deployable unit in Kubernetes, consisting of one or more containers that
-share resources.
-2. __Deployments__: A Kubernetes resource that describes the desired state of pods.
-3. __Controllers__: Continuously running processes that monitor and maintain the desired state of
-objects.
+   share resources.
+1. __Deployments__: A Kubernetes resource that describes the desired state of pods.
+1. __Controllers__: Continuously running processes that monitor and maintain the desired state of
+   objects.
 
 __Deployment Process:__
 
 1. A deployment specification file (in YAML format) is submitted to the Kubernetes control plane.
-2. The deployment controller creates a replica set, which instantiates and maintains a replica
-version of the pods specified in the deployment.
+1. The deployment controller creates a replica set, which instantiates and maintains a replica
+   version of the pods specified in the deployment.
 
 __Deployment Object Details:__
 
 1. API version
-2. Kind (deployment)
-3. Deployment name
-4. Number of pod replicas
-5. Pod template (metadata and specifications for each pod in the replica set)
-6. Container image
-7. Port to expose and accept traffic for the container
+1. Kind (deployment)
+1. Deployment name
+1. Number of pod replicas
+1. Pod template (metadata and specifications for each pod in the replica set)
+1. Container image
+1. Port to expose and accept traffic for the container
 
 __Deployment Lifecycle States:__
 
 1. __Processing__: The deployment is creating a new replica set or scaling up/down.
-2. __Complete__: All new replicas are available and updated, with any old replicas not running.
-3. __Failed__: The creation of a new replica set could not be completed (e.g., due to image surfacing issues or lack of permissions).
+1. __Complete__: All new replicas are available and updated, with any old replicas not running.
+1. __Failed__: The creation of a new replica set could not be completed (e.g., due to image surfacing issues or lack of permissions).
 
 __Deployment Use Cases:__
 
 1. Pod management tasks (updating, rolling back, scaling, auto-scaling)
-2. Stateless applications (API servers, websites without dynamic content)
+1. Stateless applications (API servers, websites without dynamic content)
 
 __Creating a Deployment:__
 
 1. Using a YAML file with the `Kube CTL apply` command
-2. Using the `Kube CTL create deployment` command (imperative method)
-3. Creating a deployment through the Google Cloud Console
+1. Using the `Kube CTL create deployment` command (imperative method)
+1. Creating a deployment through the Google Cloud Console
 
 ## Updating deployment
 
@@ -96,9 +114,9 @@ __Configuring Rolling Updates__
 
 There are two primary parameters used to control the speed of rolling updates:
 
-* __maxSurge__: specifies the maximum number of extra Pods that can be simultaneously running on the
-new version.
-* __maxUnavailable__: specifies the maximum number of Pods that can be unavailable at the same time.
+- __maxSurge__: specifies the maximum number of extra Pods that can be simultaneously running on the
+  new version.
+- __maxUnavailable__: specifies the maximum number of Pods that can be unavailable at the same time.
 
 To explain this further, let's work through an example of a rolling update:
 

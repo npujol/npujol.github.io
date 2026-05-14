@@ -1,21 +1,23 @@
----
+______________________________________________________________________
+
+id: b22-redemittel-verständnis-zeigen
+aliases: [ ]
 tags:
-  - language
-  - deutsch
-  - ready
-  - online
-  - redemittel
-  - b22
-  - verstädnis
-  - aber
+\- language
+\- deutsch
+\- redemittel
+\- b22
+\- reden
 language: German
----
+\- --
 
-# B22: Verständnis zeigen
+```
+  # B22: Verständnis zeigen
 
-## Es ist ganz natürlich, dass [...]
+  ## Es ist ganz natürlich, dass [...]
 
-__Person A:__ __Es ist ganz natürlich, dass__ du nervös bist, bevor du eine wichtige Präsentation hältst. Jeder erlebt solche Momente.
+  __Person A:__ __Es ist ganz natürlich, dass__ du nervös bist, bevor du eine wichtige Präsentation hältst. Jeder erlebt solche Momente.
+```
 
 __Person B:__ __Es ist ganz natürlich, dass__ du dich überfordert fühlst, wenn du eine neue Aufgabe übernimmst, die viel Erfahrung erfordert.
 

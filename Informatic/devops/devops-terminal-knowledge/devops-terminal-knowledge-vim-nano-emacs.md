@@ -1,21 +1,31 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - devops
-  - devops-terminal-knowledge
-  - ready
-  - online
----
+
+- roadmap
+- devops
+- devops-terminal-knowledge
+- ready
+- online
+
+______________________________________________________________________
 
 # devops-terminal-knowledge-vim-nano-emacs
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/vim-nano-emacs@Jt8BmtLUH6fHT2pGKoJs3)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/vim-nano-emacs@Jt8BmtLUH6fHT2pGKoJs3>) \_\_
 
 ## Editors
 
-Text editors are software tools used for creating, editing, and managing text files. They range from simple editors with basic features to complex Integrated Development Environments (IDEs). Popular text editors include:
+Text
+editors
+are
+software
+tools
+used
+for
+creating, editing, and managing text files. They range from simple editors with basic features to complex Integrated Development Environments (IDEs). Popular text editors include:
 
 - __Notepad__: A basic editor for Windows, suitable for simple text files.
 - __Vim__: A highly configurable and powerful editor known for its efficiency and modal interface.

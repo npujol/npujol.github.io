@@ -1,30 +1,43 @@
----
+______________________________________________________________________
+
 tags:
+
 - roadmap
 - Informatic
 - kubernetes
 - ready
 - online
----
+
+______________________________________________________________________
 
 # kubernetes-topics
 
 ## Contents
 
-- [[kubernetes-topics-custom-controllers]]
-- [[kubernetes-topics-custom-schedulers-extenders]]
-- [[kubernetes-topics-custom-resource-definitions]]
-- [[kubernetes-topics-kubernetes-extensions-and-apis]]
-- [[kubernetes-topics-own-cluster]]
-- [[kubernetes-topics-control-plane-installation]]
-- [[kubernetes-topics-managing-worker-nodes]]
-- [[kubernetes-topics-multi-cluster-management]]
+- \[ [ kubernetes-topics-custom-controllers ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/topics)__
+- \[ [ kubernetes-topics-custom-schedulers-extenders ] \]
 
-## Kubernetes Advanced Topics
+- \[ [ kubernetes-topics-custom-resource-definitions ] \]
 
-Kubernetes can be extended with custom resources and controllers to manage complex applications and workflows. It provides various networking models to support communication between pods and services, including service mesh and network policies and can be integrated with various CI/CD tools and platforms to automate application deployment and updates. K8s provides various options for managing storage, including local storage, network-attached storage (NAS), and cloud storage providers.
+- \[ [ kubernetes-topics-kubernetes-extensions-and-apis ] \]
+
+- \[ [ kubernetes-topics-own-cluster ] \]
+
+- \[ [ kubernetes-topics-control-plane-installation ] \]
+
+- \[ [ kubernetes-topics-managing-worker-nodes ] \]
+
+- \[ [ kubernetes-topics-multi-cluster-management ] \]
+
+- \*Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/topics>) * \*
+
+  ## Kubernetes Advanced Topics
+
+  Kubernetes
+  can
+  be
+  extended with custom resources and controllers to manage complex applications and workflows. It provides various networking models to support communication between pods and services, including service mesh and network policies and can be integrated with various CI/CD tools and platforms to automate application deployment and updates. K8s provides various options for managing storage, including local storage, network-attached storage (NAS), and cloud storage providers.
 
 ## Resources
 

@@ -1,26 +1,63 @@
----
+______________________________________________________________________
+
 tags:
-  - reviewed
-  - python
-  - online
-  - programming-language
-  - testing
-  - ready
----
+
+- reviewed
+- python
+- online
+- programming-language
+- testing
+- ready
+
+______________________________________________________________________
 
 # testing
 
 ## Contents
 
-- [[python-unittest-pyunit]]
-- [[python-testing-pytest]]
-- [[python-testing-doctest]]
-- [[python-testing-nose]]
+- \[ [ python-unittest-pyunit ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/python/testing)__
+- \[ [ python-testing-pytest ] \]
 
-### tox - python testing
+- \[ [ python-testing-doctest ] \]
 
-tox is a tool for automating test environment management and testing against multiple interpreter configurations. It is particularly useful for Python codebases that need to support multiple versions of Python.
+- \[ [ python-testing-nose ] \]
 
-- [officialtox documentation](https://tox.wiki/en/)
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/python/testing>)
+  \_\_
+
+  ### tox - python testing
+
+  tox
+  is
+  a
+  tool
+  for
+  automating
+  test
+  environment
+  management
+  and
+  testing
+  against
+  multiple
+  interpreter
+  configurations.It
+  is
+  particularly
+  useful
+  for
+  Python
+  codebases
+  that
+  need
+  to
+  support
+  multiple
+  versions
+  of
+  Python.- [officialtox
+  documentation](https://tox.wiki/en/)

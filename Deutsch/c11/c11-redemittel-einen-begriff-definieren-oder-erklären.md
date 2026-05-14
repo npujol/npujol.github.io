@@ -1,16 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - erklürungen
-  - definitionen
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-einen-begriff-definieren-oder-erklären
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: einen Begriff definieren /erklären
 
 ## Definitionen und Erklärungen
@@ -18,6 +19,7 @@ tags:
 ### „[...]“ ist [...]
 
 __Beispiel:__ „Nachhaltigkeit“ ist die Fähigkeit, Ressourcen so zu nutzen, dass zukünftige Generationen ebenfalls davon profitieren können.
+```
 
 ### „[...]“ wird definiert als [...]
 

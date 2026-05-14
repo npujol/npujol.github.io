@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -9,17 +11,19 @@ tags:
 - packages
 - logging
 - go
----
+
+______________________________________________________________________
 
 # zap
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-logging/zap)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-logging/zap>) \_\_
 
 ## Zap
 
-Blazing fast, structured, leveled logging in Go.
+Blazing
+fast, structured, leveled logging in Go.
 
 Visit the following resources to learn more:
 

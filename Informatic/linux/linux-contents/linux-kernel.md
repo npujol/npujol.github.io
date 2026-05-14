@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,13 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # linux-kernel
 
 ## Contents
 
-- [[linux-logs]]
-- [[linux-boot-loaders]]
+- \[ [ linux-logs ] \]
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/linux)__
+- \[ [ linux-boot-loaders ] \]
+
+  \_\_Roadmap
+  info
+  from [ roadmap website ]
+  (<https://roadmap.sh/linux/linux>)
+  \_\_

@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,17 +8,18 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # listing-finding-proc
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/process-management/listing-finding-proc)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/process-management/listing-finding-proc>) \_\_
 
 ## Listing and Finding Processes (proc)
 
-In Linux, processes form the backbone of any functioning system - running various tasks and executing different operations. In order to effectively manage your Linux system, it's crucial to be able to list and find the currently running processes. This aids in monitoring system performance, tracking down any issues, and in controlling resource allocation.
+In
+Linux, processes form the backbone of any functioning system - running various tasks and executing different operations. In order to effectively manage your Linux system, it's crucial to be able to list and find the currently running processes. This aids in monitoring system performance, tracking down any issues, and in controlling resource allocation.
 
 The `proc` filesystem is an extremely powerful tool in this respect. Available in all Unix-like operating systems, `proc` is a virtual file system that provides detailed information about running processes, including its PID, status, and resource consumption.
 
@@ -25,9 +27,9 @@ With commands like `ps`, `top`, and `htop`, we can quickly list out the running 
 
 ```bash
 # list all running processes
-ps -ef 
+ps -ef
 
-# display ongoing list of running processes 
+# display ongoing list of running processes
 top
 
 # alternatively, for a more user-friendly interface

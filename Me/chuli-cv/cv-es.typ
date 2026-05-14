@@ -57,10 +57,10 @@
 
 #section("Experiencia Profesional")
 #entry(
-  title: "Desarrolladora de Software",  
-  company-or-university: "InterContent Group", 
-  date: "2021 - Today", 
-  location: "Berlin, Germany", 
+  title: "Desarrolladora de Software",
+  company-or-university: "InterContent Group",
+  date: "2021 - Today",
+  location: "Berlin, Germany",
   logo: image("media/intercontent.jpeg"),
   description: list(
     [Desarrollo de aplicaciones web con Django y Golang],
@@ -77,10 +77,10 @@
   )
 )
 #entry(
-  title: "Especialista en ciencias informáticas", 
-  company-or-university: "Universidad de las Ciencias Informáticas", 
-  date: "2014 - 2019", 
-  location: " La Habana, Cuba", 
+  title: "Especialista en ciencias informáticas",
+  company-or-university: "Universidad de las Ciencias Informáticas",
+  date: "2014 - 2019",
+  location: " La Habana, Cuba",
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"),
   description: list(
     [Desarrollo del sitio de gestión de actividades de posgrado de la universidad. Utilizando Python, Django, PostgreSQL, RESTful WebServices],
@@ -93,31 +93,31 @@
 
 #section("Educación")
 #education-entry(
-  title: "Máster en Informática Avanzada", 
-  company-or-university: "Universidad de las Ciencias Informáticas", 
-  date: "05/2016 - 12/2018", 
-  location: "La Habana, Cuba", 
+  title: "Máster en Informática Avanzada",
+  company-or-university: "Universidad de las Ciencias Informáticas",
+  date: "05/2016 - 12/2018",
+  location: "La Habana, Cuba",
   logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"),
   gpa: "4.82",
   gpa-total: "5.0"
 )
 #education-entry(
-  title: "Ingeniería en Ciencias Informáticas", 
-  company-or-university: "Universidad de las Ciencias Informáticas", 
-  date: "09/2009 - 07/2014", 
-  location: "La Habana, Cuba", 
-  logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"), 
+  title: "Ingeniería en Ciencias Informáticas",
+  company-or-university: "Universidad de las Ciencias Informáticas",
+  date: "09/2009 - 07/2014",
+  location: "La Habana, Cuba",
+  logo: image("media/universidad_de_las_ciencias_informaticas_logo.jpeg"),
   gpa: "4.71",
   gpa-total: "5.0"
 )
 
 #section("Proyectos Personales")
 #entry(
-  title: "anki_wiktionary", 
-  company-or-university: "Personal Project", 
-  date: "2020 - 2024", 
-  location: "", 
-  logo: image("media/github_avatar.jpeg"), 
+  title: "anki_wiktionary",
+  company-or-university: "Personal Project",
+  date: "2020 - 2024",
+  location: "",
+  logo: image("media/github_avatar.jpeg"),
   description: list(
     [Desarrollado un proyecto para importar datos de Wiktionary y crear una baraja de Anki, para aprender nuevas palabras de una manera más eficaz],
     [Usando Python, Beautiful Soup, y Anki API para crear el proyecto],
@@ -127,11 +127,11 @@
   )
 )
 #entry(
-  title: "tts_stories", 
-  company-or-university: "Personal Project", 
-  date: "2021 - 2024", 
-  location: "", 
-  logo: image("media/github_avatar.jpeg"), 
+  title: "tts_stories",
+  company-or-university: "Personal Project",
+  date: "2021 - 2024",
+  location: "",
+  logo: image("media/github_avatar.jpeg"),
   description: list(
     [Desarrollado un proyecto para crear historias de voz de una manera más eficaz],
     [Usando diferentes fuentes de procedencia de las historias, tanto online como local],
@@ -147,17 +147,17 @@
 #section("Idiomas")
 #language(
   name:"Español",
-  label:"Nativo",  
+  label:"Nativo",
   nivel:5,
 )
 #language(
   name:"Alemán",
-  label:"Medio",  
+  label:"Medio",
   nivel:3,
 )
 #language(
   name:"Inglés",
-  label:"Medio",  
+  label:"Medio",
   nivel:3,
 )
 
@@ -187,7 +187,7 @@
     (
       name: icons.music,
       val: 0.009
-    ), 
+    ),
     (
       name: icons.game,
       val: 0.008
@@ -199,7 +199,7 @@
     (
       name: icons.bike,
       val: 0.007
-    ), 
+    ),
     (
       name: icons.cook,
       val: 0.007

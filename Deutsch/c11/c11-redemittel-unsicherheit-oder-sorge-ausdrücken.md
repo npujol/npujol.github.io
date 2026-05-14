@@ -1,14 +1,17 @@
----
-tags:
-  - language
-  - deutsch
-  - c11
-  - redemittel
-  - reden
-  - unterricht_inhalte
-  - online
----
+______________________________________________________________________
 
+id: c11-redemittel-unsicherheit-oder-sorge-ausdrücken
+aliases: [ ]
+tags:
+\- language
+\- deutsch
+\- c11
+\- redemittel
+\- reden
+\- unterricht_inhalte
+\- --
+
+```
 # C11: Unsicherheit /Sorge ausdrücken
 
 ## Redemittel für Unsicherheit, Befürchtungen und Entscheidungsfindung
@@ -16,6 +19,8 @@ tags:
 ### Ich bin mir noch nicht sicher
 
 - __Beispiel:__ Ich bin mir noch nicht sicher, ob ich das Angebot annehmen soll.
+```
+
 - __Beispiel:__ Ich bin mir noch nicht sicher, wie wir das Problem lösen können.
 
 ### Ich befürchte nur,[...]

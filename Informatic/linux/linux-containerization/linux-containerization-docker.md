@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,17 +9,27 @@ tags:
 - linux
 - operative-system
 - containerization
----
+
+______________________________________________________________________
 
 # docker
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/containerization/docker)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/containerization/docker>) \_\_
 
 ## Docker Under Containerization
 
-Docker is a widely-used open-source platform that utilizes OS-level virtualization, typically referred to as “containerization”, to develop, ship, and run applications effectively. Docker and containerization, especially within the Linux ecosystem, have revolutionized software development workflows by providing lightweight and isolated operational environments, known as containers, for applications and their dependencies. Docker allows development teams to package an application with all the parts it needs, such as libraries and other dependencies, and deploy it as a single package.
+Docker
+is
+a
+widely-used
+open-source
+platform
+that
+utilizes
+OS-level
+virtualization, typically referred to as “containerization”, to develop, ship, and run applications effectively. Docker and containerization, especially within the Linux ecosystem, have revolutionized software development workflows by providing lightweight and isolated operational environments, known as containers, for applications and their dependencies. Docker allows development teams to package an application with all the parts it needs, such as libraries and other dependencies, and deploy it as a single package.
 
 In Linux, each Docker container interacts directly with the Linux kernel. Due to the clever use of Linux Kernel features like namespaces and cgroups, these containers provide isolated spaces to run processes while sharing the same OS, leading to less overhead than traditional virtual machines.s
 

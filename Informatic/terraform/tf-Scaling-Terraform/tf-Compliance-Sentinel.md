@@ -1,14 +1,17 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - terraform
 - IaC
 - infrastructure
----
+
+______________________________________________________________________
 
 # Compliance / Sentinel
 
 ## Contents
 
-__Roadmap info from [roadmap website](<https://roadmap.sh/terraform/compliance> / sentinel@z0PcbgpHbR6Fm07-On4P8)__
+__Roadmap info from [ roadmap website ] (\<<https://roadmap.sh/terraform/compliance> > / sentinel@z0PcbgpHbR6Fm07-On4P8)__

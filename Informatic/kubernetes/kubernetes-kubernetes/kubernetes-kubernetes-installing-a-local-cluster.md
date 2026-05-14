@@ -1,50 +1,61 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - kubernetes
-  - kubernetes-kubernetes
-  - ready
-  - online
----
+
+- roadmap
+- kubernetes
+- kubernetes-kubernetes
+- ready
+- online
+
+______________________________________________________________________
 
 # kubernetes-kubernetes-installing-a-local-cluster
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/setting-up-kubernetes/installing-a-local-cluster)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/setting-up-kubernetes/installing-a-local-cluster>) \_\_
 
 ## Installing a Local Cluster
 
-To install and configure a Kubernetes cluster on CentOS 7 or Ubuntu, you would need to setup the prerequisites and requirements for setting up a Kubernetes cluster after which you would be installing the Kubernetes components, including Kubeadm, Kubelet, and Kubectl and then you’ll need to connect the master and the worker nodes. Once the connection is established you can check it by deploying application on the cluster.
+To
+install
+and
+configure
+a
+Kubernetes
+cluster
+on
+CentOS 7 or Ubuntu, you would need to setup the prerequisites and requirements for setting up a Kubernetes cluster after which you would be installing the Kubernetes components, including Kubeadm, Kubelet, and Kubectl and then you’ll need to connect the master and the worker nodes. Once the connection is established you can check it by deploying application on the cluster.
 
 ### Kubeadm, Kubelet, Kubectl
 
-| Component | Description                                                                                                                         | Role in Kubernetes Cluster                                                                                                         | Usage                                                                                              |
+| Component | Description | Role in Kubernetes Cluster | Usage |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Kubeadm   | A command-line tool that simplifies the process of setting up a Kubernetes cluster.                                                 | Used to initialize and configure a Kubernetes cluster by setting up essential components like API Server, Controller Manager, etc. | `kubeadm init` (to initialize a cluster), `kubeadm join` (to add nodes)                            |
-| Kubelet   | An agent that runs on each node in the cluster, ensuring containers are running in Pods as defined by the Kubernetes control plane. | Manages the lifecycle of containers on individual nodes, monitors health, and communicates node status to the control plane.       | Runs as a background service on each node; no direct CLI commands (configured via YAML or systemd) |
-| Kubectl   | A command-line tool used to interact with the Kubernetes API.                                                                       | Allows users to manage and control resources in the Kubernetes cluster by sending requests to the API Server.                      | `kubectl get`, `kubectl apply`, `kubectl delete`, etc.                                             |
+| Kubeadm | A command-line tool that simplifies the process of setting up a Kubernetes cluster. | Used to initialize and configure a Kubernetes cluster by setting up essential components like API Server, Controller Manager, etc. | `kubeadm init` (to initialize a cluster), `kubeadm join` (to add nodes) |
+| Kubelet | An agent that runs on each node in the cluster, ensuring containers are running in Pods as defined by the Kubernetes control plane. | Manages the lifecycle of containers on individual nodes, monitors health, and communicates node status to the control plane. | Runs as a background service on each node; no direct CLI commands (configured via YAML or systemd) |
+| Kubectl | A command-line tool used to interact with the Kubernetes API. | Allows users to manage and control resources in the Kubernetes cluster by sending requests to the API Server. | `kubectl get`, `kubectl apply`, `kubectl delete`, etc. |
 
 ## Resources
 
-* [@article@How to Install a Kubernetes Cluster on CentOS 7](https://www.tecmint.com/install-kubernetes-cluster-on-centos-7/)
-* [@article@How To Create a Kubernetes Cluster Using on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)
-* [@article@Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/)
-* [@article@Local Kubernetes Clusters: A Comparison for Local Development and CI](https://senacor.blog/local-kubernetes-clusters-a-comparison-for-local-development-and-ci/)
+- [@article@How to Install a Kubernetes Cluster on CentOS 7](https://www.tecmint.com/install-kubernetes-cluster-on-centos-7/)
+- [@article@How To Create a Kubernetes Cluster Using on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04)
+- [@article@Deploy a Kubernetes Cluster on Ubuntu Server with Microk8s](https://thenewstack.io/deploy-a-kubernetes-cluster-on-ubuntu-server-with-microk8s/)
+- [@article@Local Kubernetes Clusters: A Comparison for Local Development and CI](https://senacor.blog/local-kubernetes-clusters-a-comparison-for-local-development-and-ci/)
 
-| Tool            | Main Use Case         | Features                                          | Strengths                                   | Weaknesses                          |
+| Tool | Main Use Case | Features | Strengths | Weaknesses |
 |-----------------|-----------------------|---------------------------------------------------|---------------------------------------------|-------------------------------------|
-| __Docker Desktop__ | Local development    | Simple UI, auto-image use in K8s                  | Mature, beginner-friendly                  | Limited metrics, proprietary       |
-| __Rancher Desktop__ | Local development    | Metrics, UI, K8s dashboard                        | Open-source, polished UI                   | Occasional performance issues       |
-| __Podman Desktop__ | Container engine      | Supports Kind clusters                            | Open-source, Docker CLI compatible         | Limited K8s integration            |
-| __K3D__         | CI pipelines          | CLI-based, multi-node, fast startup               | Excellent for CI, lightweight              | Limited UI                          |
-| __Kind__        | CI, lightweight dev    | CLI-based, multi-node support                    | Reliable, good for small clusters          | Slower startup than K3D            |
-| __Minikube__    | Flexible use cases     | VM & container support, UI, dashboard            | Feature-rich, broad compatibility          | Slow startup                       |
-| __MicroK8s__    | Local with feature set | CLI, metrics, version selector                   | Suitable for Ubuntu users, rich features   | Slowest startup time               |
+| __Docker Desktop__ | Local development | Simple UI, auto-image use in K8s | Mature, beginner-friendly | Limited metrics, proprietary |
+| __Rancher Desktop__ | Local development | Metrics, UI, K8s dashboard | Open-source, polished UI | Occasional performance issues |
+| __Podman Desktop__ | Container engine | Supports Kind clusters | Open-source, Docker CLI compatible | Limited K8s integration |
+| __K3D__ | CI pipelines | CLI-based, multi-node, fast startup | Excellent for CI, lightweight | Limited UI |
+| __Kind__ | CI, lightweight dev | CLI-based, multi-node support | Reliable, good for small clusters | Slower startup than K3D |
+| __Minikube__ | Flexible use cases | VM & container support, UI, dashboard | Feature-rich, broad compatibility | Slow startup |
+| __MicroK8s__ | Local with feature set | CLI, metrics, version selector | Suitable for Ubuntu users, rich features | Slowest startup time |
 
 ### MInikube
 
-* [tutorial](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-3)
+- [tutorial](https://kubebyexample.com/learning-paths/application-development-kubernetes/lesson-1-running-containerized-applications-3)
 
 ## K3s
 
@@ -52,20 +63,21 @@ To install and configure a Kubernetes cluster on CentOS 7 or Ubuntu, you would n
 
 ### First steps
 
-* [tutorial](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
+- [tutorial](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
 
 #### Takeaways
 
-* [This Answer](https://stackoverflow.com/questions/73243693/cant-create-k3d-cluster)
+- [This Answer](https://stackoverflow.com/questions/73243693/cant-create-k3d-cluster)
 
 ## K3D Tutorial
 
-* __Documentation:__ [K3D Documentation](https://k3d.io/v5.7.4/)
+- __Documentation:__ [K3D Documentation](https://k3d.io/v5.7.4/)
 
-* __Further Reading:__
-  
-* [Provision a High-Availability K3s Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
-* [Introduction to K3D: Running K3s in Docker](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
+- __Further Reading:__
+
+- [Provision a High-Availability K3s Cluster with K3D](https://akyriako.medium.com/provision-a-high-availability-k3s-cluster-with-k3d-a7519f476c9c)
+
+- [Introduction to K3D: Running K3s in Docker](https://www.suse.com/c/introduction-k3d-run-k3s-docker-src/)
 
 ### Own Tutorial
 
@@ -112,7 +124,7 @@ kubectl port-forward -n kube-system "$(kubectl get pods -n kube-system | grep '^
 ```
 
 You can access the Traefik dashboard [here](http://localhost:9000/dashboard/#/).
-More about [[kubernetes-kubernetes-installing-a-local-cluster-taefik]]
+More about \[[kubernetes-kubernetes-installing-a-local-cluster-taefik]\]
 
 #### Step 6: Access Kubernetes Control Panel
 
@@ -134,15 +146,15 @@ kubectl get services --all-namespaces
 
 ### Overview of Services Up to This Point
 
-| Namespace       | Service Name     | Type           | Cluster IP       | External IP(s)                     | Ports                           | Age |
+| Namespace | Service Name | Type | Cluster IP | External IP(s) | Ports | Age |
 |-----------------|------------------|----------------|------------------|------------------------------------|---------------------------------|------|
-| `default`       | `kubernetes`     | `ClusterIP`    | `10.43.0.1`      | `<none>`                           | `443/TCP`                       | 23m  |
-| `kube-system`   | `kube-dns`       | `ClusterIP`    | `10.43.0.10`     | `<none>`                           | `53/UDP`, `53/TCP`, `9153/TCP`  | 23m  |
-| `kube-system`   | `metrics-server` | `ClusterIP`    | `10.43.15.178`   | `<none>`                           | `443/TCP`                       | 23m  |
-| `kube-system`   | `traefik`        | `LoadBalancer` | `10.43.213.142`  | `172.19.0.2`, `172.19.0.3`, etc.  | `80:32422/TCP`, `443:30631/TCP` | 22m  |
+| `default` | `kubernetes` | `ClusterIP` | `10.43.0.1` | `<none>` | `443/TCP` | 23m |
+| `kube-system` | `kube-dns` | `ClusterIP` | `10.43.0.10` | `<none>` | `53/UDP`, `53/TCP`, `9153/TCP` | 23m |
+| `kube-system` | `metrics-server` | `ClusterIP` | `10.43.15.178` | `<none>` | `443/TCP` | 23m |
+| `kube-system` | `traefik` | `LoadBalancer` | `10.43.213.142` | `172.19.0.2`, `172.19.0.3`, etc. | `80:32422/TCP`, `443:30631/TCP` | 22m |
 
-* __ClusterIP Services__: Services like `kubernetes`, `kube-dns`, and `metrics-server` are limited to internal access, enabling core cluster operations like DNS resolution, API access, and metrics gathering.
-* __LoadBalancer Service__: The `traefik` service uses a LoadBalancer, allowing external traffic on HTTP/HTTPS to reach the cluster, making services publicly accessible if needed.
+- __ClusterIP Services__: Services like `kubernetes`, `kube-dns`, and `metrics-server` are limited to internal access, enabling core cluster operations like DNS resolution, API access, and metrics gathering.
+- __LoadBalancer Service__: The `traefik` service uses a LoadBalancer, allowing external traffic on HTTP/HTTPS to reach the cluster, making services publicly accessible if needed.
 
 #### K3D Kubernetes Dashboard Tutorial
 
@@ -168,39 +180,39 @@ Step 3. __Set Up Access Permissions__
 
 Create and apply a `ServiceAccount` and `ClusterRoleBinding` for admin access. This file is in `https://github.com/npujol/kaos/blob/main/deploy/k3d/dashboard-adminuser.yaml`:
 
-* Copy the following YAML into a new file, such as `dashboard-adminuser.yaml`:
+- Copy the following YAML into a new file, such as `dashboard-adminuser.yaml`:
 
 ```yaml
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: admin-user
+name: admin-user
 roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: cluster-admin
+apiGroup: rbac.authorization.k8s.io
+kind: ClusterRole
+name: cluster-admin
 subjects:
 - kind: ServiceAccount
-  name: admin-user
-  namespace: kubernetes-dashboard
+name: admin-user
+namespace: kubernetes-dashboard
 
 apiVersion: v1
 kind: ServiceAccount
 metadata:
-  name: admin-user
-  namespace: kubernetes-dashboard
+name: admin-user
+namespace: kubernetes-dashboard
 
 apiVersion: v1
 kind: Secret
 metadata:
-  name: admin-user
-  namespace: kubernetes-dashboard
-  annotations:
-    kubernetes.io/service-account.name: "admin-user"
+name: admin-user
+namespace: kubernetes-dashboard
+annotations:
+kubernetes.io/service-account.name: "admin-user"
 type: kubernetes.io/service-account-token
 ```
 
-* Apply the file:
+- Apply the file:
 
 ```shell
 kubectl apply -f https://raw.githubusercontent.com/npujol/kaos/refs/heads/main/deploy/k3d/dashboard-adminuser.yaml
@@ -216,7 +228,7 @@ kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy
 
 Step 5. __Access the Dashboard__
 
-* Retrieve the access token for the `admin-user` account:
+- Retrieve the access token for the `admin-user` account:
 
 ```shell
 kubectl get secret admin-user -n kubernetes-dashboard -o jsonpath={".data.token"} | base64 -d
@@ -230,7 +242,7 @@ This configuration provides an accessible dashboard to monitor and manage worklo
 
 Here is django-example-app configuration
 
-* [https://github.com/npujol/kaos](https://github.com/npujol/kaos) Follow [k3d Readme](https://github.com/npujol/kaos/blob/main/deploy/k3d/README.md) Instructions.
+- [https://github.com/npujol/kaos](https://github.com/npujol/kaos) Follow [k3d Readme](https://github.com/npujol/kaos/blob/main/deploy/k3d/README.md) Instructions.
 
 ## Monitoring tutorial
 
@@ -266,11 +278,10 @@ kubectl port-forward service/prometheus-grafana 3000:80 -n monitoring
 
 Access to [Grafana dashboard](http://localhost:3000/)
 
-
 Step 5: Forward Prometheus port
 
 ```bash
- kubectl port-forward service/prometheus-operated 9090:9090 -n monitoring
- ```
+kubectl port-forward service/prometheus-operated 9090:9090 -n monitoring
+```
 
 Access to [Prometheus dashboard](http://localhost:9090)

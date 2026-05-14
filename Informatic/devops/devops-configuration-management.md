@@ -1,11 +1,13 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
+
+- roadmap
   - Informatic
   - devops
   - ready
   - online
----
+  ______________________________________________________________________
 
 # devops-configuration-management
 
@@ -13,14 +15,19 @@ tags:
 
 ??
 
-- [[devops-configuration-management-ansible]]
-- [[devops-configuration-management-chef]]
-- [[devops-configuration-management-puppet]]
-<!--SR:!2000-01-01,1,250!2024-10-16,3,250-->
+- \[ [ devops-configuration-management-ansible ] \]
+  - \[ [ devops-configuration-management-chef ] \]
+  - \[ [ devops-configuration-management-puppet ] \]
+    < !--SR:!2000-01-01,1,250!2024-10-16,3,250-- >
 
-__Roadmap info from [roadmap website](https://roadmap.sh/devops/configuration-management@aQJaouIaxIJChM-40M3HQ)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/devops/configuration-management@aQJaouIaxIJChM-40M3HQ>) \_\_
 
-Automation can help enterprises reduce costs, complexity, and manual errors in a variety of IT use cases:
+Automation
+can
+help
+enterprises
+reduce
+costs, complexity, and manual errors in a variety of IT use cases:
 
 - Infrastructure automation: configure and manage server infrastructure to enforce consistency and eliminate configuration drift.
 - Cloud automation: configure and manage cloud resources including operating systems, security groups, load balancers, and virtual private clouds.
@@ -39,8 +46,13 @@ Ultimately, the choice between Ansible, Chef, or Puppet depends on your team's e
 ## Flashcards
 
 - IT Service Management:::ITSM
+
 <!--SR:!2024-10-16,3,250!2000-01-01,1,250-->
+
 - configuration management databases:::CMDBs
+
 <!--SR:!2024-10-16,3,250!2000-01-01,1,250-->
+
 - configuration items:::CIs
+
 <!--SR:!2024-10-16,3,250!2000-01-01,1,250-->

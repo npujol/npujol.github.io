@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -7,13 +8,13 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # vim
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/editing-files/vim)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/editing-files/vim>) \_\_
 
 ## Vim: An Essential Tool for Editing Files
 

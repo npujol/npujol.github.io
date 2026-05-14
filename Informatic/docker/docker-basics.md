@@ -1,21 +1,33 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - output
-  - docker
-  - ready
-  - online
----
+
+- roadmap
+- output
+- docker
+- ready
+- online
+
+______________________________________________________________________
 
 # docker-basics
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/docker/basics)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/docker/basics>) \_\_
 
 ## Docker Basics
 
-Docker is a platform that simplifies the process of building, packaging, and deploying applications in lightweight, portable containers. In this section, we’ll cover the basics of Docker, its components, and key commands you’ll need to get started.
+Docker
+is
+a
+platform
+that
+simplifies
+the
+process
+of
+building, packaging, and deploying applications in lightweight, portable containers. In this section, we’ll cover the basics of Docker, its components, and key commands you’ll need to get started.
 
 ## What is a Container?
 

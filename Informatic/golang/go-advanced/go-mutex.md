@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - reviewed
@@ -12,17 +14,26 @@ tags:
 - mutex
 - go
 - data-transference
----
+
+______________________________________________________________________
 
 # mutex
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/golang/go-advanced/mutex)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/golang/go-advanced/mutex>) \_\_
 
 ## Mutex
 
-Go allows us to run code concurrently using goroutines. However, when concurrent processes access the same piece of data, it can lead to [race conditions](https://www.sohamkamani.com/golang/data-races/). Mutexes are data structures provided by the [sync](https://pkg.go.dev/sync/) package. They can help us place a lock on different sections of data so that only one [[go-goroutines]] can access it at a time.
+Go
+allows
+us
+to
+run
+code
+concurrently
+using
+goroutines.However, when concurrent processes access the same piece of data, it can lead to [race conditions](https://www.sohamkamani.com/golang/data-races/). Mutexes are data structures provided by the [sync](https://pkg.go.dev/sync/) package. They can help us place a lock on different sections of data so that only one \[[go-goroutines]\] can access it at a time.
 
 - [@article@Using a Mutex in Go with Examples](https://www.sohamkamani.com/golang/mutex/)
 
@@ -53,9 +64,9 @@ var mu sync.Mutex
 var counter int
 
 func increment() {
-    mu.Lock()
-    counter++ // Only critical section is protected
-    mu.Unlock()
+mu.Lock()
+counter++ // Only critical section is protected
+mu.Unlock()
 }
 ```
 
@@ -67,9 +78,9 @@ __Example__:
 
 ```go
 func updateCounter() {
-    mu.Lock()
-    defer mu.Unlock() // Ensures the lock is released
-    counter++
+mu.Lock()
+defer mu.Unlock() // Ensures the lock is released
+counter++
 }
 ```
 
@@ -84,15 +95,15 @@ var rwMu sync.RWMutex
 var data = make(map[string]string)
 
 func readData(key string) string {
-    rwMu.RLock()
-    defer rwMu.RUnlock()
-    return data[key]
+rwMu.RLock()
+defer rwMu.RUnlock()
+return data[key]
 }
 
 func writeData(key, value string) {
-    rwMu.Lock()
-    defer rwMu.Unlock()
-    data[key] = value
+rwMu.Lock()
+defer rwMu.Unlock()
+data[key] = value
 }
 ```
 
@@ -104,14 +115,14 @@ __Example__:
 
 ```go
 type SafeCounter struct {
-    mu sync.Mutex
-    count int
+mu sync.Mutex
+count int
 }
 
 func (sc *SafeCounter) Increment() {
-    sc.mu.Lock()
-    defer sc.mu.Unlock()
-    sc.count++
+sc.mu.Lock()
+defer sc.mu.Unlock()
+sc.count++
 }
 
 // Do not copy SafeCounter or its Mutex
@@ -127,13 +138,13 @@ __Example__:
 var mu1, mu2 sync.Mutex
 
 func safeOperation() {
-    mu1.Lock()
-    defer mu1.Unlock()
-    
-    mu2.Lock()
-    defer mu2.Unlock()
+mu1.Lock()
+defer mu1.Unlock()
 
-    // Perform operations
+mu2.Lock()
+defer mu2.Unlock()
+
+// Perform operations
 }
 ```
 
@@ -148,16 +159,16 @@ var mu sync.Mutex
 var cond = sync.NewCond(&mu)
 
 func waitForCondition() {
-    mu.Lock()
-    cond.Wait() // Wait until a signal is received
-    // Perform operations after being signaled
-    mu.Unlock()
+mu.Lock()
+cond.Wait() // Wait until a signal is received
+// Perform operations after being signaled
+mu.Unlock()
 }
 
 func signalCondition() {
-    mu.Lock()
-    cond.Signal() // Signal one waiting goroutine
-    mu.Unlock()
+mu.Lock()
+cond.Signal() // Signal one waiting goroutine
+mu.Unlock()
 }
 ```
 
@@ -171,7 +182,7 @@ __Example__:
 ch := make(chan int)
 
 go func() {
-    ch <- 42 // Send data to channel
+ch <- 42 // Send data to channel
 }()
 
 result := <-ch // Receive data from channel
@@ -190,9 +201,9 @@ var mu sync.Mutex
 var counter int
 
 func increment() {
-    mu.Lock()
-    defer mu.Unlock()
-    counter++
+mu.Lock()
+defer mu.Unlock()
+counter++
 }
 ```
 
@@ -204,28 +215,28 @@ __Example__ (simple try-lock using channels):
 
 ```go
 type TryMutex struct {
-    ch chan struct{}
+ch chan struct{}
 }
 
 func NewTryMutex() *TryMutex {
-    return &TryMutex{ch: make(chan struct{}, 1)}
+return &TryMutex{ch: make(chan struct{}, 1)}
 }
 
 func (m *TryMutex) Lock() {
-    m.ch <- struct{}{}
+m.ch <- struct{}{}
 }
 
 func (m *TryMutex) Unlock() {
-    <-m.ch
+<-m.ch
 }
 
 func (m *TryMutex) TryLock() bool {
-    select {
-    case m.ch <- struct{}{}:
-        return true
-    default:
-        return false
-    }
+select {
+case m.ch <- struct{}{}:
+return true
+default:
+return false
+}
 }
 ```
 

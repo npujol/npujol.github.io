@@ -1,5 +1,7 @@
----
+______________________________________________________________________
+
 tags:
+
 - ready
 - online
 - online
@@ -7,17 +9,62 @@ tags:
 - linux
 - operative-system
 - containerization
----
+
+______________________________________________________________________
 
 # ulimits
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/containerization/ulimits)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/containerization/ulimits>) \_\_
 
 ## Understanding Ulimits
 
-Linux-based containerization technology such as Docker utilizes `ulimits` as one of the security features to control the resource consumption for each running container. Ulimits (user limits) are a feature of the Linux kernel that restricts the resources that any single user can consume. These resources include open file handles, locked-in physical memory, and others.
+Linux-based
+containerization
+technology
+such
+as
+Docker
+utilizes `ulimits`
+as
+one
+of
+the
+security
+features
+to
+control
+the
+resource
+consumption
+for
+each
+running
+container.Ulimits
+(user limits)
+are
+a
+feature
+of
+the
+Linux
+kernel
+that
+restricts
+the
+resources
+that
+any
+single
+user
+can
+consume.These
+resources
+include
+open
+file
+handles, locked-in physical memory, and others.
 
 Used effectively, ulimits can prevent a rogue or errant process in a particular container from exhausting the server's resources and creating a denial-of-service situation for other containers or processes.
 

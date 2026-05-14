@@ -1,17 +1,20 @@
----
+______________________________________________________________________
+
 tags:
-  - roadmap
-  - kubernetes
-  - kubernetes-logging
-  - ready
-  - online
----
+
+- roadmap
+- kubernetes
+- kubernetes-logging
+- ready
+- online
+
+______________________________________________________________________
 
 # kubernetes-logging-observability-engines
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/kubernetes/monitoring-and-logging/observability-engines)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/kubernetes/monitoring-and-logging/observability-engines>) \_\_
 
 ## Observability Engines
 
@@ -19,8 +22,8 @@ Observability in Kubernetes (k8s) refers to the ability to gain insight into the
 
 ## Resources
 
-* [@article@Kubernetes Observability 101: Tools, Best Practices, And More](https://www.cloudzero.com/blog/kubernetes-observability)
-* [@article@Kubernetes Observability in KubeSphere](https://kubesphere.io/observability/)
-* [@feed@Explore top posts about Observability](https://app.daily.dev/tags/observability?ref=roadmapsh)
-* [@opensource@K8sGPT - AI scanner for Kubernetes problems](https://github.com/k8sgpt-ai/k8sgpt)
-* [@opensource@HolmesGPT - AIOps Platform for investigating Kubernetes problems and Prometheus alerts](https://github.com/robusta-dev/holmesgpt/)
+- [@article@Kubernetes Observability 101: Tools, Best Practices, And More](https://www.cloudzero.com/blog/kubernetes-observability)
+- [@article@Kubernetes Observability in KubeSphere](https://kubesphere.io/observability/)
+- [@feed@Explore top posts about Observability](https://app.daily.dev/tags/observability?ref=roadmapsh)
+- [@opensource@K8sGPT - AI scanner for Kubernetes problems](https://github.com/k8sgpt-ai/k8sgpt)
+- [@opensource@HolmesGPT - AIOps Platform for investigating Kubernetes problems and Prometheus alerts](https://github.com/robusta-dev/holmesgpt/)

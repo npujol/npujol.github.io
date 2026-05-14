@@ -1,13 +1,16 @@
----
+______________________________________________________________________
+
 tags:
-  - informatic
-  - php
-  - PHPStan
----
 
-# PHPStan 
+- informatic
+- php
+- PHPStan
 
-PHPStan scans your whole codebase and looks for both obvious & tricky bugs. Even in those rarely executed if statements that certainly aren't covered by tests.
+______________________________________________________________________
+
+# PHPStan
+
+PHPStan scans your whole codebase and looks for both obvious & tricky bugs.Even in those rarely executed if statements that certainly aren't covered by tests.
 
 ## Contents
 

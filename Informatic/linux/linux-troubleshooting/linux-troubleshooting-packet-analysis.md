@@ -1,4 +1,5 @@
----
+______________________________________________________________________
+
 tags:
 
 - ready
@@ -8,17 +9,26 @@ tags:
 - linux
 - operative-system
 
----
+______________________________________________________________________
 
 # packet-analysis
 
 ## Contents
 
-__Roadmap info from [roadmap website](https://roadmap.sh/linux/troubleshooting/packet-analysis)__
+\_\_Roadmap info from [ roadmap website ] (<https://roadmap.sh/linux/troubleshooting/packet-analysis>) \_\_
 
 ## Packet Analysis
 
-In the realm of Linux system administration and network troubleshooting, packet analysis is a key skill. It involves the use of tools and techniques to capture and analyze network traffic. By inspecting the data being sent and received over a network, system and network administrators can identify and troubleshoot issues such as poor performance, connectivity problems, and security vulnerabilities.
+In
+the
+realm
+of
+Linux
+system
+administration
+and
+network
+troubleshooting, packet analysis is a key skill. It involves the use of tools and techniques to capture and analyze network traffic. By inspecting the data being sent and received over a network, system and network administrators can identify and troubleshoot issues such as poor performance, connectivity problems, and security vulnerabilities.
 
 Tools like tcpdump and Wireshark are common utilities for this very purpose. They display packet-level details to provide a complete picture of network activities. These are particularly useful for network diagnostics and debugging issues related to network protocols.
 

@@ -1,51 +1,57 @@
----
-tags:
-  - deutsch
-  - ready
-  - online
-  - grammatik
-  - verben
-  - grammar
-  - adjektiv
-  - c11
----
-# Grammatik: Partizipialattribute
+______________________________________________________________________
 
+id: grammatik-partizipialattribute
+aliases: [ ]
+tags:
+\- deutsch
+\- grammatik
+\- verben
+\- grammar
+\- adjektiv
+\- c11
+\- --
+\# Grammatik: Partizipialattribute
+
+```
 ## Was sind Partizipialattribute?
 
-Partizipialattribute ersetzen oder ergänzen Adjektive und beschreiben Nomen genauer. Sie werden dekliniert und stehen direkt vor dem Nomen.  
-Man unterscheidet:  
+Partizipialattribute ersetzen oder ergänzen Adjektive und beschreiben Nomen genauer.Sie werden dekliniert und stehen direkt vor dem
+  Nomen.Man unterscheidet:
 
-- Partizip I (aktivisch, Gleichzeitigkeit)  
-- Partizip II (passivisch, Vorzeitigkeit).  
+  - Partizip I (aktivisch, Gleichzeitigkeit)
+```
+
+- Partizip II (passivisch, Vorzeitigkeit).
 
 ## Vergleich: Partizip I vs. Partizip II
 
-| Merkmal      | Partizip I (Infinitiv + -d + Adjektivendung) | Partizip II (Partizip II + Adjektivendung) |
+| Merkmal | Partizip I (Infinitiv + -d + Adjektivendung) | Partizip II (Partizip II + Adjektivendung) |
 | ---------------- | ------------------------------------------------ | ---------------------------------------------- |
-| Bedeutung    | Aktivisch ("handelnd")                           | Passivisch ("erleidend")                       |
-| Zeitlichkeit | Gleichzeitigkeit                                 | Vorzeitigkeit                                  |
-| Beispiel     | *das überraschende Ergebnis*                 | *die gegründete Stadt*                     |
+| Bedeutung | Aktivisch ("handelnd") | Passivisch ("erleidend") |
+| Zeitlichkeit | Gleichzeitigkeit | Vorzeitigkeit |
+| Beispiel | *das überraschende Ergebnis* | *die gegründete Stadt* |
 
 ## Beispiele mit Relativsatz-Vergleich
 
 #### Einfache Partizipialattribute
 
-| Relativsatz                          | Partizipialattribut                     |
+| Relativsatz | Partizipialattribut |
 |------------------------------------------|--------------------------------------------|
-| *Die Stadt, die schnell gewachsen ist...* | *Die schnell gewachsene Stadt...*     |
-| *Das Ergebnis, das überrascht...*        | *Das überraschende Ergebnis...*       |
+| *Die Stadt, die schnell gewachsen ist...* | *Die schnell gewachsene Stadt...* |
+| *Das Ergebnis, das überrascht...* | *Das überraschende Ergebnis...* |
 
-#### Erweiterte Partizipialattribute  
+#### Erweiterte Partizipialattribute
 
-Komplexe Attribute ersetzen Relativsätze und komprimieren Informationen:  
+Komplexe Attribute ersetzen Relativsätze und komprimieren Informationen:
 
-- *Der Kaiser, der wegen der Nachricht schlecht gelaunt war...*  
-  → *Der wegen der Nachricht schlecht gelaunte Kaiser...*  
+- *Der Kaiser, der wegen der Nachricht schlecht gelaunt war...*
+  → *Der wegen der Nachricht schlecht gelaunte Kaiser...*
 
 ## Besonderheiten
 
-- Vorzeitigkeit nur bei Verben mit *sein*-Perfekt (z. B. *gewachsen*).  
-- Passivformen:  
-  - Vorgangspassiv: *die gegründete Stadt* (wurde gegründet).  
-  - Zustandspassiv: *die zerstörte Stadt* (war zerstört).  
+- Vorzeitigkeit nur bei Verben mit *sein*-Perfekt (z. B. *gewachsen*).
+- Passivformen:
+- Vorgangspassiv: *die gegründete Stadt* (wurde gegründet).
+- Zustandspassiv: *die zerstörte Stadt* (war zerstört).
+
+\[[b22-partizipien-als-adjektiv]\]
