@@ -3,7 +3,7 @@
 page:
   siteTitle: NaiNai
   siteName: nainai
-  siteUrl: ""
+  siteUrl: "https://npujol.github.io"
 
   headHtml: |
     <snippet var="js.mermaid" />
