@@ -1,0 +1,36 @@
+[[main]]
+  name       = 'About'
+  identifier = 'about'
+  pageRef    = '/me'
+  weight     = 1
+
+[[main]]
+  name       = 'Posts'
+  identifier = 'posts'
+  pageRef    = '/post'
+  weight     = 2
+
+[[main]]
+  name       = 'Fork!'
+  identifier = 'fork'
+  url        = 'https://github.com/foxihd/hugo-brewm'
+  weight     = 3
+  pre        = 'github'
+  [[main.params]]
+    target   = '_blank'
+
+[[footer]]
+  identifier = 'email'
+  pageRef    = '/'
+  weight     = 1
+  name       = 'email'
+  pre        = 'email'
+
+[[footer]]
+  identifier = 'github'
+  pageRef    = 'https://github.com/npujol'
+  weight     = 2
+  name       = 'GitHub'
+  pre        = 'github'
+  [[footer.params]]
+    target   = '_blank'

@@ -1,0 +1,218 @@
+## Base URL for the site
+baseURL = 'https://npujol.github.io/'
+## Site title
+title = 'NaiNai'
+## Use hugo-brewm theme
+theme = 'hugo-brewm'
+## Enable Git information for pages, (e.g. lastMod date information)
+enableGitInfo = true
+## Convert all URLs to absolute URLs
+canonifyURLs = true
+## Default language for content
+defaultContentLanguage = 'en'
+## Put default language in subdirectory
+defaultContentLanguageInSubdir = true
+## Show placeholder for missing translations
+enableMissingTranslationPlaceholders = true
+## Files to ignore when building site
+ignoreFiles = [ '\.redacted', '\.old','\.bak', '\.tmp', '\.swp', '\.DS_Store']
+## Generate a robots.txt
+enableRobotsTXT = true
+
+## Front matter field configurations
+[frontmatter]
+    ## Publication date fields
+    date = [':default']
+    ## Expiry date fields
+    expiryDate = ['expiryDate', 'unpublishdate', ':default']
+    ## Last modified date fields
+    lastmod = ['lastmod', ':default']
+
+## Markup configuration
+[markup]
+
+    ## Table of contents settings
+    [markup.tableOfContents]
+        ## Minimum heading level to include
+        startLevel = 2
+        ## Maximum heading level to include
+        endLevel = 3
+        ## Use ordered list for TOC
+        ordered = false
+
+    ## Code highlighting settings
+    [markup.highlight]
+        ## Enable code fence highlighting
+        codeFences = true
+        ## Starting line number
+        lineNoStart = 1
+        ## Show line numbers
+        lineNos = false
+        ## Put line numbers in table
+        lineNumbersInTable = true
+        ## Use classes for styling
+        noClasses = false
+        ## Width of tab character
+        tabWidth = 4
+
+    ## Goldmark markdown processor settings
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            ## Allow HTML in markdown
+            unsafe = true
+        [markup.goldmark.extensions]
+            [markup.goldmark.extensions.passthrough]
+                enable = true
+                [markup.goldmark.extensions.passthrough.delimiters]
+                    block = [['\[', '\]'], ['$$', '$$'], ['\begin{equation}', '\end{equation}'], ['\begin{align}', '\end{align}']]
+                    inline = [['\(', '\)'], ['$', '$'] ]
+
+[outputs]
+    home = ['html', 'rss', 'json']
+
+## Sitemap configuration
+[sitemap]
+    ## Change frequency setting
+    changeFreq = 'monthly'
+
+## RSS configuration
+[services.rss]
+    ## Limit RSS items
+    limit = -1
+
+## Taxonomy configuration
+[taxonomies]
+    ## Category taxonomy
+    category = "categories"
+    ## Tag taxonomy
+    tag = "tags"
+    ## Series taxonomy
+    series = "series"
+    ## Stage taxonomy
+    stage = "stage"
+    ## Author taxonomy
+    author = "author"
+
+## Site parameters
+[params]
+    ## Site title
+    title = "NaiNai"
+    ## Site description
+    description = "Personal website of Nainai"
+    ## Copyright notice
+    copyright = "Copyright 2025 © Nainai"
+    ## Hide "powered by hugo" on colophon
+    HideHugoCredit = true
+    ## Enable extended metadata (social cards)
+    extMeta = true
+    ## Do not block AI user agent for robot.txt
+    AllowAIRobots = false
+    ## or BearMode--Minimize clutter for small site
+    ZenMode = false
+    ## Disable Black background on main-footer
+    DisableFootBar = false
+
+    ## Author information
+    [params.author]
+        ## site author's name
+        name = 'Nainai'
+        ## Author's email (will be used for RSS feed)
+        email = ''
+
+    ## Comments configuration
+    [params.comments]
+        ## Disable comments (disable fediverse comments)
+        disabled = false
+
+    ## Fediverse integration settings
+    [params.fediverse]
+        ## Fediverse instance URL
+        # instance = 'example.com'
+        ## Fediverse username
+        # username = 'username'
+
+    ## Giscus integration settings
+    # [params.giscus]
+    #     repo = "npujol/npujol.github.io"
+    #     repoID = "..."
+    #     category = "Articles"
+    #     categoryID = "..."
+
+    ## Logo configuration
+    [params.logo]
+        ## Light mode logo mark
+        # logoMark = 'https://example.com/logoMark.svg'
+        ## Dark mode logo mark
+        # logoMarkDark = 'https://example.com/logoMarkDark.svg'
+        ## Enable logo type
+        logoType = true
+
+    ## Feed display settings
+    [params.feed]
+        ## Enable flowlines
+        flowlines = true
+        ## Limit number of flowlines
+        flowlinesLimit = 21
+
+    ## Home page display settings
+    [params.home]
+        ## Enable slide
+        disableSlide = false
+        ## Enable taxonomy listing
+        disableListing = false
+        ## Select taxonomy listing to be featured
+        featuredListing = ['categories', 'series']
+
+    ## Post display settings
+    [params.posts]
+        ## Enable text justification
+        justifying = false
+        ## Disable paragraph indentation
+        noIndent = false
+        ## Use sans-serif fonts as default
+        sfdefault = false
+        ## Show colophon section (including QR code)
+        colophon = true
+        ## disable redaction history
+        disableHistory = false
+        ## Show related content
+        related = true
+        ## Show share buttons
+        share = true
+
+    ## Search configuration
+    [params.search]
+        ## Enable search functionality
+        enable = false
+        ## Use pagefind search when javascript enabled
+        pagefind = false
+
+    ## Typography settings
+    [params.typeface]
+        ## Use web safe fonts
+        webSafe = false
+        ## Serif font selection
+        roman = 'crimson'
+        ## Sans-serif font selection
+        sans = 'lexica'
+        ## use typeface stored in local server
+        localHost = true
+
+    ## Extended Metadata and Social card configuration
+    [params.socialCard]
+        ## Enable twitter and opengraph social cards
+        enable = true
+        ## Default social card image
+        # images = "https://example.com/social-card.jpg"
+
+    ## Style configuration
+    [params.style.light]
+        ac = '#800'
+        bg = '#eee'
+        fg = '#111'
+        mid = 'gray'
+    [params.style.dark]
+        ac = '#f80'
+        bg = '#000'
+        fg = '#fff'
+        mid = 'gray'

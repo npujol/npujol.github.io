@@ -1,0 +1,92 @@
+<canvas id="pulse-cursor" aria-hidden="true"
+  style="position:fixed;inset:0;z-index:9999;pointer-events:none;display:none;"></canvas>
+
+<script>
+(function() {
+  const canvas = document.getElementById('pulse-cursor');
+  if (!canvas) return;
+
+  const ctx = canvas.getContext('2d');
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  let w, h, mx = -9999, my = -9999, dx = -9999, dy = -9999;
+  let trail = [], active = false, clicked = 0, overLink = false;
+  let lastScroll = performance.now();
+
+  function resize() {
+    w = window.innerWidth; h = window.innerHeight;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    ctx.scale(dpr, dpr);
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  document.addEventListener('pointermove', e => {
+    mx = e.clientX; my = e.clientY;
+    if (!active) { dx = mx; dy = my; active = true; }
+    overLink = e.target.closest('a, button, [role="button"]');
+  }, { passive: true });
+
+  document.addEventListener('pointerdown', () => clicked = 1);
+  window.addEventListener('scroll', () => {
+    trail.length = 0;
+    lastScroll = performance.now() + 140;
+  }, { passive: true });
+
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches ||
+      matchMedia('(pointer: coarse)').matches) return;
+
+  canvas.style.display = 'block';
+
+  function loop(now) {
+    ctx.clearRect(0, 0, w, h);
+    if (!active) { requestAnimationFrame(loop); return; }
+
+    dx += (mx - dx) * 0.35;
+    dy += (my - dy) * 0.35;
+    clicked *= 0.88;
+
+    if (now > lastScroll) {
+      trail.push({ x: dx, y: dy });
+      if (trail.length > 24) trail.shift();
+    }
+
+    const t = now % 1150 / 1150;
+    const pulse = Math.exp(-(t**2) / 0.004) + 0.5 * Math.exp(-((t - 0.17)**2) / 0.006);
+    const scale = 1 + pulse * 0.45 + clicked * 0.8 + (overLink ? 0.4 : 0);
+
+    if (trail.length > 1) {
+      ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      for (let i = 1; i < trail.length; i++) {
+        const alpha = i / (trail.length - 1);
+        ctx.globalAlpha = alpha * 0.16;
+        ctx.lineWidth = 7 * alpha;
+        ctx.strokeStyle = '#df8b44';
+        ctx.beginPath();
+        ctx.moveTo(trail[i-1].x, trail[i-1].y);
+        ctx.lineTo(trail[i].x, trail[i].y);
+        ctx.stroke();
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    ctx.fillStyle = 'rgba(223,139,68,0.16)';
+    ctx.beginPath();
+    ctx.arc(mx, my, 11 * scale, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.fillStyle = 'rgba(247,244,238,0.96)';
+    ctx.beginPath();
+    ctx.arc(mx, my, 3.2 * scale, 0, Math.PI * 2);
+    ctx.fill();
+
+    ctx.strokeStyle = overLink ? 'rgba(223,139,68,0.85)' : 'rgba(223,139,68,0.5)';
+    ctx.lineWidth = 1.2;
+    ctx.beginPath();
+    ctx.arc(mx, my, 8 + 4 * (scale - 1), 0, Math.PI * 2);
+    ctx.stroke();
+
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+})();
+</script>

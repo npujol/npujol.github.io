@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
+  <channel>
+    <title>Categories on NaiNai</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent Posts in Categories on NaiNai</description>
+    <generator>Hugo 0.163.3</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Jul 2026 23:15:19 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Categories</title>
+      <link>http://localhost:1313/categories/categories/</link>
+      <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+      <dc:creator>Nainai</dc:creator>
+      <guid>http://localhost:1313/categories/categories/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Authoring</title>
+      <link>http://localhost:1313/categories/authoring/</link>
+      <pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+      <dc:creator>Nainai</dc:creator>
+      <guid>http://localhost:1313/categories/authoring/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Homepage</title>
+      <link>http://localhost:1313/categories/homepage/</link>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <dc:creator>Nainai</dc:creator>
+      <guid>http://localhost:1313/categories/homepage/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    <item>
+      <title>Configuration</title>
+      <link>http://localhost:1313/categories/configuration/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <dc:creator>Nainai</dc:creator>
+      <guid>http://localhost:1313/categories/configuration/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+  </channel>
+</rss>

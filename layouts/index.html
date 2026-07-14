@@ -1,0 +1,11 @@
+{{- define "main" -}}
+    {{- if .IsHome }}
+        <div class="pagewidth">
+            {{ with .Content }}
+                <section class="hero" aria-labelledby="home-heading">
+                    {{ . }}
+                </section>
+            {{ end }}
+        </div>
+    {{- end }}
+{{- end -}}
