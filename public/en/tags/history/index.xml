@@ -1,21 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" >
-  <channel>
-    <title>History on NaiNai</title>
-    <link>http://localhost:1313/en/tags/history/</link>
-    <description>Recent Posts in History on NaiNai</description>
-    <generator>Hugo 0.163.3</generator>
-    <language>en-GB</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:15:37 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/tags/history/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Authoring Redaction History</title>
-      <link>http://localhost:1313/en/post/authoring-redaction-history/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <dc:creator>Nainai</dc:creator>
-      <guid>http://localhost:1313/en/post/authoring-redaction-history/</guid>
-      <description>&lt;h2 id=&#34;redaction-history&#34;&gt;Redaction History&lt;/h2&gt;&#xA;&lt;p&gt;hugo-brewm supports redaction history for tracking changes to your content over time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;enabling-history&#34;&gt;Enabling History&lt;/h3&gt;&#xA;&lt;p&gt;History is enabled by default. To disable it:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;posts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;disableHistory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;redaction-syntax&#34;&gt;Redaction Syntax&lt;/h3&gt;&#xA;&lt;p&gt;Use strikethrough syntax to redact content:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~~This text is redacted~~&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is visible.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;history-display&#34;&gt;History Display&lt;/h3&gt;&#xA;&lt;p&gt;The redaction history appears in the contentinfo section of each page, showing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Previous versions of redacted content&lt;/li&gt;&#xA;&lt;li&gt;Timestamps of changes&lt;/li&gt;&#xA;&lt;li&gt;Edit history from Git&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;customizing-history&#34;&gt;Customizing History&lt;/h3&gt;&#xA;&lt;p&gt;You can control the display of history elements:&lt;/p&gt;</description>
-      <content:encoded>&lt;h2 id=&#34;redaction-history&#34;&gt;Redaction History&lt;/h2&gt;&#xA;&lt;p&gt;hugo-brewm supports redaction history for tracking changes to your content over time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;enabling-history&#34;&gt;Enabling History&lt;/h3&gt;&#xA;&lt;p&gt;History is enabled by default. To disable it:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;posts&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;disableHistory&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;redaction-syntax&#34;&gt;Redaction Syntax&lt;/h3&gt;&#xA;&lt;p&gt;Use strikethrough syntax to redact content:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~~This text is redacted~~&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is visible.&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;history-display&#34;&gt;History Display&lt;/h3&gt;&#xA;&lt;p&gt;The redaction history appears in the contentinfo section of each page, showing:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Previous versions of redacted content&lt;/li&gt;&#xA;&lt;li&gt;Timestamps of changes&lt;/li&gt;&#xA;&lt;li&gt;Edit history from Git&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;customizing-history&#34;&gt;Customizing History&lt;/h3&gt;&#xA;&lt;p&gt;You can control the display of history elements:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;params&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;coffeeStat&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;unifiedFooter&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;true&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;coffeeStat&lt;/code&gt; — Shows a coffee consumption counter&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;unifiedFooter&lt;/code&gt; — Merges license, footer menu, and coffee stat&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</content:encoded>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>History on NaiNai</title><link>https://npujol.github.io/en/tags/history/</link><description>Recent Posts in History on NaiNai</description><generator>Hugo 0.163.3</generator><language>en-GB</language><lastBuildDate>Tue, 14 Jul 2026 23:42:20 +0200</lastBuildDate><atom:link href="https://npujol.github.io/en/tags/history/index.xml" rel="self" type="application/rss+xml"/><item><title>Authoring Redaction History</title><link>https://npujol.github.io/en/post/authoring-redaction-history/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><dc:creator>Nainai</dc:creator><guid>https://npujol.github.io/en/post/authoring-redaction-history/</guid><description>&lt;h2 id="redaction-history"&gt;Redaction History&lt;/h2&gt;
+&lt;p&gt;hugo-brewm supports redaction history for tracking changes to your content over time.&lt;/p&gt;
+&lt;h3 id="enabling-history"&gt;Enabling History&lt;/h3&gt;
+&lt;p&gt;History is enabled by default. To disable it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;posts&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;disableHistory&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="redaction-syntax"&gt;Redaction Syntax&lt;/h3&gt;
+&lt;p&gt;Use strikethrough syntax to redact content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;~~This text is redacted~~
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;This text is visible.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="history-display"&gt;History Display&lt;/h3&gt;
+&lt;p&gt;The redaction history appears in the contentinfo section of each page, showing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous versions of redacted content&lt;/li&gt;
+&lt;li&gt;Timestamps of changes&lt;/li&gt;
+&lt;li&gt;Edit history from Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customizing-history"&gt;Customizing History&lt;/h3&gt;
+&lt;p&gt;You can control the display of history elements:&lt;/p&gt;</description><content:encoded>&lt;h2 id="redaction-history"&gt;Redaction History&lt;/h2&gt;
+&lt;p&gt;hugo-brewm supports redaction history for tracking changes to your content over time.&lt;/p&gt;
+&lt;h3 id="enabling-history"&gt;Enabling History&lt;/h3&gt;
+&lt;p&gt;History is enabled by default. To disable it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;posts&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;disableHistory&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="redaction-syntax"&gt;Redaction Syntax&lt;/h3&gt;
+&lt;p&gt;Use strikethrough syntax to redact content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;~~This text is redacted~~
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;This text is visible.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="history-display"&gt;History Display&lt;/h3&gt;
+&lt;p&gt;The redaction history appears in the contentinfo section of each page, showing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous versions of redacted content&lt;/li&gt;
+&lt;li&gt;Timestamps of changes&lt;/li&gt;
+&lt;li&gt;Edit history from Git&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customizing-history"&gt;Customizing History&lt;/h3&gt;
+&lt;p&gt;You can control the display of history elements:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nx"&gt;params&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;coffeeStat&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;unifiedFooter&lt;/span&gt; &lt;span class="p"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;coffeeStat&lt;/code&gt; — Shows a coffee consumption counter&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;unifiedFooter&lt;/code&gt; — Merges license, footer menu, and coffee stat&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item></channel></rss>
