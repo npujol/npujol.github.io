@@ -100,7 +100,7 @@ enableRobotsTXT = true
     ## Site description
     description = "Personal website of Nainai"
     ## Copyright notice
-    copyright = "Copyright 2025 © Nainai"
+    copyright = "Copyright 2026 © Nainai"
     ## Hide "powered by hugo" on colophon
     HideHugoCredit = true
     ## Enable extended metadata (social cards)
@@ -194,7 +194,7 @@ enableRobotsTXT = true
         ## Serif font selection
         roman = 'crimson'
         ## Sans-serif font selection
-        sans = 'lexica'
+        sans = 'inter'
         ## use typeface stored in local server
         localHost = true
 

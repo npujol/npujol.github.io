@@ -6,7 +6,7 @@ tags:
   - ready
 ---
 
-# About Me 👤
+# About Me
 
 Welcome to my personal section. Here you'll find my CVs and personal information.
 

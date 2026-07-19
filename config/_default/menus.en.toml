@@ -13,7 +13,7 @@
 [[main]]
   name       = 'Fork!'
   identifier = 'fork'
-  url        = 'https://github.com/foxihd/hugo-brewm'
+  url        = 'https://github.com/npujol'
   weight     = 3
   pre        = 'github'
   [[main.params]]
@@ -21,7 +21,7 @@
 
 [[footer]]
   identifier = 'email'
-  pageRef    = '/'
+  pageRef    = 'naivy.luna@gmail.com'
   weight     = 1
   name       = 'email'
   pre        = 'email'

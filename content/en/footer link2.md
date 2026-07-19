@@ -7,6 +7,4 @@ params:
 
 **More Links**
 
-- [More Link 1](#)
-- [More Link 2](#)
-- [More Link 3](#)
+- [Linkedin](https://linkedin.com/in/npujolm/)
