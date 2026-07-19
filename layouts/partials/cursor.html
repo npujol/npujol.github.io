@@ -1,21 +1,21 @@
-<canvas id="pulse-cursor" aria-hidden="true"
+<canvas id="blood-cursor" aria-hidden="true"
   style="position:fixed;inset:0;z-index:9999;pointer-events:none;display:none;"></canvas>
 
 <script>
 (function() {
-  const canvas = document.getElementById('pulse-cursor');
+  const canvas = document.getElementById('blood-cursor');
   if (!canvas) return;
 
   const ctx = canvas.getContext('2d');
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
-  let w, h, mx = -9999, my = -9999, dx = -9999, dy = -9999;
+  let W, H, mx = -9999, my = -9999, dx = -9999, dy = -9999;
   let trail = [], active = false, clicked = 0, overLink = false;
   let lastScroll = performance.now();
 
   function resize() {
-    w = window.innerWidth; h = window.innerHeight;
-    canvas.width = w * dpr; canvas.height = h * dpr;
-    ctx.scale(dpr, dpr);
+    W = window.innerWidth; H = window.innerHeight;
+    canvas.width = W * dpr; canvas.height = H * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   }
   resize();
   window.addEventListener('resize', resize, { passive: true });
@@ -38,7 +38,8 @@
   canvas.style.display = 'block';
 
   function loop(now) {
-    ctx.clearRect(0, 0, w, h);
+    ctx.clearRect(0, 0, W, H);
+
     if (!active) { requestAnimationFrame(loop); return; }
 
     dx += (mx - dx) * 0.35;
@@ -46,44 +47,49 @@
     clicked *= 0.88;
 
     if (now > lastScroll) {
-      trail.push({ x: dx, y: dy });
-      if (trail.length > 24) trail.shift();
+      trail.push({ x: dx, y: dy, t: now });
+      if (trail.length > 40) trail.shift();
     }
 
-    const t = now % 1150 / 1150;
-    const pulse = Math.exp(-(t**2) / 0.004) + 0.5 * Math.exp(-((t - 0.17)**2) / 0.006);
-    const scale = 1 + pulse * 0.45 + clicked * 0.8 + (overLink ? 0.4 : 0);
-
-    if (trail.length > 1) {
-      ctx.lineCap = 'round'; ctx.lineJoin = 'round';
-      for (let i = 1; i < trail.length; i++) {
-        const alpha = i / (trail.length - 1);
-        ctx.globalAlpha = alpha * 0.16;
-        ctx.lineWidth = 7 * alpha;
-        ctx.strokeStyle = '#df8b44';
-        ctx.beginPath();
-        ctx.moveTo(trail[i-1].x, trail[i-1].y);
-        ctx.lineTo(trail[i].x, trail[i].y);
-        ctx.stroke();
-      }
-      ctx.globalAlpha = 1;
+    // Draw blood trail with blur (no opaque background)
+    ctx.filter = 'blur(6px)';
+    for (let i = 0; i < trail.length; i++) {
+      const p = trail[i];
+      const alpha = i / trail.length;
+      const age = (now - p.t) / 1000;
+      const size = (1 - Math.abs(alpha - 0.4) * 1.5) * 12;
+      const r = Math.max(3, size * (1 + clicked * 0.6));
+      const brightness = 0.4 + alpha * 0.6;
+      
+      ctx.fillStyle = `rgba(${Math.round(160 * brightness)},${Math.round(10 * brightness)},${Math.round(5 * brightness)},${0.3 + alpha * 0.4})`;
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
+      ctx.fill();
     }
+    ctx.filter = 'none';
 
-    ctx.fillStyle = 'rgba(223,139,68,0.16)';
+    // Cursor blob — no blur, sharper
+    const t = now % 1200 / 1200;
+    const pulse = Math.exp(-(t ** 2) / 0.004) + 0.5 * Math.exp(-((t - 0.17) ** 2) / 0.006);
+    const scale = 1 + pulse * 0.3 + clicked * 0.7 + (overLink ? 0.35 : 0);
+
+    // Outer glow
+    ctx.fillStyle = 'rgba(140,10,5,0.5)';
     ctx.beginPath();
-    ctx.arc(mx, my, 11 * scale, 0, Math.PI * 2);
+    ctx.arc(mx, my, 10 * scale, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.fillStyle = 'rgba(247,244,238,0.96)';
+    // Core
+    ctx.fillStyle = 'rgba(200,20,10,0.85)';
     ctx.beginPath();
-    ctx.arc(mx, my, 3.2 * scale, 0, Math.PI * 2);
+    ctx.arc(mx, my, 5 * scale, 0, Math.PI * 2);
     ctx.fill();
 
-    ctx.strokeStyle = overLink ? 'rgba(223,139,68,0.85)' : 'rgba(223,139,68,0.5)';
-    ctx.lineWidth = 1.2;
+    // Tiny bright center
+    ctx.fillStyle = 'rgba(255,80,40,0.9)';
     ctx.beginPath();
-    ctx.arc(mx, my, 8 + 4 * (scale - 1), 0, Math.PI * 2);
-    ctx.stroke();
+    ctx.arc(mx, my, 2 * scale, 0, Math.PI * 2);
+    ctx.fill();
 
     requestAnimationFrame(loop);
   }
