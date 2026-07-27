@@ -106,6 +106,8 @@ enableRobotsTXT = true
     ## Enable extended metadata (social cards)
     extMeta = true
     ## Do not block AI user agent for robot.txt
+    images = "./medias/background.jpg"
+
     AllowAIRobots = false
     ## or BearMode--Minimize clutter for small site
     ZenMode = false
@@ -117,7 +119,7 @@ enableRobotsTXT = true
         ## site author's name
         name = 'Nainai'
         ## Author's email (will be used for RSS feed)
-        email = ''
+        email = 'naivy.luna@gmail.com'
 
     ## Comments configuration
     [params.comments]
