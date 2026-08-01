@@ -1,12 +1,86 @@
-/* Force dark mode by default */
+/*
+ * Always use the dark / black theme, regardless of the user's
+ * prefers-color-scheme or prefers-contrast settings.
+ *
+ * These values mirror the theme's own dark palette
+ * (params.style.dark): bg=#000, fg=#fff, ac=#f80
+ */
+
 :root {
+    color-scheme: dark;
+}
+
+/* Light defaults (base body rules) — override to black */
+body,
+:root {
+    --off: #fff;
     --ac: #f80;
     --bg: #000;
     --fg: #fff;
-    --mid: gray;
+    --mid: #808080;
 }
 
-/* Custom cursor styles */
+/* High / less contrast variants must also stay black */
+@media (prefers-contrast: more),
+(-ms-high-contrast: active) {
+    body {
+        --off: #fff;
+        --ac: #f80;
+        --bg: #000;
+        --fg: #fff;
+        --mid: #808080;
+    }
+}
+
+@media (prefers-contrast: less) {
+    body {
+        --off: #fff;
+        --ac: #f80;
+        --bg: #000;
+        --fg: #fff;
+        --mid: #808080;
+    }
+}
+
+/* Dark colour scheme is already black, but enforce it explicitly too */
+@media (prefers-color-scheme: dark) {
+    body {
+        --off: #fff;
+        --ac: #f80;
+        --bg: #000;
+        --fg: #fff;
+        --mid: #808080;
+    }
+
+    @media (prefers-contrast: more),
+    (-ms-high-contrast: active) {
+        body {
+            --off: #fff;
+            --ac: #f80;
+            --bg: #000;
+            --fg: #fff;
+            --mid: #808080;
+        }
+    }
+
+    @media (prefers-contrast: less) {
+        body {
+            --off: #fff;
+            --ac: #f80;
+            --bg: #000;
+            --fg: #fff;
+            --mid: #808080;
+        }
+    }
+}
+
+/* Force a pitch-black page background (covers any leftover body bg) */
+html,
+body {
+    background-color: #000;
+}
+
+/* Custom cursor styles — hide native cursor on precise pointers */
 @media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
     * { cursor: none !important; }
     input, textarea, select, [contenteditable] { cursor: auto !important; }
