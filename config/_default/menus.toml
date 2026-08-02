@@ -11,8 +11,8 @@
   weight     = 2
 
 [[main]]
-  name       = 'Fork!'
-  identifier = 'fork'
+  name       = ':D'
+  identifier = 'github'
   url        = 'https://github.com/npujol'
   weight     = 3
   pre        = 'github'
