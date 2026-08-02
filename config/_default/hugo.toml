@@ -106,7 +106,7 @@ enableRobotsTXT = true
     ## Enable extended metadata (social cards)
     extMeta = true
     ## Do not block AI user agent for robot.txt
-    images = "./medias/background.jpg"
+    images = "/medias/red-green.jpg"
 
     AllowAIRobots = false
     ## or BearMode--Minimize clutter for small site
