@@ -1,14 +1,11 @@
 ---
 type: 'slide'
-title: 'This is slide'
-cover: '/medias/background.jpg'
+title: 'Where I live'
+cover: '/medias/red-green.jpg'
 weight: 1
 params:
     headless: true
-    target: 'https://github.com/foxihd/hugo-brewm'
+    target: 'https://github.com/npujol/nixos'
 ---
 
-This demonstrates an example of three slide item. The navigation will change when there are three or more slides.
-
-This is slide layout with cover image in frontmatter.
-For a minimalist home page without a slide and flowlines, see the [Indonesian homepage](https://foxihd.github.io/hugo-brewm/id/).
+Why? Simple, porque puedo satisfacer mis deseos de cambiarlo todo y al mismo tiempo tener un sistema operativo estable cuando lo necesito.
