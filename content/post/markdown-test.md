@@ -45,7 +45,7 @@ This page tests various Markdown features supported by hugo-brewm.
 
 ### Images
 
-![Placeholder Image](https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/1.svg)
+![Placeholder Image](/medias/window.jpg)
 
 ### Code
 

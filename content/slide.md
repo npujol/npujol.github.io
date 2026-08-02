@@ -1,7 +1,7 @@
 ---
 type: 'slide'
 title: 'This is slide'
-cover: 'https://raw.githubusercontent.com/foxihd/hugo-et-hd/master/static/svg/flowlines/28.svg'
+cover: '/medias/background.jpg'
 weight: 1
 params:
     headless: true

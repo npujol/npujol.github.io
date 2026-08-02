@@ -59,5 +59,3 @@ Use the `figure` shortcode for figures with captions:
 ```html
 {{< figure src="/img/diagram.png" caption="Figure 1: A sample diagram" >}}
 ```
-
-
