@@ -1,37 +1,28 @@
 ---
 type: 'slide'
-title: 'Pin'
+title: 'Gallery'
 params:
     headless: true
     target: 'https://github.com/npujol'
 ---
 
-This is a slide with `{{</* pin */>}}` shortcode.
 
-## Pin it as Showcase (Example)
+## Gallery
 
-Section with `{{</* pin */>}}` shortcode.
-The item order is column-based.
-If images are not square, the layout will displayed as masonry style.
+TODO: tengo que ver como puedo usarlo
 
 {{< pin "begin" >}}
-{{< pin img="/medias/flower.jpg" label="Item 1">}}
-{{< pin img="/medias/flower.jpg" label="Item 2">}}
-{{< pin img="/medias/flower.jpg" label="Item 3">}}
-{{< pin img="/medias/flower.jpg" label="Item 4">}}
-{{< pin img="/medias/flower.jpg" label="Item 5">}}
-{{< pin img="/medias/flower.jpg" label="Item 6">}}
+{{< pin img="/medias/flower.jpg" label="flower">}}
+{{< pin img="/medias/window.jpg" label="windows">}}
+{{< pin img="/medias/guitar.jpg" label="guitar">}}
 {{< pin "end" >}}
 
-## Pin it as Catalogue (Example)
+## Catalogues
 
-`{{</* pin */>}}` shortcode with `quote` parameter.
+`{{</* pin */>}}` shortcode with `quote` paramets
 
 {{< pin "begin" >}}
 {{< pin img="/medias/flower.jpg" label="Item 1" url="#my-ecommerce" quote="<s>$299</s> $199" >}}
 {{< pin img="/medias/flower.jpg" label="Item 2" url="#my-ecommerce" quote="<s>$399</s> $299" >}}
 {{< pin img="/medias/flower.jpg" label="Item 3" url="#my-ecommerce" quote="Get Quote" >}}
-{{< pin img="/medias/flower.jpg" label="Item 4" url="#my-ecommerce" quote="<s>$299</s> $199" >}}
-{{< pin img="/medias/flower.jpg" label="Item 5" url="#my-ecommerce" quote="<s>$399</s> $299" >}}
-{{< pin img="/medias/flower.jpg" label="Item 6" url="#my-ecommerce" quote="Out of stock" >}}
 {{< pin "end" >}}

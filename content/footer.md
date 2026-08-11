@@ -4,13 +4,15 @@ weight: 1
 coffee: 2
 params:
     headless: true
-    target: 'https://github.com/foxihd/hugo-brewm'
+    target: 'https://github.com/npujol'
 ---
 
-**Impressum**
-
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```html
+{{< epigraph >}}
+The best way to predict the future is to invent it.
+— Alan Kay
+{{< /epigraph >}}
+```
 
 <br>
 
@@ -21,3 +23,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img id="no-cookie" alt="No Cookie for Cookie Monster" />
 </div>
 </fieldset>
+
+<br>
+
+© 2024 — Todos los derechos reservados
