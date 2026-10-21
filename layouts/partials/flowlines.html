@@ -1,0 +1,4 @@
+{{ "<!-- flowlines -->" | safeHTML }}
+{{- $num := site.Params.Feed.FlowlinesLimit | default 42 }}
+{{- $src := printf "svg/flowlines/flowline-%d.svg" (index (seq $num | shuffle) 1) }}
+{{- return $src }}

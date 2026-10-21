@@ -3,7 +3,6 @@ type: 'slide'
 title: 'Gallery'
 params:
     headless: true
-    target: 'https://github.com/npujol'
 ---
 
 

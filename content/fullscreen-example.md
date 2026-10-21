@@ -5,7 +5,7 @@ title: 'My Nix Configuration'
 
 ## Everything I Run, Described in One Flake
 
-My personal infrastructure lives in a single Nix repository: a system flake, home-manager modules, host definitions for each machine, and an overlay for my own packages. Your pi's own configuration is committed there alongside everything else — the flake, the home config, the hosts, the scripts.
+My personal infrastructure lives in a single Nix repository: a system flake, home-manager modules, host definitions for each machine, and an overlay for my own packages. My pi's own configuration is committed there alongside everything else — the flake, the home config, the hosts, the scripts.
 
 ## Why I Did It
 
