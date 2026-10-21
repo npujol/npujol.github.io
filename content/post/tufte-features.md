@@ -57,5 +57,5 @@ In a right triangle, a² + b² = c².
 Use the `figure` shortcode for figures with captions:
 
 ```html
-{{< figure src="/img/diagram.png" caption="Figure 1: A sample diagram" >}}
+{{< figure src="/medias/flower.jpg" caption="Figure 1: A flower, from my gallery" >}}
 ```
