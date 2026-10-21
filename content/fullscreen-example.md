@@ -1,18 +1,18 @@
 ---
 type: 'fullscreen'
-title: 'Fullscreen Example'
+title: 'My Nix Configuration'
 ---
 
-## Fullscreen Content Example
+## Everything I Run, Described in One Flake
 
-This is an example of fullscreen content. It occupies the entire viewport without any header, footer, or navigation elements.
+My personal infrastructure lives in a single Nix repository: a system flake, home-manager modules, host definitions for each machine, and an overlay for my own packages. My pi's own configuration is committed there alongside everything else — the flake, the home config, the hosts, the scripts.
 
----
+## Why I Did It
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Reproducibility. Before Nix, setting up a new machine meant re-running a random assortment of shell commands and hoping they matched last time. Now "installing my environment" means building a generation and switching to it. If something breaks, I roll back to the last known-good generation. My machine and my pi's config share the same source of truth, so anything I figure out on one applies to the other.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## How It Helps Me
 
----
-
-*This content is displayed in fullscreen mode.*
+- **Reproducible machines.** Every machine is built from the same files; there is no drift.
+- **Rollbacks.** A bad change is one command away from undone.
+- **One place to look.** My desktop, my pi, and my scripts are reviewed together in git, so my setup is actually reviewable.

@@ -11,6 +11,12 @@
   weight     = 2
 
 [[main]]
+  name       = 'Stages'
+  identifier = 'stages'
+  pageRef    = '/stage'
+  weight     = 3
+
+[[main]]
   name       = ':D'
   identifier = 'github'
   url        = 'https://github.com/npujol'

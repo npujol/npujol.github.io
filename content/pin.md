@@ -3,18 +3,17 @@ type: 'slide'
 title: 'Gallery'
 params:
     headless: true
-    target: 'https://github.com/npujol'
 ---
 
 
 ## Gallery
 
-TODO: tengo que ver como puedo usarlo
+A few photos I've taken around Berlin and elsewhere. All images live under `static/medias/`.
 
 {{< pin "begin" >}}
-{{< pin img="/medias/flower.jpg" label="flower">}}
-{{< pin img="/medias/window.jpg" label="windows">}}
-{{< pin img="/medias/guitar.jpg" label="guitar">}}
+{{< pin img="/medias/flower.jpg" label="A flower, close-up">}}
+{{< pin img="/medias/window.jpg" label="Light through a window">}}
+{{< pin img="/medias/guitar.jpg" label="My guitar">}}
 {{< pin "end" >}}
 
 ## Catalogues

@@ -2,6 +2,7 @@
 type: 'slide'
 title: 'Where I live'
 cover: '/medias/red-green.jpg'
+coverAlt: 'Red and green abstract background'
 weight: 1
 params:
     headless: true

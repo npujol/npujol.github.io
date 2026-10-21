@@ -16,14 +16,8 @@ The best way to predict the future is to invent it.
 
 <br>
 
-<fieldset id=cookie-banner>
-<legend>Cookie Banner</legend>
-<div>
-<span>We do not collect cookie</span>
-<img id="no-cookie" alt="No Cookie for Cookie Monster" />
-</div>
-</fieldset>
+<p>Cookie notice: this site does not use tracking cookies.</p>
 
 <br>
 
-© 2024 — Todos los derechos reservados
+© 2026 — Todos los derechos reservados

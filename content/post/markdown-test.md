@@ -1,91 +1,61 @@
 ---
-title: "Markdown Test"
-date: 2025-11-25
+title: "Why I Migrated My Whole Setup to Nix"
+date: 2026-03-01
 tags:
-    - markdown
-    - content
+    - nixos
+    - personal
 ---
 
-## Markdown Feature Test
+My personal infrastructure — my desktop, my pi's own configuration, and my scripts — lives in a single Nix repository. Here's a short post about why, and a tour of the Markdown features this site supports along the way.
 
-This page tests various Markdown features supported by hugo-brewm.
-
-### Headings
+## Headings
 
 # Heading 1
 ## Heading 2
 ### Heading 3
 #### Heading 4
-##### Heading 5
-###### Heading 6
 
-### Text Formatting
+## Text Formatting
 
-**Bold text** and *italic text* and ~~strikethrough text~~.
+**Bold** for emphasis, *italic* for titles, and ~~strikethrough~~ for the ideas I abandoned.
 
-### Lists
+## Lists
 
-#### Unordered List
+- A system flake that describes every package and service.
+- Home-manager modules for my user configuration.
+- Host definitions, one per machine, including my pi.
+- An overlay with my own small packages.
 
-- Item one
-- Item two
-  - Nested item
-  - Another nested item
-- Item three
+## A Table
 
-#### Ordered List
+| Piece | Purpose |
+|-------|---------|
+| flake.nix | System-wide declaration |
+| home/ | Per-user configuration |
+| hosts/ | One dir per machine |
+| scripts/ | Automation |
 
-1. First item
-2. Second item
-3. Third item
+## Code
 
-### Links
-
-[Example Link](https://example.com)
-
-### Images
-
-![Placeholder Image](/medias/window.jpg)
-
-### Code
-
-Inline `code` example.
-
-```python
-def hello():
-    print("Hello, world!")
+```nix
+services.nginx = { enable = true; };
 ```
 
-### Blockquotes
+## Blockquote
 
-> This is a blockquote.
-> It can span multiple lines.
+> The best way to predict the future is to invent it.
+> — Alan Kay
 
-### Tables
+## An Image
 
-| Feature | Status |
-|---------|--------|
-| Headings | ✅ |
-| Lists | ✅ |
-| Code | ✅ |
-| Tables | ✅ |
+![A window in Berlin](/medias/window.jpg)
 
-### Footnotes
-
-Here is a footnote reference[^1].
-
-[^1]: This is the footnote text.
-
-### Horizontal Rule
-
----
-
-### Math Support
-
-Inline math: $E = mc^2$
-
-Block math:
+## Math
 
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
 $$
+
+Footnote reference.[^1]
+
+[^1]: This footnote actually explains my Nix setup, unlike the demo footnote it replaced.
