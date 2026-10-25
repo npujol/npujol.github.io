@@ -8,7 +8,17 @@ tags:
 
 # About Me
 
-I'm Naivy Pujol Méndez, a software engineer based in Berlin. My day-to-day is Kubernetes, Go, and Python at Mobilistics; my spare time is open source, keeping my machines on NixOS, and studying languages (Spanish is my native language; German and English at B1). I like systems that are reproducible and explanations that are clear — in code and in language. Below are my CVs in English and German.
+I'm Naivy Pujol Méndez — a software engineer based in Berlin with a Cuban soul.
+
+I like building things. I like learning things. I like knowing that I'm not going to know everything.
+
+Working, yes ... fun ... too.
+
+I build and maintain systems with Kubernetes, Go, and Python at Mobilistics, and I study languages on my own time. Both reward the same habit: break a large, messy problem into small pieces someone can actually act on.
+
+At Mobilistics, I work on distributed infrastructure and release automation, where reproducibility matters — if it can't be described in code, it can't be trusted.
+
+I trust my OS. I use NixOS and nix-darwin at work and at home — this is how I keep my machines sane. Reproducibility matters. Stability too. After that, the playground is ready.
 
 ## CVs
 
