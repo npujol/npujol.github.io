@@ -8,6 +8,8 @@ tags:
 
 # About Me
 
+<img src="/medias/me2.jpg" alt="Naivy Pujol Méndez" width="180" align="left" style="margin-right: 1rem;">
+
 I'm Naivy Pujol Méndez — a software engineer based in Berlin with a Cuban soul.
 
 I like building things. I like learning things. I like knowing that I'm not going to know everything.
