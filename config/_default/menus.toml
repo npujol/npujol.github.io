@@ -1,42 +1,27 @@
 [[main]]
-  name       = 'About'
-  identifier = 'about'
-  pageRef    = '/me'
-  weight     = 1
+name = 'Me'
+identifier = 'me'
+pageRef = '/me'
+weight = 1
 
 [[main]]
-  name       = 'Posts'
-  identifier = 'posts'
-  pageRef    = '/post'
-  weight     = 2
-
-[[main]]
-  name       = 'Stages'
-  identifier = 'stages'
-  pageRef    = '/stage'
-  weight     = 3
-
-[[main]]
-  name       = ':D'
-  identifier = 'github'
-  url        = 'https://github.com/npujol'
-  weight     = 3
-  pre        = 'github'
-  [[main.params]]
-    target   = '_blank'
+name = 'Posts'
+identifier = 'posts'
+pageRef = '/post'
+weight = 2
 
 [[footer]]
-  identifier = 'email'
-  pageRef    = 'naivy.luna@gmail.com'
-  weight     = 1
-  name       = 'email'
-  pre        = 'email'
+identifier = 'email'
+pageRef = 'naivy.luna@gmail.com'
+weight = 1
+name = 'email'
+pre = 'email'
 
 [[footer]]
-  identifier = 'github'
-  pageRef    = 'https://github.com/npujol'
-  weight     = 2
-  name       = 'GitHub'
-  pre        = 'github'
-  [[footer.params]]
-    target   = '_blank'
+identifier = 'github'
+pageRef = 'https://github.com/npujol'
+weight = 2
+name = 'GitHub'
+pre = 'github'
+[[footer.params]]
+target = '_blank'
