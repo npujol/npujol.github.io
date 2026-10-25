@@ -7,11 +7,11 @@
 
 ## 2. "Me" page
 
-- [ ] 2.1 Replace the placeholder one-liner in `content/me/_index.md` with a short real first-person intro (keep cover `/medias/me.jpg`).
+- [x] 2.1 Replace the placeholder one-liner in `content/me/_index.md` with a short real first-person intro (keep cover `/medias/me.jpg`).
 
 ## 3. Gallery / pin page
 
-- [ ] 3.1 Remove the `TODO: tengo que ver como puedo usarlo` line from `content/pin.md`; add a real caption/description for each of the existing gallery photos from `static/medias/` (flower, window, guitar, …). Keep the page — the photos are real content.
+- [x] 3.1 Remove the `TODO: tengo que ver como puedo usarlo` line from `content/pin.md`; add a real caption/description for each of the existing gallery photos from `static/medias/` (flower, window, guitar, …). Keep the page — the photos are real content.
 
 ## 4. Demo / test pages (decision #1: replace with real content about the Nix project)
 
@@ -29,6 +29,6 @@
 
 ## 7. Verify
 
-- [ ] 7.1 Confirm no `TODO`, `A.N. Other`, "Author Name", "Lorem ipsum", or `example.com` placeholders remain in the touched files.
-- [ ] 7.2 Confirm all referenced media files exist under `static/`.
-- [ ] 7.3 Build the site with Hugo and check for errors / broken links.
+- [x] 7.1 Confirm no `TODO`, `A.N. Other`, "Author Name", "Lorem ipsum", or `example.com` placeholders remain in the touched files.
+- [x] 7.2 Confirm all referenced media files exist under `static/`.
+- [x] 7.3 Build the site with Hugo and check for errors / broken links.
